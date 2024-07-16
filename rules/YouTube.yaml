@@ -11,13 +11,14 @@
 # TOTAL: 1157
 payload:
   # > Youtube
-  - PROCESS-NAME,com.google.android.youtube
-  - PROCESS-NAME,com.google.android.youtube.tv
   - DOMAIN-KEYWORD,youtube.com
+  
   - DOMAIN,youtubei.googleapis.com
   - DOMAIN,yt3.ggpht.com
   - DOMAIN,www.youtube.com
+  - DOMAIN,youtube.com
   - DOMAIN,music.youtube.com
+  
   - DOMAIN-SUFFIX,.youtube.com
   - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN-SUFFIX,ggpht.com
@@ -190,6 +191,7 @@ payload:
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,yt3.ggpht.com
   - DOMAIN-SUFFIX,ytimg.com
+  
   - USER-AGENT,*YouTubeMusic*
   - USER-AGENT,*com.google.ios.youtubemusic*
   - USER-AGENT,*youtube*
@@ -197,6 +199,10 @@ payload:
   - USER-AGENT,YouTubeMusic*
   - USER-AGENT,com.google.ios.youtube*
   - USER-AGENT,com.google.ios.youtubemusic*
+  
+  - PROCESS-NAME,com.google.android.youtube
+  - PROCESS-NAME,com.google.android.youtube.tv
+  
   - IP-CIDR,172.110.32.0/21
   - IP-CIDR,216.73.80.0/20
   - IP-CIDR6,2620:120:e000::/40
