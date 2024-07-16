@@ -10,6 +10,9 @@
 # TOTAL: 141
 payload:
  - DOMAIN-SUFFIX,vidio
+ - DOMAIN-SUFFIX,geo-id-gg-media-vidio-com.akamaized.net
+ - DOMAIN-SUFFIX,geo-id-tl-media-vidio-com.akamaized.net
+ - DOMAIN-SUFFIX,etslive-v3-vidio-com-tokenized.akamaized.net:443
  - DOMAIN-SUFFIX,8hjrjnvoc3.vidio.com
  - DOMAIN-SUFFIX,about.vidio.com
  - DOMAIN-SUFFIX,aequ1kie7b.vidio.com
