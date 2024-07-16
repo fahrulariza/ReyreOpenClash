@@ -3,16 +3,18 @@
 # REPO: https://github.com/fahrulariza/ReyreOpenClash/raw/master/rules/vidio.yaml
 # UPDATED: 2024-07-16 14:33:51
 # DOMAIN-KEYWORD: 0
-# DOMAIN-SUFFIX: 141
+# DOMAIN-SUFFIX: 143
 # IP-CIDR: 0
 # IP-CIDR6: 0
 # USER-AGENT: 3
-# TOTAL: 144
+# TOTAL: 146
 payload:
  - DOMAIN-SUFFIX,vidio
  - DOMAIN-SUFFIX,geo-id-gg-media-vidio-com.akamaized.net
  - DOMAIN-SUFFIX,geo-id-tl-media-vidio-com.akamaized.net
  - DOMAIN-SUFFIX,etslive-v3-vidio-com-tokenized.akamaized.net
+ - DOMAIN-SUFFIX,etslive-v3-vidio-com-
+ - DOMAIN-SUFFIX,-vidio-com-
  - DOMAIN-SUFFIX,8hjrjnvoc3.vidio.com
  - DOMAIN-SUFFIX,about.vidio.com
  - DOMAIN-SUFFIX,aequ1kie7b.vidio.com
