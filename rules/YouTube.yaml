@@ -194,13 +194,13 @@ payload:
   - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-SUFFIX,returnyoutubedislikeapi.com
   
-  - USER-AGENT,*YouTubeMusic*
-  - USER-AGENT,*com.google.ios.youtubemusic*
-  - USER-AGENT,*youtube*
-  - USER-AGENT,YouTube*
-  - USER-AGENT,YouTubeMusic*
-  - USER-AGENT,com.google.ios.youtube*
-  - USER-AGENT,com.google.ios.youtubemusic*
+#  - USER-AGENT,*YouTubeMusic*
+#  - USER-AGENT,*com.google.ios.youtubemusic*
+#  - USER-AGENT,*youtube*
+#  - USER-AGENT,YouTube*
+#  - USER-AGENT,YouTubeMusic*
+#  - USER-AGENT,com.google.ios.youtube*
+#  - USER-AGENT,com.google.ios.youtubemusic*
   
   - PROCESS-NAME,com.google.android.youtube
   - PROCESS-NAME,com.google.android.youtube.tv
