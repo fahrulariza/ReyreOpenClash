@@ -2,6 +2,10 @@
 payload:
 # Mulai baris ini kebawah bisa di edit/hapus
 # &gt; LIST Streaming IP/Lokasi Wajib Indo
+
+# &gt;
+- DOMAIN-SUFFIX,klikhost.com
+
 # &gt; MOLA TV
 - DOMAIN-SUFFIX,mola.tv
 - DOMAIN-SUFFIX,ws.mola.tv
