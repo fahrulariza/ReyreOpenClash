@@ -42,13 +42,14 @@ payload:
  - DOMAIN-SUFFIX,nflxso.net
  - DOMAIN-SUFFIX,nflxvideo.net
  - DOMAIN-SUFFIX,onetrust.com
+ - DOMAIN-SUFFIX,api-global.netflix.com
+ - DOMAIN-SUFFIX,logs.dradis.netflix.com
  - DOMAIN-SUFFIX,us-west-2.amazonaws.com
  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
  - DOMAIN-KEYWORD,dualstack.apiproxy-
  - DOMAIN-KEYWORD,dualstack.ichnaea-web-
  - DOMAIN-KEYWORD,netflixdnstest
- - DOMAIN-KEYWORD,api-global.netflix.com
- - DOMAIN-KEYWORD,logs.dradis.netflix.com
+
  #USER-AGENT,Argo*
  - IP-CIDR,103.87.204.0/22
  - IP-CIDR,107.23.255.0/26
