@@ -159,6 +159,6 @@ payload:
  - DOMAIN-SUFFIX,yz3nq6kn0m.int.vidio.com
  - DOMAIN-SUFFIX,zxzvfjqrpw.vidio.com
  - DOMAIN-SUFFIX,brevo.com
- - USER-AGENT,*vidio*
- - USER-AGENT,*Vidio*
- - USER-AGENT,com.vidio.android*
+# - USER-AGENT,*vidio*
+# - USER-AGENT,*Vidio*
+# - USER-AGENT,com.vidio.android*
