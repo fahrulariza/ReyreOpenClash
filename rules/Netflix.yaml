@@ -47,6 +47,8 @@ payload:
  - DOMAIN-KEYWORD,dualstack.apiproxy-
  - DOMAIN-KEYWORD,dualstack.ichnaea-web-
  - DOMAIN-KEYWORD,netflixdnstest
+ - DOMAIN-KEYWORD,api-global.netflix.com
+ - DOMAIN-KEYWORD,logs.dradis.netflix.com
  #USER-AGENT,Argo*
  - IP-CIDR,103.87.204.0/22
  - IP-CIDR,107.23.255.0/26
