@@ -1,5 +1,13 @@
 payload:
 #mobilelegends
+  # Patch In Game MLBB
+  - DOMAIN,akmcdn.ml.youngjoygame.com
+  - DOMAIN,akmpicture.youngjoygame.com
+  
+  # MLBB Stream
+  - DOMAIN,akmcdn.ml.youngjoygame.com
+  - DOMAIN,akmpicture.youngjoygame.com
+  
   - DOMAIN-SUFFIX,mobilelegends.com
   - DOMAIN-SUFFIX,mobile.legends
   - DOMAIN-SUFFIX,mobile-legends.net
@@ -105,6 +113,53 @@ payload:
   - IP-CIDR,23.248.168.168/16
   - IP-CIDR,169.45.173.38/24
   - IP-CIDR,202.131.87.90/16
+#STEAM
+  - DOMAIN-SUFFIX,cdn-ali.content.steamchina.com
+  - DOMAIN-SUFFIX,cdn-qc.content.steamchina.com
+  - DOMAIN-SUFFIX,cdn-ws.content.steamchina.com
+  - DOMAIN-SUFFIX,csgo.wmsj.cn
+  - DOMAIN-SUFFIX,dl.steam.clngaa.com
+  - DOMAIN-SUFFIX,dl.steam.ksyna.com
+  - DOMAIN-SUFFIX,dota2.wmsj.cn
+  - DOMAIN-SUFFIX,fanatical.com
+  - DOMAIN-SUFFIX,humblebundle.com
+  - DOMAIN-SUFFIX,playartifact.com
+  - DOMAIN-SUFFIX,s.team
+  - DOMAIN-SUFFIX,st.dl.bscstorage.net
+  - DOMAIN-SUFFIX,st.dl.eccdnx.com
+  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com
+  - DOMAIN-SUFFIX,steam-api.com
+  - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,steambroadcast.akamaized.net
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,steamcontent.tnkjmec.com
+  - DOMAIN-SUFFIX,steamgames.com
+  - DOMAIN-SUFFIX,steampipe.akamaized.net
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steampowered.com.8686c.com
+  - DOMAIN-SUFFIX,steamstat.us
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamstatic.com.8686c.com
+  - DOMAIN-SUFFIX,steamstore-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamunlocked.net
+  - DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamvideo-a.akamaihd.net
+  - DOMAIN-SUFFIX,underlords.com
+  - DOMAIN-SUFFIX,valvesoftware.com
+  - DOMAIN-SUFFIX,wmsjsteam.com
+  - DOMAIN-KEYWORD,steambroadcast
+  - DOMAIN-KEYWORD,steamstore
+  - DOMAIN-KEYWORD,steamuserimages
+  - DST-PORT,27015
+  - DST-PORT,27031
+  - DST-PORT,27032
+  - DST-PORT,27033
+  - DST-PORT,27034
+  - DST-PORT,27035
+  - DST-PORT,27036
   # FreeFire
   - DOMAIN-KEYWORD,freefire
   - DOMAIN-SUFFIX,garena.com
