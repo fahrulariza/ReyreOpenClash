@@ -64,7 +64,9 @@ payload:
 
 # Instagram
   - DOMAIN-KEYWORD,instagram
+  - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,instagram.c10r.instagram.com
   # MATCH is not necessary here, and it will be set under rules: inside config.yml
 
 # LINE
