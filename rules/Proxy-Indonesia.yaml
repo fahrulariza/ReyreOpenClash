@@ -5,6 +5,7 @@ payload:
 
 # &gt;
 - DOMAIN-SUFFIX,klikhost.com
+- DOMAIN-SUFFIX,u.klikhost.com
 
 # &gt; MOLA TV
 - DOMAIN-SUFFIX,mola.tv
