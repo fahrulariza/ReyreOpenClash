@@ -1,1 +1,55 @@
 
+proxies:
+
+#####################
+#### ISP-INTERLOKAL   #### .yaml
+#####################
+
+######## AKUN GRATIS ########
+- name: The+Constant+Company,+LLC+(JP)
+  server: quiz.vidio.com
+  port: 443
+  type: vless
+  uuid: raisXcode
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: japan.jrflashervpn.my.id
+  network: ws
+  ws-opts:
+    path: /japan1
+    headers:
+      Host: japan.jrflashervpn.my.id
+  udp: true
+
+- name: Digitalocean,+LLC+(SG)
+  server: quiz.vidio.com
+  port: 443
+  type: vless
+  uuid: raisXcode
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sg-do.jrflashervpn.my.id
+  network: ws
+  ws-opts:
+    path: /sgdo1
+    headers:
+      Host: sg-do.jrflashervpn.my.id
+  udp: true
+
+- name: Oracle+Corporation+(SG)
+  server: quiz.vidio.com
+  port: 443
+  type: vless
+  uuid: raisXcode
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sg-oracle.jrflashervpn.my.id
+  network: ws
+  ws-opts:
+    path: /oracle1
+    headers:
+      Host: sg-oracle.jrflashervpn.my.id
+  udp: true
