@@ -1,1 +1,24 @@
 
+proxies:
+
+#####################
+#### ISP-LOKAL   #### .yaml
+#####################
+
+######## AKUN GRATIS ########
+
+- name: Telekomunikasi+Indonesia+pt+(ID)
+  server: quiz.vidio.com
+  port: 443
+  type: vless
+  uuid: raisXcode
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id.jrflashervpn.my.id
+  network: ws
+  ws-opts:
+    path: /id2
+    headers:
+      Host: id.jrflashervpn.my.id
+  udp: true
