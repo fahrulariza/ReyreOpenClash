@@ -1,2 +1,3 @@
-
-live.cnbcindonesia.com
+payload:
+# Facebook
+  - DOMAIN-SUFFIX,live.cnbcindonesia.com
