@@ -41,6 +41,7 @@ payload:
   - DOMAIN-KEYWORD,update.intl.miui.com
   - DOMAIN-KEYWORD,tracking.india.miui.com
   - DOMAIN-KEYWORD,api.setting.intl.miui.com
+  - DOMAIN-KEYWORD,market.xiaomi.com
   
   # block system apps updates
   - DOMAIN-KEYWORD,f2.market.xiaomi.com
