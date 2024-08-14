@@ -1,3 +1,5 @@
 payload:
 # Facebook
+  - DOMAIN,youtubei.googleapis.com
+  - DOMAIN-SUFFIX,cnbcindonesia.com
   - DOMAIN-SUFFIX,live.cnbcindonesia.com
