@@ -1,7 +1,106 @@
 payload:
+# Mulai baris ini kebawah bisa di edit/hapus
+# &gt; LIST Streaming IP/Lokasi Wajib Indo
 
 # CNBC TV
   - DOMAIN,live.cnbcindonesia.com
   - DOMAIN,cnbcindonesia.com
   - DOMAIN-SUFFIX,cnbcindonesia.com
   - DOMAIN-SUFFIX,live.cnbcindonesia.com
+# &gt; MOLA TV
+- DOMAIN-SUFFIX,mola.tv
+- DOMAIN-SUFFIX,ws.mola.tv
+- DOMAIN-SUFFIX,res.mola01.koicdn.com
+- DOMAIN-SUFFIX,vod.cdn.mola.tv
+- DOMAIN-SUFFIX,api.sent.tv
+- DOMAIN-SUFFIX,cdn01.mola.tv
+- DOMAIN-SUFFIX,cdn02.mola.tv
+# &gt; Netflix
+# sudah dipisah ke file Netflix.yaml
+
+# &gt; Disney Plus
+- DOMAIN-SUFFIX,disney-plus.net
+- DOMAIN-SUFFIX,disneyplus.com
+- DOMAIN-SUFFIX,disneyplus.disney.co.jp
+- DOMAIN-SUFFIX,dssott.com
+- DOMAIN-SUFFIX,search-api-disney.bamgrid.com
+- DOMAIN-SUFFIX,starott.com
+- DOMAIN-SUFFIX,bifrost-api.hotstar.com
+- DOMAIN-SUFFIX,img1.hotstarext.com
+- DOMAIN-SUFFIX,persona.hotstar.com
+- DOMAIN-SUFFIX,api.hotstar.com
+- DOMAIN-KEYWORD,hotstar.com
+- DOMAIN-KEYWORD,hotstarext.com
+# &gt; Spotify
+- DOMAIN-SUFFIX,pscdn.co
+- DOMAIN-SUFFIX,scdn.co
+- DOMAIN-SUFFIX,spoti.fi
+- DOMAIN-SUFFIX,spotify.com
+- DOMAIN-SUFFIX,spotifycdn.com
+- DOMAIN-SUFFIX,spotifycdn.net
+- DOMAIN-SUFFIX,spotifycharts.com
+- DOMAIN-SUFFIX,spotifycodes.com
+- DOMAIN-SUFFIX,spotifyjobs.com
+- DOMAIN-SUFFIX,spotifynewsroom.jp
+- DOMAIN-SUFFIX,spotilocal.com
+- DOMAIN-SUFFIX,tospotify.com
+- DOMAIN-KEYWORD,spotify
+# &gt; Vidio
+# sudah dipisah ke file vidio.yaml
+
+# &gt; VIU
+- DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
+- DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
+- DOMAIN-SUFFIX,nowe.com
+- DOMAIN-SUFFIX,viu.com
+- DOMAIN-SUFFIX,viu.now.com
+- DOMAIN-SUFFIX,viu.tv
+- DOMAIN-SUFFIX,viuapi.io
+- DOMAIN-SUFFIX,viu-static.akamaized.net
+- DOMAIN-SUFFIX,viu-android-artifacts.s3-ap-southeast-1.amazonaws.com
+- DOMAIN-SUFFIX,gcpvuclip-a.akamaihd.net
+- DOMAIN-SUFFIX,vuclip-eip2.akamaized.net
+- DOMAIN-SUFFIX,vuclipi-a.akamaihd.net
+- DOMAIN-KEYWORD,vuclip
+- DOMAIN-KEYWORD,viu
+# &gt; Beinsport
+- DOMAIN-SUFFIX,connect-id.beinsports.com
+- DOMAIN-SUFFIX,beinsports.com
+- DOMAIN-SUFFIX,beiniz.biz
+- DOMAIN-KEYWORD,beinsports
+- DOMAIN-KEYWORD,bein
+# &gt; UseeTV
+- DOMAIN-SUFFIX,useetv.com
+- DOMAIN-KEYWORD,useetv.com
+# &gt; DensTV
+- DOMAIN-SUFFIX,dens.tv
+# &gt; Mncnow
+- DOMAIN-SUFFIX,mncnow.id
+- DOMAIN-SUFFIX,mncplay.id
+- DOMAIN-KEYWORD,mncnow
+- DOMAIN-KEYWORD,mncplay
+# &gt; VisionPlus
+- DOMAIN-SUFFIX,visionplus.id
+- DOMAIN-SUFFIX,dtaarjaj1diy9.cloudfront.net
+- DOMAIN-SUFFIX,mrpw.ptmnc01.verspective.net
+- DOMAIN-SUFFIX,rmp-data.com
+- DOMAIN,stream-cdn.mncnow.id
+- DOMAIN-KEYWORD,visionplus
+# &gt; We TV
+- DOMAIN-SUFFIX,webrtcpunch.video.qq.com
+- DOMAIN-SUFFIX,api.weathercn.com
+- DOMAIN-SUFFIX,iflix-images.akamaized.net
+- DOMAIN-SUFFIX,iflix.com
+- DOMAIN-SUFFIX,v.smtcdns.com
+- DOMAIN-SUFFIX,v.smtcdns.net
+- DOMAIN-SUFFIX,vv.video.qq.com
+- DOMAIN-SUFFIX,wetvdefaultts.tc.qq.com
+- DOMAIN-SUFFIX,apd-vlive.apdcdn.tc.qq.com
+- DOMAIN-SUFFIX,tc.qq.com
+- DOMAIN-SUFFIX,wetv.vip
+- DOMAIN-SUFFIX,wetvinfo.com
+- DOMAIN-KEYWORD,wetv
+- IP-CIDR,150.109.28.51/32,no-resolve
+# &gt; LiveTVGO
+- DOMAIN-SUFFIX,livetvgo.my.id
+- DOMAIN-KEYWORD,livetvgo
