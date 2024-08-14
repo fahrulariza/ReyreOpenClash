@@ -1,6 +1,7 @@
 payload:
 
 # CNBC TV
-  - DOMAIN,youtubei.googleapis.com
+  - DOMAIN,live.cnbcindonesia.com
+  - DOMAIN,cnbcindonesia.com
   - DOMAIN-SUFFIX,cnbcindonesia.com
   - DOMAIN-SUFFIX,live.cnbcindonesia.com
