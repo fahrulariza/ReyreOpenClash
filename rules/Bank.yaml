@@ -26,6 +26,9 @@ payload:
 
 # &gt; LIST Domain Bank di Indonesia
 - DOMAIN-KEYWORD,bri.co.id
+- DOMAIN-KEYWORD,brimo.bri.co.id
+- DOMAIN-SUFFIX,bri.co.id
+- DOMAIN-SUFFIX,brimo.bri.co.id
 - DOMAIN-KEYWORD,bankmandiri.co.id
 - DOMAIN-KEYWORD,bni.co.id
 - DOMAIN-KEYWORD,btn.co.id
@@ -113,6 +116,10 @@ payload:
 - DOMAIN-KEYWORD,bankkalbar.co.id
 - DOMAIN-KEYWORD,bankkaltim.com
 - DOMAIN-KEYWORD,bp-kalteng.com
+- DOMAIN-KEYWORD,bankkalteng.co.id
+- DOMAIN-KEYWORD,bankkalteng
+- DOMAIN-SUFFIX,bankkalteng.co.id
+- DOMAIN-SUFFIX,bankkalteng
 - DOMAIN-KEYWORD,banksulsel.co.id
 - DOMAIN-KEYWORD,banksulutgo.co.id
 - DOMAIN-KEYWORD,bankntb.co.id
