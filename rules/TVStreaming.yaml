@@ -277,3 +277,17 @@ payload:
 # &gt; LiveTVGO
 - DOMAIN-SUFFIX,livetvgo.my.id
 - DOMAIN-KEYWORD,livetvgo
+
+#rule_primevideo
+  - DOMAIN,aiv-cdn.net
+  - DOMAIN,amazonprimevideo.cn
+  - DOMAIN,amazonprimevideo.com.cn
+  - DOMAIN,amazonprimevideos.com
+  - DOMAIN,amazonvideo.cc
+  - DOMAIN,amazonvideo.com
+  - DOMAIN,prime-video.com
+  - DOMAIN,primevideo.cc
+  - DOMAIN,primevideo.com
+  - DOMAIN,primevideo.info
+  - DOMAIN,primevideo.org
+  - DOMAIN,primevideo.tv
