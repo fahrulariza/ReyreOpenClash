@@ -64,6 +64,19 @@ payload:
 #OS_Update_Windows
   - DOMAIN-SUFFIX,tlu.dl.delivery.mp.microsoft.com
   - DOMAIN-SUFFIX,download.windowsupdate.com
+  - DOMAIN-SUFFIX,windowsupdate.microsoft.com
+  - DOMAIN-SUFFIX,*.windowsupdate.microsoft.com
+  - DOMAIN-SUFFIX,*.windowsupdate.microsoft.com
+  - DOMAIN-SUFFIX,*.update.microsoft.com
+  - DOMAIN-SUFFIX,*.update.microsoft.com
+  - DOMAIN-SUFFIX,*.windowsupdate.com
+  - DOMAIN-SUFFIX,download.windowsupdate.com
+  - DOMAIN-SUFFIX,download.microsoft.com
+  - DOMAIN-SUFFIX,*.download.windowsupdate.com
+  - DOMAIN-SUFFIX,wustat.windows.com
+  - DOMAIN-SUFFIX,ntservicepack.microsoft.com
+  - DOMAIN-SUFFIX,stats.microsoft.com
+  - DOMAIN-SUFFIX,stats.microsoft.com
 #IDM
   - DOMAIN-SUFFIX,tonec.com
   - DOMAIN-SUFFIX,www.tonec.com
