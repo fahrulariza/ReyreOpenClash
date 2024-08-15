@@ -64,4 +64,17 @@ payload:
 #OS_Update_Windows
   - DOMAIN-SUFFIX,tlu.dl.delivery.mp.microsoft.com
   - DOMAIN-SUFFIX,download.windowsupdate.com
+#IDM
+  - DOMAIN-SUFFIX,tonec.com
+  - DOMAIN-SUFFIX,www.tonec.com
+  - DOMAIN-SUFFIX,registeridm.com
+  - DOMAIN-SUFFIX,www.registeridm.com
+  - DOMAIN-SUFFIX,secure.registeridm.com
+  - DOMAIN-SUFFIX,internetdownloadmanager.com
+  - DOMAIN-SUFFIX,www.internetdownloadmanager.com
+  - DOMAIN-SUFFIX,secure.internetdownloadmanager.com
+  - DOMAIN-SUFFIX,mirror.internetdownloadmanager.com
+  - DOMAIN-SUFFIX,mirror2.internetdownloadmanager.com
+  - DOMAIN-SUFFIX,mirror3.internetdownloadmanager.com
+  - DOMAIN-SUFFIX,star.tonec.com
   
