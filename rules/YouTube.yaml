@@ -18,6 +18,18 @@ payload:
   - DOMAIN,www.youtube.com
   - DOMAIN,youtube.com
   - DOMAIN,music.youtube.com
+
+  - DOMAIN-SUFFIX,youtubeeducation.com
+  - DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com
+  - DOMAIN-SUFFIX,youtubei.googleapis.com
+  - DOMAIN-SUFFIX,youtubekids.com
+  - DOMAIN-SUFFIX,youtube-nocookie.com
+  - DOMAIN-SUFFIX,youtube-ui.l.google.com
+  - DOMAIN-SUFFIX,yt.be
+  - DOMAIN-SUFFIX,yt3.ggpht.com
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,returnyoutubedislikeapi.com
+  - DOMAIN-SUFFIX,kidsmanagement-pa.googleapis.com
   
   - DOMAIN-SUFFIX,.youtube.com
   - DOMAIN-SUFFIX,youtube.com
@@ -183,16 +195,7 @@ payload:
   - DOMAIN-SUFFIX,youtube.ug
   - DOMAIN-SUFFIX,youtube.uy
   - DOMAIN-SUFFIX,youtube.vn
-  - DOMAIN-SUFFIX,youtubeeducation.com
-  - DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com
-  - DOMAIN-SUFFIX,youtubei.googleapis.com
-  - DOMAIN-SUFFIX,youtubekids.com
-  - DOMAIN-SUFFIX,youtube-nocookie.com
-  - DOMAIN-SUFFIX,youtube-ui.l.google.com
-  - DOMAIN-SUFFIX,yt.be
-  - DOMAIN-SUFFIX,yt3.ggpht.com
-  - DOMAIN-SUFFIX,ytimg.com
-  - DOMAIN-SUFFIX,returnyoutubedislikeapi.com
+
   
 #  - USER-AGENT,*YouTubeMusic*
 #  - USER-AGENT,*com.google.ios.youtubemusic*
