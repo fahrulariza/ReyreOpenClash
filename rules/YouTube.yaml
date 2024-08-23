@@ -34,6 +34,7 @@ payload:
   - DOMAIN-SUFFIX,youtubegaming.com
   
   - DOMAIN-SUFFIX,.youtube.com
+  - DOMAIN-SUFFIX,s.youtube.com
   - DOMAIN-SUFFIX,youtube.com
   - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN-SUFFIX,ggpht.com
