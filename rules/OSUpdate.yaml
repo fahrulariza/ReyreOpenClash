@@ -81,6 +81,12 @@ payload:
 #VIVO
   - DOMAIN-SUFFIX,vivoglobal.com
 
+#OPPO
+  - DOMAIN-SUFFIX,assorted.downloads.oppo.com
+
+#REALME
+- DOMAIN-SUFFIX,realme.net
+
 #IDM
   - DOMAIN-SUFFIX,tonec.com
   - DOMAIN-SUFFIX,www.tonec.com
