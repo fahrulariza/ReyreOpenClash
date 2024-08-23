@@ -2,6 +2,10 @@ payload:
 # Mulai baris ini kebawah bisa di edit/hapus
 # &gt; LIST Streaming IP/Lokasi Wajib Indo
 
+#IPTV
+  - DOMAIN-SUFFIX,transvision.co.id
+
+
 # CNBC TV
   - DOMAIN,live.cnbcindonesia.com
   - DOMAIN,cnbcindonesia.com
