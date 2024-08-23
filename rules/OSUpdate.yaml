@@ -1,8 +1,8 @@
 payload:
 # Block PlayStore and Generic Android OS Update
   # Block PlayStore Update
-  - DOMAIN-SUFFIX,gvt1.com
-  - DOMAIN-SUFFIX,gvt2.com
+  #- DOMAIN-SUFFIX,gvt1.com
+  #- DOMAIN-SUFFIX,gvt2.com
 #OS_Update_Android_Samsung
 # https://forum.samygo.tv/viewtopic.php?p=110316&sid=9f36a4f26fa101111c6440ba1f0494f7#p110316
 # https://phyks.me/2017/12/stop-networking-dear-samsung-tv.html
@@ -77,7 +77,10 @@ payload:
   - DOMAIN-SUFFIX,ntservicepack.microsoft.com
   - DOMAIN-SUFFIX,stats.microsoft.com
   - DOMAIN-SUFFIX,stats.microsoft.com
-  
+
+#VIVO
+  - DOMAIN-SUFFIX,vivoglobal.com
+
 #IDM
   - DOMAIN-SUFFIX,tonec.com
   - DOMAIN-SUFFIX,www.tonec.com
@@ -91,4 +94,5 @@ payload:
   - DOMAIN-SUFFIX,mirror2.internetdownloadmanager.com
   - DOMAIN-SUFFIX,mirror3.internetdownloadmanager.com
   - DOMAIN-SUFFIX,star.tonec.com
+
   
