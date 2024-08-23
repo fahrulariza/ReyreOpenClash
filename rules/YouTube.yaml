@@ -17,6 +17,7 @@ payload:
   - DOMAIN,yt3.ggpht.com
   - DOMAIN,www.youtube.com
   - DOMAIN,youtube.com
+  - DOMAIN,s.youtube.com
   - DOMAIN,music.youtube.com
 
   - DOMAIN-SUFFIX,youtubeeducation.com
