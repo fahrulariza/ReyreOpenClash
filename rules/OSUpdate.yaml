@@ -16,6 +16,7 @@ payload:
   - DOMAIN-KEYWORD,az28248.vo.msecnd.net
   - DOMAIN-KEYWORD,az43064.vo.msecnd.net
   - DOMAIN-KEYWORD,osb-v2.samsungqbe.com
+  - DOMAIN-KEYWORD,org.downloadcenter.samsung.com
   
   # samsung apps related server, delete root widget
   - DOMAIN-KEYWORD,osb-apps.samsungqbe.com
