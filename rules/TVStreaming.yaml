@@ -4,22 +4,12 @@ payload:
 
 #IPTV
   - DOMAIN-SUFFIX,transvision.co.id
-
-
-# CNBC TV
-  - DOMAIN,live.cnbcindonesia.com
-  - DOMAIN,cnbcindonesia.com
-  - DOMAIN-SUFFIX,cnbcindonesia.com
-  - DOMAIN-SUFFIX,live.cnbcindonesia.com
-  - DOMAIN-SUFFIX,live.cnnindonesia.com
-  - DOMAIN,live.cnnindonesia.com
-
   - DOMAIN-SUFFIX,mncnow.id
   - DOMAIN-SUFFIX,melon-live-cdn.mncnow.id
   - DOMAIN-SUFFIX,ott.tvri.co.id
   - DOMAIN-SUFFIX,beritasatumedia.com
   - DOMAIN-SUFFIX,tvri.go.id
- - DOMAIN-SUFFIX,streamlock.net
+  - DOMAIN-SUFFIX,streamlock.net
   - DOMAIN-SUFFIX,jawapostv.siar.us
   - DOMAIN-SUFFIX,dhohotv.siar.us
   - DOMAIN-SUFFIX,SamsungTVPlus
@@ -36,6 +26,14 @@ payload:
   - DOMAIN-SUFFIX,tvplayhome.lt
   - DOMAIN-SUFFIX,ott.zapitv.com
   - DOMAIN-SUFFIX,mohdtv.com
+
+# CNBC TV
+  - DOMAIN,live.cnbcindonesia.com
+  - DOMAIN,cnbcindonesia.com
+  - DOMAIN-SUFFIX,cnbcindonesia.com
+  - DOMAIN-SUFFIX,live.cnbcindonesia.com
+  - DOMAIN-SUFFIX,live.cnnindonesia.com
+  - DOMAIN,live.cnnindonesia.com
   
 # &gt; MOLA TV
 - DOMAIN-SUFFIX,mola.tv
