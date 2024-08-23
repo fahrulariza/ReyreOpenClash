@@ -11,6 +11,7 @@ payload:
   - DOMAIN,cnbcindonesia.com
   - DOMAIN-SUFFIX,cnbcindonesia.com
   - DOMAIN-SUFFIX,live.cnbcindonesia.com
+  - DOMAIN-SUFFIX,live.cnnindonesia.com
 # &gt; MOLA TV
 - DOMAIN-SUFFIX,mola.tv
 - DOMAIN-SUFFIX,ws.mola.tv
