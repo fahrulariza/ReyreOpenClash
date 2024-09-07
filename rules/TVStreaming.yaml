@@ -320,5 +320,6 @@ payload:
   - DOMAIN,primevideo.org
   - DOMAIN,primevideo.tv
 
-  - DOMAIN,plutotv.net
-  - DOMAIN,douyucdn.cn
+  - DOMAIN-SUFFIX,plutotv.net
+  - DOMAIN-SUFFIX,douyucdn.cn
+  - DOMAIN-SUFFIX,amagi.tv
