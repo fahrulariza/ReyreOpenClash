@@ -88,6 +88,7 @@ payload:
 
 #OPPO
   - DOMAIN-SUFFIX,assorted.downloads.oppo.com
+  - DOMAIN-SUFFIX,ifota.coloros.com
 
 #REALME
 - DOMAIN-SUFFIX,realme.net
