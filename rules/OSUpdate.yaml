@@ -64,7 +64,8 @@ payload:
 # Apple iOS Notification: https://support.apple.com/en-us/HT202944
   - DST-PORT,2197
   - DST-PORT,5223
-  
+
+# ############################### WINDOWS ############################### #  
 #OS_Update_Windows
   - DOMAIN-SUFFIX,tlu.dl.delivery.mp.microsoft.com
   - DOMAIN-SUFFIX,download.windowsupdate.com
