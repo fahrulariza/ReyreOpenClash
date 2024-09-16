@@ -41,3 +41,8 @@ payload:
 - DOMAIN-KEYWORD,sch.id
 - DOMAIN-KEYWORD,desa.id
 - DOMAIN-KEYWORD,ponpes.id
+
+
+- DOMAIN-SUFFIX,antrean.bpjs-kesehatan.go.id
+- DOMAIN-SUFFIX,faskes.bpjs-kesehatan.go.id
+- DOMAIN-SUFFIX,pcarejkn.bpjs-kesehatan.go.id
