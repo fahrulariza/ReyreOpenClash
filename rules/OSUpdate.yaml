@@ -82,6 +82,7 @@ payload:
   - DOMAIN-SUFFIX,ntservicepack.microsoft.com
   - DOMAIN-SUFFIX,stats.microsoft.com
   - DOMAIN-SUFFIX,stats.microsoft.com
+  - DOMAIN-SUFFIX,client.wns.windows.com
 
 #VIVO
   - DOMAIN-SUFFIX,vivoglobal.com
