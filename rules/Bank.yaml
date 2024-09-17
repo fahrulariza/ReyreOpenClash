@@ -16,6 +16,7 @@ payload:
 - DOMAIN-SUFFIX,djponline.pajak.go.id
 - DOMAIN-SUFFIX,portalnpwp.pajak.go.id
 - DOMAIN-SUFFIX,static.pajak.go.id
+- DOMAIN-SUFFIX,pajak.go.id
 - DOMAIN-SUFFIX,insentif-ukm.kemkes.go.id
 - DOMAIN-SUFFIX,anjab.seruyan.simpeg.id
 - DOMAIN-SUFFIX,renbut.kemkes.go.id
