@@ -21,7 +21,10 @@ payload:
 - DOMAIN-SUFFIX,kinerja.bkn.go.id
 - DOMAIN-SUFFIX,ekinerja.seruyankab.go.id
 - DOMAIN-SUFFIX,srikandi.arsip.go.id
+- DOMAIN-SUFFIX,api.arsip.go.id
+- DOMAIN-SUFFIX,arsip.go.id
 - DOMAIN-SUFFIX,ns1.layanan.go.id
+- DOMAIN-SUFFIX,prd-portal-nakes-api.dto.kemkes.go.id
 - DOMAIN-SUFFIX,satusehat.kemkes.go.id
 - DOMAIN-SUFFIX,repository.kemkes.go.id
 - DOMAIN-SUFFIX,database.idionline.org
