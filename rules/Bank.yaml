@@ -40,6 +40,7 @@ payload:
 - DOMAIN-SUFFIX,seruyankab.bps.go.id
 - DOMAIN-SUFFIX,lpse.seruyankab.go.id
 - DOMAIN-SUFFIX,id.wikipedia.org
+- DOMAIN-SUFFIX,epns.eset.com
 
 # E-Wallet / Dompet Digital
 - DOMAIN-SUFFIX,gojek.com
