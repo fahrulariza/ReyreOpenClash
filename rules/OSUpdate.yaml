@@ -63,7 +63,7 @@ payload:
   - DOMAIN,iosapps.itunes.apple.com
 # Apple iOS Notification: https://support.apple.com/en-us/HT202944
   - DST-PORT,2197
-  - DST-PORT,5223
+  #- DST-PORT,5223
 
 # ############################### WINDOWS ############################### #  
 #OS_Update_Windows
@@ -83,6 +83,8 @@ payload:
   - DOMAIN-SUFFIX,stats.microsoft.com
   - DOMAIN-SUFFIX,stats.microsoft.com
   - DOMAIN-SUFFIX,client.wns.windows.com
+  - DOMAIN-SUFFIX,windowsupdatebg.s.llnwi.net
+  - DOMAIN-SUFFIX,ctldl.windowsupdate.com
 
 #VIVO
   - DOMAIN-SUFFIX,vivoglobal.com
