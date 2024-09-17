@@ -1,5 +1,8 @@
 payload:
 
+- DOMAIN-SUFFIX,pcarejkn.bpjs-kesehatan.go.id
+- DOMAIN-SUFFIX,antrean.bpjs-kesehatan.go.id
+
 # E-Wallet / Dompet Digital
 - DOMAIN-SUFFIX,gojek.com
 - DOMAIN-SUFFIX,gobiz.co.id
