@@ -42,8 +42,3 @@ payload:
 - DOMAIN-KEYWORD,desa.id
 - DOMAIN-KEYWORD,ponpes.id
 
-# &gt; LIST Domain tLD Indo & GEOIP INDO
-- DOMAIN-SUFFIX,antrean.bpjs-kesehatan.go.id
-- DOMAIN-SUFFIX,faskes.bpjs-kesehatan.go.id
-- DOMAIN-SUFFIX,pcarejkn.bpjs-kesehatan.go.id
-
