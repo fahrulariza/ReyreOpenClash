@@ -1,5 +1,25 @@
 payload:
-
+  - DOMAIN-KEYWORD,pinterest
+  - DOMAIN-KEYWORD,helo
+  - DOMAIN-KEYWORD,snackvideo
+# > Badoo
+  - DOMAIN-SUFFIX,badoo.app
+  - DOMAIN-SUFFIX,badoo.com
+  - DOMAIN-SUFFIX,badoo.com.ru
+  - DOMAIN-SUFFIX,badoocdn.com
+  - DOMAIN-SUFFIX,bumble.com
+# > Bitmoji
+  - DOMAIN-SUFFIX,bitmoji.com
+# > Douyin
+  - DOMAIN-SUFFIX,douyin.com
+  - DOMAIN-SUFFIX,douyincdn.com
+  - DOMAIN-SUFFIX,douyincdn.com.c.bytefcdn.com
+  - DOMAIN-SUFFIX,douyincdn.com.tcdnlive.com
+  - DOMAIN-SUFFIX,douyinpic.com
+  - DOMAIN-SUFFIX,douyinstatic.com
+  - DOMAIN-SUFFIX,douyinvod.com
+  - DOMAIN-SUFFIX,lf6-douyin-ckv-tos.pstatp.com
+  
 # > Facebook
   - DOMAIN-SUFFIX,accountkit.com
   - DOMAIN-SUFFIX,atdmt.com
