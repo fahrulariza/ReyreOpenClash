@@ -49,6 +49,10 @@ payload:
   - DOMAIN-SUFFIX,whatsapp.org
   - DOMAIN-SUFFIX,whatsapp.tv
   - DOMAIN-SUFFIX,whatsappbrand.com
+  - DOMAIN-SUFFIX,m.me
+  - DOMAIN-SUFFIX,oculus.com
+  - DOMAIN-SUFFIX,oculuscdn.com
+  - DOMAIN-SUFFIX,rocksdb.org
   - DST-PORT,3478
   - DST-PORT,4244
   - DST-PORT,5222
