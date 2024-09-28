@@ -1,13 +1,13 @@
 payload:
 
-- DOMAIN-SUFFIX,bpjs-kesehatan.go.id
-- DOMAIN-SUFFIX,kemkes.go.id
-- DOMAIN-SUFFIX,seruyankab.go.id
-- DOMAIN-SUFFIX,kemkes.go.id
-- DOMAIN-SUFFIX,bkn.go.id
+- DOMAIN-KEYWORD,bpjs-kesehatan.go.id
+- DOMAIN-KEYWORD,kemkes.go.id
+- DOMAIN-KEYWORD,seruyankab.go.id
+- DOMAIN-KEYWORD,kemkes.go.id
+- DOMAIN-KEYWORD,bkn.go.id
 
-- DOMAIN-SUFFIX,pcarejkn.bpjs-kesehatan.go.id
-- DOMAIN-SUFFIX,antrean.bpjs-kesehatan.go.id
+- DOMAIN-KEYWORD,pcarejkn.bpjs-kesehatan.go.id
+- DOMAIN-KEYWORD,antrean.bpjs-kesehatan.go.id
 - DOMAIN-SUFFIX,bpjs-kesehatan.go.id
 - DOMAIN-SUFFIX,kalimantan.sitb.id
 - DOMAIN-SUFFIX,promkes.kemkes.go.id
