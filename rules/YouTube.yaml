@@ -41,10 +41,10 @@ payload:
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,googlevideo.com
   - DOMAIN-SUFFIX,.googlevideo.com
-  - DOMAIN-SUFFIX,gvt2.com
+ # - DOMAIN-SUFFIX,gvt2.com # google play 
   - DOMAIN-SUFFIX,withyoutube.com
   - DOMAIN-SUFFIX,googlevideo.com
- # - DOMAIN-SUFFIX,gvt1.com
+ # - DOMAIN-SUFFIX,gvt1.com # google play 
   - DOMAIN-SUFFIX,video.google.com
   - DOMAIN-SUFFIX,youtu.be
   
