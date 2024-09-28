@@ -8,7 +8,7 @@ payload:
 
 - DOMAIN-KEYWORD,pcarejkn.bpjs-kesehatan.go.id
 - DOMAIN-KEYWORD,antrean.bpjs-kesehatan.go.id
-- DOMAIN-SUFFIX,bpjs-kesehatan.go.id
+#- DOMAIN-SUFFIX,bpjs-kesehatan.go.id
 - DOMAIN-SUFFIX,kalimantan.sitb.id
 - DOMAIN-SUFFIX,promkes.kemkes.go.id
 - DOMAIN-SUFFIX,komdatkesmas.kemkes.go.id
