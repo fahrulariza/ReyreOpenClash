@@ -5,6 +5,8 @@ payload:
 - DOMAIN-KEYWORD,seruyankab.go.id
 - DOMAIN-KEYWORD,kemkes.go.id
 - DOMAIN-KEYWORD,bkn.go.id
+- DOMAIN-KEYWORD,api.kemkes.go.id
+- DOMAIN-KEYWORD,link.kemkes.go.id
 
 - DOMAIN-SUFFIX,pcarejkn.bpjs-kesehatan.go.id
 - DOMAIN-SUFFIX,antrean.bpjs-kesehatan.go.id
