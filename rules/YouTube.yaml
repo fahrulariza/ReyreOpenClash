@@ -44,7 +44,7 @@ payload:
   - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,withyoutube.com
   - DOMAIN-SUFFIX,googlevideo.com
-  - DOMAIN-SUFFIX,gvt1.com
+ # - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,video.google.com
   - DOMAIN-SUFFIX,youtu.be
   
