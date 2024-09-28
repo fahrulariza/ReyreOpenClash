@@ -7,6 +7,7 @@ payload:
 - DOMAIN-KEYWORD,bkn.go.id
 - DOMAIN-KEYWORD,api.kemkes.go.id
 - DOMAIN-KEYWORD,link.kemkes.go.id
+- DOMAIN-KEYWORD,ioffice.air.id
 - DOMAIN-SUFFIX,0.datadog.pool.ntp.org
 - DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com
 - DOMAIN-SUFFIX,browser-intake-datadoghq.eu
