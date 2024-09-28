@@ -6,8 +6,8 @@ payload:
 - DOMAIN-KEYWORD,kemkes.go.id
 - DOMAIN-KEYWORD,bkn.go.id
 
-- DOMAIN-KEYWORD,pcarejkn.bpjs-kesehatan.go.id
-- DOMAIN-KEYWORD,antrean.bpjs-kesehatan.go.id
+- DOMAIN-SUFFIX,pcarejkn.bpjs-kesehatan.go.id
+- DOMAIN-SUFFIX,antrean.bpjs-kesehatan.go.id
 #- DOMAIN-SUFFIX,bpjs-kesehatan.go.id
 - DOMAIN-SUFFIX,kalimantan.sitb.id
 - DOMAIN-SUFFIX,promkes.kemkes.go.id
@@ -185,6 +185,13 @@ payload:
 - DOMAIN-KEYWORD,standardchartered.com
 - DOMAIN-KEYWORD,deutsche-bank.co.id
 - DOMAIN-KEYWORD,bankofchina.co.id
+
+- "+.bpjs-kesehatan.go.id"
+- "+.kemkes.go.id"
+- "+.seruyankab.go.id"
+- "+.kemkes.go.id"
+- "+.bkn.go.id"
+- "+.air.id"
 
 - "+.bri.co.id"
 - "+.bankmandiri.co.id"
