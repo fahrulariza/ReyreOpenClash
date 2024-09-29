@@ -12,7 +12,7 @@ payload:
 - DOMAIN-SUFFIX,0.datadog.pool.ntp.org
 - DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com
 - DOMAIN-SUFFIX,browser-intake-datadoghq.eu
-- IP-CIDR,202.70.136.14
+- IP-CIDR,202.70.136.0/24
 
 - DOMAIN-SUFFIX,pcarejkn.bpjs-kesehatan.go.id
 - DOMAIN-SUFFIX,antrean.bpjs-kesehatan.go.id
