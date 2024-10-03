@@ -13,14 +13,15 @@ payload:
 - DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com
 - DOMAIN-SUFFIX,browser-intake-datadoghq.eu
 
-- IP-CIDR,36.67.50.103
 - IP-CIDR,23.101.28.0/16 #bpjs-kesehatan.go.id 23.101.28.35
 - IP-CIDR,35.219.2.0/16 #api.kemkes.go.id 35.219.2.191
+#satusehat.kemkes.go.id 35.219.78.85
 - IP-CIDR,36.66.30.0/16 #pcarejkn.bpjs-kesehatan.go.id 36.66.30.115
 - IP-CIDR,36.67.50.0/16 #rekon-pemda.bpjs-kesehatan.go.id 36.67.50.103
 - IP-CIDR,36.67.189.0/16 # antrean.bpjs-kesehatan.go.id 36.67.189.254
 - IP-CIDR,103.28.106.0/16 #djponline.pajak.go.id 103.28.106.147
 - IP-CIDR,103.72.110.0/16 #static.pajak.go.id 103.72.110.25
+- IP-CIDR,103.74.143.0/16 #ekohort.kemkes.go.id 103.74.143.176 #simkeswa.kemkes.go.id 103.74.143.129 #repository.kemkes.go.id 103.74.143.33
 - IP-CIDR,202.70.136.0/16 #kemkes.go.id 202.70.136.4
 - IP-CIDR,103.89.250.0/16 #kinerja.bkn.go.id 103.89.250.73
 - IP-CIDR,103.94.6.0/16 #ioffice.air.id 103.94.6.58:443
@@ -33,10 +34,11 @@ payload:
 - IP-CIDR,182.23.161.0/16 #kalimantan.sitb.id 182.23.161.86
 - IP-CIDR,202.10.51.0/16 #srikandi.arsip.go.id 202.10.51.241
 - IP-CIDR,202.46.92.0/16 #api-ioffice.air.id 202.46.92.237
-- IP-CIDR,202.70.136.0/16 #kemkes.go.id 202.70.136.4
+- IP-CIDR,202.70.136.0/16 #kemkes.go.id 202.70.136.4 #promkes.kemkes.go.id 202.70.136.64 #komdatkesmas.kemkes.go.id 202.70.136.87
 - IP-CIDR,202.152.8.0/16 #seruyankab.krisna.systems 202.152.8.38
 - IP-CIDR,114.5.121.0/16 #sso.krisna.men 114.5.121.195
-- IP-CIDR,223.27.150.0/16 #webskrining.bpjs-kesehatan.go.id 223.27.150.159
+- IP-CIDR,223.27.150.0/16 #webskrining.bpjs-kesehatan.go.id 223.27.150.159 223.27.150.163 #pcarejkn.bpjs-kesehatan.go.id 223.27.150.159
+
 
 - IP-CIDR,147.139.163.0/16 #dana.id 147.139.163.15
 
