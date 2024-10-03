@@ -36,11 +36,14 @@ payload:
 - IP-CIDR,147.139.0.0/16 #dana.id
 - IP-CIDR,114.5.0.0/16 #sso.krisna.men
 
-- IP-CIDR,43.255.0.0/16 #telkomsel
+- IP-CIDR,43.255.0.0/16 #telkomsel 43.255.199.21 43.255.196.45
 - IP-CIDR,104.21.0.0/16 #telkomsel
 
 - IP-CIDR,172.64.0.0/16 #api.myxl.xlaxiata.co.id.cdn.cloudflare.net
 - IP-CIDR,104.18.0.0/16 #api.myxl.xlaxiata.co.id.cdn.cloudflare.net
+
+- IP-CIDR,182.0.188.12 #api.byu.id api.dctc.byu.id.
+- IP-CIDR,202.3.220.1 #api.byu.id
 
 
 
