@@ -34,14 +34,9 @@ payload:
 - IP-CIDR,223.27.0.0/16 #webskrining.bpjs-kesehatan.go.id
 
 - IP-CIDR,147.139.0.0/16 #dana.id
-
-
-
-
-
 - IP-CIDR,114.5.0.0/16 #sso.krisna.men
 
-
+- IP-CIDR,43.255.0.0/16 #telkomsel
 
 
 
