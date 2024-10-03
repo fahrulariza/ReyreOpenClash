@@ -42,8 +42,8 @@ payload:
 - IP-CIDR,172.64.0.0/16 #api.myxl.xlaxiata.co.id.cdn.cloudflare.net
 - IP-CIDR,104.18.0.0/16 #api.myxl.xlaxiata.co.id.cdn.cloudflare.net
 
-- IP-CIDR,182.0.188.12 #api.byu.id api.dctc.byu.id.
-- IP-CIDR,202.3.220.1 #api.byu.id
+- IP-CIDR,182.0.188.0/16 #api.byu.id api.dctc.byu.id. 182.0.188.12
+- IP-CIDR,202.3.220.0/16 #api.byu.id 202.3.220.1
 
 
 
