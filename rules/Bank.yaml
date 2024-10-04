@@ -78,6 +78,7 @@ payload:
 - IP-CIDR,13.249.9.93/32 #
 - IP-CIDR,13.249.9.73/32 #
 - IP-CIDR,13.249.9.97/32 #
+- IP-CIDR,108.138.141.0/24
 - IP-CIDR,172.64.144.4/32 # api.myxl.xlaxiata.co.id
 - IP-CIDR,104.18.43.252/32 #
 - IP-CIDR,104.18.43.252/32 # gede.ciam.xlaxiata.co.id
