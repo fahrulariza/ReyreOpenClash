@@ -17,6 +17,7 @@ payload:
 # ------------https://dnschecker.org/ A
 - IP-CIDR,103.102.146.0/16 #simpeg.id 103.102.146.229
 - IP-CIDR,23.101.28.0/16 #bpjs-kesehatan.go.id 23.101.28.35
+- IP-CIDR,35.219.81.0/16 #prd-portal-nakes-api.dto.kemkes.go.id 35.219.81.123
 - IP-CIDR,35.219.2.0/16 #api.kemkes.go.id 35.219.2.191
 - IP-CIDR,103.18.117.0/16 #seruyankab.go.id 103.18.117.9
 - IP-CIDR,103.170.105.0/16 #diskominfo.seruyankab.go.id 103.170.105.44
