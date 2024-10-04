@@ -55,6 +55,7 @@ payload:
 - IP-CIDR,140.213.50.0/24 #dana.id a.m.dana.id mgs-gw.m.dana.id
 - IP-CIDR,47.235.21.35/32 #dana.id
 - IP-CIDR,140.213.62.0/24 #m.dana.id
+- IP-CIDR,23.33.40.0/24 #m.dana.id 23.33.40.152 23.33.40.135
 
 
 - IP-CIDR,43.255.0.0/16 #telkomsel 43.255.199.21 43.255.196.45 43.255.199.21
