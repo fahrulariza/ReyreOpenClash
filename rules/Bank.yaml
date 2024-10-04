@@ -45,6 +45,7 @@ payload:
 - IP-CIDR,182.23.161.86/32 #kalimantan.sitb.id 182.23.161.86
 - IP-CIDR,202.10.51.241/32 #srikandi.arsip.go.id 202.10.51.241
 - IP-CIDR,202.46.92.237/32 #api-ioffice.air.id 202.46.92.237
+- IP-CIDR,202.70.136.77/32 #renbut.kemkes.go.id
 - IP-CIDR,202.70.136.0/24 #kemkes.go.id 202.70.136.4 #promkes.kemkes.go.id 202.70.136.64 #komdatkesmas.kemkes.go.id 202.70.136.87
 - IP-CIDR,202.152.8.38/32 #seruyankab.krisna.systems 202.152.8.38
 - IP-CIDR,114.5.121.195/32 #sso.krisna.men 114.5.121.195
