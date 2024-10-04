@@ -84,7 +84,7 @@ payload:
 - IP-CIDR,104.18.43.252/32 #
 - IP-CIDR,104.18.43.252/32 # gede.ciam.xlaxiata.co.id
 - IP-CIDR,172.64.144.4/32 #
-- IP-CIDR,199.232.89.230/32 #xlaxiata-resources.digital-cloud-sin1.medallia.com
+- IP-CIDR,199.232.0.0/16 #xlaxiata-resources.digital-cloud-sin1.medallia.com
 - IP-CIDR,147.75.176.16/32 #xlaxiata2.md-apis.medallia.com
 
 - IP-CIDR,182.0.188.0/16 #api.byu.id api.dctc.byu.id:443 tbs-cmsbt.byu.id:443	 182.0.188.12
