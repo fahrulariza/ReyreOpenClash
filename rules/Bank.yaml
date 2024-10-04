@@ -15,51 +15,51 @@ payload:
 - DOMAIN-SUFFIX,browser-intake-datadoghq.eu
 
 # ------------https://dnschecker.org/ A
-- IP-CIDR,103.102.146.0/16 #simpeg.id 103.102.146.229
-- IP-CIDR,23.101.28.0/16 #bpjs-kesehatan.go.id 23.101.28.35
-- IP-CIDR,35.219.81.0/16 #prd-portal-nakes-api.dto.kemkes.go.id 35.219.81.123
-- IP-CIDR,35.219.2.0/16 #api.kemkes.go.id 35.219.2.191
-- IP-CIDR,103.18.117.0/16 #seruyankab.go.id 103.18.117.9
-- IP-CIDR,103.170.105.0/16 #diskominfo.seruyankab.go.id 103.170.105.44
-- IP-CIDR,203.123.60.0/16 #seruyankab.bps.go.id/id 203.123.60.124
-- IP-CIDR,162.159.140.0/16 #lpse.seruyankab.go.id 162.159.140.153
-- IP-CIDR,103.170.104.132 #bkn.go.id 103.170.104.132
+- IP-CIDR,103.102.146.229/32 #simpeg.id 103.102.146.229
+- IP-CIDR,23.101.28.35/32 #bpjs-kesehatan.go.id 23.101.28.35
+- IP-CIDR,35.219.81.123/32 #prd-portal-nakes-api.dto.kemkes.go.id 35.219.81.123
+- IP-CIDR,35.219.2.191/32 #api.kemkes.go.id 35.219.2.191
+- IP-CIDR,103.18.117.9/32 #seruyankab.go.id 103.18.117.9
+- IP-CIDR,103.170.105.44/32 #diskominfo.seruyankab.go.id 103.170.105.44
+- IP-CIDR,203.123.60.124/32 #seruyankab.bps.go.id/id 203.123.60.124
+- IP-CIDR,162.159.140.153/32 #lpse.seruyankab.go.id 162.159.140.153
+- IP-CIDR,103.170.104.132/32 #bkn.go.id 103.170.104.132
 
 #satusehat.kemkes.go.id 35.219.78.85
-- IP-CIDR,35.219.101.0/16 #asik-webview.kemkes.go.id
-- IP-CIDR,36.66.30.0/16 #pcarejkn.bpjs-kesehatan.go.id 36.66.30.115
-- IP-CIDR,36.67.50.0/24 #rekon-pemda.bpjs-kesehatan.go.id 36.67.50.103
-- IP-CIDR,36.67.189.0/16 # antrean.bpjs-kesehatan.go.id 36.67.189.254
-- IP-CIDR,103.28.106.0/16 #djponline.pajak.go.id 103.28.106.147
-- IP-CIDR,103.72.110.0/16 #static.pajak.go.id 103.72.110.25
+- IP-CIDR,35.219.101.93/32 #asik-webview.kemkes.go.id
+- IP-CIDR,36.66.30.115/32 #pcarejkn.bpjs-kesehatan.go.id 36.66.30.115
+- IP-CIDR,36.67.50.103/24 #rekon-pemda.bpjs-kesehatan.go.id 36.67.50.103
+- IP-CIDR,36.67.189.254/32 # antrean.bpjs-kesehatan.go.id 36.67.189.254
+- IP-CIDR,103.28.106.147/32 #djponline.pajak.go.id 103.28.106.147
+- IP-CIDR,103.72.110.25/32 #static.pajak.go.id 103.72.110.25
 - IP-CIDR,103.74.143.0/24 #ekohort.kemkes.go.id 103.74.143.176 #simkeswa.kemkes.go.id 103.74.143.129 #repository.kemkes.go.id 103.74.143.33 link.kemkes.go.id 103.74.143.76
-- IP-CIDR,202.70.136.0/16 #kemkes.go.id 202.70.136.4
-- IP-CIDR,103.89.250.0/16 #kinerja.bkn.go.id 103.89.250.73
-- IP-CIDR,103.94.6.0/16 #ioffice.air.id 103.94.6.58:443
-- IP-CIDR,103.170.104.0/16 #e-renggar-boksalur.kemkes.go.id 103.170.104.246
-- IP-CIDR,103.170.105.0/16 # ekinerja.seruyankab.go.id 103.170.105.44
-- IP-CIDR,104.21.24.0/16 #sikelimkemkes.id 104.21.24.213
-- IP-CIDR,172.67.220.0/16 #sikelimkemkes.id 172.67.220.209
-- IP-CIDR,108.137.144.0/16 #sigiziterpadu.kemkes.go.id 108.137.144.184
-- IP-CIDR,108.137.29.0/16 #sigiziterpadu.kemkes.go.id 108.137.29.93
-- IP-CIDR,182.23.161.0/16 #kalimantan.sitb.id 182.23.161.86
-- IP-CIDR,202.10.51.0/16 #srikandi.arsip.go.id 202.10.51.241
-- IP-CIDR,202.46.92.0/16 #api-ioffice.air.id 202.46.92.237
-- IP-CIDR,202.70.136.0/16 #kemkes.go.id 202.70.136.4 #promkes.kemkes.go.id 202.70.136.64 #komdatkesmas.kemkes.go.id 202.70.136.87
-- IP-CIDR,202.152.8.0/16 #seruyankab.krisna.systems 202.152.8.38
-- IP-CIDR,114.5.121.0/16 #sso.krisna.men 114.5.121.195
-- IP-CIDR,223.27.150.0/16 #webskrining.bpjs-kesehatan.go.id 223.27.150.159 223.27.150.163 #pcarejkn.bpjs-kesehatan.go.id 223.27.150.159
+- IP-CIDR,202.70.136.4/32 #kemkes.go.id 202.70.136.4
+- IP-CIDR,103.89.250.73/32 #kinerja.bkn.go.id 103.89.250.73
+- IP-CIDR,103.94.6.58/32 #ioffice.air.id 103.94.6.58:443
+- IP-CIDR,103.170.104.246/32 #e-renggar-boksalur.kemkes.go.id 103.170.104.246
+- IP-CIDR,103.170.105.44/32 # ekinerja.seruyankab.go.id 103.170.105.44
+- IP-CIDR,104.21.24.213/32 #sikelimkemkes.id 104.21.24.213
+- IP-CIDR,172.67.220.209/32 #sikelimkemkes.id 172.67.220.209
+- IP-CIDR,108.137.144.184/32 #sigiziterpadu.kemkes.go.id 108.137.144.184
+- IP-CIDR,108.137.29.93/32 #sigiziterpadu.kemkes.go.id 108.137.29.93
+- IP-CIDR,182.23.161.86/32 #kalimantan.sitb.id 182.23.161.86
+- IP-CIDR,202.10.51.241/32 #srikandi.arsip.go.id 202.10.51.241
+- IP-CIDR,202.46.92.237/32 #api-ioffice.air.id 202.46.92.237
+- IP-CIDR,202.70.136.0/24 #kemkes.go.id 202.70.136.4 #promkes.kemkes.go.id 202.70.136.64 #komdatkesmas.kemkes.go.id 202.70.136.87
+- IP-CIDR,202.152.8.38/32 #seruyankab.krisna.systems 202.152.8.38
+- IP-CIDR,114.5.121.195/32 #sso.krisna.men 114.5.121.195
+- IP-CIDR,223.27.150.0/24 #webskrining.bpjs-kesehatan.go.id 223.27.150.159 223.27.150.163 #pcarejkn.bpjs-kesehatan.go.id 223.27.150.159
 
 
-- IP-CIDR,147.139.163.0/16 #dana.id 147.139.163.15
+- IP-CIDR,147.139.163.15/32 #dana.id 147.139.163.15
 
 
 - IP-CIDR,43.255.0.0/16 #telkomsel 43.255.199.21 43.255.196.45 43.255.199.21
-- IP-CIDR,108.136.67.193 #tdw.telkomsel.com
-- IP-CIDR,43.218.230.222 #tdw.telkomsel.com
+- IP-CIDR,108.136.67.193/32 #tdw.telkomsel.com
+- IP-CIDR,43.218.230.222/32 #tdw.telkomsel.com
 - IP-CIDR,3.162.38.0/24 #tdwcontent.telkomsel.com 3.162.38.75 3.162.38.25 3.162.38.74
-- IP-CIDR,172.67.169.0/16 #minigames.mytsel.id 172.67.169.169
-- IP-CIDR,104.21.0.0/16 #minigames.mytsel.id 104.21.47.5
+- IP-CIDR,172.67.169.0/24 #minigames.mytsel.id 172.67.169.169
+- IP-CIDR,104.21.47.0/24 #minigames.mytsel.id 104.21.47.5
 
 - IP-CIDR,172.64.0.0/16 #api.myxl.xlaxiata.co.id.cdn.cloudflare.net
 - IP-CIDR,104.18.0.0/16 #api.myxl.xlaxiata.co.id.cdn.cloudflare.net
