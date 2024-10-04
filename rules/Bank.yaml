@@ -25,6 +25,7 @@ payload:
 - IP-CIDR,103.170.104.132 #bkn.go.id 103.170.104.132
 
 #satusehat.kemkes.go.id 35.219.78.85
+- IP-CIDR,35.219.101.0/16 #asik-webview.kemkes.go.id
 - IP-CIDR,36.66.30.0/16 #pcarejkn.bpjs-kesehatan.go.id 36.66.30.115
 - IP-CIDR,36.67.50.0/16 #rekon-pemda.bpjs-kesehatan.go.id 36.67.50.103
 - IP-CIDR,36.67.189.0/16 # antrean.bpjs-kesehatan.go.id 36.67.189.254
