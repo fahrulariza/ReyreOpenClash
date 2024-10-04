@@ -49,6 +49,7 @@ payload:
 - IP-CIDR,202.152.8.38/32 #seruyankab.krisna.systems 202.152.8.38
 - IP-CIDR,114.5.121.195/32 #sso.krisna.men 114.5.121.195
 - IP-CIDR,223.27.150.0/24 #webskrining.bpjs-kesehatan.go.id 223.27.150.159 223.27.150.163 #pcarejkn.bpjs-kesehatan.go.id 223.27.150.159
+- IP-CIDR,223.27.150.141/32 #faskes.bpjs-kesehatan.go.id
 
 
 - IP-CIDR,147.139.163.15/32 #dana.id 147.139.163.15
