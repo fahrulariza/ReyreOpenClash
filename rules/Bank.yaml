@@ -32,7 +32,7 @@ payload:
 - IP-CIDR,36.67.189.254/32 # antrean.bpjs-kesehatan.go.id 36.67.189.254
 - IP-CIDR,103.28.106.147/32 #djponline.pajak.go.id 103.28.106.147
 - IP-CIDR,103.72.110.25/32 #static.pajak.go.id 103.72.110.25
-- IP-CIDR,103.74.143.0/24 #ekohort.kemkes.go.id 103.74.143.176 #simkeswa.kemkes.go.id 103.74.143.129 #repository.kemkes.go.id 103.74.143.33 link.kemkes.go.id 103.74.143.76
+- IP-CIDR,103.74.143.0/24 #ekohort.kemkes.go.id 103.74.143.176 #simkeswa.kemkes.go.id 103.74.143.129 / repository.kemkes.go.id 103.74.143.33 / link.kemkes.go.id 103.74.143.76 / silantor.kemkes.go.id 103.74.143.142
 - IP-CIDR,202.70.136.4/32 #kemkes.go.id 202.70.136.4
 - IP-CIDR,103.89.250.73/32 #kinerja.bkn.go.id 103.89.250.73
 - IP-CIDR,103.94.6.58/32 #ioffice.air.id 103.94.6.58:443
@@ -46,10 +46,10 @@ payload:
 - IP-CIDR,202.10.51.241/32 #srikandi.arsip.go.id 202.10.51.241
 - IP-CIDR,202.46.92.237/32 #api-ioffice.air.id 202.46.92.237
 - IP-CIDR,202.70.136.77/32 #renbut.kemkes.go.id
-- IP-CIDR,202.70.136.0/24 #kemkes.go.id 202.70.136.4 #promkes.kemkes.go.id 202.70.136.64 #komdatkesmas.kemkes.go.id 202.70.136.87
+- IP-CIDR,202.70.136.0/24 #kemkes.go.id 202.70.136.4 / promkes.kemkes.go.id 202.70.136.64 / komdatkesmas.kemkes.go.id 202.70.136.87
 - IP-CIDR,202.152.8.38/32 #seruyankab.krisna.systems 202.152.8.38
 - IP-CIDR,114.5.121.195/32 #sso.krisna.men 114.5.121.195
-- IP-CIDR,223.27.150.0/24 #webskrining.bpjs-kesehatan.go.id 223.27.150.159 223.27.150.163 #pcarejkn.bpjs-kesehatan.go.id 223.27.150.159
+- IP-CIDR,223.27.150.0/24 #webskrining.bpjs-kesehatan.go.id 223.27.150.159 223.27.150.163 / pcarejkn.bpjs-kesehatan.go.id 223.27.150.159
 - IP-CIDR,223.27.150.141/32 #faskes.bpjs-kesehatan.go.id
 
 
