@@ -154,6 +154,7 @@ payload:
   - DOMAIN-SUFFIX,ibytedtos.com
   - DOMAIN-SUFFIX,tiktok.com
   - DOMAIN-SUFFIX,tik-tokapi.com
+  - DOMAIN-SUFFIX,tiktokcdn.com
   - DOMAIN-KEYWORD,tiktokcdn.com
   - DOMAIN-KEYWORD,tiktokv.com
   - DOMAIN-KEYWORD,-tiktokcdn-com
