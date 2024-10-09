@@ -54,7 +54,17 @@ payload:
 
 
 - IP-CIDR,147.139.163.15/32 #dana.id 147.139.163.15
-- IP-CIDR,140.213.50.0/24 #dana.id a.m.dana.id mgs-gw.m.dana.id
+- IP-CIDR,23.47.190.113/32 #a.m.dana.id
+- IP-CIDR,23.47.190.115/32 #a.m.dana.id
+- IP-CIDR,23.47.190.112/32 # mgs-gw.m.dana.id
+- IP-CIDR,23.47.190.131/32 # mgs-gw.m.dana.id
+- IP-CIDR,23.47.190.123/32 # mgs-gw.m.dana.id
+- IP-CIDR,23.47.190.122/32 # mgs-gw.m.dana.id
+- IP-CIDR,23.47.190.120/32 # mgs-gw.m.dana.id
+- IP-CIDR,23.47.190.104/32 # mgs-gw.m.dana.id
+- IP-CIDR,23.47.190.90/32 # mgs-gw.m.dana.id
+- IP-CIDR,23.47.190.115/32 # mgs-gw.m.dana.id
+- IP-CIDR,23.47.190.105/32 # mgs-gw.m.dana.id
 - IP-CIDR,47.235.21.35/32 #dana.id
 - IP-CIDR,47.235.21.45/32 #gw-dana.ebuckler.com
 - IP-CIDR,47.235.24.194/32 #gw-dana.ebuckler.com
