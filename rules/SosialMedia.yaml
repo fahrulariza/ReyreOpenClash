@@ -186,9 +186,10 @@ payload:
   - DOMAIN,p16-tiktokcdn-com.akamaized.net
   #- PROCESS-NAME,com.zhiliaoapp.musically
   - DOMAIN-SUFFIX,v19.tiktokcdn.com
-- IP-CIDR,199.232.46.73/32 #v16m.tiktokcdn.com
-- IP-CIDR,23.57.90.100/32 #v16m.tiktokcdn.com
-- IP-CIDR,23.57.90.108/32 #v16m.tiktokcdn.com
+  - IP-CIDR,199.232.90.73/32 # v19.tiktokcdn.com
+  - IP-CIDR,199.232.46.73/32 #v16m.tiktokcdn.com
+  - IP-CIDR,23.57.90.100/32 #v16m.tiktokcdn.com
+  - IP-CIDR,23.57.90.108/32 #v16m.tiktokcdn.com
 
 
 - IP-CIDR,23.206.172.10/32 #api16-normal-c-useast1a.tiktokv.com
