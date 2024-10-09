@@ -69,7 +69,6 @@ payload:
 - IP-CIDR,47.235.21.45/32 #gw-dana.ebuckler.com
 - IP-CIDR,47.235.24.194/32 #gw-dana.ebuckler.com
 - IP-CIDR,47.235.24.195/32 #gw-dana.ebuckler.com
-- IP-CIDR,140.213.62.0/24 #m.dana.id
 - IP-CIDR,35.201.110.144/32 #dana.threatcast.guardsquare.com 35.201.110.144
 - IP-CIDR,23.33.40.0/24 #m.dana.id 23.33.40.152 23.33.40.135
 
@@ -96,7 +95,7 @@ payload:
 - IP-CIDR,104.18.43.252/32 #
 - IP-CIDR,104.18.43.252/32 # gede.ciam.xlaxiata.co.id
 - IP-CIDR,172.64.144.4/32 #
-- IP-CIDR,199.232.0.0/16 #xlaxiata-resources.digital-cloud-sin1.medallia.com
+- IP-CIDR,199.232.37.230/32 #xlaxiata-resources.digital-cloud-sin1.medallia.com
 - IP-CIDR,147.75.176.16/32 #xlaxiata2.md-apis.medallia.com
 
 - IP-CIDR,182.0.188.0/16 #api.byu.id api.dctc.byu.id:443 tbs-cmsbt.byu.id:443	 182.0.188.12
