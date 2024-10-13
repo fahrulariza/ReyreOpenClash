@@ -105,6 +105,7 @@ payload:
 - IP-CIDR,104.26.4.10/32 # api.qiscus.com
 - IP-CIDR,172.67.73.39/32 # api.qiscus.com
 - IP-CIDR,104.26.5.10/32 # api.qiscus.com
+- IP-CIDR,43.218.13.133/32 #realtime-jawa.qiscus.com
 
 
 
