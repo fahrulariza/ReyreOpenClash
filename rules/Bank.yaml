@@ -106,8 +106,8 @@ payload:
 - IP-CIDR,172.67.73.39/32 # api.qiscus.com
 - IP-CIDR,104.26.5.10/32 # api.qiscus.com
 - IP-CIDR,43.218.13.133/32 #realtime-jawa.qiscus.com
-
-
+- IP-CIDR,34.36.107.201/32 #myim3asset.ioh.co.id
+- IP-CIDR,34.36.37.237/32 #myim3-he1.ioh.co.id
 
 - DOMAIN-SUFFIX,pcarejkn.bpjs-kesehatan.go.id
 - DOMAIN-SUFFIX,antrean.bpjs-kesehatan.go.id
