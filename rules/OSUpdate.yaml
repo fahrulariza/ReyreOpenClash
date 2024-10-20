@@ -85,7 +85,10 @@ payload:
   - DOMAIN-SUFFIX,client.wns.windows.com
   - DOMAIN-SUFFIX,windowsupdatebg.s.llnwi.net
   - DOMAIN-SUFFIX,ctldl.windowsupdate.com
-  - DOMAIN-SUFFIXfg.microsoft.map.fastly.net
+  - DOMAIN-SUFFIX,fg.microsoft.map.fastly.net
+  - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+  - DOMAIN-SUFFIX,delivery.mp.microsoft.com
+  - DOMAIN-SUFFIX,geover.prod.do.dsp.mp.microsoft.com
 
 #VIVO
   - DOMAIN-SUFFIX,vivoglobal.com
