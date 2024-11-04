@@ -114,4 +114,5 @@ payload:
   - DOMAIN-SUFFIX,mirror3.internetdownloadmanager.com
   - DOMAIN-SUFFIX,star.tonec.com
 
-  
+#auslgics  
+  - DOMAIN-SUFFIX,auslgics.com
