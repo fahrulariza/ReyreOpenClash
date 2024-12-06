@@ -65,13 +65,13 @@ payload:
 - DOMAIN-SUFFIX,okezone.com
 
 # Situs Populer di Indonesia
-- DOMAIN-SUFFIX,kompas.com,Proxy
-- DOMAIN-SUFFIX,detik.com,Proxy
-- DOMAIN-SUFFIX,liputan6.com,Proxy
-- DOMAIN-SUFFIX,tribunnews.com,Proxy
-- DOMAIN-SUFFIX,cnbcindonesia.com,Proxy
-- DOMAIN-SUFFIX,viva.co.id,Proxy
-- DOMAIN-SUFFIX,okezone.com,Proxy
+- DOMAIN-SUFFIX,kompas.com
+- DOMAIN-SUFFIX,detik.com
+- DOMAIN-SUFFIX,liputan6.com
+- DOMAIN-SUFFIX,tribunnews.com
+- DOMAIN-SUFFIX,cnbcindonesia.com
+- DOMAIN-SUFFIX,viva.co.id
+- DOMAIN-SUFFIX,okezone.com
 
 # E-Commerce
 - DOMAIN-SUFFIX,tokopedia.com
@@ -82,15 +82,15 @@ payload:
 - DOMAIN-SUFFIX,lazada.co.id
 
 # Pendidikan
-- DOMAIN-SUFFIX,kampusmerdeka.kemdikbud.go.id,Proxy
-- DOMAIN-SUFFIX,kemdikbud.go.id,Proxy
-- DOMAIN-SUFFIX,ugm.ac.id,Proxy
-- DOMAIN-SUFFIX,ui.ac.id,Proxy
-- DOMAIN-SUFFIX,itb.ac.id,Proxy
-- DOMAIN-SUFFIX,ipb.ac.id,Proxy
-- DOMAIN-SUFFIX,its.ac.id,Proxy
-- DOMAIN-SUFFIX,undip.ac.id,Proxy
-- DOMAIN-SUFFIX,unair.ac.id,Proxy
+- DOMAIN-SUFFIX,kampusmerdeka.kemdikbud.go.id
+- DOMAIN-SUFFIX,kemdikbud.go.id
+- DOMAIN-SUFFIX,ugm.ac.id
+- DOMAIN-SUFFIX,ui.ac.id
+- DOMAIN-SUFFIX,itb.ac.id
+- DOMAIN-SUFFIX,ipb.ac.id
+- DOMAIN-SUFFIX,its.ac.id
+- DOMAIN-SUFFIX,undip.ac.id
+- DOMAIN-SUFFIX,unair.ac.id
 
 #Bank
 - DOMAIN-SUFFIX,klikbca.com
