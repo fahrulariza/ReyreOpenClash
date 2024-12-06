@@ -17,6 +17,7 @@ payload:
   - DOMAIN-SUFFIX,speed.dler.io
   - DOMAIN-SUFFIX,openspeedtest.com
   - DOMAIN-SUFFIX,cachefly.net
+  - DOMAIN-SUFFIX,napi.speedtest.net
   - DOMAIN-KEYWORD,speedtest
   - DOMAIN-KEYWORD,speedtestcustom
   - DOMAIN-KEYWORD,openspeedtest
