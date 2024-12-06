@@ -22,13 +22,14 @@ payload:
 - DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
 - DOMAIN-KEYWORD,bstar
 - DOMAIN-KEYWORD,bilibili
+
 # &gt; Wiz smartgateway philips
 - DOMAIN-SUFFIX,wiz.world
 - DOMAIN,wizconnected.helpshift.com
 - DOMAIN-KEYWORD,wiz
 
 # &gt; LIST Domain tLD Indo & GEOIP INDO
-- DOMAIN-KEYWORD,id
+- DOMAIN-KEYWORD,.id
 - DOMAIN-KEYWORD,co.id
 - DOMAIN-KEYWORD,ac.id
 - DOMAIN-KEYWORD,or.id
@@ -42,3 +43,73 @@ payload:
 - DOMAIN-KEYWORD,desa.id
 - DOMAIN-KEYWORD,ponpes.id
 
+# Pemerintah
+- DOMAIN-SUFFIX,kemlu.go.id
+- DOMAIN-SUFFIX,polri.go.id
+- DOMAIN-SUFFIX,,ma.go.id
+- DOMAIN-SUFFIX,bi.go.id
+- DOMAIN-SUFFIX,pertanian.go.id
+- DOMAIN-SUFFIX,keuangan.go.id
+- DOMAIN-SUFFIX,pu.go.id
+- DOMAIN-SUFFIX,esdm.go.id
+- DOMAIN-SUFFIX,kemenag.go.id
+- DOMAIN-SUFFIX,setneg.go.id
+
+# Media
+- DOMAIN-SUFFIX,kompas.com
+- DOMAIN-SUFFIX,detik.com
+- DOMAIN-SUFFIX,liputan6.com
+- DOMAIN-SUFFIX,tribunnews.com
+- DOMAIN-SUFFIX,cnbcindonesia.com
+- DOMAIN-SUFFIX,viva.co.id
+- DOMAIN-SUFFIX,okezone.com
+
+# Situs Populer di Indonesia
+- DOMAIN-SUFFIX,kompas.com,Proxy
+- DOMAIN-SUFFIX,detik.com,Proxy
+- DOMAIN-SUFFIX,liputan6.com,Proxy
+- DOMAIN-SUFFIX,tribunnews.com,Proxy
+- DOMAIN-SUFFIX,cnbcindonesia.com,Proxy
+- DOMAIN-SUFFIX,viva.co.id,Proxy
+- DOMAIN-SUFFIX,okezone.com,Proxy
+
+# E-Commerce
+- DOMAIN-SUFFIX,tokopedia.com
+- DOMAIN-SUFFIX,shopee.co.id
+- DOMAIN-SUFFIX,blibli.com
+- DOMAIN-SUFFIX,elevenia.co.id
+- DOMAIN-SUFFIX,bukalapak.com
+- DOMAIN-SUFFIX,lazada.co.id
+
+# Pendidikan
+- DOMAIN-SUFFIX,kampusmerdeka.kemdikbud.go.id,Proxy
+- DOMAIN-SUFFIX,kemdikbud.go.id,Proxy
+- DOMAIN-SUFFIX,ugm.ac.id,Proxy
+- DOMAIN-SUFFIX,ui.ac.id,Proxy
+- DOMAIN-SUFFIX,itb.ac.id,Proxy
+- DOMAIN-SUFFIX,ipb.ac.id,Proxy
+- DOMAIN-SUFFIX,its.ac.id,Proxy
+- DOMAIN-SUFFIX,undip.ac.id,Proxy
+- DOMAIN-SUFFIX,unair.ac.id,Proxy
+
+#Bank
+- DOMAIN-SUFFIX,klikbca.com
+- DOMAIN-SUFFIX,brimo.id
+- DOMAIN-SUFFIX,alfacart.com
+- DOMAIN-SUFFIX,indomaret.co.id
+- DOMAIN-SUFFIX,traveloka.com
+- DOMAIN-SUFFIX,tiket.com
+- DOMAIN-SUFFIX,grapari.com
+- DOMAIN-SUFFIX,pln.co.id
+- DOMAIN-SUFFIX,pdam.co.id
+- DOMAIN-SUFFIX,pertamina.com
+
+# Bank & Keuangan
+- DOMAIN-SUFFIX,bri.co.id
+- DOMAIN-SUFFIX,bankmandiri.co.id
+- DOMAIN-SUFFIX,bca.co.id
+- DOMAIN-SUFFIX,btn.co.id
+- DOMAIN-SUFFIX,bni.co.id
+- DOMAIN-SUFFIX,ovo.id
+- DOMAIN-SUFFIX,gopay.co.id
+- DOMAIN-SUFFIX,dana.id
