@@ -7,7 +7,6 @@ payload:
 - DOMAIN-SUFFIX,klikhost.com
 - DOMAIN-SUFFIX,u.klikhost.com
 
-
 # &gt; BILIBILI COMMICS
 - DOMAIN-SUFFIX,bilibilicomics.com
 - DOMAIN-SUFFIX,bilibili.com
@@ -73,7 +72,6 @@ payload:
 - DOMAIN-SUFFIX,viva.co.id
 - DOMAIN-SUFFIX,okezone.com
 
-
 # Pendidikan
 - DOMAIN-SUFFIX,kampusmerdeka.kemdikbud.go.id
 - DOMAIN-SUFFIX,kemdikbud.go.id
@@ -84,17 +82,4 @@ payload:
 - DOMAIN-SUFFIX,its.ac.id
 - DOMAIN-SUFFIX,undip.ac.id
 - DOMAIN-SUFFIX,unair.ac.id
-
-#Bank
-- DOMAIN-SUFFIX,klikbca.com
-- DOMAIN-SUFFIX,brimo.id
-- DOMAIN-SUFFIX,alfacart.com
-- DOMAIN-SUFFIX,indomaret.co.id
-- DOMAIN-SUFFIX,traveloka.com
-- DOMAIN-SUFFIX,tiket.com
-- DOMAIN-SUFFIX,grapari.com
-- DOMAIN-SUFFIX,pln.co.id
-- DOMAIN-SUFFIX,pdam.co.id
-- DOMAIN-SUFFIX,pertamina.com
-
 
