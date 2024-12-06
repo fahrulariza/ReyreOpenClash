@@ -27,5 +27,6 @@ payload:
   - DOMAIN-KEYWORD,speedtest
   - DOMAIN-KEYWORD,speedtestcustom
   - DOMAIN-KEYWORD,openspeedtest
+  - DOMAIN-KEYWORD,speedtest.starhub
   - DST-PORT,8080
 
