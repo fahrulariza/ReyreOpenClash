@@ -97,12 +97,4 @@ payload:
 - DOMAIN-SUFFIX,pdam.co.id
 - DOMAIN-SUFFIX,pertamina.com
 
-# Bank & Keuangan
-- DOMAIN-SUFFIX,bri.co.id
-- DOMAIN-SUFFIX,bankmandiri.co.id
-- DOMAIN-SUFFIX,bca.co.id
-- DOMAIN-SUFFIX,btn.co.id
-- DOMAIN-SUFFIX,bni.co.id
-- DOMAIN-SUFFIX,ovo.id
-- DOMAIN-SUFFIX,gopay.co.id
-- DOMAIN-SUFFIX,dana.id
+
