@@ -1,196 +1,166 @@
 payload:
-  - DOMAIN-KEYWORD,pinterest
-  - DOMAIN-KEYWORD,helo
-  - DOMAIN-KEYWORD,snackvideo
-# > Badoo
-  - DOMAIN-SUFFIX,badoo.app
-  - DOMAIN-SUFFIX,badoo.com
-  - DOMAIN-SUFFIX,badoo.com.ru
-  - DOMAIN-SUFFIX,badoocdn.com
-  - DOMAIN-SUFFIX,bumble.com
-# > Bitmoji
-  - DOMAIN-SUFFIX,bitmoji.com
-# > Douyin
-  - DOMAIN-SUFFIX,douyin.com
-  - DOMAIN-SUFFIX,douyincdn.com
-  - DOMAIN-SUFFIX,douyincdn.com.c.bytefcdn.com
-  - DOMAIN-SUFFIX,douyincdn.com.tcdnlive.com
-  - DOMAIN-SUFFIX,douyinpic.com
-  - DOMAIN-SUFFIX,douyinstatic.com
-  - DOMAIN-SUFFIX,douyinvod.com
-  - DOMAIN-SUFFIX,lf6-douyin-ckv-tos.pstatp.com
+- DOMAIN-KEYWORD,snackvideo
   
 # > Facebook
-  - DOMAIN-SUFFIX,accountkit.com
-  - DOMAIN-SUFFIX,atdmt.com
-  - DOMAIN-SUFFIX,atlassolutions.com
-  - DOMAIN-SUFFIX,facebook-dns.com
-  - DOMAIN-SUFFIX,facebook-hardware.com
-  - DOMAIN-SUFFIX,facebook.com
-  - DOMAIN-SUFFIX,facebook.net
-  - DOMAIN-SUFFIX,facebookmail.com
-  - DOMAIN-SUFFIX,fb.com
-  - DOMAIN-SUFFIX,fb.gg
-  - DOMAIN-SUFFIX,fb.watch
-  - DOMAIN-SUFFIX,fbcdn.net
-  - DOMAIN-SUFFIX,fbe2e.com
-  - DOMAIN-SUFFIX,fbinfra.net
-  - DOMAIN-SUFFIX,fbpigeon.com
-  - DOMAIN-SUFFIX,fbsbx.com
-  - DOMAIN-SUFFIX,fbwat.ch
-  - DOMAIN-SUFFIX,m-freeway.com
-  - DOMAIN-SUFFIX,parse.com
-  - DOMAIN-SUFFIX,wit.ai
-  - DOMAIN-SUFFIX,fna.fbcdn.net
-  - DOMAIN-KEYWORD,facebook
-  - DOMAIN-KEYWORD,fbcdn
+- DOMAIN-SUFFIX,accountkit.com
+- DOMAIN-SUFFIX,atdmt.com
+- DOMAIN-SUFFIX,atlassolutions.com
+- DOMAIN-SUFFIX,facebook-dns.com
+- DOMAIN-SUFFIX,facebook-hardware.com
+- DOMAIN-SUFFIX,facebook.com
+- DOMAIN-SUFFIX,facebook.net
+- DOMAIN-SUFFIX,facebookmail.com
+- DOMAIN-SUFFIX,fb.com
+- DOMAIN-SUFFIX,fb.gg
+- DOMAIN-SUFFIX,fb.watch
+- DOMAIN-SUFFIX,fbcdn.net
+- DOMAIN-SUFFIX,fbe2e.com
+- DOMAIN-SUFFIX,fbinfra.net
+- DOMAIN-SUFFIX,fbpigeon.com
+- DOMAIN-SUFFIX,fbsbx.com
+- DOMAIN-SUFFIX,fbwat.ch
+- DOMAIN-SUFFIX,m-freeway.com
+- DOMAIN-SUFFIX,parse.com
+- DOMAIN-SUFFIX,wit.ai
+- DOMAIN-SUFFIX,fna.fbcdn.net
+- DOMAIN-KEYWORD,facebook
+- DOMAIN-KEYWORD,fbcdn
  # Facebook
-  - DOMAIN-SUFFIX,messenger.com
-  - DOMAIN-SUFFIX,facebook.com
-  - DOMAIN-SUFFIX,facebook.net
-  - DOMAIN-SUFFIX,fb.com
-  - DOMAIN-SUFFIX,fb.me
-  - DOMAIN-SUFFIX,fbaddins.com
-  - DOMAIN-SUFFIX,fbcdn.net
-  - DOMAIN-SUFFIX,fbsbx.com
-  - DOMAIN-SUFFIX,fbworkmail.com
-  - DOMAIN-KEYWORD,.facebook.
-  - DOMAIN-SUFFIX,facebookmail.com
-  - IP-CIDR,157.240.0.0/16
-  - IP-CIDR,103.4.96.0/22
-  - IP-CIDR,129.134.0.0/17
-  - IP-CIDR,157.240.0.0/17
-  - IP-CIDR,173.252.64.0/19
-  - IP-CIDR,173.252.96.0/19
-  - IP-CIDR,179.60.192.0/22
-  - IP-CIDR,185.60.216.0/22
-  - IP-CIDR,204.15.20.0/22
-  - IP-CIDR,31.13.24.0/21
-  - IP-CIDR,31.13.64.0/18
-  - IP-CIDR,45.64.40.0/22
-  - IP-CIDR,66.220.144.0/20
-  - IP-CIDR,69.171.224.0/19
-  - IP-CIDR,69.63.176.0/20
-  - IP-CIDR,74.119.76.0/22  
+- DOMAIN-SUFFIX,messenger.com
+- DOMAIN-SUFFIX,facebook.com
+- DOMAIN-SUFFIX,facebook.net
+- DOMAIN-SUFFIX,fb.com
+- DOMAIN-SUFFIX,fb.me
+- DOMAIN-SUFFIX,fbaddins.com
+- DOMAIN-SUFFIX,fbcdn.net
+- DOMAIN-SUFFIX,fbsbx.com
+- DOMAIN-SUFFIX,fbworkmail.com
+- DOMAIN-KEYWORD,.facebook.
+- DOMAIN-SUFFIX,facebookmail.com
+- IP-CIDR,157.240.0.0/16
+- IP-CIDR,103.4.96.0/22
+- IP-CIDR,129.134.0.0/17
+- IP-CIDR,157.240.0.0/17
+- IP-CIDR,173.252.64.0/19
+- IP-CIDR,173.252.96.0/19
+- IP-CIDR,179.60.192.0/22
+- IP-CIDR,185.60.216.0/22
+- IP-CIDR,204.15.20.0/22
+- IP-CIDR,31.13.24.0/21
+- IP-CIDR,31.13.64.0/18
+- IP-CIDR,45.64.40.0/22
+- IP-CIDR,66.220.144.0/20
+- IP-CIDR,69.171.224.0/19
+- IP-CIDR,69.63.176.0/20
+- IP-CIDR,74.119.76.0/22  
 # > Facebook IP-CIDR
-  - IP-CIDR,103.4.96.0/22
-  - IP-CIDR,108.168.176.192/26
-  - IP-CIDR,108.168.177.0/27
-  - IP-CIDR,108.168.180.96/27
-  - IP-CIDR,108.168.254.65/32
-  - IP-CIDR,108.168.255.224/32
-  - IP-CIDR,108.168.255.227/32
-  - IP-CIDR,108.177.8.0/21
-  - IP-CIDR,119.235.224.0/24
-  - IP-CIDR,119.235.232.0/24
-  - IP-CIDR,119.235.236.0/23
-  - IP-CIDR,129.134.0.0/17
-  - IP-CIDR,157.240.0.0/17
-  - IP-CIDR,169.45.248.118/32
-  - IP-CIDR,173.252.64.0/18
-  - IP-CIDR,179.60.192.0/22
-  - IP-CIDR,185.60.216.0/22
-  - IP-CIDR,185.89.218.0/23
-  - IP-CIDR,204.15.20.0/22
-  - IP-CIDR,3.123.36.126/32
-  - IP-CIDR,31.13.24.0/21
-  - IP-CIDR,31.13.64.0/18
-  - IP-CIDR,35.157.215.84/32
-  - IP-CIDR,35.157.217.255/32
-  - IP-CIDR,45.64.40.0/22
-  - IP-CIDR,52.58.209.134/32
-  - IP-CIDR,54.162.243.80/32
-  - IP-CIDR,54.173.34.141/32
-  - IP-CIDR,54.235.23.242/32
-  - IP-CIDR,54.93.124.31/32
-  - IP-CIDR,66.220.144.0/20
-  - IP-CIDR,69.171.224.0/19
-  - IP-CIDR,69.63.176.0/20
-  - IP-CIDR,74.119.76.0/22
-  - IP-CIDR,102.132.96.0/20
-  - IP-CIDR,129.134.160.0/24
-  - IP-CIDR,157.240.192.0/18
+- IP-CIDR,103.4.96.0/22
+- IP-CIDR,108.168.176.192/26
+- IP-CIDR,108.168.177.0/27
+- IP-CIDR,108.168.180.96/27
+- IP-CIDR,108.168.254.65/32
+- IP-CIDR,108.168.255.224/32
+- IP-CIDR,108.168.255.227/32
+- IP-CIDR,108.177.8.0/21
+- IP-CIDR,119.235.224.0/24
+- IP-CIDR,119.235.232.0/24
+- IP-CIDR,119.235.236.0/23
+- IP-CIDR,129.134.0.0/17
+- IP-CIDR,157.240.0.0/17
+- IP-CIDR,169.45.248.118/32
+- IP-CIDR,173.252.64.0/18
+- IP-CIDR,179.60.192.0/22
+- IP-CIDR,185.60.216.0/22
+- IP-CIDR,185.89.218.0/23
+- IP-CIDR,204.15.20.0/22
+- IP-CIDR,3.123.36.126/32
+- IP-CIDR,31.13.24.0/21
+- IP-CIDR,31.13.64.0/18
+- IP-CIDR,35.157.215.84/32
+- IP-CIDR,35.157.217.255/32
+- IP-CIDR,45.64.40.0/22
+- IP-CIDR,52.58.209.134/32
+- IP-CIDR,54.162.243.80/32
+- IP-CIDR,54.173.34.141/32
+- IP-CIDR,54.235.23.242/32
+- IP-CIDR,54.93.124.31/32
+- IP-CIDR,66.220.144.0/20
+- IP-CIDR,69.171.224.0/19
+- IP-CIDR,69.63.176.0/20
+- IP-CIDR,74.119.76.0/22
+- IP-CIDR,102.132.96.0/20
+- IP-CIDR,129.134.160.0/24
+- IP-CIDR,157.240.192.0/18
   
-# > Flickr
-  - DOMAIN-SUFFIX,flic.kr
-  - DOMAIN-SUFFIX,flickr.com
-  - DOMAIN-SUFFIX,flickr.net
-  - DOMAIN-SUFFIX,flickrprints.com
-  - DOMAIN-SUFFIX,flickrpro.com
-  - DOMAIN-SUFFIX,staticflickr.com
-# > gravatar
-  - DOMAIN-SUFFIX,gravatar.com
-
   # MATCH is not necessary here, and it will be set under rules: inside config.yml
 
-
   # Telegram
-  - DOMAIN-SUFFIX,telegra.ph
-  - DOMAIN-SUFFIX,telegram.org
-  - DOMAIN-SUFFIX,t.me
-  - DOMAIN-SUFFIX,tdesktop.com
-  - DOMAIN-SUFFIX,telegram.me
-  - DOMAIN-SUFFIX,telesco.pe
-  - IP-CIDR,91.108.20.0/22
+- DOMAIN-SUFFIX,telegra.ph
+- DOMAIN-SUFFIX,telegram.org
+- DOMAIN-SUFFIX,t.me
+- DOMAIN-SUFFIX,tdesktop.com
+- DOMAIN-SUFFIX,telegram.me
+- DOMAIN-SUFFIX,telesco.pe
+- IP-CIDR,91.108.20.0/22
 
   #TelegramNL
-  - IP-CIDR,149.154.160.0/20
-  - IP-CIDR,91.108.4.0/22
-  - IP-CIDR,91.108.8.0/22
-  - IP-CIDR6,2001:67c:4e8::/48
-  - IP-CIDR6,2001:b28:f23c::/48  
+- IP-CIDR,149.154.160.0/20
+- IP-CIDR,91.108.4.0/22
+- IP-CIDR,91.108.8.0/22
+- IP-CIDR6,2001:67c:4e8::/48
+- IP-CIDR6,2001:b28:f23c::/48  
   #TelegramSG
-  - IP-CIDR,91.108.16.0/22
-  - IP-CIDR,91.108.56.0/22
-  - IP-CIDR6,2001:b28:f23f::/48
+- IP-CIDR,91.108.16.0/22
+- IP-CIDR,91.108.56.0/22
+- IP-CIDR6,2001:b28:f23f::/48
   #Telegram US
-  - IP-CIDR,91.108.12.0/22
-  - IP-CIDR6,2001:b28:f23d::/48
+- IP-CIDR,91.108.12.0/22
+- IP-CIDR6,2001:b28:f23d::/48
 
 # TikTok
 # Src: https://www.netify.ai/resources/applications/tiktok
-  - DOMAIN-KEYWORD,-tiktok.byteoversea.com
-  - DOMAIN-SUFFIX,byteoversea.net
-  - DOMAIN-SUFFIX,ibytedtos.com
-  - DOMAIN-SUFFIX,tiktok.com
-  - DOMAIN-SUFFIX,tik-tokapi.com
-  - DOMAIN-SUFFIX,tiktokcdn.com
-  - DOMAIN-KEYWORD,tiktokcdn.com
-  - DOMAIN-KEYWORD,tiktokv.com
-  - DOMAIN-KEYWORD,-tiktokcdn-com
-  - DOMAIN-KEYWORD,-tiktok.
-  - DOMAIN-KEYWORD,-tiktok-
-  - DOMAIN-KEYWORD,tiktok-
-  - DOMAIN-KEYWORD,tiktokcdn-
-  - DOMAIN-KEYWORD,tiktokcdn
-  - DOMAIN-KEYWORD,-tt.byteimg.com
-  - DOMAIN-KEYWORD,-tt-ipv6.byteimg.com
-  - DOMAIN-KEYWORD,-hs.pstatp.com
-  - DOMAIN-KEYWORD,-tos.pstatp.com
-  - DOMAIN-KEYWORD,-mus.pstatp.com
-  - DOMAIN-SUFFIX,flive.pstatp.com
-  - DOMAIN-SUFFIX,byteimg.com
-  - DOMAIN-SUFFIX,ibyteimg.com
-  - DOMAIN-SUFFIX,ipstatp.com
-  - DOMAIN-SUFFIX,sgpstatp.com
-  - DOMAIN-SUFFIX,snssdk.com
-  - DOMAIN-KEYWORD,tlivecdn.com
-  - DOMAIN-KEYWORD,ttlivecdn.com
-  - DOMAIN-SUFFIX,tiktokd.org
-  - DOMAIN-SUFFIX,ttoversea.net
-  - DOMAIN-SUFFIX,ttoverseaus.net
-  - DOMAIN-SUFFIX,sgsnssdk.com
-  - DOMAIN-SUFFIX,isnssdk.com
-  - DOMAIN-SUFFIX,muscdn.com
-  - DOMAIN-SUFFIX,musemuse.cn
-  - DOMAIN-SUFFIX,musical.ly
-  - DOMAIN,p16-tiktokcdn-com.akamaized.net
+- DOMAIN-KEYWORD,-tiktok.byteoversea.com
+- DOMAIN-SUFFIX,byteoversea.net
+- DOMAIN-SUFFIX,ibytedtos.com
+- DOMAIN-SUFFIX,tiktok.com
+- DOMAIN-SUFFIX,tik-tokapi.com
+- DOMAIN-SUFFIX,tiktokcdn.com
+- DOMAIN-KEYWORD,tiktokcdn.com
+- DOMAIN-KEYWORD,tiktokv.com
+- DOMAIN-KEYWORD,-tiktokcdn-com
+- DOMAIN-KEYWORD,-tiktok.
+- DOMAIN-KEYWORD,-tiktok-
+- DOMAIN-KEYWORD,tiktok-
+- DOMAIN-KEYWORD,tiktokcdn-
+- DOMAIN-KEYWORD,tiktokcdn
+- DOMAIN-KEYWORD,-tt.byteimg.com
+- DOMAIN-KEYWORD,-tt-ipv6.byteimg.com
+- DOMAIN-KEYWORD,-hs.pstatp.com
+- DOMAIN-KEYWORD,-tos.pstatp.com
+- DOMAIN-KEYWORD,-mus.pstatp.com
+- DOMAIN-SUFFIX,flive.pstatp.com
+- DOMAIN-SUFFIX,byteimg.com
+- DOMAIN-SUFFIX,ibyteimg.com
+- DOMAIN-SUFFIX,ipstatp.com
+- DOMAIN-SUFFIX,sgpstatp.com
+- DOMAIN-SUFFIX,snssdk.com
+- DOMAIN-KEYWORD,tlivecdn.com
+- DOMAIN-KEYWORD,ttlivecdn.com
+- DOMAIN-SUFFIX,tiktokd.org
+- DOMAIN-SUFFIX,ttoversea.net
+- DOMAIN-SUFFIX,ttoverseaus.net
+- DOMAIN-SUFFIX,sgsnssdk.com
+- DOMAIN-SUFFIX,isnssdk.com
+- DOMAIN-SUFFIX,muscdn.com
+- DOMAIN-SUFFIX,musemuse.cn
+- DOMAIN-SUFFIX,musical.ly
+- DOMAIN,p16-tiktokcdn-com.akamaized.net
   #- PROCESS-NAME,com.zhiliaoapp.musically
-  - DOMAIN-SUFFIX,v19.tiktokcdn.com
-  - IP-CIDR,199.232.90.73/32 # v19.tiktokcdn.com
-  - IP-CIDR,199.232.46.73/32 #v16m.tiktokcdn.com
-  - IP-CIDR,23.57.90.100/32 #v16m.tiktokcdn.com
-  - IP-CIDR,23.57.90.108/32 #v16m.tiktokcdn.com
+- DOMAIN-SUFFIX,v19.tiktokcdn.com
+- IP-CIDR,199.232.90.73/32 # v19.tiktokcdn.com
+- IP-CIDR,199.232.46.73/32 #v16m.tiktokcdn.com
+- IP-CIDR,23.57.90.100/32 #v16m.tiktokcdn.com
+- IP-CIDR,23.57.90.108/32 #v16m.tiktokcdn.com
 
 
 - IP-CIDR,23.206.172.10/32 #api16-normal-c-useast1a.tiktokv.com
@@ -204,80 +174,36 @@ payload:
 - IP-CIDR,23.206.172.13/32 #api16-normal-c-useast1a.tiktokv.com
 
 # Twitter
-  - DOMAIN-KEYWORD,twitter
-  - DOMAIN-KEYWORD,twimg
-  - DOMAIN-KEYWORD,twitpic
-  - DOMAIN-SUFFIX,pscp.tv
-  - DOMAIN-SUFFIX,periscope.tv
-  - DOMAIN-SUFFIX,t.co
-  - DOMAIN-SUFFIX,twimg.co
-  - DOMAIN-SUFFIX,twimg.com
-  - DOMAIN-SUFFIX,twitpic.com
-  - DOMAIN-SUFFIX,twitter.com
-  - DOMAIN-SUFFIX,vine.co
-  - DOMAIN-SUFFIX,ads-twitter.com
-  - DOMAIN-SUFFIX,tellapart.com
-  - DOMAIN-SUFFIX,tweetdeck.com
-  - DOMAIN-SUFFIX,twimg.org
-  - DOMAIN-SUFFIX,twitter.jp
-  - DOMAIN-SUFFIX,twitterinc.com
-  - DOMAIN-SUFFIX,twitteroauth.com
-  - DOMAIN-SUFFIX,twitterstat.us
-  - DOMAIN-SUFFIX,twtrdns.net
-  - DOMAIN-SUFFIX,twttr.com
-  - IP-CIDR,104.244.42.0/21
-  - IP-CIDR,192.133.76.0/22
-  - IP-CIDR,199.16.156.0/22
-  - IP-CIDR,199.59.148.0/22
-  - IP-CIDR,199.96.56.0/21
-  - IP-CIDR,202.160.128.0/22
-  - IP-CIDR,209.237.192.0/19
-  - IP-CIDR,69.195.160.0/19
+- DOMAIN-KEYWORD,twitter
+- DOMAIN-KEYWORD,twimg
+- DOMAIN-KEYWORD,twitpic
+- DOMAIN-SUFFIX,pscp.tv
+- DOMAIN-SUFFIX,periscope.tv
+- DOMAIN-SUFFIX,t.co
+- DOMAIN-SUFFIX,twimg.co
+- DOMAIN-SUFFIX,twimg.com
+- DOMAIN-SUFFIX,twitpic.com
+- DOMAIN-SUFFIX,twitter.com
+- DOMAIN-SUFFIX,vine.co
+- DOMAIN-SUFFIX,ads-twitter.com
+- DOMAIN-SUFFIX,tellapart.com
+- DOMAIN-SUFFIX,tweetdeck.com
+- DOMAIN-SUFFIX,twimg.org
+- DOMAIN-SUFFIX,twitter.jp
+- DOMAIN-SUFFIX,twitterinc.com
+- DOMAIN-SUFFIX,twitteroauth.com
+- DOMAIN-SUFFIX,twitterstat.us
+- DOMAIN-SUFFIX,twtrdns.net
+- DOMAIN-SUFFIX,twttr.com
+- IP-CIDR,104.244.42.0/21
+- IP-CIDR,192.133.76.0/22
+- IP-CIDR,199.16.156.0/22
+- IP-CIDR,199.59.148.0/22
+- IP-CIDR,199.96.56.0/21
+- IP-CIDR,202.160.128.0/22
+- IP-CIDR,209.237.192.0/19
+- IP-CIDR,69.195.160.0/19
 
-# > VK
-  - DOMAIN-SUFFIX,userapi.com
-  - DOMAIN-SUFFIX,vk-cdn.net
-  - DOMAIN-SUFFIX,vk-portal.net
-  - DOMAIN-SUFFIX,vk.com
-  - DOMAIN-SUFFIX,vkuser.net
-  - DOMAIN-SUFFIX,vkuseraudio.net
-  - DOMAIN-SUFFIX,vkuservideo.net
-# > Weibo
-  - DOMAIN-SUFFIX,weibo.cn
-  - DOMAIN-SUFFIX,weibo.com
-  - DOMAIN-SUFFIX,weibocdn.com
 
-# > Kwai
-  - DOMAIN-SUFFIX,kwai-pro.com
-  - DOMAIN-SUFFIX,kwai.com
-  - DOMAIN-SUFFIX,kwai.net
-  - DOMAIN-SUFFIX,kwaicdn.com
-# > Linkedin
-  - DOMAIN-SUFFIX,bizographics.com
-  - DOMAIN-SUFFIX,l-0005.dc-msedge.net
-  - DOMAIN-SUFFIX,l-0005.l-msedge.net
-  - DOMAIN-SUFFIX,licdn.cn
-  - DOMAIN-SUFFIX,licdn.com
-  - DOMAIN-SUFFIX,linkedin.at
-  - DOMAIN-SUFFIX,linkedin.com
-  - DOMAIN-SUFFIX,e9706.dscg.akamaiedge.net
-  - DOMAIN-SUFFIX,licdn.cn.cdn20.com
-  - DOMAIN-SUFFIX,linkedin.sc.omtrdc.net
 # > meta
-  - DOMAIN-SUFFIX,meta.com
-# > okcupid
-  - DOMAIN-SUFFIX,okcupid.com
-# > openweb
-  - DOMAIN-SUFFIX,openweb.com
-  - DOMAIN-SUFFIX,spot.im
-
-# > Tinder
-  - DOMAIN-SUFFIX,gotinder.com
-  - DOMAIN-SUFFIX,tinder.com
-  - DOMAIN-SUFFIX,tindersparks.com
-# > Tuenti
-  - DOMAIN-SUFFIX,tuenti.com
-
-  # Deezer
-  - DOMAIN-SUFFIX,deezer.com
-  - DOMAIN-SUFFIX,dzcdn.net
+- DOMAIN-SUFFIX,meta.com
