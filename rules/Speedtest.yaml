@@ -23,6 +23,7 @@ payload:
   - DOMAIN-SUFFIX,speedtest.cbn.id
   - DOMAIN-SUFFIX,speedtest.ctn.co.id
   - DOMAIN-SUFFIX,speedtest-jkt.centrenat.com
+  - DOMAIN-SUFFIX,co2dsvr03.speedtest.starhub.com
   - DOMAIN-KEYWORD,speedtest
   - DOMAIN-KEYWORD,speedtestcustom
   - DOMAIN-KEYWORD,openspeedtest
