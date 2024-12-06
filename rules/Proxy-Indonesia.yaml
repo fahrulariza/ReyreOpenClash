@@ -73,13 +73,6 @@ payload:
 - DOMAIN-SUFFIX,viva.co.id
 - DOMAIN-SUFFIX,okezone.com
 
-# E-Commerce
-- DOMAIN-SUFFIX,tokopedia.com
-- DOMAIN-SUFFIX,shopee.co.id
-- DOMAIN-SUFFIX,blibli.com
-- DOMAIN-SUFFIX,elevenia.co.id
-- DOMAIN-SUFFIX,bukalapak.com
-- DOMAIN-SUFFIX,lazada.co.id
 
 # Pendidikan
 - DOMAIN-SUFFIX,kampusmerdeka.kemdikbud.go.id
