@@ -141,6 +141,16 @@ payload:
   # Realme
   - DOMAIN-SUFFIX,otafsg1.realme.com
 
+  # Apple OS Update
+  - DOMAIN-SUFFIX,appldnld.apple.com,REJECT
+  - DOMAIN-SUFFIX,mesu.apple.com,REJECT
+  - DOMAIN-SUFFIX,oscdn.apple.com,REJECT
+  - DOMAIN-SUFFIX,updates.cdn-apple.com,REJECT
+  - DOMAIN-SUFFIX,iphonesoftwareupdates.apple.com,REJECT
+  - DOMAIN-SUFFIX,albert.apple.com,REJECT
+  - DOMAIN-SUFFIX,gs.apple.com,REJECT
+
+
 #VIVO
   - DOMAIN-SUFFIX,vivoglobal.com
 
