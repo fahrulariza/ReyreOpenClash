@@ -89,6 +89,12 @@ payload:
   - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
   - DOMAIN-SUFFIX,delivery.mp.microsoft.com
   - DOMAIN-SUFFIX,geover.prod.do.dsp.mp.microsoft.com
+  - DOMAIN-SUFFIX,ws.microsoft.com,REJECT
+  - DOMAIN-SUFFIX,au.windowsupdate.microsoft.com,REJECT
+  - DOMAIN-SUFFIX,sls.microsoft.com,REJECT
+  - DOMAIN-SUFFIX,fe2.update.microsoft.com,REJECT
+  - DOMAIN-SUFFIX,test.update.microsoft.com,REJECT
+
 
 #VIVO
   - DOMAIN-SUFFIX,vivoglobal.com
