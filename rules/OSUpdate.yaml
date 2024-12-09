@@ -89,12 +89,57 @@ payload:
   - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
   - DOMAIN-SUFFIX,delivery.mp.microsoft.com
   - DOMAIN-SUFFIX,geover.prod.do.dsp.mp.microsoft.com
-  - DOMAIN-SUFFIX,ws.microsoft.com,REJECT
-  - DOMAIN-SUFFIX,au.windowsupdate.microsoft.com,REJECT
-  - DOMAIN-SUFFIX,sls.microsoft.com,REJECT
-  - DOMAIN-SUFFIX,fe2.update.microsoft.com,REJECT
-  - DOMAIN-SUFFIX,test.update.microsoft.com,REJECT
+  - DOMAIN-SUFFIX,ws.microsoft.com
+  - DOMAIN-SUFFIX,au.windowsupdate.microsoft.com
+  - DOMAIN-SUFFIX,sls.microsoft.com
+  - DOMAIN-SUFFIX,fe2.update.microsoft.com
+  - DOMAIN-SUFFIX,test.update.microsoft.com
 
+  # Samsung
+  - DOMAIN-SUFFIX,fota-cloud-dn.ospserver.net
+  - DOMAIN-SUFFIX,fota-cloud-dn.ospserver.sec.samsung.com
+  - DOMAIN-SUFFIX,osb-appssec.samsungdm.com
+  - DOMAIN-SUFFIX,cloud-neofota.samsungdm.com
+
+  # Xiaomi
+  - DOMAIN-SUFFIX,api.ad.xiaomi.com
+  - DOMAIN-SUFFIX,api.updater.xiaomi.com
+  - DOMAIN-SUFFIX,fota4.miui.com
+  - DOMAIN-SUFFIX,bigota.d.miui.com
+
+  # Sony
+  - DOMAIN-SUFFIX,fus.sonymobile.com
+  - DOMAIN-SUFFIX,softwareupdate.sonymobile.com
+
+  # Huawei
+  - DOMAIN-SUFFIX,query.hicloud.com
+  - DOMAIN-SUFFIX,update.dbankcdn.com
+  - DOMAIN-SUFFIX,update.hicloud.com
+
+  # Oppo/Vivo
+  - DOMAIN-SUFFIX,otafsg.otacdn.com
+  - DOMAIN-SUFFIX,otafsg1.coloros.com
+  - DOMAIN-SUFFIX,fs-android-coloros.com
+  - DOMAIN-SUFFIX,osg.coloros.com
+
+  # OnePlus
+  - DOMAIN-SUFFIX,otafsg1.h2os.com
+  - DOMAIN-SUFFIX,otafsg1.oxygenos.com
+
+  # Asus
+  - DOMAIN-SUFFIX,fwupd.asus.com
+  - DOMAIN-SUFFIX,ota.asus.com
+
+  # Lenovo/Motorola
+  - DOMAIN-SUFFIX,rsdk.lenovo.com
+  - DOMAIN-SUFFIX,rsdk.mot.com
+
+  # Google Pixel
+  - DOMAIN-SUFFIX,ota.googlezip.net
+  - DOMAIN-SUFFIX,updates.googleapis.com
+
+  # Realme
+  - DOMAIN-SUFFIX,otafsg1.realme.com
 
 #VIVO
   - DOMAIN-SUFFIX,vivoglobal.com
@@ -104,7 +149,7 @@ payload:
   - DOMAIN-SUFFIX,ifota.coloros.com
 
 #REALME
-- DOMAIN-SUFFIX,realme.net
+  - DOMAIN-SUFFIX,realme.net
 
 #IDM
   - DOMAIN-SUFFIX,tonec.com
