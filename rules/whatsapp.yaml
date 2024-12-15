@@ -53,7 +53,9 @@ payload:
   - DOMAIN-SUFFIX,oculus.com
   - DOMAIN-SUFFIX,oculuscdn.com
   - DOMAIN-SUFFIX,rocksdb.org
-  - DST-PORT,3478
+
+  # Aturan port untuk VoIP WhatsApp
+  - DST-PORT,3478  # STUN server
   - DST-PORT,4244
   - DST-PORT,5222
   - DST-PORT,5223
@@ -68,6 +70,10 @@ payload:
   - DST-PORT,12222
   - DST-PORT,11112
   - DST-PORT,25566
+
+  # Port media dinamis untuk VoIP
+  - DST-PORT,50000-59999
+  - DST-PORT,443         # HTTPS fallback
 
    # Whatsapp
   - DST-PORT,40020
