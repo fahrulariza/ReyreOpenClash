@@ -7,8 +7,8 @@ payload:
 - IP-CIDR,172.67.169.0/24 #minigames.mytsel.id 172.67.169.169
 - IP-CIDR,104.21.47.0/24 #minigames.mytsel.id 104.21.47.5
 
-#- IP-CIDR,172.64.0.0/16 #api.myxl.xlaxiata.co.id.cdn.cloudflare.net
-#- IP-CIDR,104.18.0.0/16 #api.myxl.xlaxiata.co.id.cdn.cloudflare.net
+#- IP-CIDR,172.64.0.0/16 #api.myxl.xlaxiata.co.id.cdn.cloudflare.net >> chatgpt 192.168.1.121:61397	
+#- IP-CIDR,104.18.0.0/16 #api.myxl.xlaxiata.co.id.cdn.cloudflare.net >> chatgpt 192.168.1.121:61400	
 - IP-CIDR,104.22.59.170/32 # static-myxl.xlaxiata.id
 - IP-CIDR,104.22.58.170/32 #
 - IP-CIDR,172.67.36.169/32 #
