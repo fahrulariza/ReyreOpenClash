@@ -24,6 +24,11 @@ payload:
   - DOMAIN-SUFFIX,speedtest.ctn.co.id
   - DOMAIN-SUFFIX,speedtest-jkt.centrenat.com
   - DOMAIN-SUFFIX,co2dsvr03.speedtest.starhub.com
+  - DOMAIN-SUFFIX,speedtest.myrepublic.com
+  - DOMAIN-SUFFIX,speedtest.nexplus.id
+  - DOMAIN-SUFFIX,speedtest.smartfren.com
+  - DOMAIN-SUFFIX,speedtest-banjarmasin.iconpln.net.id
+  - DOMAIN-SUFFIX,banjarmasin.speedtest.telkom.net.id
   - DOMAIN-KEYWORD,speedtest
   - DOMAIN-KEYWORD,speedtestcustom
   - DOMAIN-KEYWORD,openspeedtest
