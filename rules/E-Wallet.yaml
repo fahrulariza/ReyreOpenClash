@@ -1,1 +1,44 @@
+payload:
 
+- IP-CIDR,147.139.163.15/32 #dana.id 147.139.163.15
+- IP-CIDR,23.47.190.113/32 #a.m.dana.id
+- IP-CIDR,23.47.190.115/32 #a.m.dana.id
+- IP-CIDR,23.47.190.112/32 # mgs-gw.m.dana.id
+- IP-CIDR,23.47.190.131/32 # mgs-gw.m.dana.id
+- IP-CIDR,23.47.190.123/32 # mgs-gw.m.dana.id
+- IP-CIDR,23.47.190.122/32 # mgs-gw.m.dana.id
+- IP-CIDR,23.47.190.120/32 # mgs-gw.m.dana.id
+- IP-CIDR,23.47.190.104/32 # mgs-gw.m.dana.id
+- IP-CIDR,23.47.190.90/32 # mgs-gw.m.dana.id
+- IP-CIDR,23.47.190.115/32 # mgs-gw.m.dana.id
+- IP-CIDR,23.47.190.105/32 # mgs-gw.m.dana.id
+- IP-CIDR,47.235.21.35/32 #dana.id
+- IP-CIDR,47.235.21.45/32 #gw-dana.ebuckler.com
+- IP-CIDR,47.235.24.194/32 #gw-dana.ebuckler.com
+- IP-CIDR,47.235.24.195/32 #gw-dana.ebuckler.com
+- IP-CIDR,35.201.110.144/32 #dana.threatcast.guardsquare.com 35.201.110.144
+- IP-CIDR,23.33.40.0/24 #m.dana.id 23.33.40.152 23.33.40.135
+
+# E-Wallet / Dompet Digital
+- DOMAIN-SUFFIX,gojek.com
+- DOMAIN-SUFFIX,gobiz.co.id
+- DOMAIN-SUFFIX,ovo.id
+- DOMAIN-SUFFIX,dana.id
+- DOMAIN-SUFFIX,linkaja.id
+- DOMAIN-SUFFIX,octoclicks.co.id
+- DOMAIN-SUFFIX,i-saku.com
+- DOMAIN-SUFFIX,doku.com
+- DOMAIN-SUFFIX,shopeepay.co.id
+- DOMAIN-SUFFIX,grab.com
+- DOMAIN-SUFFIX,grabtaxi.com
+- DOMAIN-KEYWORD,gojek
+- DOMAIN-KEYWORD,gobiz
+- DOMAIN-KEYWORD,ovo
+- DOMAIN-KEYWORD,dana
+- DOMAIN-KEYWORD,linkaja
+- DOMAIN-KEYWORD,octoclicks
+- DOMAIN-KEYWORD,i-saku
+- DOMAIN-KEYWORD,doku
+- DOMAIN-KEYWORD,shopeepay
+- DOMAIN-KEYWORD,grab
+- DOMAIN-KEYWORD,grabtaxi
