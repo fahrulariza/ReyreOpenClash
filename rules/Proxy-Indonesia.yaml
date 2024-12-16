@@ -1,7 +1,21 @@
 
 payload:
 # Mulai baris ini kebawah bisa di edit/hapus
-# &gt; LIST Streaming IP/Lokasi Wajib Indo
+
+# &gt; LIST Domain tLD Indo & GEOIP INDO
+- DOMAIN-KEYWORD,.id
+- DOMAIN-KEYWORD,co.id
+- DOMAIN-KEYWORD,ac.id
+- DOMAIN-KEYWORD,or.id
+- DOMAIN-KEYWORD,go.id
+- DOMAIN-KEYWORD,my.id
+- DOMAIN-KEYWORD,web.id
+- DOMAIN-KEYWORD,biz.id
+- DOMAIN-KEYWORD,net.id
+- DOMAIN-KEYWORD,mil.id
+- DOMAIN-KEYWORD,sch.id
+- DOMAIN-KEYWORD,desa.id
+- DOMAIN-KEYWORD,ponpes.id
 
 # &gt;
 - DOMAIN-SUFFIX,klikhost.com
@@ -26,21 +40,6 @@ payload:
 - DOMAIN-SUFFIX,wiz.world
 - DOMAIN,wizconnected.helpshift.com
 - DOMAIN-KEYWORD,wiz
-
-# &gt; LIST Domain tLD Indo & GEOIP INDO
-- DOMAIN-KEYWORD,.id
-- DOMAIN-KEYWORD,co.id
-- DOMAIN-KEYWORD,ac.id
-- DOMAIN-KEYWORD,or.id
-- DOMAIN-KEYWORD,go.id
-- DOMAIN-KEYWORD,my.id
-- DOMAIN-KEYWORD,web.id
-- DOMAIN-KEYWORD,biz.id
-- DOMAIN-KEYWORD,net.id
-- DOMAIN-KEYWORD,mil.id
-- DOMAIN-KEYWORD,sch.id
-- DOMAIN-KEYWORD,desa.id
-- DOMAIN-KEYWORD,ponpes.id
 
 # Pemerintah
 - DOMAIN-SUFFIX,kemlu.go.id
