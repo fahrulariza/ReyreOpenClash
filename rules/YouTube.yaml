@@ -21,6 +21,7 @@ payload:
   - DOMAIN,music.youtube.com
 
   - DOMAIN-SUFFIX,youtubeeducation.com
+  - DOMAIN-SUFFIX,returnyoutubedislikeapi.com
   - DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com
   - DOMAIN-SUFFIX,youtubei.googleapis.com
   - DOMAIN-SUFFIX,youtubekids.com
