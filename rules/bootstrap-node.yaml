@@ -1,2 +1,2 @@
 payload:
-ny5.bootstrap.libp2p.io:4001
+  - DOMAIN-SUFFIX,ny5.bootstrap.libp2p.io,DST-PORT,4001
