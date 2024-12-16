@@ -53,7 +53,7 @@ payload:
   - DOMAIN,meetings.googleapis.com
   - DOMAIN,mobile-gtalk.l.google.com
   - DOMAIN,mobile-gtalk4.l.google.com
-  - DOMAIN,mtalk.google.com
+#  - DOMAIN,mtalk.google.com  >> mencoba di alihkan ke bootstrap-node.yaml.
   - DOMAIN,mtalk4.google.com
   - DOMAIN,talk.google.com
   - DOMAIN,talk.l.google.com
