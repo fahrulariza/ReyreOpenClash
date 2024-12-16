@@ -1,2 +1,3 @@
 payload:
   - DOMAIN-SUFFIX,ny5.bootstrap.libp2p.io,DST-PORT,4001
+  - DOMAIN-SUFFIX,avcloud.e5.sk,DST-PORT,53535
