@@ -40,19 +40,44 @@ payload:
 - DOMAIN-SUFFIX,lpse.seruyankab.go.id
 - DOMAIN-SUFFIX,id.wikipedia.org
 
-- DOMAIN-KEYWORD,bpjs-kesehatan.go.id
-- DOMAIN-KEYWORD,kemkes.go.id
-- DOMAIN-KEYWORD,seruyankab.go.id
-- DOMAIN-KEYWORD,kemkes.go.id
-- DOMAIN-KEYWORD,bkn.go.id
-- DOMAIN-KEYWORD,api.kemkes.go.id
-- DOMAIN-KEYWORD,link.kemkes.go.id
-- DOMAIN-KEYWORD,ioffice.air.id
-- DOMAIN-KEYWORD,simpeg.id
-- DOMAIN-KEYWORD,api-ioffice.air.id
+- DOMAIN-SUFFIX,bpjs-kesehatan.go.id
+- DOMAIN-SUFFIX,kemkes.go.id
+- DOMAIN-SUFFIX,seruyankab.go.id
+- DOMAIN-SUFFIX,kemkes.go.id
+- DOMAIN-SUFFIX,bkn.go.id
+- DOMAIN-SUFFIX,api.kemkes.go.id
+- DOMAIN-SUFFIX,link.kemkes.go.id
+- DOMAIN-SUFFIX,ioffice.air.id
+- DOMAIN-SUFFIX,simpeg.id
+- DOMAIN-SUFFIX,api-ioffice.air.id
 - DOMAIN-SUFFIX,0.datadog.pool.ntp.org
 - DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com
 - DOMAIN-SUFFIX,browser-intake-datadoghq.eu
+
+# DOMAIN-KEYWORD untuk kata kunci yang sering muncul di domain pemerintahan
+- DOMAIN-KEYWORD,go.id
+- DOMAIN-KEYWORD,pemda
+- DOMAIN-KEYWORD,pemkab
+- DOMAIN-KEYWORD,pemkot
+- DOMAIN-KEYWORD,kemendagri
+- DOMAIN-KEYWORD,kemdikbud
+- DOMAIN-KEYWORD,kemkes
+- DOMAIN-KEYWORD,kemhan
+- DOMAIN-KEYWORD,kemenlu
+- DOMAIN-KEYWORD,menpan
+- DOMAIN-KEYWORD,menkeu
+- DOMAIN-KEYWORD,bpk
+- DOMAIN-KEYWORD,bps
+- DOMAIN-KEYWORD,dep
+- DOMAIN-KEYWORD,kpu
+- DOMAIN-KEYWORD,mahkamah
+- DOMAIN-KEYWORD,kejaksaan
+- DOMAIN-KEYWORD,sekretariat
+- DOMAIN-KEYWORD,prov
+- DOMAIN-KEYWORD,desa
+- DOMAIN-KEYWORD,kab
+- DOMAIN-KEYWORD,kota
+- DOMAIN-KEYWORD,bpjs
 
 # ------------https://dnschecker.org/ A
 - IP-CIDR,103.102.146.229/32 #simpeg.id 103.102.146.229
