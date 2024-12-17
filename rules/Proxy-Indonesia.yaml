@@ -20,6 +20,7 @@ payload:
 # &gt;
 - DOMAIN-SUFFIX,klikhost.com
 - DOMAIN-SUFFIX,u.klikhost.com
+- DOMAIN-SUFFIX,kumparan.com
 
 # &gt; BILIBILI COMMICS
 - DOMAIN-SUFFIX,bilibilicomics.com
