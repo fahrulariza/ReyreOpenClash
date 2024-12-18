@@ -6,4 +6,4 @@ payload:
 
 # mengelola berbagai fitur chat dan notifikasi dalam aplikasi yang menggunakan protokol XMPP atau yang sejenis.
 # Jika Anda menggunakan perangkat Android atau aplikasi Google yang memerlukan layanan pesan, server ini bisa terlibat dalam proses komunikasi tersebut.
-  - DOMAIN-KEYWORD,mtalk.google.com,DST-PORT,5228
+#  - DOMAIN-KEYWORD,mtalk.google.com,DST-PORT,5228
