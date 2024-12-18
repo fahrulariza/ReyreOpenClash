@@ -11,7 +11,14 @@ payload:
 # ============ Whatsapp ============
   - DOMAIN,graph.facebook.com
 
+
   - DOMAIN-KEYWORD,whatsapp
+
+###################################################################################################
+# mengelola berbagai fitur chat dan notifikasi dalam aplikasi yang menggunakan protokol XMPP atau yang sejenis.
+# Jika Anda menggunakan perangkat Android atau aplikasi Google yang memerlukan layanan pesan, server ini bisa terlibat dalam proses komunikasi tersebut.
+  - DOMAIN-SUFFIX,mtalk.google.com,DST-PORT,5228
+###################################################################################################
 
   - DOMAIN-SUFFIX,bintray.com
   - DOMAIN-SUFFIX,whatsapp.biz
