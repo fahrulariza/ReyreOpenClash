@@ -55,7 +55,7 @@ payload:
   - DST-PORT,4244
   - DST-PORT,5222
   - DST-PORT,5223
-#  - DST-PORT,5228 >> mencoba di alihkan ke bootstrap-node.yaml.
+  - DST-PORT,5228 >> mencoba di alihkan ke bootstrap-node.yaml.
   - DST-PORT,5288
   - DST-PORT,5242
   - DST-PORT,5349
