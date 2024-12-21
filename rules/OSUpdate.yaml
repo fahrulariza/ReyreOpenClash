@@ -113,6 +113,10 @@ payload:
   - DOMAIN-SUFFIX,ingest.quantummetric.com
 
 
+### BROWSER ###
+  - DOMAIN-SUFFIX,download-installer.cdn.mozilla.net
+
+
 #### OS SMARTPHONE ####
 
   # Samsung
