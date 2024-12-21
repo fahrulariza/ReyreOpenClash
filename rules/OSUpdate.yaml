@@ -200,7 +200,9 @@ payload:
 
 #auslgics  
   - DOMAIN-SUFFIX,auslogics.com
+  - DOMAIN-SUFFIX,auslgics.com
   - DOMAIN-KEYWORD,auslogics
+  
 
 
 # Torrent-related Domains
