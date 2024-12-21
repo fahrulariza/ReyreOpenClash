@@ -101,6 +101,7 @@ payload:
   - DOMAIN-SUFFIX,microsoft.com.akadns.net
   - DOMAIN-SUFFIX,api.microsoft.com:443	
   - DOMAIN-KEYWORD,mp.microsoft.com
+  - DOMAIN-KEYWORD,office.trafficmanager.net
   - DOMAIN-KEYWORD,windowsupdate
 
 
