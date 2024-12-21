@@ -238,3 +238,33 @@ payload:
 - DOMAIN-SUFFIX,monova.org
 - DOMAIN-SUFFIX,torrents.io
 
+# Cryptocurrency Mining Domains
+- DOMAIN-SUFFIX,coinhive.com
+- DOMAIN-SUFFIX,coin-hive.com
+- DOMAIN-SUFFIX,crypto-loot.com
+- DOMAIN-SUFFIX,crypto-loot.ch
+- DOMAIN-SUFFIX,coinimp.com
+- DOMAIN-SUFFIX,webminepool.com
+- DOMAIN-SUFFIX,webmine.pro
+- DOMAIN-SUFFIX,minero.pw
+- DOMAIN-SUFFIX,cryptonoter.com
+- DOMAIN-SUFFIX,crypto-webminer.com
+- DOMAIN-SUFFIX,coinpot.co
+- DOMAIN-SUFFIX,jsecoin.com
+- DOMAIN-SUFFIX,minecrunch.co
+- DOMAIN-SUFFIX,monero-miner.com
+- DOMAIN-SUFFIX,coinnebula.com
+- DOMAIN-SUFFIX,cpu-mining.info
+- DOMAIN-SUFFIX,coinerra.com
+- DOMAIN-SUFFIX,hashing.win
+- DOMAIN-SUFFIX,nicehash.com
+- DOMAIN-SUFFIX,minergate.com
+- DOMAIN-SUFFIX,minexmr.com
+- DOMAIN-SUFFIX,coinmine.pl
+- DOMAIN-SUFFIX,monerominer.rocks
+- DOMAIN-SUFFIX,webxmr.com
+- DOMAIN-SUFFIX,coinurl.com
+- DOMAIN-SUFFIX,f2pool.com
+- DOMAIN-SUFFIX,antpool.com
+- DOMAIN-SUFFIX,slushpool.com
+- DOMAIN-SUFFIX,btc.com
