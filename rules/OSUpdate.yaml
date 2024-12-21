@@ -201,3 +201,40 @@ payload:
 #auslgics  
   - DOMAIN-SUFFIX,auslogics.com
   - DOMAIN-KEYWORD,auslogics
+
+
+# Torrent-related Domains
+- DOMAIN-SUFFIX,bittorrent.com
+- DOMAIN-SUFFIX,utorrent.com
+- DOMAIN-SUFFIX,qbittorrent.org
+- DOMAIN-SUFFIX,deluge-torrent.org
+- DOMAIN-SUFFIX,transmissionbt.com
+- DOMAIN-SUFFIX,vuze.com
+- DOMAIN-SUFFIX,popcorntime.app
+- DOMAIN-SUFFIX,popcorn-time.to
+- DOMAIN-SUFFIX,yts.mx
+- DOMAIN-SUFFIX,yts.lt
+- DOMAIN-SUFFIX,rarbg.to
+- DOMAIN-SUFFIX,1337x.to
+- DOMAIN-SUFFIX,thepiratebay.org
+- DOMAIN-SUFFIX,katcr.co
+- DOMAIN-SUFFIX,extratorrent.ag
+- DOMAIN-SUFFIX,torlock.com
+- DOMAIN-SUFFIX,limetorrents.info
+- DOMAIN-SUFFIX,demonoid.is
+- DOMAIN-SUFFIX,zooqle.com
+- DOMAIN-SUFFIX,seedr.cc
+- DOMAIN-SUFFIX,frostwire.com
+- DOMAIN-SUFFIX,trackerslist.com
+- DOMAIN-SUFFIX,openbittorrent.com
+- DOMAIN-SUFFIX,zer0day.to
+- DOMAIN-SUFFIX,nyaa.si
+- DOMAIN-SUFFIX,nyaa.net
+- DOMAIN-SUFFIX,bt-chat.com
+- DOMAIN-SUFFIX,anidex.info
+- DOMAIN-SUFFIX,torrentz2.eu
+- DOMAIN-SUFFIX,torrentproject.se
+- DOMAIN-SUFFIX,torrentfunk.com
+- DOMAIN-SUFFIX,monova.org
+- DOMAIN-SUFFIX,torrents.io
+
