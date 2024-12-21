@@ -95,6 +95,7 @@ payload:
   - DOMAIN-SUFFIX,fe2.update.microsoft.com
   - DOMAIN-SUFFIX,test.update.microsoft.com
   - DOMAIN-SUFFIX,mp.microsoft.com
+  - DOMAIN-SUFFIX,edge.microsoft.com
   - DOMAIN-KEYWORD,mp.microsoft.com
   - DOMAIN-KEYWORD,windowsupdate
 
