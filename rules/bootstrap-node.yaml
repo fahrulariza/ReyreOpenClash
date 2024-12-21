@@ -5,7 +5,7 @@ payload:
 
 # Domain ini berfungsi sebagai endpoint untuk pengumpulan data. Aplikasi atau situs web yang menggunakan Quantum Metric akan mengirimkan data perilaku pengguna ke server ini.
 # Data yang dikirim biasanya mencakup interaksi pengguna, seperti klik, scrolling, waktu kunjungan, dan tindakan lain yang dilakukan di aplikasi atau situs.
-  - DOMAIN-SUFFIX,ingest.quantummetric.com
+#  - DOMAIN-SUFFIX,ingest.quantummetric.com
 
   
 # mengelola berbagai fitur chat dan notifikasi dalam aplikasi yang menggunakan protokol XMPP atau yang sejenis.
