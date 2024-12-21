@@ -96,6 +96,9 @@ payload:
   - DOMAIN-SUFFIX,test.update.microsoft.com
   - DOMAIN-SUFFIX,mp.microsoft.com
   - DOMAIN-SUFFIX,edge.microsoft.com
+  - DOMAIN-SUFFIX,microsoft.map.fastly.net
+  - DOMAIN-SUFFIX,data.microsoft.com
+  - DOMAIN-SUFFIX,microsoft.com.akadns.net
   - DOMAIN-KEYWORD,mp.microsoft.com
   - DOMAIN-KEYWORD,windowsupdate
 
