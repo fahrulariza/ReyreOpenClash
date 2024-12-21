@@ -99,6 +99,7 @@ payload:
   - DOMAIN-SUFFIX,microsoft.map.fastly.net
   - DOMAIN-SUFFIX,data.microsoft.com
   - DOMAIN-SUFFIX,microsoft.com.akadns.net
+  - DOMAIN-SUFFIX,api.microsoft.com:443	
   - DOMAIN-KEYWORD,mp.microsoft.com
   - DOMAIN-KEYWORD,windowsupdate
 
