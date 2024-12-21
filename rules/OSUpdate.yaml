@@ -94,7 +94,9 @@ payload:
   - DOMAIN-SUFFIX,sls.microsoft.com
   - DOMAIN-SUFFIX,fe2.update.microsoft.com
   - DOMAIN-SUFFIX,test.update.microsoft.com
+  - DOMAIN-SUFFIX,mp.microsoft.com
   - DOMAIN-KEYWORD,windowsupdate
+
 
   # Samsung
   - DOMAIN-SUFFIX,fota-cloud-dn.ospserver.net
