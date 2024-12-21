@@ -105,6 +105,13 @@ payload:
   - DOMAIN-KEYWORD,activity.windows.com
   - DOMAIN-KEYWORD,windowsupdate
 
+##
+# Domain ini berfungsi sebagai endpoint untuk pengumpulan data. Aplikasi atau situs web yang menggunakan Quantum Metric akan mengirimkan data perilaku pengguna ke server ini.
+# Data yang dikirim biasanya mencakup interaksi pengguna, seperti klik, scrolling, waktu kunjungan, dan tindakan lain yang dilakukan di aplikasi atau situs.
+  - DOMAIN-SUFFIX,ingest.quantummetric.com
+
+
+#### OS SMARTPHONE ####
 
   # Samsung
   - DOMAIN-SUFFIX,fota-cloud-dn.ospserver.net
