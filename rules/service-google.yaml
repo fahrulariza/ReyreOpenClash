@@ -8,6 +8,26 @@ payload:
   - DST-PORT,5229 # Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
   - DST-PORT,5230 # Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
 
-
+# > meets hangouts
+  - DOMAIN,alt1-mtalk.google.com
+  - DOMAIN,alt2-mtalk.google.com
+  - DOMAIN,alt3-mtalk.google.com
+  - DOMAIN,alt4-mtalk.google.com
+  - DOMAIN,alt5-mtalk.google.com
+  - DOMAIN,alt6-mtalk.google.com
+  - DOMAIN,alt7-mtalk.google.com
+  - DOMAIN,alt8-mtalk.google.com
+  - DOMAIN,hangouts.clients6.google.com
+  - DOMAIN,hangouts.google.com
+  - DOMAIN,hangouts.googleapis.com
+  - DOMAIN,meet.google.com
+  - DOMAIN,meetings.googleapis.com
+  - DOMAIN,mobile-gtalk.l.google.com
+  - DOMAIN,mobile-gtalk4.l.google.com
+  - DOMAIN,mtalk.google.com  # >> mencoba di alihkan ke bootstrap-node.yaml.
+  - DOMAIN,mtalk4.google.com
+  - DOMAIN,talk.google.com
+  - DOMAIN,talk.l.google.com
+  - DOMAIN,talkx.l.google.com
 
   
