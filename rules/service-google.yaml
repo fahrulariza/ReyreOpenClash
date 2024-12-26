@@ -24,6 +24,7 @@ payload:
   - DOMAIN-SUFFIX,meetings.googleapis.com
   - DOMAIN-SUFFIX,mobile-gtalk.l.google.com
   - DOMAIN-SUFFIX,mobile-gtalk4.l.google.com
+  - DOMAIN-SUFFIX,mtalk.google.com,DST-PORT,5228  # >> mencoba di alihkan ke bootstrap-node.yaml.
   - DOMAIN-SUFFIX,mtalk.google.com  # >> mencoba di alihkan ke bootstrap-node.yaml.
   - DOMAIN-SUFFIX,mtalk4.google.com
   - DOMAIN-SUFFIX,talk.google.com
