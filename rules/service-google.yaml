@@ -1,1 +1,13 @@
+payload:
 
+  # Aturan untuk Google
+  # Layanan: Google Cloud Messaging (GCM) / Firebase Cloud Messaging (FCM).
+  # Fungsi: Notifikasi push untuk aplikasi seperti Gmail, Google Play, dan WhatsApp dll.
+  
+  - DST-PORT,5228 # Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
+  - DST-PORT,5229 # Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
+  - DST-PORT,5230 # Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
+
+
+
+  
