@@ -17,7 +17,7 @@ payload:
 ###################################################################################################
 # mengelola berbagai fitur chat dan notifikasi dalam aplikasi yang menggunakan protokol XMPP atau yang sejenis.
 # Jika Anda menggunakan perangkat Android atau aplikasi Google yang memerlukan layanan pesan, server ini bisa terlibat dalam proses komunikasi tersebut.
-  - DOMAIN-SUFFIX,mtalk.google.com,DST-PORT,5228
+#  - DOMAIN-SUFFIX,mtalk.google.com,DST-PORT,5228
 ###################################################################################################
 
   - DOMAIN-SUFFIX,bintray.com
@@ -58,11 +58,12 @@ payload:
   - DOMAIN-SUFFIX,rocksdb.org
 
   # Aturan port untuk VoIP WhatsApp
-  - DST-PORT,3478  # STUN server
+  - DST-PORT,3478  # STUN/TURN Servers. Digunakan untuk panggilan suara dan video, membantu perangkat menemukan jalur terbaik melalui NAT (Network Address Translation).
+  - DST-PORT,3479  # STUN/TURN Servers. Digunakan untuk panggilan suara dan video, membantu perangkat menemukan jalur terbaik melalui NAT (Network Address Translation).
   - DST-PORT,4244
-  - DST-PORT,5222
-  - DST-PORT,5223
-  - DST-PORT,5228 >> mencoba di alihkan ke bootstrap-node.yaml.
+  - DST-PORT,5222 # (XMPP Protocol) Fungsi: Komunikasi utama untuk pesan teks. WhatsApp menggunakan protokol XMPP untuk mengirim dan menerima pesan.
+  - DST-PORT,5223 # (Secure XMPP) Fungsi: Versi aman dari XMPP, digunakan jika koneksi memerlukan enkripsi tambahan.
+#  - DST-PORT,5228 >> mencoba di alihkan ke service-google.yaml.
   - DST-PORT,5288
   - DST-PORT,5242
   - DST-PORT,5349
@@ -74,8 +75,9 @@ payload:
   - DST-PORT,11112
   - DST-PORT,25566
 
-  # Port media dinamis untuk VoIP
-  #- DST-PORT,50000-59999
+  # Port media dinamis untuk VoIP (UDP Ports)
+  # Fungsi: Port dinamis untuk panggilan suara dan video.
+  - DST-PORT,45395-45399
 
 
    # Whatsapp
