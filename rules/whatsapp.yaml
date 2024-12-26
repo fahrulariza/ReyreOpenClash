@@ -75,7 +75,7 @@ payload:
   - DST-PORT,25566
 
   # Port media dinamis untuk VoIP
-  - DST-PORT,50000-59999
+  #- DST-PORT,50000-59999
 
 
    # Whatsapp
