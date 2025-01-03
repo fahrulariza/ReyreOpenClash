@@ -29,7 +29,7 @@ payload:
   - DOMAIN-SUFFIX,speedtest.smartfren.com
   - DOMAIN-SUFFIX,speedtest-banjarmasin.iconpln.net.id
   - DOMAIN-SUFFIX,banjarmasin.speedtest.telkom.net.id,DST-PORT,8080
-  - DOMAIN-KEYWORD,speedtest2
+  - DOMAIN-SUFFIX,speedtest2.ideatek.com
   - DOMAIN-KEYWORD,speedtest
   - DOMAIN-KEYWORD,speedtestcustom
   - DOMAIN-KEYWORD,openspeedtest
