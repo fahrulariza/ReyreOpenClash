@@ -21,6 +21,7 @@ payload:
   - DOMAIN,music.youtube.com
   
   - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,music.youtube.com
   - DOMAIN-SUFFIX,ytstatic.l.google.com
   - DOMAIN-SUFFIX,ytstatic.com
   - DOMAIN-SUFFIX,youtubeeducation.com
