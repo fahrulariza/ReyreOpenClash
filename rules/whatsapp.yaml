@@ -42,6 +42,7 @@ payload:
   - IP-CIDR,54.242.0.0/15
 
 # > Whatsapp direct
+  - DOMAIN-SUFFIX,whatsapp.net,CALL-WHATSAPP 📞,tcp
   - DOMAIN-SUFFIX,fna.whatsapp.net,CALL-WHATSAPP 📞,tcp
   - DOMAIN-SUFFIX,wa.me,CALL-WHATSAPP 📞,tcp
   - DOMAIN-SUFFIX,whatsapp-plus.info,CALL-WHATSAPP 📞,tcp
