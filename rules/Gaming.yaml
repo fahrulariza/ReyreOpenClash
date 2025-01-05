@@ -27,6 +27,8 @@ payload:
   # Clash of Clans (CoC) & Clash Royale
   - DST-PORT,9330-9340,PLAY-IN-GAME 🎮,tcp
   - DST-PORT,9330-9340,PLAY-IN-GAME 🎮,udp
+  - DOMAIN-SUFFIX,clashofclans.com,PLAY-IN-GAME 🎮,tcp
+  - DOMAIN-SUFFIX,inbox.supercell.com,PLAY-IN-GAME 🎮,tcp
 
   # League of Legends (LOL) Mobile
   - DST-PORT,2080-2099,PLAY-IN-GAME 🎮,tcp
