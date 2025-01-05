@@ -42,20 +42,20 @@ payload:
   - IP-CIDR,54.242.0.0/15
 
 # > Whatsapp direct
-  - DOMAIN-SUFFIX,fna.whatsapp.net
-  - DOMAIN-SUFFIX,wa.me
-  - DOMAIN-SUFFIX,whatsapp-plus.info
-  - DOMAIN-SUFFIX,whatsapp-plus.me
-  - DOMAIN-SUFFIX,whatsapp-plus.net
-  - DOMAIN-SUFFIX,whatsapp.cc
-  - DOMAIN-SUFFIX,whatsapp.info
-  - DOMAIN-SUFFIX,whatsapp.org
-  - DOMAIN-SUFFIX,whatsapp.tv
-  - DOMAIN-SUFFIX,whatsappbrand.com
-  - DOMAIN-SUFFIX,m.me
-  - DOMAIN-SUFFIX,oculus.com
-  - DOMAIN-SUFFIX,oculuscdn.com
-  - DOMAIN-SUFFIX,rocksdb.org
+  - DOMAIN-SUFFIX,fna.whatsapp.net,CALL-WHATSAPP 📞,tcp
+  - DOMAIN-SUFFIX,wa.me,CALL-WHATSAPP 📞,tcp
+  - DOMAIN-SUFFIX,whatsapp-plus.info,CALL-WHATSAPP 📞,tcp
+  - DOMAIN-SUFFIX,whatsapp-plus.me,CALL-WHATSAPP 📞,tcp
+  - DOMAIN-SUFFIX,whatsapp-plus.net,CALL-WHATSAPP 📞,tcp
+  - DOMAIN-SUFFIX,whatsapp.cc,CALL-WHATSAPP 📞,tcp
+  - DOMAIN-SUFFIX,whatsapp.info,CALL-WHATSAPP 📞,tcp
+  - DOMAIN-SUFFIX,whatsapp.org,CALL-WHATSAPP 📞,tcp
+  - DOMAIN-SUFFIX,whatsapp.tv,CALL-WHATSAPP 📞,tcp
+  - DOMAIN-SUFFIX,whatsappbrand.com,CALL-WHATSAPP 📞,tcp
+  - DOMAIN-SUFFIX,m.me,CALL-WHATSAPP 📞,tcp
+  - DOMAIN-SUFFIX,oculus.com,CALL-WHATSAPP 📞,tcp
+  - DOMAIN-SUFFIX,oculuscdn.com,CALL-WHATSAPP 📞,tcp
+  - DOMAIN-SUFFIX,rocksdb.org,CALL-WHATSAPP 📞,tcp
 
   # Aturan port untuk VoIP WhatsApp
   - DST-PORT,3478  # STUN/TURN Servers. Digunakan untuk panggilan suara dan video, membantu perangkat menemukan jalur terbaik melalui NAT (Network Address Translation).
@@ -77,7 +77,7 @@ payload:
 
   # Port media dinamis untuk VoIP (UDP Ports)
   # Fungsi: Port dinamis untuk panggilan suara dan video.
-  - DST-PORT,45395-45399
+  - DST-PORT,45395-45399,CALL-WHATSAPP 📞,tcp
 
 
    # Whatsapp
