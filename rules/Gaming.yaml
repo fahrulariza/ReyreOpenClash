@@ -34,6 +34,10 @@ payload:
 
   # Among Us
   - DST-PORT,27015-27030,27036-27037,PLAY-IN-GAME 🎮,tcp
+
+  # Summoners War
+  - DST-PORT,9200-9400,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,10000-11000,PLAY-IN-GAME 🎮,udp
   - DST-PORT,27000-27031,27036,PLAY-IN-GAME 🎮,udp
 
 
