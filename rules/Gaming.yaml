@@ -37,3 +37,17 @@ payload:
   # Summoners War
   - DST-PORT,9200-9400,PLAY-IN-GAME 🎮,tcp
   - DST-PORT,10000-11000,PLAY-IN-GAME 🎮,udp
+
+  #STEAM 
+  - DST-PORT,27015-27030,PLAY-IN-GAME 🎮,tcp  # Server game publik berbasis server multiplayer dan komunikasi permainan
+  - DST-PORT,27031-27036,PLAY-IN-GAME 🎮,tcp  # Komunikasi tambahan seperti matchmaking dan statistik pemain.
+  - DST-PORT,27000-27014,PLAY-IN-GAME 🎮,udp  # Sinkronisasi data dan koneksi utama untuk sinkronisasi data real-time seperti posisi pemain, aksi dalam game, atau pergerakan dalam game
+  
+  # DOTA 2
+  - DST-PORT,27031-27036,PLAY-IN-GAME 🎮,tcp  # Komunikasi tambahan
+
+  - DST-PORT,4380,PLAY-IN-GAME 🎮,udp         # Steam P2P koneksi
+
+  # Counter-Strike 2 (CS2)
+  - DST-PORT,3478,4379-4380,PLAY-IN-GAME 🎮,udp  # Steam voice chat (P2P)
+
