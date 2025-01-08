@@ -185,18 +185,6 @@ payload:
 - DOMAIN-SUFFIX,vimeo.com
 - DOMAIN-SUFFIX,deezer.com
 
-#Permainan Online
-- DOMAIN-SUFFIX,steamcommunity.com
-- DOMAIN-SUFFIX,epicgames.com
-- DOMAIN-SUFFIX,riotgames.com
-- DOMAIN-SUFFIX,playstation.com
-- DOMAIN-SUFFIX,xbox.com
-- DOMAIN-SUFFIX,blizzard.com
-- DOMAIN-SUFFIX,ubisoft.com
-- DOMAIN-SUFFIX,valvesoftware.com
-- DOMAIN-SUFFIX,ea.com
-- DOMAIN-SUFFIX,gog.com
-
 # > Pinterest
 - DOMAIN-SUFFIX,akapinimg.net
 - DOMAIN-SUFFIX,pinimg.com
