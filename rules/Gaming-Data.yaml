@@ -6,6 +6,8 @@ payload:
 - DOMAIN-SUFFIX,supercell.net
 - DOMAIN-SUFFIX,supercellcommunity.cn
 - DOMAIN-SUFFIX,supercellsupport.cn
+- DOMAIN-SUFFIX,id.supercell.com
+- DOMAIN-SUFFIX,proxy.id.supercell.com
 
 # > CoC
 - DOMAIN-SUFFIX,clashofclans.com
