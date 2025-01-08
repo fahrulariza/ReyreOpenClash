@@ -20,7 +20,7 @@ payload:
   - DST-PORT,3013,10000-10019,18082,50000,PLAY-IN-GAME 🎮,tcp
   - DST-PORT,7085-7995,17000-20100,PLAY-IN-GAME 🎮,udp
 
-  # Genshin Impact
+ # Genshin Impact
   - DST-PORT,42472,PLAY-IN-GAME 🎮,tcp
   - DST-PORT,42472,22101-22102,PLAY-IN-GAME 🎮,udp
 
@@ -34,12 +34,6 @@ payload:
   - DST-PORT,2080-2099,PLAY-IN-GAME 🎮,tcp
   - DST-PORT,5100,PLAY-IN-GAME 🎮,udp
 
-  # Among Us
-  - DST-PORT,27015-27030,27036-27037,PLAY-IN-GAME 🎮,tcp
-
   # Summoners War
   - DST-PORT,9200-9400,PLAY-IN-GAME 🎮,tcp
   - DST-PORT,10000-11000,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,27000-27031,27036,PLAY-IN-GAME 🎮,udp
-
-
