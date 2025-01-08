@@ -151,13 +151,6 @@ payload:
 - DOMAIN-SUFFIX,deutsche-bank.co.id
 - DOMAIN-SUFFIX,bankofchina.co.id
 
-- "+.bpjs-kesehatan.go.id"
-- "+.kemkes.go.id"
-- "+.seruyankab.go.id"
-- "+.kemkes.go.id"
-- "+.bkn.go.id"
-- "+.air.id"
-
 - "+.bri.co.id"
 - "+.bankmandiri.co.id"
 - "+.bni.co.id"
