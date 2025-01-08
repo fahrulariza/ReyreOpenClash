@@ -20,3 +20,40 @@ payload:
 - DOMAIN-KEYWORD,ralali
 - DOMAIN-KEYWORD,bhinneka
 - DOMAIN-KEYWORD,zalora
+
+- DOMAIN-SUFFIX,dwcontent.telkomsel.com
+- IP-CIDR,43.255.0.0/16 #telkomsel 43.255.199.21 43.255.196.45 43.255.199.21
+- IP-CIDR,108.136.67.193/32 #tdw.telkomsel.com
+- IP-CIDR,43.218.230.222/32 #tdw.telkomsel.com
+- IP-CIDR,3.162.38.0/24 #tdwcontent.telkomsel.com 3.162.38.75 3.162.38.25 3.162.38.74
+- IP-CIDR,172.67.169.0/24 #minigames.mytsel.id 172.67.169.169
+- IP-CIDR,104.21.47.5/32 #minigames.mytsel.id 104.21.47.5
+
+#- IP-CIDR,172.64.0.0/16 #api.myxl.xlaxiata.co.id.cdn.cloudflare.net >> chatgpt 192.168.1.121:61397	
+#- IP-CIDR,104.18.0.0/16 #api.myxl.xlaxiata.co.id.cdn.cloudflare.net >> chatgpt 192.168.1.121:61400	
+- IP-CIDR,104.22.59.170/32 # static-myxl.xlaxiata.id
+- IP-CIDR,104.22.58.170/32 #
+- IP-CIDR,172.67.36.169/32 #
+- IP-CIDR,13.249.9.122/32 # rinjani.myxl.xlaxiata.co.id
+- IP-CIDR,13.249.9.93/32 #
+- IP-CIDR,13.249.9.73/32 #
+- IP-CIDR,13.249.9.97/32 #
+- IP-CIDR,108.138.141.0/24
+- IP-CIDR,13.225.0.0/16
+- IP-CIDR,172.64.144.4/32 # api.myxl.xlaxiata.co.id
+- IP-CIDR,104.18.43.252/32 #
+- IP-CIDR,104.18.43.252/32 # gede.ciam.xlaxiata.co.id
+- IP-CIDR,172.64.144.4/32 #
+- IP-CIDR,199.232.37.230/32 #xlaxiata-resources.digital-cloud-sin1.medallia.com
+- IP-CIDR,147.75.176.16/32 #xlaxiata2.md-apis.medallia.com
+
+- IP-CIDR,182.0.188.0/16 #api.byu.id api.dctc.byu.id:443 tbs-cmsbt.byu.id:443	 182.0.188.12
+- IP-CIDR,202.3.220.0/16 #api.byu.id 202.3.220.1
+
+- IP-CIDR,34.160.39.53/32 #myim3api1.ioh.co.id
+- IP-CIDR,104.26.4.10/32 # api.qiscus.com
+- IP-CIDR,172.67.73.39/32 # api.qiscus.com
+- IP-CIDR,104.26.5.10/32 # api.qiscus.com
+- IP-CIDR,43.218.13.133/32 #realtime-jawa.qiscus.com
+- IP-CIDR,34.36.107.201/32 #myim3asset.ioh.co.id
+- IP-CIDR,34.36.37.237/32 #myim3-he1.ioh.co.id
