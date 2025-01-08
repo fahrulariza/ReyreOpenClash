@@ -1,12 +1,12 @@
 payload:
 
   # MLBB (Mobile Legends: Bang Bang)
-  - DST-PORT,5000-5221,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,5224-5227,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,5229-5241,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,30000-30300,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,5517-5529,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,5551-5559,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,5000-5221,PLAY-IN-GAME 🎮,tcp # Rentang utama untuk komunikasi in-game.
+  - DST-PORT,5224-5227,PLAY-IN-GAME 🎮,tcp # Tambahan port server.
+  - DST-PORT,5229-5241,PLAY-IN-GAME 🎮,tcp # Port tambahan yang sering digunakan.
+  - DST-PORT,30000-30300,PLAY-IN-GAME 🎮,tcp # Port untuk sinkronisasi data server.
+  - DST-PORT,5517-5529,PLAY-IN-GAME 🎮,udp # Utama untuk sinkronisasi real-time dan pergerakan hero.
+  - DST-PORT,5551-5559,PLAY-IN-GAME 🎮,udp # Port tambahan untuk komunikasi cepat.
 
   # Free Fire (FF)
   - DST-PORT,6006,6008,6674,7889,9006,10000-10012,12006,20561,39003,PLAY-IN-GAME 🎮,tcp
