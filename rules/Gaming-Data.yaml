@@ -8,7 +8,9 @@ payload:
 - DOMAIN-SUFFIX,supercellsupport.cn
 # > CoC
 - DOMAIN-SUFFIX,clashofclans.com
-  
+
+  - DOMAIN-SUFFIX,autopatchhk.yuanshen.com
+  - DOMAIN-SUFFIX,yuanshen.com
   #MLBB
   - DOMAIN-SUFFIX,mobilelegends.com
   - DOMAIN-SUFFIX,mobilelegends.ca
