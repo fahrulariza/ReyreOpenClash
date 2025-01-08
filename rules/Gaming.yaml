@@ -25,8 +25,8 @@ payload:
   - DST-PORT,42472,22101-22102,PLAY-IN-GAME 🎮,udp
 
   # Clash of Clans (CoC) & Clash Royale
-  - DST-PORT,9330-9340,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,9330-9340,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,9330-9340,PLAY-IN-GAME 🎮,tcp # Port utama untuk komunikasi cepat dan sinkronisasi data in-game komunikasi server.
+  - DST-PORT,9330-9340,PLAY-IN-GAME 🎮,udp # Port utama untuk komunikasi cepat dan sinkronisasi data in-game komunikasi server.
   - DOMAIN-SUFFIX,clashofclans.com,PLAY-IN-GAME 🎮,tcp
   - DOMAIN-SUFFIX,inbox.supercell.com,PLAY-IN-GAME 🎮,tcp
 
