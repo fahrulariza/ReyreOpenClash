@@ -9,8 +9,10 @@ payload:
 # > CoC
 - DOMAIN-SUFFIX,clashofclans.com
 
+# > Genshin Impact
   - DOMAIN-SUFFIX,autopatchhk.yuanshen.com
   - DOMAIN-SUFFIX,yuanshen.com
+  
   #MLBB
   - DOMAIN-SUFFIX,mobilelegends.com
   - DOMAIN-SUFFIX,mobilelegends.ca
