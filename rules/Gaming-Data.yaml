@@ -77,6 +77,17 @@ payload:
   - DOMAIN-SUFFIX,steamserver.net
   - DOMAIN-SUFFIX,teamstatic.com
   - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+
+  #Permainan Online
+- DOMAIN-SUFFIX,epicgames.com
+- DOMAIN-SUFFIX,riotgames.com
+- DOMAIN-SUFFIX,playstation.com
+- DOMAIN-SUFFIX,xbox.com
+- DOMAIN-SUFFIX,blizzard.com
+- DOMAIN-SUFFIX,ubisoft.com
+- DOMAIN-SUFFIX,valvesoftware.com
+- DOMAIN-SUFFIX,ea.com
+- DOMAIN-SUFFIX,gog.com
   
  # > Miniclip
   - DOMAIN-SUFFIX,miniclip.com
