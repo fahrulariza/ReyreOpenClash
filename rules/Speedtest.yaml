@@ -36,5 +36,16 @@ payload:
   - DOMAIN-KEYWORD,openspeedtest
   - DOMAIN-KEYWORD,speedtest.starhub
   - DOMAIN-KEYWORD,speedtest.starhub.com
+
+    # > Fast
+  - DOMAIN-SUFFIX,fast.com
+
+  # > Speedtest by Ookla
+  # - USER-AGENT,SpeedTest*
+  - DOMAIN,speed.dler.io
+
+  # > Speed Test by Cloudflare
+  - DOMAIN-SUFFIX,speed.cloudflare.com
+  
   - DST-PORT,8080
 
