@@ -32,6 +32,8 @@ payload:
   
   #MLBB
   - DOMAIN-SUFFIX,mobilelegends.com
+  - DOMAIN-SUFFIX,dl.mobilelegends.com
+  - DOMAIN-SUFFIX,resources.mobilelegends.com
   - DOMAIN-SUFFIX,mobilelegends.ca
   - DOMAIN-SUFFIX,mobilelegends.cn
   - DOMAIN-SUFFIX,mobilelegends.co.kr
