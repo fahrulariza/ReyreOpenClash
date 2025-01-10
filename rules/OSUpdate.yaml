@@ -93,6 +93,7 @@ payload:
   - DOMAIN-SUFFIX,fg.microsoft.map.fastly.net
   - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
   - DOMAIN-SUFFIX,delivery.mp.microsoft.com
+  - DOMAIN-SUFFIX,mp.microsoft.com
   - DOMAIN-SUFFIX,geover.prod.do.dsp.mp.microsoft.com
   - DOMAIN-SUFFIX,ws.microsoft.com
   - DOMAIN-SUFFIX,au.windowsupdate.microsoft.com
