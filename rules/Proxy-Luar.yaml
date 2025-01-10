@@ -141,37 +141,6 @@ payload:
 - DOMAIN-SUFFIX,washingtonpost.com
 - DOMAIN-SUFFIX,nationalgeographic.com
 
-#Sosial Media dan Platform Digital
-- DOMAIN-SUFFIX,twitter.com
-- DOMAIN-SUFFIX,linkedin.com
-- DOMAIN-SUFFIX,snapchat.com
-- DOMAIN-SUFFIX,pinterest.com
-- DOMAIN-SUFFIX,reddit.com
-- DOMAIN-SUFFIX,discord.com
-
-#E-Commerce dan Belanja Online
-- DOMAIN-SUFFIX,amazon.com
-- DOMAIN-SUFFIX,ebay.com
-- DOMAIN-SUFFIX,aliexpress.com
-- DOMAIN-SUFFIX,walmart.com
-- DOMAIN-SUFFIX,target.com
-- DOMAIN-SUFFIX,shopify.com
-- DOMAIN-SUFFIX,etsy.com
-- DOMAIN-SUFFIX,asos.com
-- DOMAIN-SUFFIX,bestbuy.com
-- DOMAIN-SUFFIX,zalando.com
-
-#Teknologi dan Layanan Cloud
-- DOMAIN-SUFFIX,apple.com
-- DOMAIN-SUFFIX,microsoft.com
-- DOMAIN-SUFFIX,google.com
-- DOMAIN-SUFFIX,aws.amazon.com
-- DOMAIN-SUFFIX,github.com
-- DOMAIN-SUFFIX,gitlab.com
-- DOMAIN-SUFFIX,dropbox.com
-- DOMAIN-SUFFIX,box.com
-- DOMAIN-SUFFIX,adobe.com
-- DOMAIN-SUFFIX,oracle.com
 
 # > Pinterest
 - DOMAIN-SUFFIX,akapinimg.net
