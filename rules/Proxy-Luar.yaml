@@ -173,18 +173,6 @@ payload:
 - DOMAIN-SUFFIX,adobe.com
 - DOMAIN-SUFFIX,oracle.com
 
-#Platform Hiburan
-- DOMAIN-SUFFIX,netflix.com
-- DOMAIN-SUFFIX,hulu.com
-- DOMAIN-SUFFIX,disneyplus.com
-- DOMAIN-SUFFIX,primevideo.com
-- DOMAIN-SUFFIX,crunchyroll.com
-- DOMAIN-SUFFIX,spotify.com
-- DOMAIN-SUFFIX,soundcloud.com
-- DOMAIN-SUFFIX,twitch.tv
-- DOMAIN-SUFFIX,vimeo.com
-- DOMAIN-SUFFIX,deezer.com
-
 # > Pinterest
 - DOMAIN-SUFFIX,akapinimg.net
 - DOMAIN-SUFFIX,pinimg.com
