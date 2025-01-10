@@ -107,7 +107,44 @@ payload:
   - DOMAIN-KEYWORD,office.trafficmanager.net
   - DOMAIN-KEYWORD,activity.windows.com
   - DOMAIN-KEYWORD,windowsupdate
-
+  - DOMAIN-SUFFIX,update.microsoft.com
+  - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN-SUFFIX,download.microsoft.com
+  - DOMAIN-SUFFIX,au.download.windowsupdate.com
+  - DOMAIN-SUFFIX,tsfe.trafficshaping.dsp.mp.microsoft.com
+  - DOMAIN-SUFFIX,statsfe2.ws.microsoft.com
+  - DOMAIN-SUFFIX,download.windowsupdate.com.c.footprint.net
+  - DOMAIN-SUFFIX,download.windowsupdate.com.edgesuite.net
+  - DOMAIN-SUFFIX,delivery.mp.microsoft.com
+  - DOMAIN-SUFFIX,tsfe.blu.livefilestore.com
+  - DOMAIN-SUFFIX,windowsupdate.microsoft.com
+  - DOMAIN-SUFFIX,fe3.delivery.dsp.mp.microsoft.com
+  - DOMAIN-SUFFIX,statsfe1.ws.microsoft.com
+  - DOMAIN-SUFFIX,update.microsoft.com.edgesuite.net
+  - DOMAIN-SUFFIX,ws.microsoft.com
+  - DOMAIN-SUFFIX,ntservicepack.microsoft.com
+  - DOMAIN-SUFFIX,wcp.microsoft.com
+  - DOMAIN-SUFFIX,wpad.microsoft.com
+  - DOMAIN-SUFFIX,diagnostics.support.microsoft.com
+  - DOMAIN-SUFFIX,sls.update.microsoft.com
+  - DOMAIN-SUFFIX,dmd.metaservices.microsoft.com
+  - DOMAIN-SUFFIX,oca.telemetry.microsoft.com
+  - DOMAIN-SUFFIX,oca.telemetry.microsoft.com.nsatc.net
+  - DOMAIN-SUFFIX,telemetry.microsoft.com
+  - DOMAIN-SUFFIX,vortex.data.microsoft.com
+  - DOMAIN-SUFFIX,vortex-win.data.microsoft.com
+  - DOMAIN-SUFFIX,watson.microsoft.com
+  - DOMAIN-SUFFIX,watson.telemetry.microsoft.com
+  - DOMAIN-SUFFIX,fe2.update.microsoft.com.akadns.net
+  - DOMAIN-SUFFIX,cs.dds.microsoft.com
+  - DOMAIN-SUFFIX,client.wns.windows.com
+  - DOMAIN-SUFFIX,wus.windowsupdate.com
+  - DOMAIN-SUFFIX,settings-win.data.microsoft.com
+  - DOMAIN-SUFFIX,settings.data.microsoft.com
+  - DOMAIN-SUFFIX,statsfe1.ws.microsoft.com
+  - DOMAIN-SUFFIX,statsfe2.update.microsoft.com
+  - DOMAIN-SUFFIX,diagnostics.windows.com
+  - DOMAIN-SUFFIX,diagnostics.office.com
 
 ##
 # Domain ini berfungsi sebagai endpoint untuk pengumpulan data. Aplikasi atau situs web yang menggunakan Quantum Metric akan mengirimkan data perilaku pengguna ke server ini.
