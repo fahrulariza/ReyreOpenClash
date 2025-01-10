@@ -78,6 +78,7 @@ payload:
   - DOMAIN-SUFFIX,download.windowsupdate.com
   - DOMAIN-SUFFIX,download.microsoft.com
   - DOMAIN-SUFFIX,fpt.microsoft.com
+  - DOMAIN-SUFFIX,catalog.s.download.windowsupdate.com
   - DOMAIN-SUFFIX,oneocsp.microsoft.com
   - DOMAIN-SUFFIX,wcpstatic.microsoft.com
   - DOMAIN-SUFFIX,cdn-dynmedia-1.microsoft.com
