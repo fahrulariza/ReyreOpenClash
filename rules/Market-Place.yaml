@@ -32,6 +32,9 @@ payload:
 
 #- IP-CIDR,172.64.0.0/16 #api.myxl.xlaxiata.co.id.cdn.cloudflare.net >> chatgpt 192.168.1.121:61397	
 #- IP-CIDR,104.18.0.0/16 #api.myxl.xlaxiata.co.id.cdn.cloudflare.net >> chatgpt 192.168.1.121:61400	
+- DOMAIN-SUFFIX,xlaxiata.co.id
+- DOMAIN-SUFFIX,xlaxiata-resources.digital-cloud-sin1.medallia.com
+- DOMAIN-SUFFIX,xlaxiata-resources.digital-cloud-sin1.medallia.com	
 - IP-CIDR,104.22.59.170/32 # static-myxl.xlaxiata.id
 - IP-CIDR,104.22.58.170/32 #
 - IP-CIDR,172.67.36.169/32 #
