@@ -94,8 +94,6 @@ payload:
 - DOMAIN-SUFFIX,bankkaltim.com
 - DOMAIN-SUFFIX,bp-kalteng.com
 - DOMAIN-SUFFIX,bankkalteng.co.id
-- DOMAIN-KEYWORD,bankkalteng
-- DOMAIN-SUFFIX,bankkalteng.co.id
 - DOMAIN-SUFFIX,banksulsel.co.id
 - DOMAIN-SUFFIX,banksulutgo.co.id
 - DOMAIN-SUFFIX,bankntb.co.id
@@ -114,3 +112,8 @@ payload:
 - DOMAIN-SUFFIX,standardchartered.com
 - DOMAIN-SUFFIX,deutsche-bank.co.id
 - DOMAIN-SUFFIX,bankofchina.co.id
+
+- DOMAIN-KEYWORD,bankkalteng
+
+- IP-CIDR,182.23.87.125/32 #bankkalteng
+- DST-PORT,4188 #bankkalteng
