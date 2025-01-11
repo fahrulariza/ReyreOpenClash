@@ -9,10 +9,10 @@
 # TOTAL: 17
 payload:
 # ============ Whatsapp ============
-  - DOMAIN,graph.facebook.com
+#  - DOMAIN,graph.facebook.com
 
 
-  - DOMAIN-KEYWORD,whatsapp
+#  - DOMAIN-KEYWORD,whatsapp
 
 ###################################################################################################
 # mengelola berbagai fitur chat dan notifikasi dalam aplikasi yang menggunakan protokol XMPP atau yang sejenis.
@@ -20,14 +20,14 @@ payload:
 #  - DOMAIN-SUFFIX,mtalk.google.com,DST-PORT,5228
 ###################################################################################################
 
-  - DOMAIN-SUFFIX,bintray.com
-  - DOMAIN-SUFFIX,whatsapp.biz
-  - DOMAIN-SUFFIX,whatsapp.com,DST-PORT,443
-  - DOMAIN-SUFFIX,whatsapp.net,DST-PORT,443
-  - DOMAIN-SUFFIX,m.me
-  - DOMAIN-SUFFIX,oculus.com
-  - DOMAIN-SUFFIX,oculuscdn.com
-  - DOMAIN-SUFFIX,rocksdb.org
+#  - DOMAIN-SUFFIX,bintray.com
+#  - DOMAIN-SUFFIX,whatsapp.biz
+#  - DOMAIN-SUFFIX,whatsapp.com,DST-PORT,443
+#  - DOMAIN-SUFFIX,whatsapp.net,DST-PORT,443
+#  - DOMAIN-SUFFIX,m.me
+#  - DOMAIN-SUFFIX,oculus.com
+#  - DOMAIN-SUFFIX,oculuscdn.com
+#  - DOMAIN-SUFFIX,rocksdb.org
 
   - IP-CIDR,158.85.224.160/27
   - IP-CIDR,158.85.46.128/27
@@ -42,21 +42,21 @@ payload:
   - IP-CIDR,54.242.0.0/15
 
 # > Whatsapp direct
-  - DOMAIN-SUFFIX,whatsapp.net,CALL-WHATSAPP 📞,tcp
-  - DOMAIN-SUFFIX,fna.whatsapp.net,CALL-WHATSAPP 📞,tcp
-  - DOMAIN-SUFFIX,wa.me,CALL-WHATSAPP 📞,tcp
-  - DOMAIN-SUFFIX,whatsapp-plus.info,CALL-WHATSAPP 📞,tcp
-  - DOMAIN-SUFFIX,whatsapp-plus.me,CALL-WHATSAPP 📞,tcp
-  - DOMAIN-SUFFIX,whatsapp-plus.net,CALL-WHATSAPP 📞,tcp
-  - DOMAIN-SUFFIX,whatsapp.cc,CALL-WHATSAPP 📞,tcp
-  - DOMAIN-SUFFIX,whatsapp.info,CALL-WHATSAPP 📞,tcp
-  - DOMAIN-SUFFIX,whatsapp.org,CALL-WHATSAPP 📞,tcp
-  - DOMAIN-SUFFIX,whatsapp.tv,CALL-WHATSAPP 📞,tcp
-  - DOMAIN-SUFFIX,whatsappbrand.com,CALL-WHATSAPP 📞,tcp
-  - DOMAIN-SUFFIX,m.me,CALL-WHATSAPP 📞,tcp
-  - DOMAIN-SUFFIX,oculus.com,CALL-WHATSAPP 📞,tcp
-  - DOMAIN-SUFFIX,oculuscdn.com,CALL-WHATSAPP 📞,tcp
-  - DOMAIN-SUFFIX,rocksdb.org,CALL-WHATSAPP 📞,tcp
+#  - DOMAIN-SUFFIX,whatsapp.net,CALL-WHATSAPP 📞,tcp
+#  - DOMAIN-SUFFIX,fna.whatsapp.net,CALL-WHATSAPP 📞,tcp
+#  - DOMAIN-SUFFIX,wa.me,CALL-WHATSAPP 📞,tcp
+#  - DOMAIN-SUFFIX,whatsapp-plus.info,CALL-WHATSAPP 📞,tcp
+#  - DOMAIN-SUFFIX,whatsapp-plus.me,CALL-WHATSAPP 📞,tcp
+#  - DOMAIN-SUFFIX,whatsapp-plus.net,CALL-WHATSAPP 📞,tcp
+#  - DOMAIN-SUFFIX,whatsapp.cc,CALL-WHATSAPP 📞,tcp
+#  - DOMAIN-SUFFIX,whatsapp.info,CALL-WHATSAPP 📞,tcp
+#  - DOMAIN-SUFFIX,whatsapp.org,CALL-WHATSAPP 📞,tcp
+#  - DOMAIN-SUFFIX,whatsapp.tv,CALL-WHATSAPP 📞,tcp
+#  - DOMAIN-SUFFIX,whatsappbrand.com,CALL-WHATSAPP 📞,tcp
+#  - DOMAIN-SUFFIX,m.me,CALL-WHATSAPP 📞,tcp
+#  - DOMAIN-SUFFIX,oculus.com,CALL-WHATSAPP 📞,tcp
+#  - DOMAIN-SUFFIX,oculuscdn.com,CALL-WHATSAPP 📞,tcp
+#  - DOMAIN-SUFFIX,rocksdb.org,CALL-WHATSAPP 📞,tcp
 
   # Aturan port untuk VoIP WhatsApp
   - DST-PORT,3478  # STUN/TURN Servers. Digunakan untuk panggilan suara dan video, membantu perangkat menemukan jalur terbaik melalui NAT (Network Address Translation).
