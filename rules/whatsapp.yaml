@@ -62,10 +62,10 @@ payload:
   - DST-PORT,3478  # STUN/TURN Servers. Digunakan untuk panggilan suara dan video, membantu perangkat menemukan jalur terbaik melalui NAT (Network Address Translation).
   - DST-PORT,3479  # STUN/TURN Servers. Digunakan untuk panggilan suara dan video, membantu perangkat menemukan jalur terbaik melalui NAT (Network Address Translation).
   - DST-PORT,4244
-  - DST-PORT,5222,CALL-WHATSAPP 📞,tcp # (XMPP Protocol) Fungsi: Komunikasi utama untuk pesan teks. WhatsApp menggunakan protokol XMPP untuk mengirim dan menerima pesan.
-  - DST-PORT,5223,CALL-WHATSAPP 📞,tcp # (Secure XMPP) Fungsi: Versi aman dari XMPP, digunakan jika koneksi memerlukan enkripsi tambahan.
+#  - DST-PORT,5222,CALL-WHATSAPP 📞,tcp # (XMPP Protocol) Fungsi: Komunikasi utama untuk pesan teks. WhatsApp menggunakan protokol XMPP untuk mengirim dan menerima pesan.
+#  - DST-PORT,5223,CALL-WHATSAPP 📞,tcp # (Secure XMPP) Fungsi: Versi aman dari XMPP, digunakan jika koneksi memerlukan enkripsi tambahan.
 #  - DST-PORT,5228 >> mencoba di alihkan ke service-google.yaml.
-  - DST-PORT,5288
+#  - DST-PORT,5288
   - DST-PORT,5242
   - DST-PORT,5349
   - DST-PORT,34784
