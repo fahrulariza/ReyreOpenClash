@@ -12,6 +12,11 @@ payload:
 # > CoC
 - DOMAIN-SUFFIX,clashofclans.com
 
+# > HIVE
+  - DOMAIN-SUFFIX,gameguard.co.kr
+  - DOMAIN-SUFFIX,summonerswar-sea-lb.qpyou.cn
+  - DOMAIN-SUFFIX,qpyou.cn
+  
 # > Genshin Impact > miHoYo
   - DOMAIN-SUFFIX,yuanshen.com
   - DOMAIN-SUFFIX,bh3.com
