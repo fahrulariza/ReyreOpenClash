@@ -16,6 +16,10 @@ payload:
   - DOMAIN-SUFFIX,gameguard.co.kr
   - DOMAIN-SUFFIX,summonerswar-sea-lb.qpyou.cn
   - DOMAIN-SUFFIX,qpyou.cn
+  - DOMAIN-SUFFIX,summonerswar-sea-lb.qpyou.cn.edgekey.net.globalredir.akadns.net
+  - DOMAIN-SUFFIX,qpyou.cn.akadns.net
+  - DOMAIN-KEYWORD,summonerswar-sea-lb
+  - DOMAIN-KEYWORD,qpyou
   
 # > Genshin Impact > miHoYo
   - DOMAIN-SUFFIX,yuanshen.com
