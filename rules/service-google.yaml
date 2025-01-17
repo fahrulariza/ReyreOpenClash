@@ -10,6 +10,11 @@ payload:
 
   # > Google FCM
   # According to Firebase FAQ https://firebase.google.com/docs/cloud-messaging/concept-options#messaging-ports-and-your-firewall
+  - DOMAIN,dns.google.com
+  - DOMAIN,clients3.google.com
+  - DOMAIN,clients4.google.com
+  - DOMAIN,suggestqueries.google.com
+  - DOMAIN,time.google.com
   - DOMAIN,mtalk.google.com
   - DOMAIN,mtalk4.google.com
   - DOMAIN,mtalk-staging.google.com
