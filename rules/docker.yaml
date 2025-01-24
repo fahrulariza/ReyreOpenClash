@@ -1,4 +1,6 @@
 
 payload:
 
-# &gt; LIST Domain Bank di Indonesia
+- DOMAIN-SUFFIX,docker.com
+- DOMAIN-SUFFIX,docker.io
+- DOMAIN-KEYWORD,docker
