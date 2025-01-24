@@ -3,4 +3,7 @@ payload:
 
 - DOMAIN-SUFFIX,docker.com
 - DOMAIN-SUFFIX,docker.io
+- DOMAIN-SUFFIX,blipshotextension.com:443	
+- DOMAIN-SUFFIX,aws.dckr.io
+- DOMAIN-SUFFIX,pangle.io
 - DOMAIN-KEYWORD,docker
