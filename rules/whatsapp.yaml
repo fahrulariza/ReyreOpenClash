@@ -41,10 +41,10 @@ payload:
   - IP-CIDR,50.22.198.204/30
   - IP-CIDR,54.242.0.0/15
 
-  - IP-CIDR,31.13.24.0/21
-  - IP-CIDR,31.13.64.0/18
-  - IP-CIDR,31.13.24.0/21
-  - IP-CIDR,31.13.64.0/18
+
+# Rentang ini sering digunakan oleh Meta (Facebook, WhatsApp, Instagram) untuk server mereka, sehingga aturan ini mungkin diperlukan untuk memastikan akses ke layanan mereka tetap lancar.
+  - IP-CIDR,31.13.24.0/21 # IP pertama: 31.13.24.0 (network address) | IP terakhir: 31.13.31.255 (broadcast address)
+  - IP-CIDR,31.13.64.0/18 # IP pertama (Network Address): 31.13.64.0 | IP terakhir (Broadcast Address): 31.13.127.255
 
 # > Whatsapp direct
 #  - DOMAIN-SUFFIX,whatsapp.net,CALL-WHATSAPP 📞,tcp
