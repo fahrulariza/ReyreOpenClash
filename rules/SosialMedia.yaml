@@ -37,11 +37,12 @@ payload:
 - DOMAIN-SUFFIX,fbworkmail.com
 - DOMAIN-KEYWORD,.facebook.
 - DOMAIN-SUFFIX,facebookmail.com
-# - IP-CIDR,157.240.0.0/16
+- IP-CIDR,157.240.0.0/16 # # mencakup beberapa layanan dari Meta (Facebook, WhatsApp, Instagram), tetapi tetap digunakan oleh WhatsApp.
 - IP-CIDR,103.4.96.0/22
 - IP-CIDR,129.134.0.0/17
-# - IP-CIDR,157.240.0.0/17
-#- IP-CIDR,173.252.64.0/19
+- IP-CIDR,157.240.0.0/17 # # mencakup beberapa layanan dari Meta (Facebook, WhatsApp, Instagram), tetapi tetap digunakan oleh WhatsApp.
+- IP-CIDR,173.252.64.0/19 # mencakup beberapa layanan dari Meta (Facebook, WhatsApp, Instagram), tetapi tetap digunakan oleh WhatsApp.
+- IP-CIDR,173.252.64.0/18 # mencakup beberapa layanan dari Meta (Facebook, WhatsApp, Instagram), tetapi tetap digunakan oleh WhatsApp.
 - IP-CIDR,173.252.96.0/19
 #- IP-CIDR,179.60.192.0/22
 #- IP-CIDR,185.60.216.0/22
@@ -66,9 +67,8 @@ payload:
 - IP-CIDR,119.235.232.0/24
 - IP-CIDR,119.235.236.0/23
 - IP-CIDR,129.134.0.0/17
-#- IP-CIDR,157.240.0.0/17
 - IP-CIDR,169.45.248.118/32
-#- IP-CIDR,173.252.64.0/18
+
 #- IP-CIDR,179.60.192.0/22
 #- IP-CIDR,185.60.216.0/22
 - IP-CIDR,185.89.218.0/23
