@@ -41,6 +41,11 @@ payload:
   - IP-CIDR,50.22.198.204/30
   - IP-CIDR,54.242.0.0/15
 
+  - IP-CIDR,31.13.24.0/21
+  - IP-CIDR,31.13.64.0/18
+  - IP-CIDR,31.13.24.0/21
+  - IP-CIDR,31.13.64.0/18
+
 # > Whatsapp direct
 #  - DOMAIN-SUFFIX,whatsapp.net,CALL-WHATSAPP 📞,tcp
 #  - DOMAIN-SUFFIX,fna.whatsapp.net,CALL-WHATSAPP 📞,tcp
