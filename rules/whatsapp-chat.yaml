@@ -1,0 +1,11 @@
+###################################################################################################
+#  mengelola berbagai fitur chat dan notifikasi dalam aplikasi yang menggunakan protokol XMPP atau yang sejenis.
+#  WhatsApp menggunakan protokol XMPP untuk mengirim dan menerima pesan. Port yang digunakan adalah:
+#  5222 (XMPP, client-to-server communication)
+#  443 (HTTPS, fallback jika port utama diblokir)
+#  80 (HTTP, lebih jarang digunakan sebagai cadangan)
+#  Jika Anda ingin membatasi akses hanya untuk pesan teks WhatsApp, cukup izinkan port 5222 dan 443.
+###################################################################################################
+
+
+  - DST-PORT,5222,CALL-WHATSAPP 📞,tcp # (XMPP Protocol) Fungsi: Komunikasi utama untuk pesan teks. WhatsApp menggunakan protokol XMPP untuk mengirim dan menerima pesan.
