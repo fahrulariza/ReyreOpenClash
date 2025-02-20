@@ -36,7 +36,7 @@ payload:
 
 # Rentang ini sering digunakan oleh Meta (Facebook, WhatsApp, Instagram) untuk server mereka, sehingga aturan ini mungkin diperlukan untuk memastikan akses ke layanan mereka tetap lancar.
   - IP-CIDR,31.13.24.0/21 # IP pertama: 31.13.24.0 (network address) | IP terakhir: 31.13.31.255 (broadcast address) >> Jika ingin hanya khusus WhatsApp
-#  - IP-CIDR,31.13.64.0/18 # IP pertama (Network Address): 31.13.64.0 | IP terakhir (Broadcast Address): 31.13.127.255 >> Jika ingin hanya khusus WhatsApp
+#  - IP-CIDR,31.13.64.0/18 # IP pertama (Network Address): 31.13.64.0 | IP terakhir (Broadcast Address): 31.13.127.255 >> mencakup sebagian besar layanan milik Meta (Facebook), termasuk WhatsApp, Facebook, dan Instagram.
   - IP-CIDR,179.60.192.0/22 # Rentang ini banyak digunakan di beberapa wilayah global, terutama untuk koneksi antara pengguna dan server WhatsApp. | Koneksi pesan / Panggilan suara/video / Layanan media (gambar, video, dokumen, voice note)
   - IP-CIDR,185.60.216.0/22 # Jika ingin hanya khusus WhatsApp
 
