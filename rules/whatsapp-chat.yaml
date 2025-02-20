@@ -7,6 +7,6 @@
 #  Jika Anda ingin membatasi akses hanya untuk pesan teks WhatsApp, cukup izinkan port 5222 dan 443.
 ###################################################################################################
 
-
+payload:
   - DST-PORT,5222,CALL-WHATSAPP 📞,tcp # (XMPP Protocol) Fungsi: Komunikasi utama untuk pesan teks. WhatsApp menggunakan protokol XMPP untuk mengirim dan menerima pesan.
   - DST-PORT,5223,CALL-WHATSAPP 📞,tcp # (Secure XMPP) Fungsi: Versi aman dari XMPP, digunakan jika koneksi memerlukan enkripsi tambahan.
