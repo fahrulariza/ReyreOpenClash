@@ -1,6 +1,10 @@
 payload:
 - DOMAIN-KEYWORD,snackvideo
-  
+
+# > INSTAGRAM
+- DOMAIN-SUFFIX,cdninstagram.com
+- DOMAIN-SUFFIX,instagram.com
+
 # > Facebook
 - DOMAIN-SUFFIX,accountkit.com
 - DOMAIN-SUFFIX,atdmt.com
