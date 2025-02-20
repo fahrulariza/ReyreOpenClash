@@ -14,5 +14,6 @@ payload:
   - DOMAIN-SUFFIX,media-sin2-2.cdn.whatsapp.net
   - DOMAIN-SUFFIX,media-sin11-1.cdn.whatsapp.net
   - DOMAIN-SUFFIX,media-sin11-2.cdn.whatsapp.net
+  - DOMAIN-SUFFIX,cdn.whatsapp.net
   - DOMAIN-SUFFIX,g-fallback.whatsapp.net
   - DOMAIN-SUFFIX,media-sin11-2.cdn.whatsapp.net
