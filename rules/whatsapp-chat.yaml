@@ -18,3 +18,4 @@ payload:
   - DOMAIN-SUFFIX,g-fallback.whatsapp.net
   - DOMAIN-SUFFIX,media-sin11-2.cdn.whatsapp.net
   - DOMAIN-SUFFIX,static.whatsapp.net
+  - DOMAIN-SUFFIX,g.whatsapp.net
