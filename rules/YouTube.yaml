@@ -13,12 +13,12 @@ payload:
   # > Youtube
   - DOMAIN-KEYWORD,youtube.com
   
-  - DOMAIN,youtubei.googleapis.com
-  - DOMAIN,yt3.ggpht.com
-  - DOMAIN,www.youtube.com
-  - DOMAIN,youtube.com
-  - DOMAIN,s.youtube.com
-  - DOMAIN,music.youtube.com
+  - DOMAIN-SUFFIX,youtubei.googleapis.com
+  - DOMAIN-SUFFIX,yt3.ggpht.com
+  - DOMAIN-SUFFIX,www.youtube.com
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,s.youtube.com
+  - DOMAIN-SUFFIX,music.youtube.com
   
   - DOMAIN-SUFFIX,youtube.com
   - DOMAIN-SUFFIX,music.youtube.com
