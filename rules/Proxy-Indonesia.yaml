@@ -25,6 +25,7 @@ payload:
 - DOMAIN-KEYWORD,ponpes.id
 
 # &gt;
+- DOMAIN-SUFFIX,chatgpt.com
 - DOMAIN-SUFFIX,klikhost.com
 - DOMAIN-SUFFIX,u.klikhost.com
 - DOMAIN-SUFFIX,kumparan.com
