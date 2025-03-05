@@ -13,8 +13,39 @@ payload:
   - DST-PORT,7006-7008,8001-8012,9008,10000-10015,13008,PLAY-IN-GAME 🎮,udp
 
   # PUBG Mobile
-  - DST-PORT,7889,10012,13004,14000,20000-20002,20371,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,8011,9030,17500,20000-20002,7086-7995,PLAY-IN-GAME 🎮,udp
+# IP Umum PUBG Mobile (Gameplay)
+
+# 1. Server Tencent untuk Login & Autentikasi
+  - DOMAIN-SUFFIX,203.205.239.0/24
+  - DOMAIN-SUFFIX,49.51.0.0/16
+  - DOMAIN-SUFFIX,182.254.0.0/16
+
+# 2. Server Game (Matchmaking & In-Game)
+# Asia Server:
+  - DOMAIN-SUFFIX,150.109.0.0/16 # (Tencent Hong Kong)
+  - DOMAIN-SUFFIX,129.226.0.0/16
+  - DOMAIN-SUFFIX,47.252.0.0/16 # (Alibaba Cloud)
+
+# KRJP (Korea & Japan Server):
+  - DOMAIN-SUFFIX,13.124.0.0/16
+  - DOMAIN-SUFFIX,15.164.0.0/16
+
+# North America Server:
+  - DOMAIN-SUFFIX,47.89.0.0/16
+  - DOMAIN-SUFFIX,52.221.0.0/16
+
+# Europe Server:
+  - DOMAIN-SUFFIX,18.194.0.0/16
+  - DOMAIN-SUFFIX,35.158.0.0/16
+
+# Middle East Server:
+  - DOMAIN-SUFFIX,54.37.0.0/16
+  - DOMAIN-SUFFIX,185.169.0.0/16
+
+# 3. Server Voice Chat & Data Tambahan
+  - DOMAIN-SUFFIX,101.32.104.0/24
+  - DOMAIN-SUFFIX,203.205.254.0/24
+  - DOMAIN-SUFFIX,129.226.3.0/24
 
   # CODM (Call of Duty Mobile)
   - DST-PORT,3013,10000-10019,18082,50000,PLAY-IN-GAME 🎮,tcp
