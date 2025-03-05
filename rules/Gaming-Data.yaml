@@ -26,6 +26,10 @@ payload:
   - IP-CIDR,114.122.194.114/32
   - IP-CIDR,114.122.194.120/32
 
+  - DOMAIN-SUFFIX,fastcdn.hoyoverse.com
+  - DOMAIN-SUFFIX,log-upload-os.hoyoverse.com
+  - DOMAIN-SUFFIX,autopatchhk.yuanshen.com
+  - DOMAIN-SUFFIX,launcher-webstatic.hoyoverse.com
   - DOMAIN-SUFFIX,yuanshen.com
   - DOMAIN-SUFFIX,bh3.com
   - DOMAIN-SUFFIX,hoyolab.com
