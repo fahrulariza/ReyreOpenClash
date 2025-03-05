@@ -2,6 +2,9 @@
 payload:
 # Mulai baris ini kebawah bisa di edit/hapus
 
+# Server Cloud
+- DOMAIN-SUFFIX,mega.co.nz
+
 # &gt; LIST Domain tLD Indo & GEOIP INDO
 # DOMAIN-SUFFIX untuk semua subdomain di bawah domain .id
 - DOMAIN-SUFFIX,id
