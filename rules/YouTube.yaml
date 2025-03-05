@@ -19,7 +19,7 @@ payload:
   - DOMAIN-SUFFIX,youtube.com
   - DOMAIN-SUFFIX,s.youtube.com
   - DOMAIN-SUFFIX,music.youtube.com
-  
+  - DOMAIN-SUFFIX,accounts.youtube.com
   - DOMAIN-SUFFIX,youtube.com
   - DOMAIN-SUFFIX,music.youtube.com
   - DOMAIN-SUFFIX,ytstatic.l.google.com
