@@ -1,0 +1,57 @@
+payload:
+
+# TikTok
+# Src: https://www.netify.ai/resources/applications/tiktok
+- DOMAIN-KEYWORD,-tiktok.byteoversea.com
+- DOMAIN-SUFFIX,byteoversea.net
+- DOMAIN-SUFFIX,ibytedtos.com
+- DOMAIN-SUFFIX,tiktok.com
+- DOMAIN-SUFFIX,tik-tokapi.com
+- DOMAIN-SUFFIX,tiktokcdn.com
+- DOMAIN-KEYWORD,tiktokcdn.com
+- DOMAIN-KEYWORD,tiktokv.com
+- DOMAIN-KEYWORD,-tiktokcdn-com
+- DOMAIN-KEYWORD,-tiktok.
+- DOMAIN-KEYWORD,-tiktok-
+- DOMAIN-KEYWORD,tiktok-
+- DOMAIN-KEYWORD,tiktokcdn-
+- DOMAIN-KEYWORD,tiktokcdn
+- DOMAIN-KEYWORD,-tt.byteimg.com
+- DOMAIN-KEYWORD,-tt-ipv6.byteimg.com
+- DOMAIN-KEYWORD,-hs.pstatp.com
+- DOMAIN-KEYWORD,-tos.pstatp.com
+- DOMAIN-KEYWORD,-mus.pstatp.com
+- DOMAIN-SUFFIX,flive.pstatp.com
+- DOMAIN-SUFFIX,byteimg.com
+- DOMAIN-SUFFIX,ibyteimg.com
+- DOMAIN-SUFFIX,ipstatp.com
+- DOMAIN-SUFFIX,sgpstatp.com
+- DOMAIN-SUFFIX,snssdk.com
+- DOMAIN-KEYWORD,tlivecdn.com
+- DOMAIN-KEYWORD,ttlivecdn.com
+- DOMAIN-SUFFIX,tiktokd.org
+- DOMAIN-SUFFIX,ttoversea.net
+- DOMAIN-SUFFIX,ttoverseaus.net
+- DOMAIN-SUFFIX,sgsnssdk.com
+- DOMAIN-SUFFIX,isnssdk.com
+- DOMAIN-SUFFIX,muscdn.com
+- DOMAIN-SUFFIX,musemuse.cn
+- DOMAIN-SUFFIX,musical.ly
+- DOMAIN,p16-tiktokcdn-com.akamaized.net
+  #- PROCESS-NAME,com.zhiliaoapp.musically
+- DOMAIN-SUFFIX,v19.tiktokcdn.com
+- IP-CIDR,199.232.90.73/32 # v19.tiktokcdn.com
+- IP-CIDR,199.232.46.73/32 #v16m.tiktokcdn.com
+- IP-CIDR,23.57.90.100/32 #v16m.tiktokcdn.com
+- IP-CIDR,23.57.90.108/32 #v16m.tiktokcdn.com
+
+
+- IP-CIDR,23.206.172.10/32 #api16-normal-c-useast1a.tiktokv.com
+- IP-CIDR,23.206.172.43/32 #api16-normal-c-useast1a.tiktokv.com
+- IP-CIDR,23.206.172.34/32 #api16-normal-c-useast1a.tiktokv.com
+- IP-CIDR,23.206.172.23/32 #api16-normal-c-useast1a.tiktokv.com
+- IP-CIDR,23.206.172.40/32 #api16-normal-c-useast1a.tiktokv.com
+- IP-CIDR,23.206.172.9/32 #api16-normal-c-useast1a.tiktokv.com
+- IP-CIDR,23.206.172.20/32 #api16-normal-c-useast1a.tiktokv.com
+- IP-CIDR,23.206.172.24/32 #api16-normal-c-useast1a.tiktokv.com
+- IP-CIDR,23.206.172.13/32 #api16-normal-c-useast1a.tiktokv.com
