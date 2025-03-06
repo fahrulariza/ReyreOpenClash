@@ -80,5 +80,5 @@ payload:
   - DST-PORT,4380,PLAY-IN-GAME 🎮,udp         # Steam P2P koneksi
 
   # Counter-Strike 2 (CS2)
-  - DST-PORT,3478,4379-4380,PLAY-IN-GAME 🎮,udp  # Steam voice chat (P2P)
+#  - DST-PORT,3478,4379-4380,PLAY-IN-GAME 🎮,udp  # Steam voice chat (P2P) = port 3478 sama dengan whatsapp call
 
