@@ -42,6 +42,7 @@ payload:
  # - DOMAIN-SUFFIX,googleapis.com
  #a
   - DOMAIN-SUFFIX,accounts.google.com
+  - DOMAIN-SUFFIX,androidtvlauncherxfe-pa.googleapis.com
   - DOMAIN-SUFFIX,android.googleapis.com
   - DOMAIN-SUFFIX,alt1-mtalk.google.com
   - DOMAIN-SUFFIX,alt2-mtalk.google.com
@@ -67,6 +68,7 @@ payload:
   - DOMAIN-SUFFIX,deviceintegritytokens-pa.googleapis.com 
 
 #E
+  - DOMAIN-SUFFIX,embeddedassistant.googleapis.com
 #F
   - DOMAIN-SUFFIX,footprints-pa.googleapis.com
   - DOMAIN-SUFFIX,fonts.googleapis.com
@@ -110,27 +112,6 @@ payload:
 #U
 #V
   - DOMAIN-SUFFIX,voilatile-pa.googleapis.com
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  
 # > meets hangouts
