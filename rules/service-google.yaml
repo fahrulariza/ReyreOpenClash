@@ -75,6 +75,7 @@ payload:
 #E
   - DOMAIN-SUFFIX,embeddedassistant.googleapis.com
 #F
+  - DOMAIN-SUFFIX,forcesafesearch.google.com
   - DOMAIN-SUFFIX,feedback-pa.googleapis.com
   - DOMAIN-SUFFIX,footprints-pa.googleapis.com
   - DOMAIN-SUFFIX,fonts.googleapis.com
