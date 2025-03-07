@@ -134,6 +134,7 @@ payload:
   - DOMAIN-SUFFIX,speechs3proto2-pa.googleapis.com
   - DOMAIN-SUFFIX,signaler-pa.clients6.google.com
 #T
+  - DOMAIN-SUFFIX,tenor.googleapis.com
   - DOMAIN-SUFFIX,time.google.com
   - DOMAIN-SUFFIX,taskassist-pa.googleapis.com
 #U
