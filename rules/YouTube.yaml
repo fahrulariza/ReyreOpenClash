@@ -221,5 +221,5 @@ payload:
      # Allow IP ranges for Google services (YouTube included)
 
   - IP-CIDR,64.233.160.0/19
-  - IP-CIDR,172.217.0.0/16
+  - IP-CIDR,172.217.0.0/16 # youtubei.googleapis.com:443	172.217.194.95
   - IP-CIDR,216.58.192.0/19 
