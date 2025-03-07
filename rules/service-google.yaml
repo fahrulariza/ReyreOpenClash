@@ -78,6 +78,7 @@ payload:
 #G
   - DOMAIN-SUFFIX,geller-pa.googleapis.com
   - DOMAIN-SUFFIX,google-ohttp-relay-safebrowsing.fastly-edge.com
+  - DOMAIN-SUFFIX,googlehomefoyer-pa.googleapis.com:443	
 #H
 #I
   - DOMAIN-SUFFIX,inbox.google.com
@@ -109,7 +110,7 @@ payload:
   - DOMAIN-SUFFIX,suggestqueries.google.com
   - DOMAIN-SUFFIX,spot-pa.googleapis.com
   - DOMAIN-SUFFIX,speechs3proto2-pa.googleapis.com
-  - DOMAIN-SUFFIX,signaler-pa.clients6.google.com:443
+  - DOMAIN-SUFFIX,signaler-pa.clients6.google.com
 #T
   - DOMAIN-SUFFIX,time.google.com
   - DOMAIN-SUFFIX,taskassist-pa.googleapis.com
@@ -117,7 +118,8 @@ payload:
   - DOMAIN-SUFFIX,update.googleapis.com
 #V
   - DOMAIN-SUFFIX,voilatile-pa.googleapis.com
-
+#X
+  - DOMAIN-SUFFIX,xgapromomanager-pa.googleapis.com
  
 # > meets hangouts
   - DOMAIN-SUFFIX,hangouts.clients6.google.com
