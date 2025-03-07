@@ -54,6 +54,8 @@ payload:
   - DOMAIN-SUFFIX,alt8-mtalk.google.com
   - DOMAIN-SUFFIX,android.apis.google.com
 #C
+  - DOMAIN-SUFFIX,clients.l.google.com
+  - DOMAIN-SUFFIX,chromewebstore.googleapis.com
   - DOMAIN-SUFFIX,clients3.google.com
   - DOMAIN-SUFFIX,clients4.google.com
   - DOMAIN-SUFFIX,clients6.google.com
@@ -93,8 +95,10 @@ payload:
 #N
   - DOMAIN-SUFFIX,nearbysharing-pa.googleapis.com
 #O
+  - DOMAIN-SUFFIX,o.pki.goog
   - DOMAIN-SUFFIX,optimizationguide-pa.googleapis.com
 #P
+  - DOMAIN-SUFFIX,play.google.com
   - DOMAIN-SUFFIX,people-pa.googleapis.com
   - DOMAIN-SUFFIX,play.googleapis.com
   - DOMAIN-SUFFIX,play-fe.googleapis.com
@@ -110,6 +114,7 @@ payload:
   - DOMAIN-SUFFIX,time.google.com
   - DOMAIN-SUFFIX,taskassist-pa.googleapis.com
 #U
+  - DOMAIN-SUFFIX,update.googleapis.com
 #V
   - DOMAIN-SUFFIX,voilatile-pa.googleapis.com
 
