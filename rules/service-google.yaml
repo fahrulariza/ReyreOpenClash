@@ -41,6 +41,7 @@ payload:
 
  # - DOMAIN-SUFFIX,googleapis.com
  #a
+  - DOMAIN-SUFFIX,android.clients.google.com
   - DOMAIN-SUFFIX,accounts.google.com
   - DOMAIN-SUFFIX,androidtvlauncherxfe-pa.googleapis.com
   - DOMAIN-SUFFIX,android.googleapis.com
