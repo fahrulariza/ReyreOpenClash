@@ -8,12 +8,8 @@ payload:
   - DST-PORT,5229 # Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
   - DST-PORT,5230 # Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
 
-   # Allow IP ranges for Google services (YouTube included)
   - IP-CIDR,8.8.8.0/24
   - IP-CIDR,8.8.4.0/24
-  - IP-CIDR,64.233.160.0/19
-  - IP-CIDR,172.217.0.0/16
-  - IP-CIDR,216.58.192.0/19 
 
   # > Google FCM
   # According to Firebase FAQ https://firebase.google.com/docs/cloud-messaging/concept-options#messaging-ports-and-your-firewall
