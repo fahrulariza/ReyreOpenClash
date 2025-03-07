@@ -51,18 +51,27 @@ payload:
   - IP-CIDR,142.250.10.188/32,no-resolve
   - IP-CIDR,142.250.31.188/32,no-resolve
   - IP-CIDR,142.250.96.188/32,no-resolve
-  - IP-CIDR,172.217.194.188/32,no-resolve
-  - IP-CIDR,172.217.218.188/32,no-resolve
-  - IP-CIDR,172.217.219.188/32,no-resolve
+
   - IP-CIDR,172.253.63.188/32,no-resolve
   - IP-CIDR,172.253.122.188/32,no-resolve
   - IP-CIDR,173.194.175.188/32,no-resolve
   - IP-CIDR,173.194.218.188/32,no-resolve
   - IP-CIDR,209.85.233.188/32,no-resolve
 
-  - DOMAIN-SUFFIX,googleapis.com
+ # - DOMAIN-SUFFIX,googleapis.com
+ - DOMAIN-SUFFIX,content-autofill.googleapis.com
+ - DOMAIN-SUFFIX,maps.googleapis.com
+ - DOMAIN-SUFFIX,footprints-pa.googleapis.com
+ - DOMAIN-SUFFIX,fonts.googleapis.com
+ - DOMAIN-SUFFIX,speechs3proto2-pa.googleapis.com
+ - DOMAIN-SUFFIX,nearbysharing-pa.googleapis.com
+ - DOMAIN-SUFFIX,optimizationguide-pa.googleapis.com
+ - DOMAIN-SUFFIX,voilatile-pa.googleapis.com
+ - DOMAIN-SUFFIX,play.googleapis.com
+ - DOMAIN-SUFFIX,deviceintegritytokens-pa.googleapis.com
+ - DOMAIN-SUFFIX,people-pa.googleapis.com
+ 
 # > meets hangouts
-
   - DOMAIN-SUFFIX,hangouts.clients6.google.com
   - DOMAIN-SUFFIX,hangouts.google.com
   - DOMAIN-SUFFIX,hangouts.googleapis.com
