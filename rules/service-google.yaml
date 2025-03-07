@@ -72,15 +72,18 @@ payload:
 #E
   - DOMAIN-SUFFIX,embeddedassistant.googleapis.com
 #F
+  - DOMAIN-SUFFIX,feedback-pa.googleapis.com
   - DOMAIN-SUFFIX,footprints-pa.googleapis.com
   - DOMAIN-SUFFIX,fonts.googleapis.com
   - DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
 #G
+  - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,geller-pa.googleapis.com
   - DOMAIN-SUFFIX,google-ohttp-relay-safebrowsing.fastly-edge.com
   - DOMAIN-SUFFIX,googlehomefoyer-pa.googleapis.com:443	
 #H
 #I
+  - DOMAIN-SUFFIX,instantmessaging-pa.googleapis.com
   - DOMAIN-SUFFIX,inbox.google.com
 #J
 #K
@@ -100,6 +103,7 @@ payload:
   - DOMAIN-SUFFIX,o.pki.goog
   - DOMAIN-SUFFIX,optimizationguide-pa.googleapis.com
 #P
+  - DOMAIN-SUFFIX,photosdata-pa.googleapis.com
   - DOMAIN-SUFFIX,play.google.com
   - DOMAIN-SUFFIX,people-pa.googleapis.com
   - DOMAIN-SUFFIX,play.googleapis.com
@@ -108,6 +112,7 @@ payload:
 #Q
 #R
 #S
+  - DOMAIN-SUFFIX,socialuserlocation.googleapis.com
   - DOMAIN-SUFFIX,suggestqueries.google.com
   - DOMAIN-SUFFIX,spot-pa.googleapis.com
   - DOMAIN-SUFFIX,speechs3proto2-pa.googleapis.com
@@ -119,6 +124,8 @@ payload:
   - DOMAIN-SUFFIX,update.googleapis.com
 #V
   - DOMAIN-SUFFIX,voilatile-pa.googleapis.com
+#W
+  - DOMAIN-SUFFIX,www.googleapis.com
 #X
   - DOMAIN-SUFFIX,xgapromomanager-pa.googleapis.com
  
