@@ -65,6 +65,7 @@ payload:
   - DOMAIN-SUFFIX,clientservices.googleapis.com
   
 #D
+  - DOMAIN-SUFFIX,digitalassetlinks.googleapis.com
   - DOMAIN-SUFFIX,discover-pa.googleapis.com
   - DOMAIN-SUFFIX,dl.google.com
   - DOMAIN-SUFFIX,docs.google.com
