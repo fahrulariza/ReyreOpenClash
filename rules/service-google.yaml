@@ -93,6 +93,7 @@ payload:
   - DOMAIN-SUFFIX,mtalk-dev.google.com
   - DOMAIN-SUFFIX,maps.googleapis.com
   - DOMAIN-SUFFIX,messages.google.com
+  - DOMAIN-SUFFIX,mobilemaps-pa-gz.googleapis.com
 #N
   - DOMAIN-SUFFIX,nearbysharing-pa.googleapis.com
 #O
