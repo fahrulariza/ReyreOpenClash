@@ -54,6 +54,7 @@ payload:
   - DOMAIN-SUFFIX,alt8-mtalk.google.com
   - DOMAIN-SUFFIX,android.apis.google.com
 #C
+  - DOMAIN-SUFFIX,c.pki.goog
   - DOMAIN-SUFFIX,clients.l.google.com
   - DOMAIN-SUFFIX,chromewebstore.googleapis.com
   - DOMAIN-SUFFIX,clients3.google.com
@@ -63,6 +64,7 @@ payload:
   - DOMAIN-SUFFIX,clientservices.googleapis.com
   
 #D
+  - DOMAIN-SUFFIX,discover-pa.googleapis.com
   - DOMAIN-SUFFIX,dl.google.com
   - DOMAIN-SUFFIX,docs.google.com
   - DOMAIN-SUFFIX,dns.google.com
@@ -77,19 +79,25 @@ payload:
   - DOMAIN-SUFFIX,fonts.googleapis.com
   - DOMAIN-SUFFIX,firebaseinstallations.googleapis.com
 #G
+  - DOMAIN-SUFFIX,googletagmanager.com
+  - DOMAIN-SUFFIX,googletagservices.com
+  - DOMAIN-SUFFIX,gz0.googleusercontent.com
   - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,geller-pa.googleapis.com
   - DOMAIN-SUFFIX,google-ohttp-relay-safebrowsing.fastly-edge.com
   - DOMAIN-SUFFIX,googlehomefoyer-pa.googleapis.com:443	
 #H
 #I
+  - DOMAIN-SUFFIX,instantmessaging-pa-jms-preprod-ap.googleapis.com
   - DOMAIN-SUFFIX,instantmessaging-pa.googleapis.com
   - DOMAIN-SUFFIX,inbox.google.com
 #J
 #K
+  - DOMAIN-SUFFIX,keep.google.com
 #L
   - DOMAIN-SUFFIX,lh3.googleusercontent.com
 #M
+  - DOMAIN-SUFFIX,mail.google.com
   - DOMAIN-SUFFIX,mtalk.google.com
   - DOMAIN-SUFFIX,mtalk4.google.com
   - DOMAIN-SUFFIX,mtalk-staging.google.com
@@ -98,11 +106,15 @@ payload:
   - DOMAIN-SUFFIX,messages.google.com
   - DOMAIN-SUFFIX,mobilemaps-pa-gz.googleapis.com
 #N
+  - DOMAIN-SUFFIX,notes-pa.googleapis.com
+  - DOMAIN-SUFFIX,notifications-pa.googleapis.com
   - DOMAIN-SUFFIX,nearbysharing-pa.googleapis.com
 #O
+  - DOMAIN-SUFFIX,oauth2.googleapis.com
   - DOMAIN-SUFFIX,o.pki.goog
   - DOMAIN-SUFFIX,optimizationguide-pa.googleapis.com
 #P
+  - DOMAIN-SUFFIX,peoplestack-pa.googleapis.com
   - DOMAIN-SUFFIX,photosdata-pa.googleapis.com
   - DOMAIN-SUFFIX,play.google.com
   - DOMAIN-SUFFIX,people-pa.googleapis.com
@@ -111,7 +123,9 @@ payload:
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 #Q
 #R
+  - DOMAIN-SUFFIX,readaloud.googleapis.com
 #S
+  - DOMAIN-SUFFIX,safebrowsing.googleapis.com
   - DOMAIN-SUFFIX,socialuserlocation.googleapis.com
   - DOMAIN-SUFFIX,suggestqueries.google.com
   - DOMAIN-SUFFIX,spot-pa.googleapis.com
