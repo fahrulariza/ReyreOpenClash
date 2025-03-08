@@ -32,38 +32,28 @@ payload:
   - IP-CIDR,34.224.0.0/12
   - IP-CIDR,50.22.198.204/30
   - IP-CIDR,54.242.0.0/15
-
-
 # Rentang ini sering digunakan oleh Meta (Facebook, WhatsApp, Instagram) untuk server mereka, sehingga aturan ini mungkin diperlukan untuk memastikan akses ke layanan mereka tetap lancar.
   - IP-CIDR,31.13.24.0/21 # IP pertama: 31.13.24.0 (network address) | IP terakhir: 31.13.31.255 (broadcast address) >> Jika ingin hanya khusus WhatsApp
 #  - IP-CIDR,31.13.64.0/18 # IP pertama (Network Address): 31.13.64.0 | IP terakhir (Broadcast Address): 31.13.127.255 >> mencakup sebagian besar layanan milik Meta (Facebook), termasuk WhatsApp, Facebook, dan Instagram.
   - IP-CIDR,179.60.192.0/22 # Rentang ini banyak digunakan di beberapa wilayah global, terutama untuk koneksi antara pengguna dan server WhatsApp. | Koneksi pesan / Panggilan suara/video / Layanan media (gambar, video, dokumen, voice note)
   - IP-CIDR,185.60.216.0/22 # Jika ingin hanya khusus WhatsApp
-
-
   # Aturan port untuk VoIP WhatsApp
   - DST-PORT,3478  # STUN/TURN Servers. Digunakan untuk panggilan suara dan video, membantu perangkat menemukan jalur terbaik melalui NAT (Network Address Translation).
   - DST-PORT,3479  # STUN/TURN Servers. Digunakan untuk panggilan suara dan video, membantu perangkat menemukan jalur terbaik melalui NAT (Network Address Translation).
-  - DST-PORT,4244
+  - DST-PORT,4244  # Digunakan untuk komunikasi VoIP
 #  - DST-PORT,5222,CALL-WHATSAPP 📞,tcp # (XMPP Protocol) Fungsi: Komunikasi utama untuk pesan teks. WhatsApp menggunakan protokol XMPP untuk mengirim dan menerima pesan.
 #  - DST-PORT,5223,CALL-WHATSAPP 📞,tcp # (Secure XMPP) Fungsi: Versi aman dari XMPP, digunakan jika koneksi memerlukan enkripsi tambahan.
 #  - DST-PORT,5228 >> mencoba di alihkan ke service-google.yaml.
-#  - DST-PORT,5288
+  - DST-PORT,5288
   - DST-PORT,5242
   - DST-PORT,5349
   - DST-PORT,34784
   - DST-PORT,45395
   - DST-PORT,50318
-  - DST-PORT,59234
-  - DST-PORT,12222
-  - DST-PORT,11112
-  - DST-PORT,25566
-
+  - DST-PORT,59234 # Digunakan untuk koneksi video call tambahan
   # Port media dinamis untuk VoIP (UDP Ports)
   # Fungsi: Port dinamis untuk panggilan suara dan video.
   - DST-PORT,45395-45399,CALL-WHATSAPP 📞,tcp
-
-
    # Whatsapp
   - DST-PORT,40020
   - DST-PORT,57923
