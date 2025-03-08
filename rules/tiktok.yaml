@@ -2,13 +2,49 @@ payload:
 
 # TikTok
 # Src: https://www.netify.ai/resources/applications/tiktok
-- DOMAIN-KEYWORD,-tiktok.byteoversea.com
+
+- DOMAIN-SUFFIX,bytefcdn-oversea.com
+- DOMAIN-SUFFIX,byteoversea.net
+- DOMAIN-SUFFIX,byteoversea.com
+- DOMAIN-SUFFIX,bytetcdn.com
+- DOMAIN-SUFFIX,bytedns.net
+- DOMAIN-SUFFIX,bytedns.com
+- DOMAIN-SUFFIX,bytedstatic.com
+- DOMAIN-SUFFIX,byted-vod.com
+- DOMAIN-SUFFIX,bytedance.org
+- DOMAIN-SUFFIX,bytedance.net
+- DOMAIN-SUFFIX,bytedance.com
+- DOMAIN-SUFFIX,bytecdn.net
+- DOMAIN-SUFFIX,byteintl.com
+- DOMAIN-SUFFIX,byteimg.com
 - DOMAIN-SUFFIX,byteoversea.net
 - DOMAIN-SUFFIX,ibytedtos.com
+- DOMAIN-SUFFIX,ibyteimg.com
+- DOMAIN-SUFFIX,isnssdk.com
+- DOMAIN-SUFFIX,ipstatp.com
 - DOMAIN-SUFFIX,tiktok.com
 - DOMAIN-SUFFIX,tik-tokapi.com
 - DOMAIN-SUFFIX,tiktokcdn.com
+- DOMAIN-SUFFIX,tiktokcdn-us.com
+- DOMAIN-SUFFIX,tiktokcdn-us.org
+- DOMAIN-SUFFIX,tiktokd.org
+- DOMAIN-SUFFIX,tiktokd.com
+- DOMAIN-SUFFIX,tiktokglobalshop.com
+- DOMAIN-SUFFIX,tiktokv.us
+- DOMAIN-SUFFIX,tik-tokapi.us
+- DOMAIN-SUFFIX,tiktokservices.com
+- DOMAIN-SUFFIX,ttoversea.net
+- DOMAIN-SUFFIX,ttoverseaus.net
+- DOMAIN-SUFFIX,flive.pstatp.com
+- DOMAIN-SUFFIX,sgpstatp.com
+- DOMAIN-SUFFIX,snssdk.com
+- DOMAIN-SUFFIX,sgsnssdk.com
+- DOMAIN-SUFFIX,muscdn.com
+- DOMAIN-SUFFIX,musemuse.cn
+- DOMAIN-SUFFIX,musical.ly
+
 - DOMAIN-KEYWORD,tiktokcdn.com
+- DOMAIN-KEYWORD,-tiktok.byteoversea.com
 - DOMAIN-KEYWORD,tiktokv.com
 - DOMAIN-KEYWORD,-tiktokcdn-com
 - DOMAIN-KEYWORD,-tiktok.
@@ -21,22 +57,10 @@ payload:
 - DOMAIN-KEYWORD,-hs.pstatp.com
 - DOMAIN-KEYWORD,-tos.pstatp.com
 - DOMAIN-KEYWORD,-mus.pstatp.com
-- DOMAIN-SUFFIX,flive.pstatp.com
-- DOMAIN-SUFFIX,byteimg.com
-- DOMAIN-SUFFIX,ibyteimg.com
-- DOMAIN-SUFFIX,ipstatp.com
-- DOMAIN-SUFFIX,sgpstatp.com
-- DOMAIN-SUFFIX,snssdk.com
+
 - DOMAIN-KEYWORD,tlivecdn.com
 - DOMAIN-KEYWORD,ttlivecdn.com
-- DOMAIN-SUFFIX,tiktokd.org
-- DOMAIN-SUFFIX,ttoversea.net
-- DOMAIN-SUFFIX,ttoverseaus.net
-- DOMAIN-SUFFIX,sgsnssdk.com
-- DOMAIN-SUFFIX,isnssdk.com
-- DOMAIN-SUFFIX,muscdn.com
-- DOMAIN-SUFFIX,musemuse.cn
-- DOMAIN-SUFFIX,musical.ly
+
 - DOMAIN,p16-tiktokcdn-com.akamaized.net
   #- PROCESS-NAME,com.zhiliaoapp.musically
 - DOMAIN-SUFFIX,v19.tiktokcdn.com
