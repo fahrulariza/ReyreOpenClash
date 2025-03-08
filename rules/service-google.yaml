@@ -4,34 +4,6 @@ payload:
   # Layanan: Google Cloud Messaging (GCM) / Firebase Cloud Messaging (FCM).
   # Fungsi: Notifikasi push untuk aplikasi seperti Gmail, Google Play, dan WhatsApp dll.
   
-  # > Google FCM
-  # According to Firebase FAQ https://firebase.google.com/docs/cloud-messaging/concept-options#messaging-ports-and-your-firewall
-
-  - IP-CIDR,64.233.177.188/32,no-resolve
-  - IP-CIDR,64.233.186.188/32,no-resolve
-  - IP-CIDR,64.233.187.188/32,no-resolve
-  - IP-CIDR,64.233.188.188/32,no-resolve
-  - IP-CIDR,64.233.189.188/32,no-resolve
-  - IP-CIDR,74.125.23.188/32,no-resolve
-  - IP-CIDR,74.125.24.188/32,no-resolve
-  - IP-CIDR,74.125.28.188/32,no-resolve
-  - IP-CIDR,74.125.127.188/32,no-resolve
-  - IP-CIDR,74.125.137.188/32,no-resolve
-  - IP-CIDR,74.125.203.188/32,no-resolve
-  - IP-CIDR,74.125.204.188/32,no-resolve
-  - IP-CIDR,74.125.206.188/32,no-resolve
-  - IP-CIDR,108.177.125.188/32,no-resolve
-  - IP-CIDR,142.250.4.188/32,no-resolve
-  - IP-CIDR,142.250.10.188/32,no-resolve
-  - IP-CIDR,142.250.31.188/32,no-resolve
-  - IP-CIDR,142.250.96.188/32,no-resolve
-
-  - IP-CIDR,172.253.63.188/32,no-resolve
-  - IP-CIDR,172.253.122.188/32,no-resolve
-  - IP-CIDR,173.194.175.188/32,no-resolve
-  - IP-CIDR,173.194.218.188/32,no-resolve
-  - IP-CIDR,209.85.233.188/32,no-resolve
-
  # - DOMAIN-SUFFIX,googleapis.com
  #a
   - DOMAIN-SUFFIX,apis.google.com
@@ -169,6 +141,51 @@ payload:
   - IP-CIDR,74.125.0.0/16 # alamat IP ini terletak di Milan, Lombardia, Italia.
   - IP-CIDR,142.250.176.0/24 # yang dialokasikan untuk Google.  Secara geografis, alamat IP ini terletak di Mountain View, California, Amerika Serikat.
   - IP-CIDR,173.194.160.0/21 # alamat IP ini terletak di Chicago, Illinois, Amerika Serikat. Port 443 adalah port standar yang digunakan untuk HTTPS, protokol yang mengamankan komunikasi antara browser dan server web. Karena alamat IP ini milik Google, kemungkinan besar digunakan untuk layanan web aman mereka, seperti mesin pencari Google atau layanan terkait lainnya.
+
+  # > Google FCM
+  # According to Firebase FAQ https://firebase.google.com/docs/cloud-messaging/concept-options#messaging-ports-and-your-firewall
+
+  - IP-CIDR,64.233.177.188/32
+  - IP-CIDR,64.233.186.188/32
+  - IP-CIDR,64.233.187.188/32
+  - IP-CIDR,64.233.188.188/32
+  - IP-CIDR,64.233.189.188/32
+  - IP-CIDR,74.125.23.188/32
+  - IP-CIDR,74.125.24.188/32
+  - IP-CIDR,74.125.28.188/32
+  - IP-CIDR,74.125.127.188/32
+  - IP-CIDR,74.125.137.188/32
+  - IP-CIDR,74.125.203.188/32
+  - IP-CIDR,74.125.204.188/32
+  - IP-CIDR,74.125.206.188/32
+  - IP-CIDR,108.177.125.188/32
+  - IP-CIDR,142.250.4.188/32
+  - IP-CIDR,142.250.10.188/32
+  - IP-CIDR,142.250.31.188/32
+  - IP-CIDR,142.250.96.188/32
+
+  - IP-CIDR,172.253.63.188/32
+  - IP-CIDR,172.253.122.188/32
+  - IP-CIDR,173.194.175.188/32
+  - IP-CIDR,173.194.218.188/32
+  - IP-CIDR,209.85.233.188/32
+
+# beberapa rentang alamat IP utama milik Google LLC
+  - IP-CIDR,34.64.0.0/10
+  - IP-CIDR,35.192.0.0/12
+  - IP-CIDR,35.208.0.0/13
+  - IP-CIDR,35.252.0.0/14
+  - IP-CIDR,104.132.0.0/14
+  - IP-CIDR,104.154.0.0/15
+  - IP-CIDR,104.196.0.0/14
+  - IP-CIDR,108.177.0.0/17
+  - IP-CIDR,130.211.0.0/16
+  - IP-CIDR,136.112.0.0/12
+  - IP-CIDR,142.250.0.0/15
+  - IP-CIDR,172.217.0.0/16
+  - IP-CIDR,172.253.0.0/16
+  - IP-CIDR,173.194.0.0/16
+  - IP-CIDR,192.178.0.0/15
   
   - DST-PORT,5228 # Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
   - DST-PORT,5229 # Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
