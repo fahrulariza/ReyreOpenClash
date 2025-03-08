@@ -22,25 +22,11 @@ payload:
   - IP-CIDR,190.93.240.0/20  # Server media (gambar/video)
   - IP-CIDR,204.15.20.0/22  # Rentang tambahan untuk media
 
-#✅ Mode Routing untuk VoIP
-  - IP-CIDR,157.240.0.0/16
-  - IP-CIDR,31.13.24.0/21
-  - IP-CIDR,179.60.192.0/22
-  - IP-CIDR,185.60.216.0/22
-
-#✅ Mode Routing untuk Video Call  
-  - IP-CIDR,190.93.240.0/20
-  - IP-CIDR,204.15.20.0/22
-
 #2️⃣ Aturan PORT untuk Panggilan Suara WhatsApp dan Video Call WhatsApp
 
 #✅ Mode Routing untuk VoIP
   - DST-PORT,3478-3497
   - DST-PORT,4244
-#  - DST-PORT,5222,tcp
-#  - DST-PORT,5223,tcp
-#  - DST-PORT,5228-5243,tcp
-#  - DST-PORT,5288
   - DST-PORT,57923
 
 #✅ Port yang digunakan untuk Video Call WhatsApp
@@ -58,8 +44,4 @@ payload:
 #✅ Port yang digunakan untuk VoIP WhatsApp
   - DST-PORT,3478-3497  # STUN/TURN untuk NAT traversal (koneksi VoIP)
   - DST-PORT,4244  # Signaling VoIP
-#  - DST-PORT,5222,tcp  # Signaling XMPP
-#  - DST-PORT,5223,tcp  # Secure XMPP
-#  - DST-PORT,5228-5243,tcp  # Notifikasi Push
-#  - DST-PORT,5288  # Signaling tambahan
   - DST-PORT,57923  # Media streaming panggilan
