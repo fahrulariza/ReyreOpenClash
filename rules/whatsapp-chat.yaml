@@ -8,6 +8,12 @@
 ###################################################################################################
 
 payload:
+
+  - IP-CIDR,157.240.0.0/17 # # mencakup beberapa layanan dari Meta (Facebook, WhatsApp, Instagram), tetapi tetap digunakan oleh WhatsApp.
+  - IP-CIDR,157.240.0.0/16 # # mencakup beberapa layanan dari Meta (Facebook, WhatsApp, Instagram), tetapi tetap digunakan oleh WhatsApp.
+  - IP-CIDR,173.252.64.0/19 # mencakup beberapa layanan dari Meta (Facebook, WhatsApp, Instagram), tetapi tetap digunakan oleh WhatsApp.
+  - IP-CIDR,173.252.64.0/18 # mencakup beberapa layanan dari Meta (Facebook, WhatsApp, Instagram), tetapi tetap digunakan oleh WhatsApp.
+
   - DST-PORT,5222,CALL-WHATSAPP 📞,tcp # (XMPP Protocol) Fungsi: Komunikasi utama untuk pesan teks. WhatsApp menggunakan protokol XMPP untuk mengirim dan menerima pesan.
   - DST-PORT,5223,CALL-WHATSAPP 📞,tcp # (Secure XMPP) Fungsi: Versi aman dari XMPP, digunakan jika koneksi memerlukan enkripsi tambahan.
   
