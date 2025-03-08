@@ -13,91 +13,91 @@ payload:
 - DOMAIN-SUFFIX,clashofclans.com
 
 # > HIVE
-  - DOMAIN-SUFFIX,gameguard.co.kr
-  - DOMAIN-SUFFIX,summonerswar-sea-lb.qpyou.cn
-  - DOMAIN-SUFFIX,qpyou.cn
-  - DOMAIN-SUFFIX,summonerswar-sea-lb.qpyou.cn.edgekey.net.globalredir.akadns.net
-  - DOMAIN-SUFFIX,qpyou.cn.akadns.net
-  - DOMAIN-KEYWORD,summonerswar-sea-lb
-  - DOMAIN-KEYWORD,qpyou
+- DOMAIN-SUFFIX,gameguard.co.kr
+- DOMAIN-SUFFIX,summonerswar-sea-lb.qpyou.cn
+- DOMAIN-SUFFIX,qpyou.cn
+- DOMAIN-SUFFIX,summonerswar-sea-lb.qpyou.cn.edgekey.net.globalredir.akadns.net
+- DOMAIN-SUFFIX,qpyou.cn.akadns.net
+- DOMAIN-KEYWORD,summonerswar-sea-lb
+- DOMAIN-KEYWORD,qpyou
   
 # > Genshin Impact > miHoYo
 # yang digunakan oleh Genshin Impact untuk mempercepat distribusi data patch dan update game.
-  - IP-CIDR,114.122.194.114/32
-  - IP-CIDR,114.122.194.120/32
+- IP-CIDR,114.122.194.114/32
+- IP-CIDR,114.122.194.120/32
 
-  - DOMAIN-SUFFIX,fastcdn.hoyoverse.com
-  - DOMAIN-SUFFIX,log-upload-os.hoyoverse.com
-  - DOMAIN-SUFFIX,autopatchhk.yuanshen.com
-  - DOMAIN-SUFFIX,launcher-webstatic.hoyoverse.com
-  - DOMAIN-SUFFIX,yuanshen.com
-  - DOMAIN-SUFFIX,bh3.com
-  - DOMAIN-SUFFIX,hoyolab.com
-  - DOMAIN-SUFFIX,hoyoverse.com
-  - DOMAIN-SUFFIX,mihayo.com
-  - DOMAIN-SUFFIX,mihoyo.com
-  - DOMAIN-SUFFIX,miyoushe.com
-  - DOMAIN-SUFFIX,genshinimpact.com
-  - DOMAIN-SUFFIX,honkaiimpact3.com
-  - DOMAIN-SUFFIX,honkaistarrail.com
-  - DOMAIN-SUFFIX,hoyo.link
-  - DOMAIN-SUFFIX,hoyolab.com
-  - DOMAIN-SUFFIX,hoyoverse.com
-  - DOMAIN-SUFFIX,n0vadesktop.com
-  - DOMAIN-SUFFIX,mihoyo.com
-  - DOMAIN-KEYWORD,genshinimpact
-  - DOMAIN-KEYWORD,honkaiimpact3
-  - DOMAIN-KEYWORD,mihoyo
+- DOMAIN-SUFFIX,fastcdn.hoyoverse.com
+- DOMAIN-SUFFIX,log-upload-os.hoyoverse.com
+- DOMAIN-SUFFIX,autopatchhk.yuanshen.com
+- DOMAIN-SUFFIX,launcher-webstatic.hoyoverse.com
+- DOMAIN-SUFFIX,yuanshen.com
+- DOMAIN-SUFFIX,bh3.com
+- DOMAIN-SUFFIX,hoyolab.com
+- DOMAIN-SUFFIX,hoyoverse.com
+- DOMAIN-SUFFIX,mihayo.com
+- DOMAIN-SUFFIX,mihoyo.com
+- DOMAIN-SUFFIX,miyoushe.com
+- DOMAIN-SUFFIX,genshinimpact.com
+- DOMAIN-SUFFIX,honkaiimpact3.com
+- DOMAIN-SUFFIX,honkaistarrail.com
+- DOMAIN-SUFFIX,hoyo.link
+- DOMAIN-SUFFIX,hoyolab.com
+- DOMAIN-SUFFIX,hoyoverse.com
+- DOMAIN-SUFFIX,n0vadesktop.com
+- DOMAIN-SUFFIX,mihoyo.com
+- DOMAIN-KEYWORD,genshinimpact
+- DOMAIN-KEYWORD,honkaiimpact3
+- DOMAIN-KEYWORD,mihoyo
   
   #MLBB
-  - DOMAIN-SUFFIX,mobilelegends.com
-  - DOMAIN-SUFFIX,dl.mobilelegends.com
-  - DOMAIN-SUFFIX,resources.mobilelegends.com
-  - DOMAIN-SUFFIX,mobilelegends.ca
-  - DOMAIN-SUFFIX,mobilelegends.cn
-  - DOMAIN-SUFFIX,mobilelegends.co.kr
-  - DOMAIN-SUFFIX,mobilelegends.info
-  - DOMAIN-SUFFIX,mobilelegends.kr
-  - DOMAIN-SUFFIX,mobilelegends.net
-  - DOMAIN-SUFFIX,mobilelegends.org
-  - DOMAIN-SUFFIX,mobilelegends.com.cn
-  - DOMAIN-SUFFIX,youngjoygame.com
-  - DOMAIN-SUFFIX,yuanzhanapp.com
-  - DOMAIN-SUFFIX,aihelp.net
-  - DOMAIN,tnc16-alisg.isnssdk.com
-  - DOMAIN,gplog-sg.byteoversea.com
-  - DOMAIN,xlog.byteoversea.com
+- DOMAIN-SUFFIX,mobilelegends.com
+- DOMAIN-SUFFIX,dl.mobilelegends.com
+- DOMAIN-SUFFIX,resources.mobilelegends.com
+- DOMAIN-SUFFIX,mobilelegends.ca
+- DOMAIN-SUFFIX,mobilelegends.cn
+- DOMAIN-SUFFIX,mobilelegends.co.kr
+- DOMAIN-SUFFIX,mobilelegends.info
+- DOMAIN-SUFFIX,mobilelegends.kr
+- DOMAIN-SUFFIX,mobilelegends.net
+- DOMAIN-SUFFIX,mobilelegends.org
+- DOMAIN-SUFFIX,mobilelegends.com.cn
+- DOMAIN-SUFFIX,youngjoygame.com
+- DOMAIN-SUFFIX,yuanzhanapp.com
+- DOMAIN-SUFFIX,aihelp.net
+- DOMAIN,tnc16-alisg.isnssdk.com
+- DOMAIN,gplog-sg.byteoversea.com
+- DOMAIN,xlog.byteoversea.com
   
   # FreeFire
-  - DOMAIN-KEYWORD,freefire
+- DOMAIN-KEYWORD,freefire
   
   # PUBG
-  - DOMAIN-SUFFIX,pubgmobile.com
-  - DOMAIN-SUFFIX,igamecj.com
-  - DOMAIN,file-igamecj.akamaized.net
-  - IP-CIDR,45.40.220.0/22
-  - IP-CIDR,150.109.124.0/23
-  - IP-CIDR,49.51.228.0/23
-  - IP-CIDR,170.106.102.0/24
+- DOMAIN-SUFFIX,pubgmobile.com
+- DOMAIN-SUFFIX,igamecj.com
+- DOMAIN,file-igamecj.akamaized.net
+- IP-CIDR,45.40.220.0/22
+- IP-CIDR,150.109.124.0/23
+- IP-CIDR,49.51.228.0/23
+- IP-CIDR,170.106.102.0/24
   
   # > Steam
-  - DOMAIN-SUFFIX,s.team
-  - DOMAIN-SUFFIX,steam-chat.com
-  - DOMAIN-SUFFIX,steamchina.com
-  - DOMAIN-SUFFIX,steamcommunity.com
-  - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,steamgames.com
-  - DOMAIN-SUFFIX,steampipe.akamaized.net
-  - DOMAIN-SUFFIX,steampowered.com
-  - DOMAIN-SUFFIX,steampowered.com.8686c.com
-  - DOMAIN-SUFFIX,steamstatic.com
-  - DOMAIN-SUFFIX,steamstatic.com.8686c.com
-  - DOMAIN-SUFFIX,steamusercontent.com
-  - DOMAIN-SUFFIX,valve.net
-  - DOMAIN-SUFFIX,valvesoftware.com
-  - DOMAIN-SUFFIX,steamserver.net
-  - DOMAIN-SUFFIX,teamstatic.com
-  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+- DOMAIN-SUFFIX,s.team
+- DOMAIN-SUFFIX,steam-chat.com
+- DOMAIN-SUFFIX,steamchina.com
+- DOMAIN-SUFFIX,steamcommunity.com
+- DOMAIN-SUFFIX,steamcontent.com
+- DOMAIN-SUFFIX,steamgames.com
+- DOMAIN-SUFFIX,steampipe.akamaized.net
+- DOMAIN-SUFFIX,steampowered.com
+- DOMAIN-SUFFIX,steampowered.com.8686c.com
+- DOMAIN-SUFFIX,steamstatic.com
+- DOMAIN-SUFFIX,steamstatic.com.8686c.com
+- DOMAIN-SUFFIX,steamusercontent.com
+- DOMAIN-SUFFIX,valve.net
+- DOMAIN-SUFFIX,valvesoftware.com
+- DOMAIN-SUFFIX,steamserver.net
+- DOMAIN-SUFFIX,teamstatic.com
+- DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
 
   #Permainan Online
 - DOMAIN-SUFFIX,epicgames.com
@@ -111,54 +111,54 @@ payload:
 - DOMAIN-SUFFIX,gog.com
   
 # > Nintendo
-  - DOMAIN-SUFFIX,nintendo-europe.com
-  - DOMAIN-SUFFIX,nintendo.be
-  - DOMAIN-SUFFIX,nintendo.co.jp
-  - DOMAIN-SUFFIX,nintendo.co.uk
-  - DOMAIN-SUFFIX,nintendo.com
-  - DOMAIN-SUFFIX,nintendo.com.102.112.2o7.net
-  - DOMAIN-SUFFIX,nintendo.com.au
-  - DOMAIN-SUFFIX,nintendo.de
-  - DOMAIN-SUFFIX,nintendo.es
-  - DOMAIN-SUFFIX,nintendo.eu
-  - DOMAIN-SUFFIX,nintendo.fr
-  - DOMAIN-SUFFIX,nintendo.it
-  - DOMAIN-SUFFIX,nintendo.jp
-  - DOMAIN-SUFFIX,nintendo.net
-  - DOMAIN-SUFFIX,nintendo.nl
-  - DOMAIN-SUFFIX,nintendoco.s.llnwi.net
-  - DOMAIN-SUFFIX,nintendoswitch.cn
-  - DOMAIN-SUFFIX,nintendowifi.net
+- DOMAIN-SUFFIX,nintendo-europe.com
+- DOMAIN-SUFFIX,nintendo.be
+- DOMAIN-SUFFIX,nintendo.co.jp
+- DOMAIN-SUFFIX,nintendo.co.uk
+- DOMAIN-SUFFIX,nintendo.com
+- DOMAIN-SUFFIX,nintendo.com.102.112.2o7.net
+- DOMAIN-SUFFIX,nintendo.com.au
+- DOMAIN-SUFFIX,nintendo.de
+- DOMAIN-SUFFIX,nintendo.es
+- DOMAIN-SUFFIX,nintendo.eu
+- DOMAIN-SUFFIX,nintendo.fr
+- DOMAIN-SUFFIX,nintendo.it
+- DOMAIN-SUFFIX,nintendo.jp
+- DOMAIN-SUFFIX,nintendo.net
+- DOMAIN-SUFFIX,nintendo.nl
+- DOMAIN-SUFFIX,nintendoco.s.llnwi.net
+- DOMAIN-SUFFIX,nintendoswitch.cn
+- DOMAIN-SUFFIX,nintendowifi.net
 
 # > Playstation
-  - DOMAIN-SUFFIX,playstation.com
-  - DOMAIN-SUFFIX,playstation.net
-  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+- DOMAIN-SUFFIX,playstation.com
+- DOMAIN-SUFFIX,playstation.net
+- DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 
 # > Xbox
-  - DOMAIN-SUFFIX,xbox.com
-  - DOMAIN-SUFFIX,gamepass.com
-  - DOMAIN-SUFFIX,xboxab.com
-  - DOMAIN-SUFFIX,xboxab.net
-  - DOMAIN-SUFFIX,xboxlive.com
-  - DOMAIN-SUFFIX,xboxservices.com
+- DOMAIN-SUFFIX,xbox.com
+- DOMAIN-SUFFIX,gamepass.com
+- DOMAIN-SUFFIX,xboxab.com
+- DOMAIN-SUFFIX,xboxab.net
+- DOMAIN-SUFFIX,xboxlive.com
+- DOMAIN-SUFFIX,xboxservices.com
 
 # > CoD
-  - DOMAIN-SUFFIX,callofduty.com
-  - DOMAIN-SUFFIX,callofdutyleague.com
+- DOMAIN-SUFFIX,callofduty.com
+- DOMAIN-SUFFIX,callofdutyleague.com
 
 # > Clash Royal
-  - DOMAIN-SUFFIX,clashroyale.com
-  - DOMAIN-SUFFIX,clashroyaleapp.com
+- DOMAIN-SUFFIX,clashroyale.com
+- DOMAIN-SUFFIX,clashroyaleapp.com
 # > cpmstar
-  - DOMAIN-SUFFIX,cpmstar.com
+- DOMAIN-SUFFIX,cpmstar.com
 
 # > GoG
-  - DOMAIN-SUFFIX,gog-statics.com
-  - DOMAIN-SUFFIX,gog.com
-  - DOMAIN-SUFFIX,gogalaxy.com
-  - DOMAIN-SUFFIX,gogcdn.net
+- DOMAIN-SUFFIX,gog-statics.com
+- DOMAIN-SUFFIX,gog.com
+- DOMAIN-SUFFIX,gogalaxy.com
+- DOMAIN-SUFFIX,gogcdn.net
 
 # > microsoft games
-  - DOMAIN-SUFFIX,microsoftcasualgames.com
-  - DOMAIN-SUFFIX,msgamestudios.com
+- DOMAIN-SUFFIX,microsoftcasualgames.com
+- DOMAIN-SUFFIX,msgamestudios.com
