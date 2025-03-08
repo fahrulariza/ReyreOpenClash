@@ -49,8 +49,6 @@ payload:
   - DST-PORT,50318,udp  # Media tambahan
   - DST-PORT,59234,udp  # Media tambahan
 
-
-
 #✅ Mode Routing untuk Video Call
   - DST-PORT,40000-60000,udp
   - DST-PORT,45395-45399,udp
