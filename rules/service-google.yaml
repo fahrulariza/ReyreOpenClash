@@ -189,6 +189,6 @@ payload:
   - IP-CIDR,173.194.0.0/16
   - IP-CIDR,192.178.0.0/15
   
-  - DST-PORT,5228 # Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
-  - DST-PORT,5229 # Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
-  - DST-PORT,5230 # Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
+  - DST-PORT,5228 # Firebase Cloud Messaging (FCM) - Server Google untuk menerima notifikasi push dari berbagai aplikasi, termasuk WhatsApp, Telegram, dan aplikasi lain yang menggunakan FCM.
+  - DST-PORT,5229 # Firebase Cloud Messaging (FCM) - Jika koneksi ke mtalk.google.com:5228 diblokir atau dialihkan ke jalur proxy/VPN yang lambat, notifikasi WhatsApp bisa terlambat atau tidak muncul sama sekali.
+  - DST-PORT,5230 # Firebase Cloud Messaging (FCM) - Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
