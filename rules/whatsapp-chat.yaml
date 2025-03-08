@@ -27,4 +27,3 @@ payload:
   - DST-PORT,5222 # (XMPP Protocol) Fungsi: Komunikasi utama untuk pesan teks. WhatsApp menggunakan protokol XMPP untuk mengirim dan menerima pesan.
   - DST-PORT,5223 # (Secure XMPP) Fungsi: Versi aman dari XMPP, digunakan jika koneksi memerlukan enkripsi tambahan.
   - DST-PORT,5288 # Digunakan untuk sesi perpesanan dan komunikasi tambahan
-  - DST-PORT,5242 # Digunakan untuk komunikasi media dan data
