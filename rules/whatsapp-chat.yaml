@@ -24,6 +24,8 @@ payload:
   - DOMAIN-SUFFIX,media-sin11-2.cdn.whatsapp.net
   - DOMAIN-SUFFIX,static.whatsapp.net
   - DOMAIN-SUFFIX,www.whatsapp.com
+  - DOMAIN-SUFFIX,whatsapp.com
+  - DOMAIN-SUFFIX,whatsapp.net
   - DST-PORT,5222 # (XMPP Protocol) Fungsi: Komunikasi utama untuk pesan teks. WhatsApp menggunakan protokol XMPP untuk mengirim dan menerima pesan.
   - DST-PORT,5223 # (Secure XMPP) Fungsi: Versi aman dari XMPP, digunakan jika koneksi memerlukan enkripsi tambahan.
   - DST-PORT,5288 # Digunakan untuk sesi perpesanan dan komunikasi tambahan
