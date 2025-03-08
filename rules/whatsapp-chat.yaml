@@ -9,10 +9,10 @@
 
 payload:
 
-  - IP-CIDR,157.240.0.0/17 # # mencakup beberapa layanan dari Meta (Facebook, WhatsApp, Instagram), tetapi tetap digunakan oleh WhatsApp.
-  - IP-CIDR,157.240.0.0/16 # # mencakup beberapa layanan dari Meta (Facebook, WhatsApp, Instagram), tetapi tetap digunakan oleh WhatsApp.
-  - IP-CIDR,173.252.64.0/19 # mencakup beberapa layanan dari Meta (Facebook, WhatsApp, Instagram), tetapi tetap digunakan oleh WhatsApp.
-  - IP-CIDR,173.252.64.0/18 # mencakup beberapa layanan dari Meta (Facebook, WhatsApp, Instagram), tetapi tetap digunakan oleh WhatsApp.
+#  - IP-CIDR,157.240.0.0/17 # # mencakup beberapa layanan dari Meta (Facebook, WhatsApp, Instagram), tetapi tetap digunakan oleh WhatsApp.
+#  - IP-CIDR,157.240.0.0/16 # # mencakup beberapa layanan dari Meta (Facebook, WhatsApp, Instagram), tetapi tetap digunakan oleh WhatsApp.
+#  - IP-CIDR,173.252.64.0/19 # mencakup beberapa layanan dari Meta (Facebook, WhatsApp, Instagram), tetapi tetap digunakan oleh WhatsApp.
+#  - IP-CIDR,173.252.64.0/18 # mencakup beberapa layanan dari Meta (Facebook, WhatsApp, Instagram), tetapi tetap digunakan oleh WhatsApp.
   - DOMAIN-SUFFIX,cdn.whatsapp.net
   - DOMAIN-SUFFIX,graph.whatsapp.net
   - DOMAIN-SUFFIX,g-fallback.whatsapp.net
