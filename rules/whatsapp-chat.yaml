@@ -10,13 +10,20 @@
 payload:
   - DST-PORT,5222,CALL-WHATSAPP 📞,tcp # (XMPP Protocol) Fungsi: Komunikasi utama untuk pesan teks. WhatsApp menggunakan protokol XMPP untuk mengirim dan menerima pesan.
   - DST-PORT,5223,CALL-WHATSAPP 📞,tcp # (Secure XMPP) Fungsi: Versi aman dari XMPP, digunakan jika koneksi memerlukan enkripsi tambahan.
+  
+  - DOMAIN-SUFFIX,cdn.whatsapp.net
+
+  - DOMAIN-SUFFIX,graph.whatsapp.net
+  - DOMAIN-SUFFIX,g-fallback.whatsapp.net
+  - DOMAIN-SUFFIX,g.whatsapp.net
+        
   - DOMAIN-SUFFIX,media-sin2-1.cdn.whatsapp.net
   - DOMAIN-SUFFIX,media-sin2-2.cdn.whatsapp.net
   - DOMAIN-SUFFIX,media-sin11-1.cdn.whatsapp.net
   - DOMAIN-SUFFIX,media-sin11-2.cdn.whatsapp.net
-  - DOMAIN-SUFFIX,cdn.whatsapp.net
-  - DOMAIN-SUFFIX,g-fallback.whatsapp.net
   - DOMAIN-SUFFIX,media-sin11-2.cdn.whatsapp.net
+
   - DOMAIN-SUFFIX,static.whatsapp.net
-  - DOMAIN-SUFFIX,g.whatsapp.net
+
   - DOMAIN-SUFFIX,www.whatsapp.com
+
