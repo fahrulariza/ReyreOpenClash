@@ -3,6 +3,7 @@ payload:
 # TikTok
 # Src: https://www.netify.ai/resources/applications/tiktok
 
+- DOMAIN-SUFFIX,bytegecko-i18n.com
 - DOMAIN-SUFFIX,bytefcdn-oversea.com
 - DOMAIN-SUFFIX,byteoversea.net
 - DOMAIN-SUFFIX,byteoversea.com
@@ -17,7 +18,6 @@ payload:
 - DOMAIN-SUFFIX,bytecdn.net
 - DOMAIN-SUFFIX,byteintl.com
 - DOMAIN-SUFFIX,byteimg.com
-- DOMAIN-SUFFIX,byteoversea.net
 - DOMAIN-SUFFIX,ibytedtos.com
 - DOMAIN-SUFFIX,ibyteimg.com
 - DOMAIN-SUFFIX,isnssdk.com
@@ -29,6 +29,9 @@ payload:
 - DOMAIN-SUFFIX,tiktokcdn-us.org
 - DOMAIN-SUFFIX,tiktokd.org
 - DOMAIN-SUFFIX,tiktokd.com
+- DOMAIN-SUFFIX,tiktokmusic.app
+- DOMAIN-SUFFIX,ttwebview.com
+- DOMAIN-SUFFIX,tiktokd.net
 - DOMAIN-SUFFIX,tiktokglobalshop.com
 - DOMAIN-SUFFIX,tiktokv.us
 - DOMAIN-SUFFIX,tik-tokapi.us
@@ -42,11 +45,13 @@ payload:
 - DOMAIN-SUFFIX,muscdn.com
 - DOMAIN-SUFFIX,musemuse.cn
 - DOMAIN-SUFFIX,musical.ly
+- DOMAIN-SUFFIX,capcut.com
 
 - DOMAIN-KEYWORD,tiktokcdn.com
 - DOMAIN-KEYWORD,-tiktok.byteoversea.com
 - DOMAIN-KEYWORD,tiktokv.com
 - DOMAIN-KEYWORD,-tiktokcdn-com
+- DOMAIN-KEYWORD,tiktok
 - DOMAIN-KEYWORD,-tiktok.
 - DOMAIN-KEYWORD,-tiktok-
 - DOMAIN-KEYWORD,tiktok-
@@ -57,11 +62,20 @@ payload:
 - DOMAIN-KEYWORD,-hs.pstatp.com
 - DOMAIN-KEYWORD,-tos.pstatp.com
 - DOMAIN-KEYWORD,-mus.pstatp.com
-
+- DOMAIN-KEYWORD,tiktokcdn
+- DOMAIN-KEYWORD,douyin
 - DOMAIN-KEYWORD,tlivecdn.com
 - DOMAIN-KEYWORD,ttlivecdn.com
-
+- DOMAIN,lf16-effectcdn.byteeffecttos-g.com
+- DOMAIN,lf16-pkgcdn.pitaya-clientai.com
 - DOMAIN,p16-tiktokcdn-com.akamaized.net
+
+
+
+
+
+
+- PROCESS-NAME,com.zhiliaoapp.musically
   #- PROCESS-NAME,com.zhiliaoapp.musically
 - DOMAIN-SUFFIX,v19.tiktokcdn.com
 - IP-CIDR,199.232.90.73/32 # v19.tiktokcdn.com
