@@ -37,10 +37,10 @@ payload:
 #✅ Mode Routing untuk VoIP
   - DST-PORT,3478-3497,udp
   - DST-PORT,4244,udp
-  - DST-PORT,5222,tcp
-  - DST-PORT,5223,tcp
-  - DST-PORT,5228-5243,tcp
-  - DST-PORT,5288,udp
+#  - DST-PORT,5222,tcp
+#  - DST-PORT,5223,tcp
+#  - DST-PORT,5228-5243,tcp
+#  - DST-PORT,5288,udp
   - DST-PORT,57923,udp
 
 #✅ Port yang digunakan untuk Video Call WhatsApp
@@ -58,8 +58,8 @@ payload:
 #✅ Port yang digunakan untuk VoIP WhatsApp
   - DST-PORT,3478-3497,udp  # STUN/TURN untuk NAT traversal (koneksi VoIP)
   - DST-PORT,4244,udp  # Signaling VoIP
-  - DST-PORT,5222,tcp  # Signaling XMPP
-  - DST-PORT,5223,tcp  # Secure XMPP
-  - DST-PORT,5228-5243,tcp  # Notifikasi Push
-  - DST-PORT,5288,udp  # Signaling tambahan
+#  - DST-PORT,5222,tcp  # Signaling XMPP
+#  - DST-PORT,5223,tcp  # Secure XMPP
+#  - DST-PORT,5228-5243,tcp  # Notifikasi Push
+#  - DST-PORT,5288,udp  # Signaling tambahan
   - DST-PORT,57923,udp  # Media streaming panggilan
