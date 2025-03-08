@@ -4,13 +4,6 @@ payload:
   # Layanan: Google Cloud Messaging (GCM) / Firebase Cloud Messaging (FCM).
   # Fungsi: Notifikasi push untuk aplikasi seperti Gmail, Google Play, dan WhatsApp dll.
   
-  - DST-PORT,5228 # Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
-  - DST-PORT,5229 # Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
-  - DST-PORT,5230 # Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
-
-  - IP-CIDR,8.8.8.0/24
-  - IP-CIDR,8.8.4.0/24
-
   # > Google FCM
   # According to Firebase FAQ https://firebase.google.com/docs/cloud-messaging/concept-options#messaging-ports-and-your-firewall
 
@@ -170,4 +163,13 @@ payload:
   - DOMAIN-SUFFIX,talk.l.google.com
   - DOMAIN-SUFFIX,talkx.l.google.com
 
+  - IP-CIDR,8.8.8.0/24
+  - IP-CIDR,8.8.4.0/24
+  - IP-CIDR,173.194.160.0/21 # alamat IP ini terletak di Chicago, Illinois, Amerika Serikat
+  - IP-CIDR,74.125.0.0/16 # alamat IP ini terletak di Milan, Lombardia, Italia.
+  - IP-CIDR,142.250.176.0/24 # yang dialokasikan untuk Google.  Secara geografis, alamat IP ini terletak di Mountain View, California, Amerika Serikat.
+  - IP-CIDR,173.194.160.0/21 # alamat IP ini terletak di Chicago, Illinois, Amerika Serikat. Port 443 adalah port standar yang digunakan untuk HTTPS, protokol yang mengamankan komunikasi antara browser dan server web. Karena alamat IP ini milik Google, kemungkinan besar digunakan untuk layanan web aman mereka, seperti mesin pencari Google atau layanan terkait lainnya.
   
+  - DST-PORT,5228 # Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
+  - DST-PORT,5229 # Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
+  - DST-PORT,5230 # Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
