@@ -24,22 +24,11 @@ payload:
 
 #2️⃣ Aturan PORT untuk Panggilan Suara WhatsApp dan Video Call WhatsApp
 
-#✅ Mode Routing untuk VoIP
-  - DST-PORT,3478-3497
-  - DST-PORT,4244
-  - DST-PORT,57923
-
 #✅ Port yang digunakan untuk Video Call WhatsApp
   - DST-PORT,40000-60000  # Port dinamis untuk video call
   - DST-PORT,45395-45399  # Media streaming panggilan video
   - DST-PORT,50318  # Media tambahan
   - DST-PORT,59234  # Media tambahan
-
-#✅ Mode Routing untuk Video Call
-  - DST-PORT,40000-60000
-  - DST-PORT,45395-45399
-  - DST-PORT,50318
-  - DST-PORT,59234
 
 #✅ Port yang digunakan untuk VoIP WhatsApp
   - DST-PORT,3478-3497  # STUN/TURN untuk NAT traversal (koneksi VoIP)
