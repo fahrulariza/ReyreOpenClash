@@ -81,6 +81,7 @@ payload:
 #E
   - DOMAIN-SUFFIX,embeddedassistant.googleapis.com
 #F
+  - DOMAIN-SUFFIX,fonts.gstatic.com
   - DOMAIN-SUFFIX,firebase.google.com
   - DOMAIN-SUFFIX,forcesafesearch.google.com
   - DOMAIN-SUFFIX,feedback-pa.googleapis.com
@@ -123,6 +124,7 @@ payload:
   - DOMAIN-SUFFIX,o.pki.goog
   - DOMAIN-SUFFIX,optimizationguide-pa.googleapis.com
 #P
+  - DOMAIN-SUFFIX,photos.googleapis.com
   - DOMAIN-SUFFIX,passwordsleakcheck-pa.googleapis.com
   - DOMAIN-SUFFIX,peoplestack-pa.googleapis.com
   - DOMAIN-SUFFIX,photosdata-pa.googleapis.com
