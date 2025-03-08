@@ -31,8 +31,6 @@ payload:
 - DOMAIN-KEYWORD,fbcdn
  # Facebook
 - DOMAIN-SUFFIX,messenger.com
-- DOMAIN-SUFFIX,facebook.com
-- DOMAIN-SUFFIX,facebook.net
 - DOMAIN-SUFFIX,fb.com
 - DOMAIN-SUFFIX,fb.me
 - DOMAIN-SUFFIX,fbaddins.com
