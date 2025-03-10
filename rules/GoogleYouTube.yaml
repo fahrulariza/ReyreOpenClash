@@ -172,6 +172,7 @@ payload:
   - DOMAIN-SUFFIX,youtube.ug
   - DOMAIN-SUFFIX,youtube.uy
   - DOMAIN-SUFFIX,youtube.vn
+  - DOMAIN-SUFFIX,youtubei.googleapis.com
   - DOMAIN-SUFFIX,youtubeeducation.com
   - DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com
   - DOMAIN-SUFFIX,youtubefanfest.com
