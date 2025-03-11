@@ -63,8 +63,10 @@ payload:
   - DOMAIN-SUFFIX,play-fe.googleapis.com
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-KEYWORD,gstatic
 
-
+  
   - DOMAIN,voice.telephony.goog
   - DOMAIN-SUFFIX,0emm.com
   - DOMAIN-SUFFIX,1e100.net
