@@ -27,6 +27,11 @@ payload:
   - DOMAIN-SUFFIX,dns.google.com
   - DOMAIN-SUFFIX,play.google.com
   - DOMAIN-SUFFIX,android.clients.google.com
+  - DOMAIN-SUFFIX,docs.google.com
+  - DOMAIN-SUFFIX,accounts.google.com
+  - DOMAIN-SUFFIX,androidtvlauncherxfe-pa.googleapis.com
+  - DOMAIN-SUFFIX,android.googleapis.com
+  - DOMAIN-SUFFIX,android.apis.google.com
 
 
   - DOMAIN,voice.telephony.goog
