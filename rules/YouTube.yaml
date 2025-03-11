@@ -12,7 +12,8 @@
 payload:
   # > Youtube
   - DOMAIN-KEYWORD,youtube.com
-  
+  - DOMAIN-KEYWORD,youtube
+    
   - DOMAIN-SUFFIX,youtubei.googleapis.com
   - DOMAIN-SUFFIX,yt3.ggpht.com
   - DOMAIN-SUFFIX,www.youtube.com
