@@ -32,6 +32,7 @@ payload:
   - DOMAIN-SUFFIX,androidtvlauncherxfe-pa.googleapis.com
   - DOMAIN-SUFFIX,android.googleapis.com
   - DOMAIN-SUFFIX,android.apis.google.com
+  - DOMAIN-SUFFIX,inbox.google.com
 
 
   - DOMAIN,voice.telephony.goog
