@@ -1,8 +1,7 @@
 payload:
 # &gt; MARKET PLACE
 - DOMAIN-SUFFIX,tokopedia.com
-- DOMAIN-SUFFIX,shopee.co.id
-- DOMAIN-SUFFIX,shopeemobile.com
+
 - DOMAIN-SUFFIX,bukalapak.com
 - DOMAIN-SUFFIX,lazada.co.id
 - DOMAIN-SUFFIX,blibli.com
@@ -12,7 +11,6 @@ payload:
 - DOMAIN-SUFFIX,jd.id
 - DOMAIN-SUFFIX,zalora.co.id
 - DOMAIN-KEYWORD,tokopedia
-- DOMAIN-KEYWORD,shopee
 - DOMAIN-KEYWORD,bukalapak
 - DOMAIN-KEYWORD,lazada
 - DOMAIN-KEYWORD,blibli
@@ -20,6 +18,12 @@ payload:
 - DOMAIN-KEYWORD,ralali
 - DOMAIN-KEYWORD,bhinneka
 - DOMAIN-KEYWORD,zalora
+
+- DOMAIN-SUFFIX,shopee.co.id
+- DOMAIN-SUFFIX,shopeemobile.com
+- DOMAIN-KEYWORD,shopee
+- DOMAIN-KEYWORD,susercontent.com
+- DOMAIN-SUFFIX,susercontent.com
 
 - DOMAIN-SUFFIX,tdwcontent.telkomsel.com
 - DOMAIN-SUFFIX,telkomsel.com
