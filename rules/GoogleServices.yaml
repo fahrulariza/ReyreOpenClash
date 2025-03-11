@@ -10,6 +10,25 @@
 # PROCESS-NAME: 6
 # TOTAL: 725
 payload:
+
+  - DOMAIN-SUFFIX,googledrive.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-KEYWORD,appspot
+  - DOMAIN-KEYWORD,blogspot
+  - DOMAIN-KEYWORD,gmail
+  - DOMAIN-KEYWORD,recaptcha
+  - PROCESS-NAME,GoogleDriveFS.exe
+  - PROCESS-NAME,com.android.vending
+  - PROCESS-NAME,com.google.android.gms
+  - PROCESS-NAME,com.google.android.gsf
+  - PROCESS-NAME,com.google.android.play.games
+  - PROCESS-NAME,BackupandSync
+  - DOMAIN-SUFFIX,clients4.google.com
+  - DOMAIN-SUFFIX,dns.google.com
+  - DOMAIN-SUFFIX,play.google.com
+  - DOMAIN-SUFFIX,android.clients.google.com
+
+
   - DOMAIN,voice.telephony.goog
   - DOMAIN-SUFFIX,0emm.com
   - DOMAIN-SUFFIX,1e100.net
@@ -522,15 +541,3 @@ payload:
   - DOMAIN-SUFFIX,xplr.co
   - DOMAIN-SUFFIX,zukunftswerkstatt.de
   - DOMAIN-SUFFIX,zynamics.com
-  - DOMAIN-SUFFIX,googledrive.com
-  - DOMAIN-SUFFIX,googleusercontent.com
-  - DOMAIN-KEYWORD,appspot
-  - DOMAIN-KEYWORD,blogspot
-  - DOMAIN-KEYWORD,gmail
-  - DOMAIN-KEYWORD,recaptcha
-  - PROCESS-NAME,GoogleDriveFS.exe
-  - PROCESS-NAME,com.android.vending
-  - PROCESS-NAME,com.google.android.gms
-  - PROCESS-NAME,com.google.android.gsf
-  - PROCESS-NAME,com.google.android.play.games
-  - PROCESS-NAME,BackupandSync
