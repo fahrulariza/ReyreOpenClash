@@ -53,6 +53,8 @@ payload:
   - DOMAIN-SUFFIX,inbox.google.com
   
 #P
+  - DOMAIN-SUFFIX,photos.google.com
+  - DOMAIN-SUFFIX,photos.fife.usercontent.google.com
   - DOMAIN-SUFFIX,photos.googleapis.com
   - DOMAIN-SUFFIX,passwordsleakcheck-pa.googleapis.com
   - DOMAIN-SUFFIX,peoplestack-pa.googleapis.com
