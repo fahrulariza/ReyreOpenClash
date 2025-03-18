@@ -21,12 +21,8 @@ payload:
   - PROCESS-NAME,com.google.android.gsf
   - PROCESS-NAME,com.google.android.play.games
   - PROCESS-NAME,BackupandSync
-
   - DOMAIN-SUFFIX,accounts.google.com
-  - DOMAIN-SUFFIX,android.clients.google.com
-  - DOMAIN-SUFFIX,androidtvlauncherxfe-pa.googleapis.com
-  - DOMAIN-SUFFIX,android.googleapis.com
-  - DOMAIN-SUFFIX,android.apis.google.com
+
 
   - DOMAIN-SUFFIX,cloud.google.com
   - DOMAIN-SUFFIX,clients2.google.com
@@ -328,10 +324,10 @@ payload:
   - DOMAIN-SUFFIX,googleadservices-cn.com
   - DOMAIN-SUFFIX,googleadservices.com
   - DOMAIN-SUFFIX,googleanalytics.com
-  - DOMAIN-SUFFIX,googleapis-cn.com
-  - DOMAIN-SUFFIX,googleapis.cn
-  - DOMAIN-SUFFIX,googleapis.com
-  - DOMAIN-SUFFIX,googleapps-cn.com
+#  - DOMAIN-SUFFIX,googleapis-cn.com
+#  - DOMAIN-SUFFIX,googleapis.cn
+#  - DOMAIN-SUFFIX,googleapis.com
+#  - DOMAIN-SUFFIX,googleapps-cn.com
   - DOMAIN-SUFFIX,googleapps.com
   - DOMAIN-SUFFIX,googlearth.com
   - DOMAIN-SUFFIX,googleblog.com
@@ -384,15 +380,7 @@ payload:
   - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-SUFFIX,gstaticcnapps.cn
   - DOMAIN-SUFFIX,gsuite.com
-  - DOMAIN-SUFFIX,gv.com
-  - DOMAIN-SUFFIX,gvt0.com
-  - DOMAIN-SUFFIX,gvt1-cn.com
-  - DOMAIN-SUFFIX,gvt2-cn.com
-  - DOMAIN-SUFFIX,gvt3.com
-  - DOMAIN-SUFFIX,gvt5.com
-  - DOMAIN-SUFFIX,gvt6.com
-  - DOMAIN-SUFFIX,gvt7.com
-  - DOMAIN-SUFFIX,gvt9.com
+
   - DOMAIN-SUFFIX,gwtproject.org
   - DOMAIN-SUFFIX,hdrplusdata.org
   - DOMAIN-SUFFIX,hey.gle
