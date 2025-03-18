@@ -65,6 +65,8 @@ payload:
   - DST-PORT,2197
   #- DST-PORT,5223
 
+  - DOMAIN-SUFFIX,updatesnl.macrium.com
+
 # ############################### WINDOWS ############################### #  
 #OS_Update_Windows
   - DOMAIN-SUFFIX,tlu.dl.delivery.mp.microsoft.com
