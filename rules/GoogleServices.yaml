@@ -59,10 +59,7 @@ payload:
   - DOMAIN-SUFFIX,passwordsleakcheck-pa.googleapis.com
   - DOMAIN-SUFFIX,peoplestack-pa.googleapis.com
   - DOMAIN-SUFFIX,photosdata-pa.googleapis.com
-  - DOMAIN-SUFFIX,play.google.com
-  - DOMAIN-SUFFIX,people-pa.googleapis.com
-  - DOMAIN-SUFFIX,play.googleapis.com
-  - DOMAIN-SUFFIX,play-fe.googleapis.com
+
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 
   - DOMAIN-SUFFIX,gstatic.com
