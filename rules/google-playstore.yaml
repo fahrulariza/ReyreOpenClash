@@ -1,6 +1,7 @@
 payload:
   - DOMAIN,gvt1.com
   - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,gvt2.com
   - DOMAIN-SUFFIX,edgedl.me.gvt1.com
   - DOMAIN-SUFFIX,me.gvt1.com
   - DOMAIN-SUFFIX,edgedl.me.gvt1.com
