@@ -1,5 +1,13 @@
 payload:
 
+# EFootball
+  # STEAM
+  - DST-PORT,27015,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,27036,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,27015,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,27031-27036,PLAY-IN-GAME 🎮,tcp
+
+  
   # MLBB (Mobile Legends: Bang Bang)
   - DST-PORT,5000-5221,PLAY-IN-GAME 🎮,tcp # Rentang utama untuk komunikasi in-game.
   - DST-PORT,5224-5227,PLAY-IN-GAME 🎮,tcp # Tambahan port server.
