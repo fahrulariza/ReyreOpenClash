@@ -6,6 +6,9 @@ payload:
   - DST-PORT,27036,PLAY-IN-GAME 🎮,tcp
   - DST-PORT,27015,PLAY-IN-GAME 🎮,tcp
   - DST-PORT,27031-27036,PLAY-IN-GAME 🎮,tcp
+  - DOMAIN-SUFFIX,pes22
+  - DOMAIN-KEYWORD,pes22
+  - DOMAIN-SUFFIX,codefusion.technology
 
   
   # MLBB (Mobile Legends: Bang Bang)
