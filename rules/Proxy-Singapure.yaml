@@ -3,6 +3,34 @@
 # https://mikrotikconfig.com/firewall/
 
 payload:
+DOMAIN-SUFFIX,com.sg
+DOMAIN-SUFFIX,gov.sg
+DOMAIN-SUFFIX,edu.sg
+DOMAIN-SUFFIX,org.sg
+DOMAIN-SUFFIX,net.sg
+DOMAIN-KEYWORD,govsg
+DOMAIN-KEYWORD,straitstimes
+DOMAIN-KEYWORD,spgroup
+DOMAIN-KEYWORD,singtel
+DOMAIN-KEYWORD,starhub
+DOMAIN-KEYWORD,posb
+DOMAIN-KEYWORD,dbs
+DOMAIN-KEYWORD,uob
+DOMAIN-KEYWORD,ntu
+DOMAIN-KEYWORD,nus
+DOMAIN,gov.sg
+DOMAIN,straitstimes.com
+DOMAIN,singaporeair.com
+DOMAIN,singtel.com
+DOMAIN,starhub.com
+DOMAIN,spgroup.com.sg
+DOMAIN,posb.com.sg
+DOMAIN,dbs.com.sg
+DOMAIN,uob.com.sg
+DOMAIN,nus.edu.sg
+DOMAIN,ntu.edu.sg
+DOMAIN,smu.edu.sg
+DOMAIN,sutd.edu.sg
 
   - IP-CIDR,1.32.128.0/17
   - IP-CIDR,1.178.32.0/19
