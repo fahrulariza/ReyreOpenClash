@@ -11,6 +11,16 @@ payload:
   - DOMAIN-SUFFIX,org.cn
   - DOMAIN-SUFFIX,net.cn
   - DOMAIN-SUFFIX,ac.cn
+  - DOMAIN-KEYWORD,baidu
+  - DOMAIN-KEYWORD,qq
+  - DOMAIN-KEYWORD,weibo
+  - DOMAIN-KEYWORD,bilibili
+  - DOMAIN-KEYWORD,zhihu
+  - DOMAIN-KEYWORD,alibaba
+  - DOMAIN-KEYWORD,taobao
+  - DOMAIN-KEYWORD,tencent
+  - DOMAIN-KEYWORD,xiaomi
+  - DOMAIN-KEYWORD,huawei
   - DOMAIN,baidu.com
   - DOMAIN,qq.com
   - DOMAIN,weibo.com
