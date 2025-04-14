@@ -4,6 +4,29 @@
 
 payload:
 
+  - DOMAIN-SUFFIX,co.jp
+  - DOMAIN-SUFFIX,go.jp
+  - DOMAIN-SUFFIX,or.jp
+  - DOMAIN-SUFFIX,ne.jp
+  - DOMAIN-SUFFIX,ac.jp
+  - DOMAIN-SUFFIX,lg.jp
+  - DOMAIN-KEYWORD,japan
+  - DOMAIN-KEYWORD,jp
+  - DOMAIN-KEYWORD,tokyo
+  - DOMAIN-KEYWORD,anime
+  - DOMAIN-KEYWORD,nhk
+  - DOMAIN-KEYWORD,sakura
+  - DOMAIN-KEYWORD,japanese
+  - DOMAIN,amazon.co.jp
+  - DOMAIN,google.co.jp
+  - DOMAIN,yahoo.co.jp
+  - DOMAIN,rakuten.co.jp
+  - DOMAIN,docomo.ne.jp
+  - DOMAIN,nhk.or.jp
+  - DOMAIN,softbank.jp
+  - DOMAIN,ntt.com
+  - DOMAIN,nic.ad.jp
+
   - IP-CIDR,1.0.16.0/20
   - IP-CIDR,1.0.64.0/18
   - IP-CIDR,1.1.64.0/18
