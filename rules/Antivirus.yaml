@@ -3,3 +3,48 @@ payload:
   - DOMAIN-SUFFIX,avcloud
   - DOMAIN-SUFFIX,avcloud.e5.sk
   - DOMAIN-KEYWORD,eset
+  - DOMAIN-SUFFIX,eset.com
+  - DOMAIN-SUFFIX,kaspersky.com
+  - DOMAIN-SUFFIX,norton.com
+  - DOMAIN-SUFFIX,symantec.com
+  - DOMAIN-SUFFIX,avast.com
+  - DOMAIN-SUFFIX,avg.com
+  - DOMAIN-SUFFIX,mcafee.com
+  - DOMAIN-SUFFIX,bitdefender.com
+  - DOMAIN-SUFFIX,malwarebytes.com
+  - DOMAIN-SUFFIX,emsisoft.com
+  - DOMAIN-SUFFIX,trendmicro.com
+  - DOMAIN-SUFFIX,pandasecurity.com
+  - DOMAIN-SUFFIX,sophos.com
+  - DOMAIN-SUFFIX,secureaplus.com
+  - DOMAIN-KEYWORD,antivirus
+  - DOMAIN-KEYWORD,virusdef
+  - DOMAIN-KEYWORD,eset
+  - DOMAIN-KEYWORD,kaspersky
+  - DOMAIN-KEYWORD,norton
+  - DOMAIN-KEYWORD,avast
+  - DOMAIN-KEYWORD,avg
+  - DOMAIN-KEYWORD,mcafee
+  - DOMAIN-KEYWORD,bitdefender
+  - DOMAIN-KEYWORD,malwarebytes
+  - DOMAIN-KEYWORD,emsisoft
+  - DOMAIN-KEYWORD,trendmicro
+  - DOMAIN-KEYWORD,panda
+  - DOMAIN-KEYWORD,sophos
+  - DOMAIN,update.norton.com
+  - DOMAIN,liveupdate.symantecliveupdate.com
+  - DOMAIN,defs.symantec.com
+  - DOMAIN,liveupdate.symantec.com
+  - DOMAIN,downloads.eset.com
+  - DOMAIN,us-download.norton.com
+  - DOMAIN,files.avast.com
+  - DOMAIN,update.avg.com
+  - DOMAIN,download.bitdefender.com
+  - DOMAIN,cdn.mwbsys.com
+  - DOMAIN,data-cdn.mbamupdates.com
+  - DOMAIN,sirius.symantec.com
+  - DOMAIN,upd.kaspersky.com
+  - DOMAIN,dnl-0.geo.kaspersky.com
+  - DOMAIN,downloads.trendmicro.com
+  - DOMAIN,updates.sophos.com
+
