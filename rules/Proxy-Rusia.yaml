@@ -3,6 +3,33 @@
 # https://mikrotikconfig.com/firewall/
 
 payload:
+  - DOMAIN-SUFFIX,ru
+  - DOMAIN-SUFFIX,su
+  - DOMAIN-SUFFIX,moscow
+  - DOMAIN-SUFFIX,рф
+  - DOMAIN-KEYWORD,yandex
+  - DOMAIN-KEYWORD,mail.ru
+  - DOMAIN-KEYWORD,vk
+  - DOMAIN-KEYWORD,ok.ru
+  - DOMAIN-KEYWORD,kremlin
+  - DOMAIN-KEYWORD,gazeta
+  - DOMAIN-KEYWORD,rambler
+  - DOMAIN-KEYWORD,sputnik
+  - DOMAIN-KEYWORD,tass
+  - DOMAIN,yandex.ru
+  - DOMAIN,mail.ru
+  - DOMAIN,vk.com
+  - DOMAIN,ok.ru
+  - DOMAIN,rambler.ru
+  - DOMAIN,sputniknews.com
+  - DOMAIN,tass.ru
+  - DOMAIN,kremlin.ru
+  - DOMAIN,gazeta.ru
+  - DOMAIN,ria.ru
+  - DOMAIN,lenta.ru
+  - DOMAIN,kinopoisk.ru
+  - DOMAIN,hh.ru
+  - DOMAIN,avito.ru
 
   - IP-CIDR,2.56.24.0/22
   - IP-CIDR,2.56.88.0/22
