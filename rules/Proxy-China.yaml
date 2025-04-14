@@ -3,6 +3,32 @@
 # https://mikrotikconfig.com/firewall/
 
 payload:
+
+  - DOMAIN-SUFFIX,cn
+  - DOMAIN-SUFFIX,com.cn
+  - DOMAIN-SUFFIX,gov.cn
+  - DOMAIN-SUFFIX,edu.cn
+  - DOMAIN-SUFFIX,org.cn
+  - DOMAIN-SUFFIX,net.cn
+  - DOMAIN-SUFFIX,ac.cn
+  - DOMAIN,baidu.com
+  - DOMAIN,qq.com
+  - DOMAIN,weibo.com
+  - DOMAIN,bilibili.com
+  - DOMAIN,zhihu.com
+  - DOMAIN,taobao.com
+  - DOMAIN,tmall.com
+  - DOMAIN,alipay.com
+  - DOMAIN,alibaba.com
+  - DOMAIN,huawei.com
+  - DOMAIN,xiaomi.com
+  - DOMAIN,163.com
+  - DOMAIN,youku.com
+  - DOMAIN,iqiyi.com
+  - DOMAIN,mi.com
+  - DOMAIN,tencent.com
+  - DOMAIN,sina.com.cn
+
   - IP-CIDR,1.0.1.0/24
   - IP-CIDR,1.0.2.0/23
   - IP-CIDR,1.0.8.0/21
