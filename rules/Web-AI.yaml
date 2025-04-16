@@ -11,7 +11,6 @@ payload:
   - DOMAIN-SUFFIX,character.ai
   - DOMAIN-SUFFIX,deepai.org
   - DOMAIN-SUFFIX,notion.so
-  - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,picso.ai
   - DOMAIN-SUFFIX,suno.ai
   - DOMAIN-SUFFIX,voicemod.net
@@ -29,7 +28,6 @@ payload:
   - DOMAIN-KEYWORD,suno
   - DOMAIN-KEYWORD,voicemod
   - DOMAIN-KEYWORD,synthesia
-  - DOMAIN-KEYWORD,ai
   - DOMAIN,chat.openai.com
   - DOMAIN,platform.openai.com
   - DOMAIN,chatgpt.com
