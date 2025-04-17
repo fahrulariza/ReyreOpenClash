@@ -22,3 +22,11 @@ payload:
   - DOMAIN-SUFFIX,mirror.archlinuxarm.org
   - DOMAIN-SUFFIX,mirrors.kernel.org
   - DOMAIN-SUFFIX,repo.archlinux.org
+  - DOMAIN-SUFFIX,kali.org
+  - DOMAIN-SUFFIX,pop-os.org
+  - DOMAIN-SUFFIX,zorin.com
+  - DOMAIN-SUFFIX,parrotsec.org
+  - DOMAIN-SUFFIX,garudalinux.org
+  - DOMAIN-SUFFIX,gentoo.org
+  - DOMAIN-SUFFIX,voidlinux.org
+  - DOMAIN-SUFFIX,nixos.org
