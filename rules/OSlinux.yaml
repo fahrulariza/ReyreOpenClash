@@ -11,6 +11,7 @@ payload:
   - DOMAIN-SUFFIX,endeavouros.com
   - DOMAIN-SUFFIX,launchpad.net
   - DOMAIN-SUFFIX,snapcraft.io
+  - DOMAIN-SUFFIX,snapcraftcontent.com
   - DOMAIN-SUFFIX,security.ubuntu.com
   - DOMAIN-SUFFIX,archive.ubuntu.com
   - DOMAIN-SUFFIX,packages.debian.org
