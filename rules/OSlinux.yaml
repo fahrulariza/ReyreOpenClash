@@ -1,0 +1,24 @@
+payload:
+
+  - DOMAIN-SUFFIX,ubuntu.com
+  - DOMAIN-SUFFIX,canonical.com
+  - DOMAIN-SUFFIX,debian.org
+  - DOMAIN-SUFFIX,linuxmint.com
+  - DOMAIN-SUFFIX,fedoraproject.org
+  - DOMAIN-SUFFIX,archlinux.org
+  - DOMAIN-SUFFIX,manjaro.org
+  - DOMAIN-SUFFIX,opensuse.org
+  - DOMAIN-SUFFIX,endeavouros.com
+  - DOMAIN-SUFFIX,launchpad.net
+  - DOMAIN-SUFFIX,snapcraft.io
+  - DOMAIN-SUFFIX,security.ubuntu.com
+  - DOMAIN-SUFFIX,archive.ubuntu.com
+  - DOMAIN-SUFFIX,packages.debian.org
+  - DOMAIN-SUFFIX,dl-cdn.alpinelinux.org
+  - DOMAIN-SUFFIX,mirror.centos.org
+  - DOMAIN-SUFFIX,mirrorlist.centos.org
+  - DOMAIN-SUFFIX,download.opensuse.org
+  - DOMAIN-SUFFIX,download.fedoraproject.org
+  - DOMAIN-SUFFIX,mirror.archlinuxarm.org
+  - DOMAIN-SUFFIX,mirrors.kernel.org
+  - DOMAIN-SUFFIX,repo.archlinux.org
