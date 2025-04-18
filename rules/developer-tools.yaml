@@ -2,6 +2,7 @@ payload:
 
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,github.io
+  - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,gitlab.com
   - DOMAIN-SUFFIX,bitbucket.org
   - DOMAIN-SUFFIX,sourceforge.net
