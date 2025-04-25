@@ -66,6 +66,7 @@ payload:
  - DST-PORT,42472,PLAY-IN-GAME 🎮,tcp # sinkronisasi karakter, interaksi dunia, dan pergerakan game secara real-time.
  - DST-PORT,42472,22101,PLAY-IN-GAME 🎮,udp # sinkronisasi karakter, interaksi dunia, dan pergerakan game secara real-time.
  - DST-PORT,42472,22102,PLAY-IN-GAME 🎮,udp # sinkronisasi karakter, interaksi dunia, dan pergerakan game secara real-time.
+ - DOMAIN-SUFFIX,8.211.156.0/24 # AS45102 Alibaba (US) Technology Co., Ltd.
 
   # Clash of Clans (CoC) & Clash Royale
  - DST-PORT,9330-9340,PLAY-IN-GAME 🎮,tcp # Port utama untuk komunikasi cepat dan sinkronisasi data in-game komunikasi server.
