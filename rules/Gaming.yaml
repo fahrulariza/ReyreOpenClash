@@ -2,94 +2,129 @@ payload:
 
 # EFootball
   # STEAM
-  - DST-PORT,27015,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,27036,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,27015,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,27031-27036,PLAY-IN-GAME 🎮,tcp
-  - DOMAIN-SUFFIX,pes22
-  - DOMAIN-KEYWORD,pes22
-  - DOMAIN-SUFFIX,codefusion.technology
+ # - DST-PORT,27015,PLAY-IN-GAME 🎮,tcp
+ # - DST-PORT,27036,PLAY-IN-GAME 🎮,tcp
+ # - DST-PORT,27015,PLAY-IN-GAME 🎮,tcp
+ # - DST-PORT,27031-27036,PLAY-IN-GAME 🎮,tcp
+ # - DOMAIN-SUFFIX,pes22
+ # - DOMAIN-KEYWORD,pes22
+ # - DOMAIN-SUFFIX,codefusion.technology
 
   
   # MLBB (Mobile Legends: Bang Bang)
-  - DST-PORT,5000-5221,PLAY-IN-GAME 🎮,tcp # Rentang utama untuk komunikasi in-game.
-  - DST-PORT,5224-5227,PLAY-IN-GAME 🎮,tcp # Tambahan port server.
-  - DST-PORT,5229-5241,PLAY-IN-GAME 🎮,tcp # Port tambahan yang sering digunakan.
-  - DST-PORT,30000-30300,PLAY-IN-GAME 🎮,tcp # Port untuk sinkronisasi data server.
-  - DST-PORT,5517-5529,PLAY-IN-GAME 🎮,udp # Utama untuk sinkronisasi real-time dan pergerakan hero.
-  - DST-PORT,5551-5559,PLAY-IN-GAME 🎮,udp # Port tambahan untuk komunikasi cepat.
+ # - DST-PORT,5000-5221,PLAY-IN-GAME 🎮,tcp # Rentang utama untuk komunikasi in-game.
+ # - DST-PORT,5224-5227,PLAY-IN-GAME 🎮,tcp # Tambahan port server.
+ # - DST-PORT,5229-5241,PLAY-IN-GAME 🎮,tcp # Port tambahan yang sering digunakan.
+ # - DST-PORT,30000-30300,PLAY-IN-GAME 🎮,tcp # Port untuk sinkronisasi data server.
+ # - DST-PORT,5517-5529,PLAY-IN-GAME 🎮,udp # Utama untuk sinkronisasi real-time dan pergerakan hero.
+ # - DST-PORT,5551-5559,PLAY-IN-GAME 🎮,udp # Port tambahan untuk komunikasi cepat.
 
   # Free Fire (FF)
-  - DST-PORT,6006,6008,6674,7889,9006,10000-10012,12006,20561,39003,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,7006-7008,8001-8012,9008,10000-10015,13008,PLAY-IN-GAME 🎮,udp
+ # - DST-PORT,6006,6008,6674,7889,9006,10000-10012,12006,20561,39003,PLAY-IN-GAME 🎮,tcp
+ # - DST-PORT,7006-7008,8001-8012,9008,10000-10015,13008,PLAY-IN-GAME 🎮,udp
 
   # PUBG Mobile
 # IP Umum PUBG Mobile (Gameplay)
 
 # 1. Server Tencent untuk Login & Autentikasi
-  - DOMAIN-SUFFIX,203.205.239.0/24
-  - DOMAIN-SUFFIX,49.51.0.0/16
-  - DOMAIN-SUFFIX,182.254.0.0/16
+ # - DOMAIN-SUFFIX,203.205.239.0/24
+ # - DOMAIN-SUFFIX,49.51.0.0/16
+ # - DOMAIN-SUFFIX,182.254.0.0/16
 
 # 2. Server Game (Matchmaking & In-Game)
 # Asia Server:
-  - DOMAIN-SUFFIX,150.109.0.0/16 # (Tencent Hong Kong)
-  - DOMAIN-SUFFIX,129.226.0.0/16
-  - DOMAIN-SUFFIX,47.252.0.0/16 # (Alibaba Cloud)
+ # - DOMAIN-SUFFIX,150.109.0.0/16 # (Tencent Hong Kong)
+ # - DOMAIN-SUFFIX,129.226.0.0/16
+ # - DOMAIN-SUFFIX,47.252.0.0/16 # (Alibaba Cloud)
 
 # KRJP (Korea & Japan Server):
-  - DOMAIN-SUFFIX,13.124.0.0/16
-  - DOMAIN-SUFFIX,15.164.0.0/16
+ # - DOMAIN-SUFFIX,13.124.0.0/16
+ # - DOMAIN-SUFFIX,15.164.0.0/16
 
 # North America Server:
-  - DOMAIN-SUFFIX,47.89.0.0/16
-  - DOMAIN-SUFFIX,52.221.0.0/16
+ # - DOMAIN-SUFFIX,47.89.0.0/16
+ # - DOMAIN-SUFFIX,52.221.0.0/16
 
 # Europe Server:
-  - DOMAIN-SUFFIX,18.194.0.0/16
-  - DOMAIN-SUFFIX,35.158.0.0/16
+ # - DOMAIN-SUFFIX,18.194.0.0/16
+ # - DOMAIN-SUFFIX,35.158.0.0/16
 
 # Middle East Server:
-  - DOMAIN-SUFFIX,54.37.0.0/16
-  - DOMAIN-SUFFIX,185.169.0.0/16
+ # - DOMAIN-SUFFIX,54.37.0.0/16
+ # - DOMAIN-SUFFIX,185.169.0.0/16
 
 # 3. Server Voice Chat & Data Tambahan
-  - DOMAIN-SUFFIX,101.32.104.0/24
-  - DOMAIN-SUFFIX,203.205.254.0/24
-  - DOMAIN-SUFFIX,129.226.3.0/24
+ # - DOMAIN-SUFFIX,101.32.104.0/24
+ # - DOMAIN-SUFFIX,203.205.254.0/24
+ # - DOMAIN-SUFFIX,129.226.3.0/24
 
   # CODM (Call of Duty Mobile)
-  - DST-PORT,3013,10000-10019,18082,50000,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,7085-7995,17000-20100,PLAY-IN-GAME 🎮,udp
+ # - DST-PORT,3013,10000-10019,18082,50000,PLAY-IN-GAME 🎮,tcp
+ # - DST-PORT,7085-7995,17000-20100,PLAY-IN-GAME 🎮,udp
 
  # Genshin Impact
-  - DST-PORT,42472,PLAY-IN-GAME 🎮,tcp # sinkronisasi karakter, interaksi dunia, dan pergerakan game secara real-time.
-  - DST-PORT,42472,22101-22102,PLAY-IN-GAME 🎮,udp # sinkronisasi karakter, interaksi dunia, dan pergerakan game secara real-time.
+ # - DST-PORT,42472,PLAY-IN-GAME 🎮,tcp # sinkronisasi karakter, interaksi dunia, dan pergerakan game secara real-time.
+ # - DST-PORT,42472,22101-22102,PLAY-IN-GAME 🎮,udp # sinkronisasi karakter, interaksi dunia, dan pergerakan game secara real-time.
 
   # Clash of Clans (CoC) & Clash Royale
-  - DST-PORT,9330-9340,PLAY-IN-GAME 🎮,tcp # Port utama untuk komunikasi cepat dan sinkronisasi data in-game komunikasi server.
-  - DST-PORT,9330-9340,PLAY-IN-GAME 🎮,udp # Port utama untuk komunikasi cepat dan sinkronisasi data in-game komunikasi server.
-  - DOMAIN-SUFFIX,clashofclans.com,PLAY-IN-GAME 🎮,tcp
-  - DOMAIN-SUFFIX,inbox.supercell.com,PLAY-IN-GAME 🎮,tcp
+ # - DST-PORT,9330-9340,PLAY-IN-GAME 🎮,tcp # Port utama untuk komunikasi cepat dan sinkronisasi data in-game komunikasi server.
+ # - DST-PORT,9330-9340,PLAY-IN-GAME 🎮,udp # Port utama untuk komunikasi cepat dan sinkronisasi data in-game komunikasi server.
+ # - DOMAIN-SUFFIX,clashofclans.com,PLAY-IN-GAME 🎮,tcp
+ # - DOMAIN-SUFFIX,inbox.supercell.com,PLAY-IN-GAME 🎮,tcp
 
   # League of Legends (LOL) Mobile
-  - DST-PORT,2080-2099,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,5100,PLAY-IN-GAME 🎮,udp
+ # - DST-PORT,2080-2099,PLAY-IN-GAME 🎮,tcp
+ # - DST-PORT,5100,PLAY-IN-GAME 🎮,udp
 
   # Summoners War
-  - DST-PORT,9200-9400,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,10000-11000,PLAY-IN-GAME 🎮,udp
+ # - DST-PORT,9200-9400,PLAY-IN-GAME 🎮,tcp
+ # - DST-PORT,10000-11000,PLAY-IN-GAME 🎮,udp
 
   #STEAM 
-  - DST-PORT,27015-27030,PLAY-IN-GAME 🎮,tcp  # Server game publik berbasis server multiplayer dan komunikasi permainan
-  - DST-PORT,27031-27036,PLAY-IN-GAME 🎮,tcp  # Komunikasi tambahan seperti matchmaking dan statistik pemain.
-  - DST-PORT,27000-27014,PLAY-IN-GAME 🎮,udp  # Sinkronisasi data dan koneksi utama untuk sinkronisasi data real-time seperti posisi pemain, aksi dalam game, atau pergerakan dalam game
+ # - DST-PORT,27015-27030,PLAY-IN-GAME 🎮,tcp  # Server game publik berbasis server multiplayer dan komunikasi permainan
+ # - DST-PORT,27031-27036,PLAY-IN-GAME 🎮,tcp  # Komunikasi tambahan seperti matchmaking dan statistik pemain.
+ # - DST-PORT,27000-27014,PLAY-IN-GAME 🎮,udp  # Sinkronisasi data dan koneksi utama untuk sinkronisasi data real-time seperti posisi pemain, aksi dalam game, atau pergerakan dalam game
   
   # DOTA 2
-  - DST-PORT,27031-27036,PLAY-IN-GAME 🎮,tcp  # Komunikasi tambahan
+ # - DST-PORT,27031-27036,PLAY-IN-GAME 🎮,tcp  # Komunikasi tambahan
 
-  - DST-PORT,4380,PLAY-IN-GAME 🎮,udp         # Steam P2P koneksi
+ # - DST-PORT,4380,PLAY-IN-GAME 🎮,udp         # Steam P2P koneksi
 
   # Counter-Strike 2 (CS2)
-#  - DST-PORT,3478,4379-4380,PLAY-IN-GAME 🎮,udp  # Steam voice chat (P2P) = port 3478 sama dengan whatsapp call
+# # - DST-PORT,3478,4379-4380,PLAY-IN-GAME 🎮,udp  # Steam voice chat (P2P) = port 3478 sama dengan whatsapp call
+
+
+# MLBB (Mobile Legends)
+- DST-PORT,5517-5529,PLAY-IN-GAME 🎮,udp # Sinkronisasi real-time (gerakan hero)
+- DST-PORT,5551-5559,PLAY-IN-GAME 🎮,udp # Komunikasi cepat
+
+# Free Fire (FF)
+- DST-PORT,7006-7008,8001-8012,9008,10000-10015,13008,PLAY-IN-GAME 🎮,udp
+
+# PUBG Mobile (Voice Chat)
+- DOMAIN-SUFFIX,101.32.104.0/24,PLAY-IN-GAME 🎮,udp # Server voice chat
+- DOMAIN-SUFFIX,203.205.254.0/24,PLAY-IN-GAME 🎮,udp
+- DOMAIN-SUFFIX,129.226.3.0/24,PLAY-IN-GAME 🎮,udp
+
+# CODM (Call of Duty Mobile)
+- DST-PORT,7085-7995,17000-20100,PLAY-IN-GAME 🎮,udp
+
+# Genshin Impact
+- DST-PORT,42472,22101-22102,PLAY-IN-GAME 🎮,udp # Sinkronisasi karakter & dunia
+
+# Clash of Clans/Clash Royale
+- DST-PORT,9330-9340,PLAY-IN-GAME 🎮,udp # Komunikasi real-time
+
+# League of Legends (LOL) Mobile
+- DST-PORT,5100,PLAY-IN-GAME 🎮,udp
+
+# Summoners War
+- DST-PORT,10000-11000,PLAY-IN-GAME 🎮,udp
+
+# STEAM (P2P & Sinkronisasi)
+- DST-PORT,27000-27014,PLAY-IN-GAME 🎮,udp # Sinkronisasi data real-time (posisi pemain)
+- DST-PORT,4380,PLAY-IN-GAME 🎮,udp # Steam P2P (voice chat)
+
+# Counter-Strike 2 (CS2) - Jika di-uncomment
+# - DST-PORT,3478,4379-4380,PLAY-IN-GAME 🎮,udp # Steam voice chat (P2P)
 
