@@ -95,9 +95,23 @@ payload:
   # Counter-Strike 2 (CS2)
 ## - DST-PORT,3478,4379-4380,PLAY-IN-GAME 🎮,udp  # Steam voice chat (P2P) = port 3478 sama dengan whatsapp call
 
-# MLBB (Mobile Legends)
-- DST-PORT,5517-5529,PLAY-IN-GAME 🎮,udp # Sinkronisasi real-time (gerakan hero)
-- DST-PORT,5551-5559,PLAY-IN-GAME 🎮,udp # Komunikasi cepat
+
+  # 🎮 Mobile Legends Real-Time Gameplay (Matchmaking, Lobby, Voice Chat)
+- DST-PORT,30097-30147,PLAY-IN-GAME 🎮,tcp   # tcp digunakan untuk gameplay utama dan matchmaking
+- DST-PORT,5517-5529,PLAY-IN-GAME 🎮,tcp    # tcp cadangan untuk in-game
+- DST-PORT,5551-5559,PLAY-IN-GAME 🎮,tcp    # tcp cadangan untuk server Asia Tenggara
+- DST-PORT,5001,PLAY-IN-GAME 🎮,tcp             # tcp untuk komunikasi suara
+- DST-PORT,5003,PLAY-IN-GAME 🎮,tcp             # tcp untuk komunikasi suara
+- DST-PORT,9001,PLAY-IN-GAME 🎮,tcp             # tcp untuk komunikasi suara
+- DOMAIN-SUFFIX,youngjoygame.com,PLAY-IN-GAME 🎮,tcp
+- DOMAIN-SUFFIX,moonton.com,PLAY-IN-GAME 🎮,tcp
+- DOMAIN-SUFFIX,act.gms.moontontech.com,PLAY-IN-GAME 🎮,tcp
+- DOMAIN-SUFFIX,mlbbws.moonton.com,PLAY-IN-GAME 🎮,tcp
+- DOMAIN-SUFFIX,mlbb.mob.com,PLAY-IN-GAME 🎮,tcp
+- DOMAIN-SUFFIX,mlbb.wmpvp.com,PLAY-IN-GAME 🎮,tcp
+- IP-CIDR,47.252.0.0/16,PLAY-IN-GAME 🎮,tcp  # Moonton Server IP (tcp)
+- IP-CIDR,47.91.0.0/16,PLAY-IN-GAME 🎮,tcp   # Alibaba Cloud Server IP (tcp)
+
 
 # Free Fire (FF)
 - DST-PORT,7006-7008,PLAY-IN-GAME 🎮,udp
