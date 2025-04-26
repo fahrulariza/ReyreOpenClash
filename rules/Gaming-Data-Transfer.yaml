@@ -1,10 +1,14 @@
 # Download Data (TCP - untuk autentikasi, matchmaking, statis content, dll.)
 payload:
 
-# EFootball (STEAM)
-- DST-PORT,27015,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DST-PORT,27036,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DST-PORT,27031-27036,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  # 📥 eFootball Download Content (patch, assets) NORMAL
+- DOMAIN-SUFFIX,dl.konami.net,DOWNLOAD-ASSET-GAME 🕹️
+- DOMAIN-SUFFIX,cdn.konami.net,DOWNLOAD-ASSET-GAME 🕹️
+- DOMAIN-SUFFIX,prod.efootball.konami.net,DOWNLOAD-ASSET-GAME 🕹️
+- IP-CIDR,23.60.0.0/16,DOWNLOAD-ASSET-GAME 🕹️
+- IP-CIDR,23.50.0.0/16,DOWNLOAD-ASSET-GAME 🕹️
+- IP-CIDR,52.84.0.0/14,DOWNLOAD-ASSET-GAME 🕹️
+- IP-CIDR,54.230.0.0/16,DOWNLOAD-ASSET-GAME 🕹️
 
 - DOMAIN-SUFFIX,pes22,DOWNLOAD-ASSET-GAME 🕹️,tcp
 - DOMAIN-KEYWORD,pes22,DOWNLOAD-ASSET-GAME 🕹️,tcp
