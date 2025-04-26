@@ -15,12 +15,15 @@ payload:
 - DOMAIN-SUFFIX,codefusion.technology,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
 # MLBB (Mobile Legends)
-- DOMAIN-SUFFIX,cdn.mlbb.mob.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,dl.mobilelegends.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,cdn.moonton.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,youngjoygame.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- IP-CIDR,104.16.0.0/12,DOWNLOAD-ASSET-GAME 🕹️,tcp   # Cloudflare CDN IP (TCP)
-- IP-CIDR,13.32.0.0/15,DOWNLOAD-ASSET-GAME 🕹️,tcp    # Amazon CloudFront IP (TCP)
+- DOMAIN,a1958.v.akamai.net,DOWNLOAD-ASSET-GAME 🕹️,tcp  # Domain spesifik untuk download data game MLBB melalui Akamai CDN
+- DOMAIN-SUFFIX,dl.mobilelegends.com,DOWNLOAD-ASSET-GAME 🕹️,tcp  # Domain untuk Mobile Legends update
+- DOMAIN-SUFFIX,cdn.mlbb.mob.com,DOWNLOAD-ASSET-GAME 🕹️,tcp  # Domain untuk Mobile Legends CDN
+- DOMAIN-SUFFIX,cdn.moonton.com,DOWNLOAD-ASSET-GAME 🕹️,tcp  # Domain untuk Moonton CDN
+- IP-CIDR,47.252.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp   # Moonton Server IP (Download)
+- IP-CIDR,47.91.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp    # Alibaba Cloud Server IP (Download)
+- IP-CIDR,104.16.0.0/12,DOWNLOAD-ASSET-GAME 🕹️,tcp   # Cloudflare CDN IP
+- IP-CIDR,13.32.0.0/15,DOWNLOAD-ASSET-GAME 🕹️,tcp    # Amazon CloudFront IP
+
 
 # Free Fire (FF)
 - DST-PORT,6006,DOWNLOAD-ASSET-GAME 🕹️,tcp
