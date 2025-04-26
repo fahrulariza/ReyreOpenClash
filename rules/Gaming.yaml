@@ -130,6 +130,7 @@ payload:
 
 # STEAM (P2P & Sinkronisasi)
 - DST-PORT,27000-27014,PLAY-IN-GAME 🎮,udp # Sinkronisasi data real-time (posisi pemain)
+- DST-PORT,27016,PLAY-IN-GAME 🎮,udp # Sinkronisasi data real-time (posisi pemain)
 - DST-PORT,4380,PLAY-IN-GAME 🎮,udp # Steam P2P (voice chat)
 
 # Counter-Strike 2 (CS2) - Jika di-uncomment
