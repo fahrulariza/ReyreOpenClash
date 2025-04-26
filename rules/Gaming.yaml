@@ -129,9 +129,15 @@ payload:
 - DST-PORT,10000-11000,PLAY-IN-GAME 🎮,udp
 
 # STEAM (P2P & Sinkronisasi)
-- DST-PORT,27000-27014,PLAY-IN-GAME 🎮,udp # Sinkronisasi data real-time (posisi pemain)
-- DST-PORT,27016,PLAY-IN-GAME 🎮,udp # Sinkronisasi data real-time (posisi pemain)
-- DST-PORT,4380,PLAY-IN-GAME 🎮,udp # Steam P2P (voice chat)
+- DST-PORT,27015-27050,PLAY-IN-GAME 🎮,udp # Sinkronisasi data real-time Koneksi server game, gameplay data real-time
+- DST-PORT,27036–27037,PLAY-IN-GAME 🎮,udp # Sinkronisasi data Koneksi saat cari match dan lobby update
+- DST-PORT,4380,PLAY-IN-GAME 🎮,udp # Steam P2P Untuk voice communication in-game 3478, 4379, 4380
+
+# eFootball (dulu Pro Evolution Soccer/PES),
+- DST-PORT,5739,PLAY-IN-GAME 🎮,udp # Port utama untuk real-time gameplay.
+- DST-PORT,3659,PLAY-IN-GAME 🎮,udp # Kadang digunakan untuk sesi pertandingan (mirip FIFA).
+- DST-PORT,5000–5200,PLAY-IN-GAME 🎮,udp # Untuk koneksi server tambahan (beberapa server regional).
+
 
 # Counter-Strike 2 (CS2) - Jika di-uncomment
 # - DST-PORT,3478,4379-4380,PLAY-IN-GAME 🎮,udp # Steam voice chat (P2P)
