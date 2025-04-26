@@ -133,11 +133,14 @@ payload:
 - DST-PORT,27036–27037,PLAY-IN-GAME 🎮,udp # Sinkronisasi data Koneksi saat cari match dan lobby update
 - DST-PORT,4380,PLAY-IN-GAME 🎮,udp # Steam P2P Untuk voice communication in-game 3478, 4379, 4380
 
-# eFootball (dulu Pro Evolution Soccer/PES),
-- DST-PORT,5739,PLAY-IN-GAME 🎮,udp # Port utama untuk real-time gameplay.
+  # 🎮 eFootball Real-Time Gameplay (in-game, matchmaking, lobby) PRIORITY
 - DST-PORT,3659,PLAY-IN-GAME 🎮,udp # Kadang digunakan untuk sesi pertandingan (mirip FIFA).
-- DST-PORT,5000–5200,PLAY-IN-GAME 🎮,udp # Untuk koneksi server tambahan (beberapa server regional).
-
+- DST-PORT,5730-5739,PLAY-IN-GAME 🎮,udp # Gameplay real-time (in-game)	
+- DST-PORT,5000-5200,PLAY-IN-GAME 🎮,udp # Matchmaking & lobby	
+- DOMAIN-SUFFIX,fesl.konami.net,PLAY-IN-GAME 🎮,udp # Login ke server eFootball
+- DOMAIN-SUFFIX,efootball.konami.net,PLAY-IN-GAME 🎮,udp # Login ke server eFootball
+- IP-CIDR,125.6.189.0/24,PLAY-IN-GAME 🎮,udp # IP server eFootball (khusus region Asia)
+- IP-CIDR,125.6.190.0/24,PLAY-IN-GAME 🎮,udp # IP server eFootball (khusus region Asia)
 
 # Counter-Strike 2 (CS2) - Jika di-uncomment
 # - DST-PORT,3478,4379-4380,PLAY-IN-GAME 🎮,udp # Steam voice chat (P2P)
