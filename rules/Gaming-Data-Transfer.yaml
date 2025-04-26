@@ -15,10 +15,11 @@ payload:
 - DOMAIN-SUFFIX,codefusion.technology,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
 # MLBB (Mobile Legends)
-- DST-PORT,5000-5221,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DST-PORT,5224-5227,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DST-PORT,5229-5241,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DST-PORT,30000-30300,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,cdn.mlbb.mob.com,📥Download,TCP
+- DOMAIN-SUFFIX,dl.mobilelegends.com,📥Download,TCP
+- DOMAIN-SUFFIX,cdn.moonton.com,📥Download,TCP
+- IP-CIDR,104.16.0.0/12,📥Download,TCP   # Cloudflare CDN IP (TCP)
+- IP-CIDR,13.32.0.0/15,📥Download,TCP    # Amazon CloudFront IP (TCP)
 
 # Free Fire (FF)
 - DST-PORT,6006,DOWNLOAD-ASSET-GAME 🕹️,tcp
