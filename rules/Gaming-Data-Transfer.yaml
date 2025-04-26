@@ -18,7 +18,7 @@ payload:
 - DOMAIN-SUFFIX,cdn.mlbb.mob.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
 - DOMAIN-SUFFIX,dl.mobilelegends.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
 - DOMAIN-SUFFIX,cdn.moonton.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,youngjoygame.com,PLAY-IN-GAME 🎮,tcp
+- DOMAIN-SUFFIX,youngjoygame.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
 - IP-CIDR,104.16.0.0/12,DOWNLOAD-ASSET-GAME 🕹️,tcp   # Cloudflare CDN IP (TCP)
 - IP-CIDR,13.32.0.0/15,DOWNLOAD-ASSET-GAME 🕹️,tcp    # Amazon CloudFront IP (TCP)
 
