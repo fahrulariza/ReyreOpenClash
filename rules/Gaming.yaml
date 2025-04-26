@@ -103,7 +103,6 @@ payload:
 - DST-PORT,5001,PLAY-IN-GAME 🎮,tcp             # tcp untuk komunikasi suara
 - DST-PORT,5003,PLAY-IN-GAME 🎮,tcp             # tcp untuk komunikasi suara
 - DST-PORT,9001,PLAY-IN-GAME 🎮,tcp             # tcp untuk komunikasi suara
-- DOMAIN-SUFFIX,youngjoygame.com,PLAY-IN-GAME 🎮,tcp
 - DOMAIN-SUFFIX,moonton.com,PLAY-IN-GAME 🎮,tcp
 - DOMAIN-SUFFIX,act.gms.moontontech.com,PLAY-IN-GAME 🎮,tcp
 - DOMAIN-SUFFIX,mlbbws.moonton.com,PLAY-IN-GAME 🎮,tcp
