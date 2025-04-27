@@ -111,3 +111,25 @@ payload:
   - DST-PORT,40000-40099,DOWNLOAD-ASSET-GAME 🕹️,tcp
   - DST-PORT,50000-50099,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
+# 📥 Steam - Download Data & Game Resources (TCP)
+  # Steam Download Ports
+  - DST-PORT,27014-27050,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,27005,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,443,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,80,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  
+  # Steam - CDN Domains for Download
+  - DOMAIN-SUFFIX,steamcontent.com,DOWNLOAD-ASSET-GAME 🕹️
+  - DOMAIN-SUFFIX,cdn.steampowered.com,DOWNLOAD-ASSET-GAME 🕹️
+  - DOMAIN-SUFFIX,steamcommunity.com,DOWNLOAD-ASSET-GAME 🕹️
+  - DOMAIN-SUFFIX,steamstatic.com,DOWNLOAD-ASSET-GAME 🕹️
+  - DOMAIN-SUFFIX,akamai.steamstatic.com,DOWNLOAD-ASSET-GAME 🕹️
+  - DOMAIN-SUFFIX,content-steamapp.s3.amazonaws.com,DOWNLOAD-ASSET-GAME 🕹️
+  
+  # Steam Servers for Download Data Servers in Asia (IP-CIDR)
+  - IP-CIDR,103.255.112.0/22,DOWNLOAD-ASSET-GAME 🕹️,no-resolve
+  - IP-CIDR,185.56.87.0/24,DOWNLOAD-ASSET-GAME 🕹️,no-resolve
+  - IP-CIDR,104.109.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,no-resolve
+  - IP-CIDR,13.107.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,no-resolve
+  - IP-CIDR,40.112.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,no-resolve
+  - IP-CIDR,52.175.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,no-resolve
