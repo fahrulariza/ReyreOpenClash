@@ -128,10 +128,24 @@ payload:
 - DST-PORT,10000-10015,PLAY-IN-GAME 🎮,udp
 - DST-PORT,13008,PLAY-IN-GAME 🎮,udp
 
-# PUBG Mobile (Voice Chat)
-- DOMAIN-SUFFIX,101.32.104.0/24,PLAY-IN-GAME 🎮,udp # Server voice chat
-- DOMAIN-SUFFIX,203.205.254.0/24,PLAY-IN-GAME 🎮,udp
-- DOMAIN-SUFFIX,129.226.3.0/24,PLAY-IN-GAME 🎮,udp
+  # 🎮 PUBG Mobile - Real-Time Gameplay (Ports)
+- DST-PORT,7889,PLAY-IN-GAME 🎮,udp
+- DST-PORT,7989,PLAY-IN-GAME 🎮,udp
+- DST-PORT,10010-10086,PLAY-IN-GAME 🎮,udp
+
+  # 🎮 PUBG Mobile - Real-Time Domains
+- DOMAIN-SUFFIX,igamecj.com,PLAY-IN-GAME 🎮
+- DOMAIN-SUFFIX,sgp.sgp.pubgmobile.com,PLAY-IN-GAME 🎮
+- DOMAIN-SUFFIX,asia.pubgmobile.com,PLAY-IN-GAME 🎮
+- DOMAIN-SUFFIX,voice.pubgmobile.com,PLAY-IN-GAME 🎮
+    # 🎯 PUBG Mobile - IP Address Bypass (Server Asia - Singapore)
+- IP-CIDR,13.250.0.0/16,PLAY-IN-GAME 🎮,no-resolve
+- IP-CIDR,18.136.0.0/13,PLAY-IN-GAME 🎮,no-resolve
+- IP-CIDR,52.220.0.0/15,PLAY-IN-GAME 🎮,no-resolve
+- IP-CIDR,54.255.0.0/16,PLAY-IN-GAME 🎮,no-resolve
+- IP-CIDR,99.83.0.0/16,PLAY-IN-GAME 🎮,no-resolve
+- IP-CIDR,52.76.0.0/16,PLAY-IN-GAME 🎮,no-resolve
+- IP-CIDR,18.140.0.0/14,PLAY-IN-GAME 🎮,no-resolve
 
 # CODM (Call of Duty Mobile)
 - DST-PORT,7085-7995,PLAY-IN-GAME 🎮,udp
@@ -167,11 +181,9 @@ payload:
 # Counter-Strike 2 (CS2) - Jika di-uncomment
 # - DST-PORT,3478,4379-4380,PLAY-IN-GAME 🎮,udp # Steam voice chat (P2P)
 
-rules:
   # 🎮 Minecraft Real-Time Multiplayer
 - DST-PORT,25565,PLAY-IN-GAME 🎮,tcp
 
-rules:
   # 🎮 Honor of Kings - Real-Time Gameplay
 - DST-PORT,10000-10030,PLAY-IN-GAME 🎮,udp # In-Game Battle Server	
 - DST-PORT,17000-18000,PLAY-IN-GAME 🎮,udp # Matchmaking
