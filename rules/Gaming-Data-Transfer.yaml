@@ -77,8 +77,6 @@ payload:
 - DST-PORT,27031-27036,DOWNLOAD-ASSET-GAME 🕹️,tcp # Matchmaking & statistik
 
   # 📥 Roblox Download Content
-- DST-PORT,80,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DST-PORT,443,DOWNLOAD-ASSET-GAME 🕹️,tcp
 - DOMAIN-SUFFIX,assetdelivery.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
 - DOMAIN-SUFFIX,setup.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
 - DOMAIN-SUFFIX,images.rbxcdn.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
