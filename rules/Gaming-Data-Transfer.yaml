@@ -105,3 +105,7 @@ payload:
   - DOMAIN-SUFFIX,launcher.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
   - DOMAIN-SUFFIX,libraries.minecraft.net,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
+  # 📥 Honor of Kings - Download Content
+- DOMAIN-SUFFIX,dlsource.ttarena.com,DOWNLOAD-ASSET-GAME 🕹️
+- DOMAIN-SUFFIX,cdn.ttarena.com,DOWNLOAD-ASSET-GAME 🕹️
+- DOMAIN-SUFFIX,res.ttarena.com,DOWNLOAD-ASSET-GAME 🕹️
