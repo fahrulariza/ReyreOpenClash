@@ -20,6 +20,7 @@ payload:
 - DOMAIN-SUFFIX,fb.gg
 - DOMAIN-SUFFIX,fb.watch
 - DOMAIN-SUFFIX,fbcdn.net
+- DOMAIN-SUFFIX,xx.fbcdn.net
 - DOMAIN-SUFFIX,fbe2e.com
 - DOMAIN-SUFFIX,fbinfra.net
 - DOMAIN-SUFFIX,fbpigeon.com
