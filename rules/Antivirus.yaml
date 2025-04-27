@@ -3,7 +3,8 @@ payload:
   - DOMAIN-SUFFIX,avcloud
   - DOMAIN-SUFFIX,avcloud.e5.sk
   - DOMAIN-KEYWORD,eset
-  - DOMAIN-SUFFIX,eset.com
+  - DOMAIN,eset.com
+  - DOMAIN-SUFFIX,epns.eset.com
   - DST-PORT,8883
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,norton.com
