@@ -35,21 +35,11 @@ payload:
 - DST-PORT,12006,20561,DOWNLOAD-ASSET-GAME 🕹️,tcp
 - DST-PORT,39003,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
-# PUBG Mobile (Login & Matchmaking)
-- IP-CIDR,203.205.239.0/24,DOWNLOAD-ASSET-GAME 🕹️,tcp # Autentikasi
-- IP-CIDR,49.51.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp # Autentikasi
-- IP-CIDR,182.254.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp # Autentikasi
-- IP-CIDR,150.109.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp # Server game
-- IP-CIDR,129.226.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp # Server game
-- IP-CIDR,47.252.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp # Server game
-- IP-CIDR,13.124.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp # Server game
-- IP-CIDR,15.164.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp # Server game
-- IP-CIDR,47.89.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp # Server game
-- IP-CIDR,52.221.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp # Server game
-- IP-CIDR,18.194.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp # Server game
-- IP-CIDR,35.158.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp # Server game
-- IP-CIDR,54.37.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp # Server game
-- IP-CIDR,185.169.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp # Server game
+  # 📥 PUBG Mobile - Download Resource Domains
+- DOMAIN-SUFFIX,dlied1.qq.com,📥PUBGMobile-Download
+- DOMAIN-SUFFIX,dlied2.qq.com,📥PUBGMobile-Download
+- DOMAIN-SUFFIX,resource.pubgmobile.com,📥PUBGMobile-Download
+- DOMAIN-SUFFIX,cdn.pubgmobile.com,📥PUBGMobile-Download
 
 # CODM (Call of Duty Mobile)
 - DST-PORT,3013,DOWNLOAD-ASSET-GAME 🕹️,tcp
@@ -93,17 +83,17 @@ payload:
 - IP-CIDR,31.13.64.0/18,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
   # 🔑 Minecraft Authentication
-  - DOMAIN-SUFFIX,authserver.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-  - DOMAIN-SUFFIX,sessionserver.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-  - DOMAIN-SUFFIX,api.minecraftservices.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-  - DOMAIN-SUFFIX,login.live.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-  - DOMAIN-SUFFIX,login.microsoftonline.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,authserver.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,sessionserver.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,api.minecraftservices.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,login.live.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,login.microsoftonline.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
   # 📥 Minecraft Download Content
-  - DOMAIN-SUFFIX,resources.download.minecraft.net,DOWNLOAD-ASSET-GAME 🕹️,tcp
-  - DOMAIN-SUFFIX,textures.minecraft.net,DOWNLOAD-ASSET-GAME 🕹️,tcp
-  - DOMAIN-SUFFIX,launchermeta.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-  - DOMAIN-SUFFIX,launcher.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-  - DOMAIN-SUFFIX,libraries.minecraft.net,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,resources.download.minecraft.net,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,textures.minecraft.net,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,launchermeta.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,launcher.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,libraries.minecraft.net,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
   # 📥 Honor of Kings - Download Content
 - DOMAIN-SUFFIX,dlsource.ttarena.com,DOWNLOAD-ASSET-GAME 🕹️
