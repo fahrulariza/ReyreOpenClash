@@ -71,7 +71,7 @@ payload:
   - DST-PORT,5100,PLAY-IN-GAME 🎮,udp
 
 # Summoners War
-  - DST-PORT,10000-11000,PLAY-IN-GAME 🎮,udp
+  - DOMAIN-SUFFIX,summonerswar-sea-lb.qpyou.cn,PLAY-IN-GAME 🎮,udp
 
 # 🎮 eFootball Real-Time Gameplay (in-game, matchmaking, lobby) PRIORITY
   - DST-PORT,3659,PLAY-IN-GAME 🎮,udp # Kadang digunakan untuk sesi pertandingan (mirip FIFA).
