@@ -1,18 +1,20 @@
 # Download Data (tcp - untuk autentikasi, matchmaking, statis content, dll.)
 payload:
 
-  # 📥 eFootball Download Content (patch, assets) NORMAL
-- DOMAIN-SUFFIX,dl.konami.net,DOWNLOAD-ASSET-GAME 🕹️
-- DOMAIN-SUFFIX,cdn.konami.net,DOWNLOAD-ASSET-GAME 🕹️
-- DOMAIN-SUFFIX,prod.efootball.konami.net,DOWNLOAD-ASSET-GAME 🕹️
-- IP-CIDR,23.60.0.0/16,DOWNLOAD-ASSET-GAME 🕹️
-- IP-CIDR,23.50.0.0/16,DOWNLOAD-ASSET-GAME 🕹️
-- IP-CIDR,52.84.0.0/14,DOWNLOAD-ASSET-GAME 🕹️
-- IP-CIDR,54.230.0.0/16,DOWNLOAD-ASSET-GAME 🕹️
-
-- DOMAIN-SUFFIX,pes22,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-KEYWORD,pes22,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,codefusion.technology,DOWNLOAD-ASSET-GAME 🕹️,tcp
+# 📥 eFootball Mobile - Download Data & Resources
+  - DOMAIN-SUFFIX,cdn.efootballmobile.com,📥eFootballMobile-Download
+  - DOMAIN-SUFFIX,download.efootballmobile.com,📥eFootballMobile-Download
+  - DOMAIN-SUFFIX,assets.efootballmobile.com,📥eFootballMobile-Download
+  - DOMAIN-SUFFIX,dl.konami.net,DOWNLOAD-ASSET-GAME 🕹️
+  - DOMAIN-SUFFIX,cdn.konami.net,DOWNLOAD-ASSET-GAME 🕹️
+  - DOMAIN-SUFFIX,prod.efootball.konami.net,DOWNLOAD-ASSET-GAME 🕹️
+  # Download Data Ports (for updates/patches)
+  - DST-PORT,30000-30099,📥eFootballMobile-Download,TCP
+  - DST-PORT,40000-40099,📥eFootballMobile-Download,TCP
+  - DST-PORT,50000-50099,📥eFootballMobile-Download,TCP
+  - DOMAIN-SUFFIX,pes22,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAINKEYWORD,pes22,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,codefusion.technology,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
 # MLBB (Mobile Legends)
 - DOMAIN,a1958.v.akamai.net,DOWNLOAD-ASSET-GAME 🕹️,tcp  # Domain spesifik untuk download data game MLBB melalui Akamai CDN
@@ -95,12 +97,11 @@ payload:
 - DOMAIN-SUFFIX,launcher.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
 - DOMAIN-SUFFIX,libraries.minecraft.net,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
-  # 📥 Honor of Kings - Download Content
-- DOMAIN-SUFFIX,dlsource.ttarena.com,DOWNLOAD-ASSET-GAME 🕹️
-- DOMAIN-SUFFIX,cdn.ttarena.com,DOWNLOAD-ASSET-GAME 🕹️
-- DOMAIN-SUFFIX,res.ttarena.com,DOWNLOAD-ASSET-GAME 🕹️
-
-# 📥 Arena Breakout - Download Data & Resources
+# 📥 Honor of Kings - Download Content
+  - DOMAIN-SUFFIX,dlsource.ttarena.com,DOWNLOAD-ASSET-GAME 🕹️
+  - DOMAIN-SUFFIX,cdn.ttarena.com,DOWNLOAD-ASSET-GAME 🕹️
+  - DOMAIN-SUFFIX,res.ttarena.com,DOWNLOAD-ASSET-GAME 🕹️
+  # 📥 Arena Breakout - Download Data & Resources
   - DOMAIN-SUFFIX,cdn.arena-breakout.com,DOWNLOAD-ASSET-GAME 🕹️
   - DOMAIN-SUFFIX,download.arena-breakout.com,DOWNLOAD-ASSET-GAME 🕹️
   - DOMAIN-SUFFIX,update.arena-breakout.com,DOWNLOAD-ASSET-GAME 🕹️
