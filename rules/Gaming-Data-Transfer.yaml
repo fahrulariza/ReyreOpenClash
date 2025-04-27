@@ -99,3 +99,14 @@ payload:
 - DOMAIN-SUFFIX,dlsource.ttarena.com,DOWNLOAD-ASSET-GAME 🕹️
 - DOMAIN-SUFFIX,cdn.ttarena.com,DOWNLOAD-ASSET-GAME 🕹️
 - DOMAIN-SUFFIX,res.ttarena.com,DOWNLOAD-ASSET-GAME 🕹️
+
+# 📥 Arena Breakout - Download Data & Resources
+  - DOMAIN-SUFFIX,cdn.arena-breakout.com,DOWNLOAD-ASSET-GAME 🕹️
+  - DOMAIN-SUFFIX,download.arena-breakout.com,DOWNLOAD-ASSET-GAME 🕹️
+  - DOMAIN-SUFFIX,update.arena-breakout.com,DOWNLOAD-ASSET-GAME 🕹️
+  - DOMAIN-SUFFIX,assets.arena-breakout.com,DOWNLOAD-ASSET-GAME 🕹️
+  # Download Data Ports (for updates/patches)
+  - DST-PORT,30000-30099,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,40000-40099,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,50000-50099,DOWNLOAD-ASSET-GAME 🕹️,tcp
+
