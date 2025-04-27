@@ -6,9 +6,9 @@ payload:
 # - DST-PORT,27036,PLAY-IN-GAME 🎮,tcp
 # - DST-PORT,27015,PLAY-IN-GAME 🎮,tcp
 # - DST-PORT,27031-27036,PLAY-IN-GAME 🎮,tcp
-# - DOMAIN-SUFFIX,pes22
+#   - DOMAIN-SUFFIX,pes22
 # - DOMAIN-KEYWORD,pes22
-# - DOMAIN-SUFFIX,codefusion.technology
+#   - DOMAIN-SUFFIX,codefusion.technology
 
   
   # MLBB (Mobile Legends: Bang Bang)
@@ -27,36 +27,36 @@ payload:
 # IP Umum PUBG Mobile (Gameplay)
 
 # 1. Server Tencent untuk Login & Autentikasi
-# - DOMAIN-SUFFIX,203.205.239.0/24
-# - DOMAIN-SUFFIX,49.51.0.0/16
-# - DOMAIN-SUFFIX,182.254.0.0/16
+#   - DOMAIN-SUFFIX,203.205.239.0/24
+#   - DOMAIN-SUFFIX,49.51.0.0/16
+#   - DOMAIN-SUFFIX,182.254.0.0/16
 
 # 2. Server Game (Matchmaking & In-Game)
 # Asia Server:
-# - DOMAIN-SUFFIX,150.109.0.0/16 # (Tencent Hong Kong)
-# - DOMAIN-SUFFIX,129.226.0.0/16
-# - DOMAIN-SUFFIX,47.252.0.0/16 # (Alibaba Cloud)
+#   - DOMAIN-SUFFIX,150.109.0.0/16 # (Tencent Hong Kong)
+#   - DOMAIN-SUFFIX,129.226.0.0/16
+#   - DOMAIN-SUFFIX,47.252.0.0/16 # (Alibaba Cloud)
 
 # KRJP (Korea & Japan Server):
-# - DOMAIN-SUFFIX,13.124.0.0/16
-# - DOMAIN-SUFFIX,15.164.0.0/16
+#   - DOMAIN-SUFFIX,13.124.0.0/16
+#   - DOMAIN-SUFFIX,15.164.0.0/16
 
 # North America Server:
-# - DOMAIN-SUFFIX,47.89.0.0/16
-# - DOMAIN-SUFFIX,52.221.0.0/16
+#   - DOMAIN-SUFFIX,47.89.0.0/16
+#   - DOMAIN-SUFFIX,52.221.0.0/16
 
 # Europe Server:
-# - DOMAIN-SUFFIX,18.194.0.0/16
-# - DOMAIN-SUFFIX,35.158.0.0/16
+#   - DOMAIN-SUFFIX,18.194.0.0/16
+#   - DOMAIN-SUFFIX,35.158.0.0/16
 
 # Middle East Server:
-# - DOMAIN-SUFFIX,54.37.0.0/16
-# - DOMAIN-SUFFIX,185.169.0.0/16
+#   - DOMAIN-SUFFIX,54.37.0.0/16
+#   - DOMAIN-SUFFIX,185.169.0.0/16
 
 # 3. Server Voice Chat & Data Tambahan
-# - DOMAIN-SUFFIX,101.32.104.0/24
-# - DOMAIN-SUFFIX,203.205.254.0/24
-# - DOMAIN-SUFFIX,129.226.3.0/24
+#   - DOMAIN-SUFFIX,101.32.104.0/24
+#   - DOMAIN-SUFFIX,203.205.254.0/24
+#   - DOMAIN-SUFFIX,129.226.3.0/24
 
   # CODM (Call of Duty Mobile)
 # - DST-PORT,3013,10000-10019,18082,50000,PLAY-IN-GAME 🎮,tcp
@@ -66,13 +66,13 @@ payload:
 # - DST-PORT,42472,PLAY-IN-GAME 🎮,tcp # sinkronisasi karakter, interaksi dunia, dan pergerakan game secara real-time.
 # - DST-PORT,22101,PLAY-IN-GAME 🎮,udp # sinkronisasi karakter, interaksi dunia, dan pergerakan game secara real-time.
 # - DST-PORT,22102,PLAY-IN-GAME 🎮,udp # sinkronisasi karakter, interaksi dunia, dan pergerakan game secara real-time.
-# - DOMAIN-SUFFIX,8.211.156.0/24,PLAY-IN-GAME 🎮,udp # AS45102 Alibaba (US) Technology Co., Ltd.
+#   - DOMAIN-SUFFIX,8.211.156.0/24,PLAY-IN-GAME 🎮,udp # AS45102 Alibaba (US) Technology Co., Ltd.
 
   # Clash of Clans (CoC) & Clash Royale
 # - DST-PORT,9330-9340,PLAY-IN-GAME 🎮,tcp # Port utama untuk komunikasi cepat dan sinkronisasi data in-game komunikasi server.
 # - DST-PORT,9330-9340,PLAY-IN-GAME 🎮,udp # Port utama untuk komunikasi cepat dan sinkronisasi data in-game komunikasi server.
-# - DOMAIN-SUFFIX,clashofclans.com,PLAY-IN-GAME 🎮,tcp
-# - DOMAIN-SUFFIX,inbox.supercell.com,PLAY-IN-GAME 🎮,tcp
+#   - DOMAIN-SUFFIX,clashofclans.com,PLAY-IN-GAME 🎮,tcp
+#   - DOMAIN-SUFFIX,inbox.supercell.com,PLAY-IN-GAME 🎮,tcp
 
   # League of Legends (LOL) Mobile
 # - DST-PORT,2080-2099,PLAY-IN-GAME 🎮,tcp
@@ -96,104 +96,104 @@ payload:
 ## - DST-PORT,3478,4379-4380,PLAY-IN-GAME 🎮,udp  # Steam voice chat (P2P) = port 3478 sama dengan whatsapp call
 
   # 🎮 Roblox Real-Time Traffic
-- DST-PORT,49152-65535,PLAY-IN-GAME 🎮,udp  # Dynamic UDP port untuk in-game traffic
-- DOMAIN-SUFFIX,roblox.com,PLAY-IN-GAME 🎮,tcp
-- DOMAIN-SUFFIX,api.roblox.com,PLAY-IN-GAME 🎮,tcp
-- DOMAIN-SUFFIX,friends.roblox.com,PLAY-IN-GAME 🎮,tcp
-- DOMAIN-SUFFIX,presence.roblox.com,PLAY-IN-GAME 🎮,tcp
-- DOMAIN-SUFFIX,chat.roblox.com,PLAY-IN-GAME 🎮,tcp
-- DOMAIN-SUFFIX,realtime.roblox.com,PLAY-IN-GAME 🎮,tcp
-- DOMAIN-SUFFIX,voice.roblox.com,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,49152-65535,PLAY-IN-GAME 🎮,udp  # Dynamic UDP port untuk in-game traffic
+  - DOMAIN-SUFFIX,roblox.com,PLAY-IN-GAME 🎮,tcp
+  - DOMAIN-SUFFIX,api.roblox.com,PLAY-IN-GAME 🎮,tcp
+  - DOMAIN-SUFFIX,friends.roblox.com,PLAY-IN-GAME 🎮,tcp
+  - DOMAIN-SUFFIX,presence.roblox.com,PLAY-IN-GAME 🎮,tcp
+  - DOMAIN-SUFFIX,chat.roblox.com,PLAY-IN-GAME 🎮,tcp
+  - DOMAIN-SUFFIX,realtime.roblox.com,PLAY-IN-GAME 🎮,tcp
+  - DOMAIN-SUFFIX,voice.roblox.com,PLAY-IN-GAME 🎮,tcp
 
   # 🎮 Mobile Legends Real-Time Gameplay (Matchmaking, Lobby, Voice Chat)
-- DST-PORT,30097-30147,PLAY-IN-GAME 🎮,tcp   # tcp digunakan untuk gameplay utama dan matchmaking
-- DST-PORT,5517-5529,PLAY-IN-GAME 🎮,tcp    # tcp cadangan untuk in-game
-- DST-PORT,5551-5559,PLAY-IN-GAME 🎮,tcp    # tcp cadangan untuk server Asia Tenggara
-- DST-PORT,5001,PLAY-IN-GAME 🎮,tcp             # tcp untuk komunikasi suara
-- DST-PORT,5003,PLAY-IN-GAME 🎮,tcp             # tcp untuk komunikasi suara
-- DST-PORT,9001,PLAY-IN-GAME 🎮,tcp             # tcp untuk komunikasi suara
-- DOMAIN-SUFFIX,moonton.com,PLAY-IN-GAME 🎮,tcp
-- DOMAIN-SUFFIX,act.gms.moontontech.com,PLAY-IN-GAME 🎮,tcp
-- DOMAIN-SUFFIX,mlbbws.moonton.com,PLAY-IN-GAME 🎮,tcp
-- DOMAIN-SUFFIX,mlbb.mob.com,PLAY-IN-GAME 🎮,tcp
-- DOMAIN-SUFFIX,mlbb.wmpvp.com,PLAY-IN-GAME 🎮,tcp
-- IP-CIDR,47.252.0.0/16,PLAY-IN-GAME 🎮,tcp  # Moonton Server IP (tcp)
-- IP-CIDR,47.91.0.0/16,PLAY-IN-GAME 🎮,tcp   # Alibaba Cloud Server IP (tcp)
+  - DST-PORT,30097-30147,PLAY-IN-GAME 🎮,tcp   # tcp digunakan untuk gameplay utama dan matchmaking
+  - DST-PORT,5517-5529,PLAY-IN-GAME 🎮,tcp    # tcp cadangan untuk in-game
+  - DST-PORT,5551-5559,PLAY-IN-GAME 🎮,tcp    # tcp cadangan untuk server Asia Tenggara
+  - DST-PORT,5001,PLAY-IN-GAME 🎮,tcp             # tcp untuk komunikasi suara
+  - DST-PORT,5003,PLAY-IN-GAME 🎮,tcp             # tcp untuk komunikasi suara
+  - DST-PORT,9001,PLAY-IN-GAME 🎮,tcp             # tcp untuk komunikasi suara
+  - DOMAIN-SUFFIX,moonton.com,PLAY-IN-GAME 🎮,tcp
+  - DOMAIN-SUFFIX,act.gms.moontontech.com,PLAY-IN-GAME 🎮,tcp
+  - DOMAIN-SUFFIX,mlbbws.moonton.com,PLAY-IN-GAME 🎮,tcp
+  - DOMAIN-SUFFIX,mlbb.mob.com,PLAY-IN-GAME 🎮,tcp
+  - DOMAIN-SUFFIX,mlbb.wmpvp.com,PLAY-IN-GAME 🎮,tcp
+  - IP-CIDR,47.252.0.0/16,PLAY-IN-GAME 🎮,tcp  # Moonton Server IP (tcp)
+  - IP-CIDR,47.91.0.0/16,PLAY-IN-GAME 🎮,tcp   # Alibaba Cloud Server IP (tcp)
 
 
 # Free Fire (FF)
-- DST-PORT,7006-7008,PLAY-IN-GAME 🎮,udp
-- DST-PORT,8001-8012,PLAY-IN-GAME 🎮,udp
-- DST-PORT,9008,PLAY-IN-GAME 🎮,udp
-- DST-PORT,10000-10015,PLAY-IN-GAME 🎮,udp
-- DST-PORT,13008,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,7006-7008,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,8001-8012,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,9008,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,10000-10015,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,13008,PLAY-IN-GAME 🎮,udp
 
   # 🎮 PUBG Mobile - Real-Time Gameplay (Ports)
-- DST-PORT,7889,PLAY-IN-GAME 🎮,udp
-- DST-PORT,7989,PLAY-IN-GAME 🎮,udp
-- DST-PORT,10010-10086,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,7889,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,7989,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,10010-10086,PLAY-IN-GAME 🎮,udp
 
   # 🎮 PUBG Mobile - Real-Time Domains
-- DOMAIN-SUFFIX,igamecj.com,PLAY-IN-GAME 🎮
-- DOMAIN-SUFFIX,sgp.sgp.pubgmobile.com,PLAY-IN-GAME 🎮
-- DOMAIN-SUFFIX,asia.pubgmobile.com,PLAY-IN-GAME 🎮
-- DOMAIN-SUFFIX,voice.pubgmobile.com,PLAY-IN-GAME 🎮
+  - DOMAIN-SUFFIX,igamecj.com,PLAY-IN-GAME 🎮
+  - DOMAIN-SUFFIX,sgp.sgp.pubgmobile.com,PLAY-IN-GAME 🎮
+  - DOMAIN-SUFFIX,asia.pubgmobile.com,PLAY-IN-GAME 🎮
+  - DOMAIN-SUFFIX,voice.pubgmobile.com,PLAY-IN-GAME 🎮
     # 🎯 PUBG Mobile - IP Address Bypass (Server Asia - Singapore)
-- IP-CIDR,13.250.0.0/16,PLAY-IN-GAME 🎮,no-resolve
-- IP-CIDR,18.136.0.0/13,PLAY-IN-GAME 🎮,no-resolve
-- IP-CIDR,52.220.0.0/15,PLAY-IN-GAME 🎮,no-resolve
-- IP-CIDR,54.255.0.0/16,PLAY-IN-GAME 🎮,no-resolve
-- IP-CIDR,99.83.0.0/16,PLAY-IN-GAME 🎮,no-resolve
-- IP-CIDR,52.76.0.0/16,PLAY-IN-GAME 🎮,no-resolve
-- IP-CIDR,18.140.0.0/14,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,13.250.0.0/16,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,18.136.0.0/13,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,52.220.0.0/15,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,54.255.0.0/16,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,99.83.0.0/16,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,52.76.0.0/16,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,18.140.0.0/14,PLAY-IN-GAME 🎮,no-resolve
 
 # CODM (Call of Duty Mobile)
-- DST-PORT,7085-7995,PLAY-IN-GAME 🎮,udp
-- DST-PORT,17000-20100,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,7085-7995,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,17000-20100,PLAY-IN-GAME 🎮,udp
 
 # Genshin Impact
-- DST-PORT,42472,PLAY-IN-GAME 🎮,udp
-- DST-PORT,22101-22102,PLAY-IN-GAME 🎮,udp # Sinkronisasi karakter & dunia
+  - DST-PORT,42472,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,22101-22102,PLAY-IN-GAME 🎮,udp # Sinkronisasi karakter & dunia
 
 # Clash of Clans/Clash Royale
-- DST-PORT,9330-9340,PLAY-IN-GAME 🎮,udp # Komunikasi real-time
+  - DST-PORT,9330-9340,PLAY-IN-GAME 🎮,udp # Komunikasi real-time
 
 # League of Legends (LOL) Mobile
-- DST-PORT,5100,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,5100,PLAY-IN-GAME 🎮,udp
 
 # Summoners War
-- DST-PORT,10000-11000,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,10000-11000,PLAY-IN-GAME 🎮,udp
 
 # STEAM (P2P & Sinkronisasi)
-- DST-PORT,27015-27050,PLAY-IN-GAME 🎮,udp # Sinkronisasi data real-time Koneksi server game, gameplay data real-time
-- DST-PORT,27036–27037,PLAY-IN-GAME 🎮,udp # Sinkronisasi data Koneksi saat cari match dan lobby update
-- DST-PORT,4380,PLAY-IN-GAME 🎮,udp # Steam P2P Untuk voice communication in-game 3478, 4379, 4380
+  - DST-PORT,27015-27050,PLAY-IN-GAME 🎮,udp # Sinkronisasi data real-time Koneksi server game, gameplay data real-time
+  - DST-PORT,27036–27037,PLAY-IN-GAME 🎮,udp # Sinkronisasi data Koneksi saat cari match dan lobby update
+  - DST-PORT,4380,PLAY-IN-GAME 🎮,udp # Steam P2P Untuk voice communication in-game 3478, 4379, 4380
 
   # 🎮 eFootball Real-Time Gameplay (in-game, matchmaking, lobby) PRIORITY
-- DST-PORT,3659,PLAY-IN-GAME 🎮,udp # Kadang digunakan untuk sesi pertandingan (mirip FIFA).
-- DST-PORT,5730-5739,PLAY-IN-GAME 🎮,udp # Gameplay real-time (in-game)	
-- DST-PORT,5000-5200,PLAY-IN-GAME 🎮,udp # Matchmaking & lobby	
-- DOMAIN-SUFFIX,fesl.konami.net,PLAY-IN-GAME 🎮,udp # Login ke server eFootball
-- DOMAIN-SUFFIX,efootball.konami.net,PLAY-IN-GAME 🎮,udp # Login ke server eFootball
-- IP-CIDR,125.6.189.0/24,PLAY-IN-GAME 🎮,udp # IP server eFootball (khusus region Asia)
-- IP-CIDR,125.6.190.0/24,PLAY-IN-GAME 🎮,udp # IP server eFootball (khusus region Asia)
+  - DST-PORT,3659,PLAY-IN-GAME 🎮,udp # Kadang digunakan untuk sesi pertandingan (mirip FIFA).
+  - DST-PORT,5730-5739,PLAY-IN-GAME 🎮,udp # Gameplay real-time (in-game)	
+  - DST-PORT,5000-5200,PLAY-IN-GAME 🎮,udp # Matchmaking & lobby	
+  - DOMAIN-SUFFIX,fesl.konami.net,PLAY-IN-GAME 🎮,udp # Login ke server eFootball
+  - DOMAIN-SUFFIX,efootball.konami.net,PLAY-IN-GAME 🎮,udp # Login ke server eFootball
+  - IP-CIDR,125.6.189.0/24,PLAY-IN-GAME 🎮,udp # IP server eFootball (khusus region Asia)
+  - IP-CIDR,125.6.190.0/24,PLAY-IN-GAME 🎮,udp # IP server eFootball (khusus region Asia)
 
 # Counter-Strike 2 (CS2) - Jika di-uncomment
 # - DST-PORT,3478,4379-4380,PLAY-IN-GAME 🎮,udp # Steam voice chat (P2P)
 
   # 🎮 Minecraft Real-Time Multiplayer
-- DST-PORT,25565,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,25565,PLAY-IN-GAME 🎮,tcp
 
   # 🎮 Honor of Kings - Real-Time Gameplay
-- DST-PORT,10000-10030,PLAY-IN-GAME 🎮,udp # In-Game Battle Server	
-- DST-PORT,17000-18000,PLAY-IN-GAME 🎮,udp # Matchmaking
-- DST-PORT,8000-9000,PLAY-IN-GAME 🎮,tcp # Lobby Connection	
-- DST-PORT,50000-60000,PLAY-IN-GAME 🎮,udp # Voice Chat (bawaan game)	
+  - DST-PORT,10000-10030,PLAY-IN-GAME 🎮,udp # In-Game Battle Server	
+  - DST-PORT,17000-18000,PLAY-IN-GAME 🎮,udp # Matchmaking
+  - DST-PORT,8000-9000,PLAY-IN-GAME 🎮,tcp # Lobby Connection	
+  - DST-PORT,50000-60000,PLAY-IN-GAME 🎮,udp # Voice Chat (bawaan game)	
 
   # 🎮 Honor of Kings - Domain Real-Time
-- DOMAIN-SUFFIX,cloud.ttarena.com,PLAY-IN-GAME 🎮 # (HoK server utama Tencent)
-- DOMAIN-SUFFIX,game.ttarena.com,PLAY-IN-GAME 🎮 # (HoK server utama Tencent)
-- DOMAIN-SUFFIX,voip.ttarena.com,PLAY-IN-GAME 🎮 # (voice server HoK)
+  - DOMAIN-SUFFIX,cloud.ttarena.com,PLAY-IN-GAME 🎮 # (HoK server utama Tencent)
+  - DOMAIN-SUFFIX,game.ttarena.com,PLAY-IN-GAME 🎮 # (HoK server utama Tencent)
+  - DOMAIN-SUFFIX,voip.ttarena.com,PLAY-IN-GAME 🎮 # (voice server HoK)
 
 # 🎮 Arena Breakout - Real-Time Gameplay, Matchmaking, Lobby, Voice
   # Real-Time Gameplay & Matchmaking (UDP & TCP)
