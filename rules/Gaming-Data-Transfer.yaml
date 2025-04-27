@@ -84,6 +84,11 @@ payload:
 - DOMAIN-SUFFIX,cdn.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
 - DOMAIN-SUFFIX,rbxcdn.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
 - DOMAIN-SUFFIX,setup.rbxcdn.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+# 🚀 Roblox Essential Domains
+- DOMAIN-SUFFIX,titanium.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,users.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,games.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,apis.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
 - IP-CIDR,128.116.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp
 - IP-CIDR,31.13.64.0/18,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
