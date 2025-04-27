@@ -72,6 +72,7 @@ payload:
 
 # Summoners War
   - DOMAIN,summonerswar-sea-lb.qpyou.cn,PLAY-IN-GAME 🎮,tcp
+  - DOMAIN,summonerswar-sea-lb.qpyou.cn.akadns.net,PLAY-IN-GAME 🎮,tcp
 
 # 🎮 eFootball Real-Time Gameplay (in-game, matchmaking, lobby) PRIORITY
   - DST-PORT,3659,PLAY-IN-GAME 🎮,udp # Kadang digunakan untuk sesi pertandingan (mirip FIFA).
