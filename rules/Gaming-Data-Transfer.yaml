@@ -61,8 +61,7 @@ payload:
   - DST-PORT,2080-2099,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
 # Summoners War
-  - DOMAIN-SUFFIX,a383.dscw73.akamai.net,DOWNLOAD-ASSET-GAME 🕹️,udp
-  - DST-PORT,9200-9400,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,analytics-ccu.qpyou.cn,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
 # STEAM/DOTA 2
   - DST-PORT,27015-27030,DOWNLOAD-ASSET-GAME 🕹️,tcp # Matchmaking & statistik
