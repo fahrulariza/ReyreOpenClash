@@ -201,8 +201,6 @@ payload:
   - DST-PORT,20000-20099,PLAY-IN-GAME 🎮,udp
   - DST-PORT,50000-50099,PLAY-IN-GAME 🎮,udp
   - DST-PORT,8080,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,443,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,80,PLAY-IN-GAME 🎮,tcp
 
   # Voice Communication (UDP)
   - DST-PORT,23000-24000,🎮ArenaBreakout-Voice,UDP
@@ -227,8 +225,6 @@ payload:
   - DST-PORT,60000-60099,PLAY-IN-GAME 🎮,udp
   - DST-PORT,70000-70099,PLAY-IN-GAME 🎮,udp
   - DST-PORT,8080,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,443,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,80,PLAY-IN-GAME 🎮,tcp
   # Voice Communication (UDP)
   - DST-PORT,25000-26000,PLAY-IN-GAME 🎮,udp
   # eFootball Mobile - Domains Real-Time (Matchmaking, Gameplay, Voice)
