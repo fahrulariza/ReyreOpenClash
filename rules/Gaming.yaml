@@ -170,3 +170,16 @@ payload:
 rules:
   # 🎮 Minecraft Real-Time Multiplayer
 - DST-PORT,25565,PLAY-IN-GAME 🎮,tcp
+
+rules:
+  # 🎮 Honor of Kings - Real-Time Gameplay
+- DST-PORT,10000-10030,PLAY-IN-GAME 🎮,udp # In-Game Battle Server	
+- DST-PORT,17000-18000,PLAY-IN-GAME 🎮,udp # Matchmaking
+- DST-PORT,8000-9000,PLAY-IN-GAME 🎮,tcp # Lobby Connection	
+- DST-PORT,50000-60000,PLAY-IN-GAME 🎮,udp # Voice Chat (bawaan game)	
+
+  # 🎮 Honor of Kings - Domain Real-Time
+- DOMAIN-SUFFIX,cloud.ttarena.com,PLAY-IN-GAME 🎮 # (HoK server utama Tencent)
+- DOMAIN-SUFFIX,game.ttarena.com,PLAY-IN-GAME 🎮 # (HoK server utama Tencent)
+- DOMAIN-SUFFIX,voip.ttarena.com,PLAY-IN-GAME 🎮 # (voice server HoK)
+
