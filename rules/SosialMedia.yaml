@@ -13,13 +13,13 @@ payload:
 - DOMAIN-SUFFIX,atlassolutions.com
 - DOMAIN-SUFFIX,facebook-dns.com
 - DOMAIN-SUFFIX,facebook-hardware.com
-- DOMAIN-SUFFIX,facebook.com
-- DOMAIN-SUFFIX,facebook.net
+- DOMAIN-SUFFIX,facebook.com,SOSIAL-MEDIA 📲,tcp
+- DOMAIN-SUFFIX,facebook.net,SOSIAL-MEDIA 📲,tcp
 - DOMAIN-SUFFIX,facebookmail.com
-- DOMAIN-SUFFIX,fb.com
-- DOMAIN-SUFFIX,fb.gg
-- DOMAIN-SUFFIX,fb.watch
-- DOMAIN-SUFFIX,fbcdn.net
+- DOMAIN-SUFFIX,fb.com,SOSIAL-MEDIA 📲,tcp
+- DOMAIN-SUFFIX,fb.gg,SOSIAL-MEDIA 📲,tcp
+- DOMAIN-SUFFIX,fb.watch,SOSIAL-MEDIA 📲,tcp
+- DOMAIN-SUFFIX,fbcdn.net,SOSIAL-MEDIA 📲,tcp
 - DOMAIN-SUFFIX,xx.fbcdn.net,SOSIAL-MEDIA 📲,tcp
 - DOMAIN-SUFFIX,fbe2e.com
 - DOMAIN-SUFFIX,fbinfra.net
@@ -33,15 +33,15 @@ payload:
 - DOMAIN-KEYWORD,facebook
 - DOMAIN-KEYWORD,fbcdn
  # Facebook
-- DOMAIN-SUFFIX,messenger.com
-- DOMAIN-SUFFIX,fb.com
-- DOMAIN-SUFFIX,fb.me
-- DOMAIN-SUFFIX,fbaddins.com
-- DOMAIN-SUFFIX,fbcdn.net
-- DOMAIN-SUFFIX,fbsbx.com
-- DOMAIN-SUFFIX,fbworkmail.com
-- DOMAIN-KEYWORD,.facebook.
-- DOMAIN-SUFFIX,facebookmail.com
+- DOMAIN-SUFFIX,messenger.com,SOSIAL-MEDIA 📲,tcp
+- DOMAIN-SUFFIX,fb.com,SOSIAL-MEDIA 📲,tcp
+- DOMAIN-SUFFIX,fb.me,SOSIAL-MEDIA 📲,tcp
+- DOMAIN-SUFFIX,fbaddins.com,SOSIAL-MEDIA 📲,tcp
+- DOMAIN-SUFFIX,fbcdn.net,SOSIAL-MEDIA 📲,tcp
+- DOMAIN-SUFFIX,fbsbx.com,SOSIAL-MEDIA 📲,tcp
+- DOMAIN-SUFFIX,fbworkmail.com,SOSIAL-MEDIA 📲,tcp
+- DOMAIN-KEYWORD,.facebook.,SOSIAL-MEDIA 📲,tcp
+- DOMAIN-SUFFIX,facebookmail.com,SOSIAL-MEDIA 📲,tcp
 
 - IP-CIDR,103.4.96.0/22
 - IP-CIDR,129.134.0.0/17
