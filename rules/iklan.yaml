@@ -10,12 +10,26 @@ payload:
   - DOMAIN-SUFFIX,pagead2.googleadservices.com
   - DOMAIN-SUFFIX,googleadservices.com
   - DOMAIN-SUFFIX,static.doubleclick.net
+  - DOMAIN-SUFFIX,afs.googlesyndication.com
 
 # > Media.net
   - DOMAIN-SUFFIX,media.net
+  - DOMAIN-SUFFIX,static.media.net
+  - DOMAIN-SUFFIX,adservetx.media.net
 
 # > Doubleclick.net
   - DOMAIN-SUFFIX,doubleclick.net
+  - DOMAIN-SUFFIX,stats.g.doubleclick.net
+  - DOMAIN-SUFFIX,ad.doubleclick.net
+  - DOMAIN-SUFFIX,static.doubleclick.net
+  - DOMAIN-SUFFIX,m.doubleclick.net
+  - DOMAIN-SUFFIX,mediavisor.doubleclick.net
+
+# > Adcolony
+  - DOMAIN-SUFFIX,ads30.adcolony.com
+  - DOMAIN-SUFFIX,adc3-launch.adcolony.com
+  - DOMAIN-SUFFIX,events3alt.adcolony.com
+  - DOMAIN-SUFFIX,wd.adcolony.com
 
 # > FastClick
   - DOMAIN-SUFFIX,fastclick.com
@@ -83,15 +97,31 @@ payload:
 
 # > Google Analytics
   - DOMAIN-SUFFIX,google-analytics.com
+  - DOMAIN-SUFFIX,analytics.google.com
+  - DOMAIN-SUFFIX,click.googleanalytics.com
+  - DOMAIN-SUFFIX,ssl.google-analytics.com
 
 # > Hotjar
   - DOMAIN-SUFFIX,api-hotjar.com
   - DOMAIN-SUFFIX,hotjar-analytics.com
   - DOMAIN-SUFFIX,hotjar.com
+  - DOMAIN-SUFFIX,adm.hotjar.com
+  - DOMAIN-SUFFIX,identify.hotjar.com
+  - DOMAIN-SUFFIX,insights.hotjar.com
+  - DOMAIN-SUFFIX,script.hotjar.com
+  - DOMAIN-SUFFIX,surveys.hotjar.com
+  - DOMAIN-SUFFIX,careers.hotjar.com
+  - DOMAIN-SUFFIX,events.hotjar.io
 
 # > MouseFlow
   - DOMAIN-SUFFIX,mouseflow.com
   - DOMAIN-SUFFIX,a.mouseflow.com
+  - DOMAIN-SUFFIX,cdn.mouseflow.com
+  - DOMAIN-SUFFIX,o2.mouseflow.com
+  - DOMAIN-SUFFIX,gtm.mouseflow.com
+  - DOMAIN-SUFFIX,api.mouseflow.com
+  - DOMAIN-SUFFIX,tools.mouseflow.com
+  - DOMAIN-SUFFIX,cdn-test.mouseflow.com
 
 # > FreshMarketer
   - DOMAIN-SUFFIX,freshmarketer.com
@@ -104,6 +134,8 @@ payload:
   - DOMAIN-SUFFIX,upload.luckyorange.net
   - DOMAIN-SUFFIX,w1.luckyorange.com
   - DOMAIN-SUFFIX,cdn.luckyorange.com
+  - DOMAIN-SUFFIX,api.luckyorange.com
+  - DOMAIN-SUFFIX,realtime.luckyorange.com
   
 # > Stats WP Plugin
   - DOMAIN-SUFFIX,stats.wp.com
@@ -132,6 +164,7 @@ payload:
   - DOMAIN-SUFFIX,ads-api.twitter.com
   - DOMAIN-SUFFIX,advertising.twitter.com
   - DOMAIN-SUFFIX,ads-twitter.com
+  - DOMAIN-SUFFIX,static.ads-twitter.com
 
 # > LinkedIn
   - DOMAIN-SUFFIX,ads.linkedin.com
@@ -151,25 +184,45 @@ payload:
   - DOMAIN-SUFFIX,rereddit.com
   - DOMAIN-SUFFIX,events.redditmedia.com
   - DOMAIN-SUFFIX,d.reddit.com
+  - DOMAIN-SUFFIX,events.reddit.com
 
 # > TikTok
   - DOMAIN-SUFFIX,ads-sg.tiktok.com
   - DOMAIN-SUFFIX,analytics-sg.tiktok.com
   - DOMAIN-SUFFIX,ads.tiktok.com
   - DOMAIN-SUFFIX,analytics.tiktok.com
+  - DOMAIN-SUFFIX,ads-api.tiktok.com
+  - DOMAIN-SUFFIX,business-api.tiktok.com
+  - DOMAIN-SUFFIX,log.byteoversea.com
 
 # > YouTube
   - DOMAIN-SUFFIX,ads.youtube.com
   - DOMAIN-SUFFIX,youtube.cleverads.vn
 
+# > Unity
+  - DOMAIN-SUFFIX,auction.unityads.unity3d.com
+  - DOMAIN-SUFFIX,webview.unityads.unity3d.com
+  - DOMAIN-SUFFIX,config.unityads.unity3d.com
+  - DOMAIN-SUFFIX,adserver.unityads.unity3d.com
+
 # > # > Mix ====================
 # >  Yahoo
 
 # >  Yandex
+  - DOMAIN-SUFFIX,extmaps-api.yandex.net
+  - DOMAIN-SUFFIX,appmetrica.yandex.ru
+  - DOMAIN-SUFFIX,adfstat.yandex.ru
+  - DOMAIN-SUFFIX,metrika.yandex.ru
+  - DOMAIN-SUFFIX,offerwall.yandex.net
+  - DOMAIN-SUFFIX,adfox.yandex.ru
 
 # > # > OEM ====================
 
 # > Realme
+  - DOMAIN-SUFFIX,bdapi-in-ads.realmemobile.com
+  - DOMAIN-SUFFIX,iot-eu-logser.realme.com
+  - DOMAIN-SUFFIX,iot-logser.realme.com
+  - DOMAIN-SUFFIX,bdapi-ads.realmemobile.com
   - DOMAIN-SUFFIX,bdapi-in-ads.realmemobile.com
 
 # > OPPO
@@ -214,6 +267,14 @@ payload:
   - DOMAIN-SUFFIX,logservice1.hicloud.com
   - DOMAIN-SUFFIX,metrics-dra.dt.hicloud.com
   - DOMAIN-SUFFIX,logbak.hicloud.com
+  
+# > Huawei
+  - DOMAIN-SUFFIX,metrics.data.hicloud.com
+  - DOMAIN-SUFFIX,metrics2.data.hicloud.com
+  - DOMAIN-SUFFIX,grs.hicloud.com
+  - DOMAIN-SUFFIX,logservice.hicloud.com
+  - DOMAIN-SUFFIX,logservice1.hicloud.com
+  - DOMAIN-SUFFIX,logbak.hicloud.com
 
 # > Samsung
   - DOMAIN-SUFFIX,samsungadhub.com
@@ -227,6 +288,13 @@ payload:
   - DOMAIN-SUFFIX,analytics-api.samsunghealthcn.com
 
 # > Apple
+  - DOMAIN-SUFFIXiadsdk.apple.com
+  - DOMAIN-SUFFIXmetrics.icloud.com
+  - DOMAIN-SUFFIXmetrics.mzstatic.com
+  - DOMAIN-SUFFIXapi-adservices.apple.com
+  - DOMAIN-SUFFIXbooks-analytics-events.apple.com
+  - DOMAIN-SUFFIXweather-analytics-events.apple.com
+  - DOMAIN-SUFFIXnotes-analytics-events.apple.com
   - DOMAIN-SUFFIX,metrics.apple.com
   - DOMAIN-SUFFIX,securemetrics.apple.com
   - DOMAIN-SUFFIX,supportmetrics.apple.com
