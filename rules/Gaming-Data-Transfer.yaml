@@ -17,85 +17,85 @@ payload:
   - DOMAIN-SUFFIX,codefusion.technology,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
 # MLBB (Mobile Legends)
-- DOMAIN,a1958.v.akamai.net,DOWNLOAD-ASSET-GAME 🕹️,tcp  # Domain spesifik untuk download data game MLBB melalui Akamai CDN
-- DOMAIN-SUFFIX,dl.mobilelegends.com,DOWNLOAD-ASSET-GAME 🕹️,tcp  # Domain untuk Mobile Legends update
-- DOMAIN-SUFFIX,cdn.mlbb.mob.com,DOWNLOAD-ASSET-GAME 🕹️,tcp  # Domain untuk Mobile Legends CDN
-- DOMAIN-SUFFIX,cdn.moonton.com,DOWNLOAD-ASSET-GAME 🕹️,tcp  # Domain untuk Moonton CDN
-- IP-CIDR,47.252.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp   # Moonton Server IP (Download)
-- IP-CIDR,47.91.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp    # Alibaba Cloud Server IP (Download)
-- IP-CIDR,104.16.0.0/12,DOWNLOAD-ASSET-GAME 🕹️,tcp   # Cloudflare CDN IP
-- IP-CIDR,13.32.0.0/15,DOWNLOAD-ASSET-GAME 🕹️,tcp    # Amazon CloudFront IP
+  - DOMAIN,a1958.v.akamai.net,DOWNLOAD-ASSET-GAME 🕹️,tcp  # Domain spesifik untuk download data game MLBB melalui Akamai CDN
+  - DOMAIN-SUFFIX,dl.mobilelegends.com,DOWNLOAD-ASSET-GAME 🕹️,tcp  # Domain untuk Mobile Legends update
+  - DOMAIN-SUFFIX,cdn.mlbb.mob.com,DOWNLOAD-ASSET-GAME 🕹️,tcp  # Domain untuk Mobile Legends CDN
+  - DOMAIN-SUFFIX,cdn.moonton.com,DOWNLOAD-ASSET-GAME 🕹️,tcp  # Domain untuk Moonton CDN
+  - IP-CIDR,47.252.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp   # Moonton Server IP (Download)
+  - IP-CIDR,47.91.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp    # Alibaba Cloud Server IP (Download)
+  - IP-CIDR,104.16.0.0/12,DOWNLOAD-ASSET-GAME 🕹️,tcp   # Cloudflare CDN IP
+  - IP-CIDR,13.32.0.0/15,DOWNLOAD-ASSET-GAME 🕹️,tcp    # Amazon CloudFront IP
 
 
 # Free Fire (FF)
-- DST-PORT,6006,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DST-PORT,6008,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DST-PORT,6674,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DST-PORT,7889,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DST-PORT,9006,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DST-PORT,10000-10012,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DST-PORT,12006,20561,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DST-PORT,39003,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,6006,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,6008,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,6674,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,7889,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,9006,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,10000-10012,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,12006,20561,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,39003,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
   # 📥 PUBG Mobile - Download Resource Domains
-- DOMAIN-SUFFIX,dlied1.qq.com,📥PUBGMobile-Download
-- DOMAIN-SUFFIX,dlied2.qq.com,📥PUBGMobile-Download
-- DOMAIN-SUFFIX,resource.pubgmobile.com,📥PUBGMobile-Download
-- DOMAIN-SUFFIX,cdn.pubgmobile.com,📥PUBGMobile-Download
+  - DOMAIN-SUFFIX,dlied1.qq.com,📥PUBGMobile-Download
+  - DOMAIN-SUFFIX,dlied2.qq.com,📥PUBGMobile-Download
+  - DOMAIN-SUFFIX,resource.pubgmobile.com,📥PUBGMobile-Download
+  - DOMAIN-SUFFIX,cdn.pubgmobile.com,📥PUBGMobile-Download
 
 # CODM (Call of Duty Mobile)
-- DST-PORT,3013,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DST-PORT,10000-10019,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DST-PORT,18082,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DST-PORT,50000,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,3013,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,10000-10019,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,18082,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,50000,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
 # Genshin Impact
-- DST-PORT,42472,DOWNLOAD-ASSET-GAME 🕹️,tcp # Interaksi dunia
+  - DST-PORT,42472,DOWNLOAD-ASSET-GAME 🕹️,tcp # Interaksi dunia
 
 # Clash of Clans/Clash Royale
-- DST-PORT,9330-9340,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,clashofclans.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,inbox.supercell.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,9330-9340,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,clashofclans.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,inbox.supercell.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
 # League of Legends (LOL) Mobile
-- DST-PORT,2080-2099,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DST-PORT,2080-2099,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
 # Summoners War
-- DOMAIN-SUFFIX,a383.dscw73.akamai.net,DOWNLOAD-ASSET-GAME 🕹️,udp
-- DST-PORT,9200-9400,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,a383.dscw73.akamai.net,DOWNLOAD-ASSET-GAME 🕹️,udp
+  - DST-PORT,9200-9400,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
 # STEAM/DOTA 2
-- DST-PORT,27015-27030,DOWNLOAD-ASSET-GAME 🕹️,tcp # Matchmaking & statistik
-- DST-PORT,27031-27036,DOWNLOAD-ASSET-GAME 🕹️,tcp # Matchmaking & statistik
+  - DST-PORT,27015-27030,DOWNLOAD-ASSET-GAME 🕹️,tcp # Matchmaking & statistik
+  - DST-PORT,27031-27036,DOWNLOAD-ASSET-GAME 🕹️,tcp # Matchmaking & statistik
 
-  # 📥 Roblox Download Content
-- DOMAIN-SUFFIX,assetdelivery.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,setup.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,images.rbxcdn.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,assetgame.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,cdn.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,rbxcdn.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,setup.rbxcdn.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-# 🚀 Roblox Essential Domains
-- DOMAIN-SUFFIX,titanium.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,users.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,games.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,apis.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- IP-CIDR,128.116.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- IP-CIDR,31.13.64.0/18,DOWNLOAD-ASSET-GAME 🕹️,tcp
+# 📥 Roblox Download Content
+  - DOMAIN-SUFFIX,assetdelivery.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,setup.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,images.rbxcdn.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,assetgame.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,cdn.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,rbxcdn.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,setup.rbxcdn.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  # 🚀 Roblox Essential Domains
+  - DOMAIN-SUFFIX,titanium.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,users.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,games.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,apis.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - IP-CIDR,128.116.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - IP-CIDR,31.13.64.0/18,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
-  # 🔑 Minecraft Authentication
-- DOMAIN-SUFFIX,authserver.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,sessionserver.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,api.minecraftservices.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,login.live.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,login.microsoftonline.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-  # 📥 Minecraft Download Content
-- DOMAIN-SUFFIX,resources.download.minecraft.net,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,textures.minecraft.net,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,launchermeta.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,launcher.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
-- DOMAIN-SUFFIX,libraries.minecraft.net,DOWNLOAD-ASSET-GAME 🕹️,tcp
+# 🔑 Minecraft Authentication
+  - DOMAIN-SUFFIX,authserver.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,sessionserver.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,api.minecraftservices.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,login.live.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,login.microsoftonline.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+    # 📥 Minecraft Download Content
+  - DOMAIN-SUFFIX,resources.download.minecraft.net,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,textures.minecraft.net,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,launchermeta.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,launcher.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,libraries.minecraft.net,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
 # 📥 Honor of Kings - Download Content
   - DOMAIN-SUFFIX,dlsource.ttarena.com,DOWNLOAD-ASSET-GAME 🕹️
