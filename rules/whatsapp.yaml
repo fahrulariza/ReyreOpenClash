@@ -13,7 +13,6 @@ payload:
 #1️⃣ Aturan untuk VoIP (Panggilan Suara WhatsApp) dan Video Call WhatsApp
 
 #✅ Rentang IP untuk VoIP WhatsApp
-  # - IP-CIDR,157.240.0.0/16  # Server utama WhatsApp dialihkan
   - IP-CIDR,31.13.24.0/21  # Server khusus VoIP WhatsApp
   - IP-CIDR,179.60.192.0/22  # Rentang VoIP global
   - IP-CIDR,185.60.216.0/22  # Rentang WhatsApp utama
