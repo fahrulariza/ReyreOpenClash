@@ -166,3 +166,7 @@ payload:
 
 # Counter-Strike 2 (CS2) - Jika di-uncomment
 # - DST-PORT,3478,4379-4380,PLAY-IN-GAME 🎮,udp # Steam voice chat (P2P)
+
+rules:
+  # 🎮 Minecraft Real-Time Multiplayer
+- DST-PORT,25565,PLAY-IN-GAME 🎮,tcp
