@@ -195,3 +195,29 @@ payload:
 - DOMAIN-SUFFIX,game.ttarena.com,PLAY-IN-GAME 🎮 # (HoK server utama Tencent)
 - DOMAIN-SUFFIX,voip.ttarena.com,PLAY-IN-GAME 🎮 # (voice server HoK)
 
+# 🎮 Arena Breakout - Real-Time Gameplay, Matchmaking, Lobby, Voice
+  # Real-Time Gameplay & Matchmaking (UDP & TCP)
+  - DST-PORT,15000-15099,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,20000-20099,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,50000-50099,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,8080,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,443,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,80,PLAY-IN-GAME 🎮,tcp
+
+  # Voice Communication (UDP)
+  - DST-PORT,23000-24000,🎮ArenaBreakout-Voice,UDP
+
+  # Arena Breakout - Domains Real-Time (Matchmaking, Gameplay, Voice)
+  - DOMAIN-SUFFIX,arena-breakout.com,PLAY-IN-GAME 🎮
+  - DOMAIN-SUFFIX,matchmaking.arena-breakout.com,PLAY-IN-GAME 🎮
+  - DOMAIN-SUFFIX,lobby.arena-breakout.com,PLAY-IN-GAME 🎮
+  - DOMAIN-SUFFIX,voice.arena-breakout.com,PLAY-IN-GAME 🎮
+  # 🎮 Arena Breakout - Real-Time IP Addresses (Asia)
+  - IP-CIDR,103.22.180.0/22,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,125.223.0.0/22,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,203.130.196.0/22,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,52.220.0.0/15,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,54.169.0.0/16,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,99.83.0.0/16,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,103.6.0.0/16,PLAY-IN-GAME 🎮,no-resolve
+
