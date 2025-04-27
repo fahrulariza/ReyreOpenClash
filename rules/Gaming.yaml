@@ -95,6 +95,15 @@ payload:
   # Counter-Strike 2 (CS2)
 ## - DST-PORT,3478,4379-4380,PLAY-IN-GAME 🎮,udp  # Steam voice chat (P2P) = port 3478 sama dengan whatsapp call
 
+  # 🎮 Roblox Real-Time Traffic
+- DST-PORT,49152-65535,PLAY-IN-GAME 🎮,udp  # Dynamic UDP port untuk in-game traffic
+- DOMAIN-SUFFIX,roblox.com,PLAY-IN-GAME 🎮,tcp
+- DOMAIN-SUFFIX,api.roblox.com,PLAY-IN-GAME 🎮,tcp
+- DOMAIN-SUFFIX,friends.roblox.com,PLAY-IN-GAME 🎮,tcp
+- DOMAIN-SUFFIX,presence.roblox.com,PLAY-IN-GAME 🎮,tcp
+- DOMAIN-SUFFIX,chat.roblox.com,PLAY-IN-GAME 🎮,tcp
+- DOMAIN-SUFFIX,realtime.roblox.com,PLAY-IN-GAME 🎮,tcp
+- DOMAIN-SUFFIX,voice.roblox.com,PLAY-IN-GAME 🎮,tcp
 
   # 🎮 Mobile Legends Real-Time Gameplay (Matchmaking, Lobby, Voice Chat)
 - DST-PORT,30097-30147,PLAY-IN-GAME 🎮,tcp   # tcp digunakan untuk gameplay utama dan matchmaking
