@@ -1,4 +1,4 @@
-# Download Data (TCP - untuk autentikasi, matchmaking, statis content, dll.)
+# Download Data (tcp - untuk autentikasi, matchmaking, statis content, dll.)
 payload:
 
   # 📥 eFootball Download Content (patch, assets) NORMAL
@@ -75,3 +75,17 @@ payload:
 # STEAM/DOTA 2
 - DST-PORT,27015-27030,DOWNLOAD-ASSET-GAME 🕹️,tcp # Matchmaking & statistik
 - DST-PORT,27031-27036,DOWNLOAD-ASSET-GAME 🕹️,tcp # Matchmaking & statistik
+
+  # 📥 Roblox Download Content
+- DST-PORT,80,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DST-PORT,443,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,assetdelivery.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,setup.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,images.rbxcdn.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,assetgame.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,cdn.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,rbxcdn.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- DOMAIN-SUFFIX,setup.rbxcdn.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- IP-CIDR,128.116.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp
+- IP-CIDR,31.13.64.0/18,DOWNLOAD-ASSET-GAME 🕹️,tcp
+
