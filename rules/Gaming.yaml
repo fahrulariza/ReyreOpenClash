@@ -221,3 +221,27 @@ payload:
   - IP-CIDR,99.83.0.0/16,PLAY-IN-GAME 🎮,no-resolve
   - IP-CIDR,103.6.0.0/16,PLAY-IN-GAME 🎮,no-resolve
 
+# 🎮 eFootball Mobile - Real-Time Gameplay, Matchmaking, Lobby, Voice
+  # Real-Time Gameplay & Matchmaking (UDP & TCP)
+  - DST-PORT,50000-50099,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,60000-60099,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,70000-70099,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,8080,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,443,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,80,PLAY-IN-GAME 🎮,tcp
+  # Voice Communication (UDP)
+  - DST-PORT,25000-26000,PLAY-IN-GAME 🎮,udp
+  # eFootball Mobile - Domains Real-Time (Matchmaking, Gameplay, Voice)
+  - DOMAIN-SUFFIX,efootballmobile.com,PLAY-IN-GAME 🎮
+  - DOMAIN-SUFFIX,matchmaking.efootballmobile.com,PLAY-IN-GAME 🎮
+  - DOMAIN-SUFFIX,lobby.efootballmobile.com,PLAY-IN-GAME 🎮
+  - DOMAIN-SUFFIX,voice.efootballmobile.com,PLAY-IN-GAME 🎮
+# 🎮 eFootball Mobile - Real-Time IP Addresses (Asia)
+  - IP-CIDR,103.22.180.0/22,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,125.223.0.0/22,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,203.130.196.0/22,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,52.220.0.0/15,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,54.169.0.0/16,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,99.83.0.0/16,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,103.6.0.0/16,PLAY-IN-GAME 🎮,no-resolve
+
