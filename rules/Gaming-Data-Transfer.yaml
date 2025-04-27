@@ -92,3 +92,16 @@ payload:
 - IP-CIDR,128.116.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp
 - IP-CIDR,31.13.64.0/18,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
+  # 🔑 Minecraft Authentication
+  - DOMAIN-SUFFIX,authserver.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,sessionserver.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,api.minecraftservices.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,login.live.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,login.microsoftonline.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  # 📥 Minecraft Download Content
+  - DOMAIN-SUFFIX,resources.download.minecraft.net,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,textures.minecraft.net,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,launchermeta.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,launcher.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
+  - DOMAIN-SUFFIX,libraries.minecraft.net,DOWNLOAD-ASSET-GAME 🕹️,tcp
+
