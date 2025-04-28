@@ -1,6 +1,7 @@
 payload:
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,deepseek.com
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,runwayml.com
