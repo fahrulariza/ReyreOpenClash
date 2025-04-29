@@ -37,11 +37,24 @@ payload:
   - DST-PORT,12006,20561,DOWNLOAD-ASSET-GAME 🕹️,tcp
   - DST-PORT,39003,DOWNLOAD-ASSET-GAME 🕹️,tcp
 
-  # 📥 PUBG Mobile - Download Resource Domains
-  - DOMAIN-SUFFIX,dlied1.qq.com,📥PUBGMobile-Download
-  - DOMAIN-SUFFIX,dlied2.qq.com,📥PUBGMobile-Download
-  - DOMAIN-SUFFIX,resource.pubgmobile.com,📥PUBGMobile-Download
-  - DOMAIN-SUFFIX,cdn.pubgmobile.com,📥PUBGMobile-Download
+# 🎯 PUBG Mobile - Konten Dalam Game (Map, Skin, DLL) - CDN Tencent Cloud
+# Fokus pada IP, Port, dan Domain yang digunakan untuk download konten dari server PUBG Mobile
+
+# IP untuk download konten
+  - IP-CIDR,43.152.53.230/32,DOWNLOAD-IN-GAME 🎮,no-resolve   # CDN Tencent - Singapura
+  - IP-CIDR,101.33.26.139/32,DOWNLOAD-IN-GAME 🎮,no-resolve   # CDN Tencent - Singapura
+  - IP-CIDR,43.152.64.193/32,DOWNLOAD-IN-GAME 🎮,no-resolve   # CDN Tencent - Singapura
+
+# Port yang digunakan untuk komunikasi download konten dalam game
+  - DST-PORT,7889,DOWNLOAD-IN-GAME 🎮,udp   # Port untuk download konten (Map, Skin, DLL)
+  - DST-PORT,7989,DOWNLOAD-IN-GAME 🎮,udp   # Port untuk download konten (Map, Skin, DLL)
+  - DST-PORT,10010-10086,DOWNLOAD-IN-GAME 🎮,udp   # Port rentang untuk download konten (Map, Skin, DLL)
+
+# Domain yang digunakan untuk konten dalam game
+  - DOMAIN-SUFFIX,game.qq.com,DOWNLOAD-IN-GAME 🎮   # Tencent game domain untuk konten
+  - DOMAIN-SUFFIX,qq.com,DOWNLOAD-IN-GAME 🎮         # Domain utama Tencent untuk konten game
+  - DOMAIN-SUFFIX,pubgmobile.com,DOWNLOAD-IN-GAME 🎮 # Domain PUBG Mobile untuk konten
+
 
 # CODM (Call of Duty Mobile)
   - DST-PORT,3013,DOWNLOAD-ASSET-GAME 🕹️,tcp
