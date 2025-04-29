@@ -2,4 +2,9 @@ payload:
 
   - DOMAIN-SUFFIX,ipc365.com,tcp
   - DOMAIN,dispa1.av380.net
-  - DOMAIN-SUFFIX,av380.net
+  - DOMAIN,config-ipv6.jpush.cn
+  - DOMAIN,pushregcheck.nvcam.net
+  - DOMAIN-SUFFIX,nvcam.net
+  - IP-CIDR,172.235.251.132/32
+  
+#  :8800	
