@@ -5,6 +5,6 @@ payload:
   - DOMAIN,config-ipv6.jpush.cn
   - DOMAIN,pushregcheck.nvcam.net
   - DOMAIN-SUFFIX,nvcam.net
-  - IP-CIDR,172.235.251.132/32
+  - IP-CIDR,172.235.240.0/20
   
 #  :8800	
