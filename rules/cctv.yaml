@@ -6,5 +6,6 @@ payload:
   - DOMAIN,pushregcheck.nvcam.net
   - DOMAIN-SUFFIX,nvcam.net
   - IP-CIDR,172.235.240.0/20
+  - IP-CIDR,152.32.153.0/24
   
 #  :8800	
