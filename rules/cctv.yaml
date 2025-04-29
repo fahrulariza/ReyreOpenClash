@@ -8,5 +8,8 @@ payload:
   - DOMAIN-SUFFIX,nvcam.net
   - IP-CIDR,172.235.240.0/20
   - IP-CIDR,152.32.153.0/24
+  - IP-CIDR,47.244.0.0/16
+
+
   
 #  :8800	
