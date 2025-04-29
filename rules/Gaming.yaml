@@ -14,21 +14,65 @@ payload:
   - DOMAIN-SUFFIX,realtime.roblox.com,PLAY-IN-GAME 🎮,tcp
   - DOMAIN-SUFFIX,voice.roblox.com,PLAY-IN-GAME 🎮,tcp
 
-  # 🎮 Mobile Legends Real-Time Gameplay (Matchmaking, Lobby, Voice Chat)
-  - DST-PORT,30097-30147,PLAY-IN-GAME 🎮,tcp   # tcp digunakan untuk gameplay utama dan matchmaking
-  - DST-PORT,5517-5529,PLAY-IN-GAME 🎮,tcp    # tcp cadangan untuk in-game
-  - DST-PORT,5551-5559,PLAY-IN-GAME 🎮,tcp    # tcp cadangan untuk server Asia Tenggara
-  - DST-PORT,5001,PLAY-IN-GAME 🎮,tcp             # tcp untuk komunikasi suara
-  - DST-PORT,5003,PLAY-IN-GAME 🎮,tcp             # tcp untuk komunikasi suara
-  - DST-PORT,9001,PLAY-IN-GAME 🎮,tcp             # tcp untuk komunikasi suara
+# 🎮 Mobile Legends Real-Time Gameplay (Matchmaking, Lobby, Voice Chat)
+# Menggunakan port TCP untuk gameplay utama, matchmaking, komunikasi suara
+  # Port untuk gameplay utama dan matchmaking
+  - DST-PORT,30097,PLAY-IN-GAME 🎮,tcp   # TCP untuk gameplay utama
+  - DST-PORT,30098,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,30099,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,30100,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,30101,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,30102,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,30103,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,30104,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,30105,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,30106,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,30107,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,30108,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,30109,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,30110,PLAY-IN-GAME 🎮,tcp
+  
+  # Port cadangan untuk gameplay in-game
+  - DST-PORT,5517,PLAY-IN-GAME 🎮,tcp    # TCP cadangan untuk gameplay
+  - DST-PORT,5518,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,5519,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,5520,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,5521,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,5522,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,5523,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,5524,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,5525,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,5526,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,5527,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,5528,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,5529,PLAY-IN-GAME 🎮,tcp
+  
+  # Port cadangan untuk server Asia Tenggara
+  - DST-PORT,5551,PLAY-IN-GAME 🎮,tcp    # TCP cadangan server Asia Tenggara
+  - DST-PORT,5552,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,5553,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,5554,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,5555,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,5556,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,5557,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,5558,PLAY-IN-GAME 🎮,tcp
+  - DST-PORT,5559,PLAY-IN-GAME 🎮,tcp
+  
+  # Port untuk komunikasi suara
+  - DST-PORT,5001,PLAY-IN-GAME 🎮,tcp    # TCP untuk komunikasi suara
+  - DST-PORT,5003,PLAY-IN-GAME 🎮,tcp    # TCP untuk komunikasi suara
+  - DST-PORT,9001,PLAY-IN-GAME 🎮,tcp    # TCP untuk komunikasi suara
+  
+  # Domain untuk Mobile Legends
   - DOMAIN-SUFFIX,moonton.com,PLAY-IN-GAME 🎮,tcp
   - DOMAIN-SUFFIX,act.gms.moontontech.com,PLAY-IN-GAME 🎮,tcp
   - DOMAIN-SUFFIX,mlbbws.moonton.com,PLAY-IN-GAME 🎮,tcp
   - DOMAIN-SUFFIX,mlbb.mob.com,PLAY-IN-GAME 🎮,tcp
   - DOMAIN-SUFFIX,mlbb.wmpvp.com,PLAY-IN-GAME 🎮,tcp
+  
+  # IP untuk server Moonton dan Alibaba Cloud
   - IP-CIDR,47.252.0.0/16,PLAY-IN-GAME 🎮,tcp  # Moonton Server IP (tcp)
   - IP-CIDR,47.91.0.0/16,PLAY-IN-GAME 🎮,tcp   # Alibaba Cloud Server IP (tcp)
-
 
 # Free Fire (FF)
   - DST-PORT,7006-7008,PLAY-IN-GAME 🎮,udp
