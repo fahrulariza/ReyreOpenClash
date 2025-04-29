@@ -37,24 +37,25 @@ payload:
   - DST-PORT,10000-10015,PLAY-IN-GAME 🎮,udp
   - DST-PORT,13008,PLAY-IN-GAME 🎮,udp
 
-  # 🎮 PUBG Mobile - Real-Time Gameplay (Ports)
-  - DST-PORT,7889,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,7989,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,10010-10086,PLAY-IN-GAME 🎮,udp
+# 🎮 PUBG Mobile - Real-Time Gameplay (Ports)
+  - DST-PORT,7889,PLAY-IN-GAME 🎮,udp   # Port untuk gameplay real-time PUBG Mobile
+  - DST-PORT,7989,PLAY-IN-GAME 🎮,udp   # Port untuk gameplay real-time PUBG Mobile
+  - DST-PORT,10010-10086,PLAY-IN-GAME 🎮,udp   # Port rentang untuk gameplay real-time PUBG Mobile
 
-  # 🎮 PUBG Mobile - Real-Time Domains
-  - DOMAIN-SUFFIX,igamecj.com,PLAY-IN-GAME 🎮
-  - DOMAIN-SUFFIX,sgp.sgp.pubgmobile.com,PLAY-IN-GAME 🎮
-  - DOMAIN-SUFFIX,asia.pubgmobile.com,PLAY-IN-GAME 🎮
-  - DOMAIN-SUFFIX,voice.pubgmobile.com,PLAY-IN-GAME 🎮
-    # 🎯 PUBG Mobile - IP Address Bypass (Server Asia - Singapore)
-  - IP-CIDR,13.250.0.0/16,PLAY-IN-GAME 🎮,no-resolve
-  - IP-CIDR,18.136.0.0/13,PLAY-IN-GAME 🎮,no-resolve
-  - IP-CIDR,52.220.0.0/15,PLAY-IN-GAME 🎮,no-resolve
-  - IP-CIDR,54.255.0.0/16,PLAY-IN-GAME 🎮,no-resolve
-  - IP-CIDR,99.83.0.0/16,PLAY-IN-GAME 🎮,no-resolve
-  - IP-CIDR,52.76.0.0/16,PLAY-IN-GAME 🎮,no-resolve
-  - IP-CIDR,18.140.0.0/14,PLAY-IN-GAME 🎮,no-resolve
+# 🎮 PUBG Mobile - Real-Time Domains
+  - DOMAIN-SUFFIX,igamecj.com,PLAY-IN-GAME 🎮   # Domain PUBG Mobile untuk gameplay (Asia)
+  - DOMAIN-SUFFIX,sgp.sgp.pubgmobile.com,PLAY-IN-GAME 🎮   # Domain Singapura untuk server permainan
+  - DOMAIN-SUFFIX,asia.pubgmobile.com,PLAY-IN-GAME 🎮   # Domain PUBG Mobile untuk server Asia
+  - DOMAIN-SUFFIX,voice.pubgmobile.com,PLAY-IN-GAME 🎮   # Domain untuk komunikasi suara PUBG Mobile
+
+# 🎯 PUBG Mobile - IP Address Bypass (Server Asia - Singapore)
+  - IP-CIDR,13.250.0.0/16,PLAY-IN-GAME 🎮,no-resolve   # IP untuk server Singapura PUBG Mobile
+  - IP-CIDR,18.136.0.0/13,PLAY-IN-GAME 🎮,no-resolve   # IP untuk server Singapura PUBG Mobile
+  - IP-CIDR,52.220.0.0/15,PLAY-IN-GAME 🎮,no-resolve   # IP untuk server Singapura PUBG Mobile
+  - IP-CIDR,54.255.0.0/16,PLAY-IN-GAME 🎮,no-resolve   # IP untuk server Singapura PUBG Mobile
+  - IP-CIDR,99.83.0.0/16,PLAY-IN-GAME 🎮,no-resolve    # IP untuk server Singapura PUBG Mobile
+  - IP-CIDR,52.76.0.0/16,PLAY-IN-GAME 🎮,no-resolve    # IP untuk server Singapura PUBG Mobile
+  - IP-CIDR,18.140.0.0/14,PLAY-IN-GAME 🎮,no-resolve   # IP untuk server Singapura PUBG Mobile
 
 # CODM (Call of Duty Mobile)
   - DST-PORT,7085-7995,PLAY-IN-GAME 🎮,udp
