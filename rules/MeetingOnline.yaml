@@ -1,42 +1,122 @@
 payload:
-# > mscft team
-  - DOMAIN-SUFFIX,api.teams.skype.com
-  - DOMAIN-SUFFIX,img.teams.skype.com
-  - DOMAIN-SUFFIX,lync.cn
-  - DOMAIN-SUFFIX,lync.com
-  - DOMAIN-SUFFIX,sfbassets.com
-  - DOMAIN-SUFFIX,skypeforbusiness.com
-  - DOMAIN-SUFFIX,teams-msedge.net
-  - DOMAIN-SUFFIX,teams.cdn.live.net
-  - DOMAIN-SUFFIX,teams.cdn.office.net
-  - DOMAIN-SUFFIX,teams.events.data.microsoft.com
-  - DOMAIN-SUFFIX,teams.live.com
-  - DOMAIN-SUFFIX,teams.microsoft.com
-  - DOMAIN-SUFFIX,teams.microsoft.us
-  - DOMAIN-SUFFIX,teams.office.com
-  - DOMAIN-SUFFIX,teams.office.net
-  - DOMAIN-SUFFIX,teams.skype.com
-#> Office 365
-  - DOMAIN-SUFFIX,assets-yammer.com
-  - DOMAIN-SUFFIX,clo.footprintdns.com
-  - DOMAIN-SUFFIX,microsoftonline-p.com
-  - DOMAIN-SUFFIX,microsoftonline.com
-  - DOMAIN-SUFFIX,msocdn.com
-  - DOMAIN-SUFFIX,msocsp.com
-  - DOMAIN-SUFFIX,nrb.footprintdns.com
-  - DOMAIN-SUFFIX,o365filtering.com
-  - DOMAIN-SUFFIX,office.com
-  - DOMAIN-SUFFIX,office.de
-  - DOMAIN-SUFFIX,office.microsoft
-  - DOMAIN-SUFFIX,office.net
-  - DOMAIN-SUFFIX,office365.com
-  - DOMAIN-SUFFIX,office365.us
-  - DOMAIN-SUFFIX,officeapps.live.com
-  - DOMAIN-SUFFIX,officecdn.microsoft.com
-  - DOMAIN-SUFFIX,officeclient.microsoft.com
-  - DOMAIN-SUFFIX,onmicrosoft.com
-  - DOMAIN-SUFFIX,svc.ms
-  - DOMAIN-SUFFIX,yammer.com
+# 🌐 Domain Utama Microsoft Teams
+  - DOMAIN-SUFFIX,teams.microsoft.com             # Domain utama Teams
+  - DOMAIN-SUFFIX,teams.live.com                  # Autentikasi dan layanan pengguna
+  - DOMAIN-SUFFIX,teams.office.com                # Integrasi dengan Office
+  - DOMAIN-SUFFIX,teams.office.net                # Layanan backend Teams
+  - DOMAIN-SUFFIX,teams.events.data.microsoft.com # Layanan acara dan webinar
+  - DOMAIN-SUFFIX,teams.cdn.office.net            # Konten statis dan CDN
+  - DOMAIN-SUFFIX,teams.cdn.live.net              # Konten statis dan CDN
+  - DOMAIN-SUFFIX,teams-msedge.net                # Layanan media Teams
+  - DOMAIN-SUFFIX,lync.com                        # Kompatibilitas dengan layanan lama
+  - DOMAIN-SUFFIX,skypeforbusiness.com            # Kompatibilitas dengan Skype for Business
+  - DOMAIN-SUFFIX,sfbassets.com                   # Aset untuk Skype for Business
+# 🔐 Port UDP untuk Signaling (Perubahan terbaru)
+  - SRC-PORT,50070-50089 # Port sumber untuk signaling
+# 📡 Rentang IP untuk Layanan Media Microsoft Teams
+  - IP-CIDR,13.107.64.0/18        # Infrastruktur Microsoft Teams
+  - IP-CIDR,52.112.0.0/14         # Layanan media dan transport relay
+  - IP-CIDR,52.122.0.0/15         # Layanan media tambahan
+  - IP-CIDR,2603:1063::/38        # Rentang IPv6 untuk layanan media
+
+# 🌐 Domain Utama Zoom
+  - DOMAIN-SUFFIX,zoom.us                 # Domain utama Zoom
+  - DOMAIN-SUFFIX,zoom.com                # Domain tambahan Zoom
+  - DOMAIN-SUFFIX,zoom.com.cn             # Domain untuk pengguna di China
+  - DOMAIN-SUFFIX,zoomgov.com             # Domain untuk layanan pemerintah AS
+  - DOMAIN,14qjgk812kgk.statuspage.io     # Status layanan Zoom
+# 📡 Rentang IP untuk Layanan Media Zoom
+  - IP-CIDR,3.7.35.0/25
+  - IP-CIDR,3.21.137.128/25
+  - IP-CIDR,3.25.41.128/25
+  - IP-CIDR,3.80.20.128/25
+  - IP-CIDR,3.104.34.128/25
+  - IP-CIDR,3.120.121.0/25
+  - IP-CIDR,3.127.194.128/25
+  - IP-CIDR,3.208.72.0/25
+  - IP-CIDR,3.235.71.128/25
+  - IP-CIDR,3.235.72.128/25
+  - IP-CIDR,3.235.73.0/25
+  - IP-CIDR,3.235.82.0/23
+  - IP-CIDR,3.235.96.0/23
+  - IP-CIDR,4.34.125.128/25
+  - IP-CIDR,4.35.64.128/25
+  - IP-CIDR,8.5.128.0/23
+  - IP-CIDR,13.52.6.128/25
+  - IP-CIDR,15.220.80.0/24
+  - IP-CIDR,15.220.81.0/25
+  - IP-CIDR,18.254.23.128/25
+  - IP-CIDR,18.254.61.0/25
+  - IP-CIDR,20.203.158.80/28
+  - IP-CIDR,20.203.190.192/26
+  - IP-CIDR,50.239.202.0/23
+  - IP-CIDR,50.239.204.0/24
+  - IP-CIDR,52.61.100.128/25
+  - IP-CIDR,52.202.62.192/26
+  - IP-CIDR,64.125.62.0/24
+  - IP-CIDR,64.211.144.0/24
+  - IP-CIDR,64.224.32.0/19
+  - IP-CIDR,65.39.152.0/24
+  - IP-CIDR,69.174.57.0/24
+  - IP-CIDR,69.174.108.0/22
+  - IP-CIDR,99.79.20.0/25
+  - IP-CIDR,101.36.167.0/24
+  - IP-CIDR,101.36.170.0/23
+  - IP-CIDR,103.122.166.0/23
+  - IP-CIDR,111.33.115.0/25
+  - IP-CIDR,111.33.181.0/25
+  - IP-CIDR,115.110.154.192/26
+  - IP-CIDR,115.114.56.192/26
+  - IP-CIDR,115.114.115.0/26
+  - IP-CIDR,115.114.131.0/26
+  - IP-CIDR,120.29.148.0/24
+  - IP-CIDR,121.244.146.0/27
+  - IP-CIDR,134.224.0.0/16
+  - IP-CIDR,137.66.128.0/17
+  - IP-CIDR,144.195.0.0/16
+  - IP-CIDR,147.124.96.0/19
+  - IP-CIDR,149.137.0.0/17
+  - IP-CIDR,156.45.0.0/17
+  - IP-CIDR,159.124.0.0/16
+  - IP-CIDR,160.1.56.128/25
+  - IP-CIDR,161.199.136.0/22
+  - IP-CIDR,162.12.232.0/22
+  - IP-CIDR,162.255.36.0/22
+  - IP-CIDR,165.254.88.0/23
+  - IP-CIDR,166.108.64.0/18
+  - IP-CIDR,168.140.0.0/17
+  - IP-CIDR,170.114.0.0/16
+  - IP-CIDR,173.231.80.0/20
+  - IP-CIDR,192.204.12.0/22
+  - IP-CIDR,198.251.128.0/17
+  - IP-CIDR,202.177.207.128/27
+  - IP-CIDR,203.200.219.128/27
+  - IP-CIDR,204.80.104.0/21
+  - IP-CIDR,204.141.28.0/22
+  - IP-CIDR,206.247.0.0/16
+  - IP-CIDR,207.226.132.0/24
+  - IP-CIDR,209.9.211.0/24
+  - IP-CIDR,209.9.215.0/24
+  - IP-CIDR,213.19.144.0/24
+  - IP-CIDR,213.19.153.0/24
+  - IP-CIDR,213.244.140.0/24
+  - IP-CIDR,221.122.63.0/24
+  - IP-CIDR,221.122.64.0/24
+  - IP-CIDR,221.122.88.64/27
+  - IP-CIDR,221.122.88.128/25
+  - IP-CIDR,221.122.89.128/25
+  - IP-CIDR,221.123.139.192/27
+# 🔐 Port UDP untuk Media dan Signaling
+  - DST-PORT,8801       # Media streaming
+  - DST-PORT,8802       # Media streaming
+  - DST-PORT,8803       # Media streaming
+  - DST-PORT,8804       # Media streaming
+  - DST-PORT,8805       # Media streaming
+  - DST-PORT,8806       # Media streaming
+  - DST-PORT,8807       # Media streaming
+  - DST-PORT,8808       # Media streaming
+  - DST-PORT,8809       # Media streaming
+  - DST-PORT,8810       # Media streaming
 
 #> webex
   - DOMAIN-SUFFIX,ciscospark.com
@@ -63,46 +143,7 @@ payload:
   - DOMAIN-SUFFIX,webexapps.com
   - DOMAIN-SUFFIX,webexconnect.com
   - DOMAIN-SUFFIX,webexcontent.com
-#> zoom
-  - DOMAIN,14qjgk812kgk.statuspage.io
-  - DOMAIN-SUFFIX,zoom.com
-  - DOMAIN-SUFFIX,zoom.com.cn
-  - DOMAIN-SUFFIX,zoom.us
-  - DOMAIN-SUFFIX,zoomgov.com
-# Zoom, Microsoft Teams, Skype and FaceTime (they use these same ports)
-  - DST-PORT,3478
-  - DST-PORT,3479
-  - DST-PORT,3480
-  - DST-PORT,3481
-  - DST-PORT,3482
-  - DST-PORT,3483
-  - DST-PORT,3484
-  - DST-PORT,3485
-  - DST-PORT,3486
-  - DST-PORT,3487
-  - DST-PORT,3488
-  - DST-PORT,3489
-  - DST-PORT,3490
-  - DST-PORT,3491
-  - DST-PORT,3492
-  - DST-PORT,3493
-  - DST-PORT,3494
-  - DST-PORT,3495
-  - DST-PORT,3496
-  - DST-PORT,3497
-# zoom
-  - DST-PORT,8801
-  - DST-PORT,8802
-  - DST-PORT,8803
-  - DST-PORT,8804
-  - DST-PORT,8805
-  - DST-PORT,8806
-  - DST-PORT,8807
-  - DST-PORT,8808
-  - DST-PORT,8809
-  - DST-PORT,8810
-# Skype
-  - DOMAIN-KEYWORD,skype
+
 # FaceTime
   - DST-PORT,16384
   - DST-PORT,16385
