@@ -39,6 +39,10 @@ payload:
   - DOMAIN-SUFFIX,faznet.co.id
   - DOMAIN-SUFFIX,nusantara.net.id
   - DOMAIN-SUFFIX,nusa.net.id
+  - DOMAIN,speedtest.palembang.myrepublic.net.id
+  - DOMAIN,palembang.speedtest.telkom.net.id	
+  - DOMAIN-SUFFIX,lintas.net.id	
+  - DOMAIN,speedtest-plb.xl.co.id	
 
     # > Fast
   - DOMAIN-SUFFIX,fast.com
