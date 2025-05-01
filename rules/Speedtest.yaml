@@ -36,6 +36,7 @@ payload:
   - DOMAIN-KEYWORD,openspeedtest
   - DOMAIN-KEYWORD,speedtest.starhub
   - DOMAIN-KEYWORD,speedtest.starhub.com
+  - DOMAIN-SUFFIX,faznet.co.id
 
     # > Fast
   - DOMAIN-SUFFIX,fast.com
