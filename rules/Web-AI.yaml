@@ -2,6 +2,7 @@ payload:
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,deepseek.com
+  - DOMAIN-chat.deepseek.com.cdn.cloudflare.net
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,runwayml.com
@@ -42,7 +43,6 @@ payload:
   - DOMAIN,character.ai
   - DOMAIN,suno.ai
   - DOMAIN,www.synthesia.io
-  - DOMAIN,gemini.google.com
   - DOMAIN,voicemod.net
   - DOMAIN,runwayml.com
   - DOMAIN,www.picso.ai
