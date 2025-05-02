@@ -44,6 +44,7 @@ payload:
   - DOMAIN-SUFFIX,gz0.googleusercontent.com
   - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,geller-pa.googleapis.com
+  - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,google-ohttp-relay-safebrowsing.fastly-edge.com
   - DOMAIN-SUFFIX,googlehomefoyer-pa.googleapis.com  
   - DOMAIN-SUFFIX,inbox.google.com
