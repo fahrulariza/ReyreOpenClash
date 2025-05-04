@@ -23,7 +23,7 @@ payload:
   - PROCESS-NAME,BackupandSync
   - DOMAIN-SUFFIX,accounts.google.com
 
-
+  - DOMAIN,chrome.cloudflare-dns.com
   - DOMAIN-SUFFIX,cloud.google.com
   - DOMAIN-SUFFIX,clients2.google.com
   - DOMAIN-SUFFIX,clients3.google.com
@@ -48,7 +48,10 @@ payload:
   - DOMAIN-SUFFIX,google-ohttp-relay-safebrowsing.fastly-edge.com
   - DOMAIN-SUFFIX,googlehomefoyer-pa.googleapis.com  
   - DOMAIN-SUFFIX,inbox.google.com
-  
+
+  - DOMAIN,messages.google.com
+  - DOMAIN,google.com
+  - DOMAIN-SUFFIX,google.com
 #P
   - DOMAIN-SUFFIX,photos.google.com
   - DOMAIN-SUFFIX,photos.fife.usercontent.google.com
