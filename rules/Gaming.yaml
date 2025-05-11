@@ -223,4 +223,13 @@ payload:
   - IP-CIDR,155.133.225.19/32,PLAY-IN-GAME 🎮,udp
   - IP-CIDR,155.133.225.19/32,PLAY-IN-GAME 🎮,udp
   - IP-CIDR,103.10.124.116/32,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,27026,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,27026,PLAY-IN-GAME 🎮,udp # Matchmaking 
+  - DST-PORT,27031,PLAY-IN-GAME 🎮,udp # Matchmaking 
+  - DST-PORT,27032,PLAY-IN-GAME 🎮,udp # Matchmaking 
+  - DST-PORT,27033,PLAY-IN-GAME 🎮,udp # Matchmaking 
+  - DST-PORT,27034,PLAY-IN-GAME 🎮,udp # Matchmaking 
+  - DST-PORT,27035,PLAY-IN-GAME 🎮,udp # Matchmaking 
+  - DST-PORT,27036,PLAY-IN-GAME 🎮,udp # Matchmaking 
+  - DST-PORT,27037,PLAY-IN-GAME 🎮,udp # Matchmaking 
+  - DST-PORT,27038,PLAY-IN-GAME 🎮,udp # Matchmaking 
+  - DST-PORT,27039,PLAY-IN-GAME 🎮,udp # Matchmaking 
