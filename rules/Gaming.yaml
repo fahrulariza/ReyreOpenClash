@@ -206,30 +206,28 @@ payload:
   - IP-CIDR,99.83.0.0/16,PLAY-IN-GAME 🎮,no-resolve
   - IP-CIDR,103.6.0.0/16,PLAY-IN-GAME 🎮,no-resolve
 
-# Valve server global (termasuk Dota 2)
-  - IP-CIDR,155.133.224.0/19,PLAY-IN-GAME 🎮,udp
-  - IP-CIDR,185.25.182.0/19,PLAY-IN-GAME 🎮,udp
-# Dota 2 Specific Server IPs (SEA)
-# Valve Dota 2 Server Region (SEA, etc.)
-  - IP-CIDR,155.133.224.0/19,PLAY-IN-GAME 🎮,udp
-  - IP-CIDR,155.133.225.19/32,PLAY-IN-GAME 🎮,udp
-  - IP-CIDR,155.133.226.71/32,PLAY-IN-GAME 🎮,udp
-  - IP-CIDR,155.133.230.100/32,PLAY-IN-GAME 🎮,udp
-  - IP-CIDR,155.133.252.53/32,PLAY-IN-GAME 🎮,udp
-  - IP-CIDR,155.133.253.54/32,PLAY-IN-GAME 🎮,udp
-  
-# 🎮 
-  - IP-CIDR,155.133.224.20/32,PLAY-IN-GAME 🎮,udp
-  - IP-CIDR,155.133.225.19/32,PLAY-IN-GAME 🎮,udp
-  - IP-CIDR,155.133.225.19/32,PLAY-IN-GAME 🎮,udp
-  - IP-CIDR,103.10.124.116/32,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,27026,PLAY-IN-GAME 🎮,udp # Matchmaking 
-  - DST-PORT,27031,PLAY-IN-GAME 🎮,udp # Matchmaking 
-  - DST-PORT,27032,PLAY-IN-GAME 🎮,udp # Matchmaking 
-  - DST-PORT,27033,PLAY-IN-GAME 🎮,udp # Matchmaking 
-  - DST-PORT,27034,PLAY-IN-GAME 🎮,udp # Matchmaking 
-  - DST-PORT,27035,PLAY-IN-GAME 🎮,udp # Matchmaking 
-  - DST-PORT,27036,PLAY-IN-GAME 🎮,udp # Matchmaking 
-  - DST-PORT,27037,PLAY-IN-GAME 🎮,udp # Matchmaking 
-  - DST-PORT,27038,PLAY-IN-GAME 🎮,udp # Matchmaking 
-  - DST-PORT,27039,PLAY-IN-GAME 🎮,udp # Matchmaking 
+# 🌐 Valve Global & Dota 2 SEA Servers (UDP only)
+- IP-CIDR,155.133.224.0/19,PLAY-IN-GAME 🎮,udp      # Valve IP block
+- IP-CIDR,185.25.182.0/19,PLAY-IN-GAME 🎮,udp       # Valve IP block
+
+# 🎯 Specific Dota 2 Server IPs (SEA / real-time detected)
+- IP-CIDR,155.133.225.19/32,PLAY-IN-GAME 🎮,udp
+- IP-CIDR,155.133.226.71/32,PLAY-IN-GAME 🎮,udp
+- IP-CIDR,155.133.230.100/32,PLAY-IN-GAME 🎮,udp
+- IP-CIDR,155.133.252.53/32,PLAY-IN-GAME 🎮,udp
+- IP-CIDR,155.133.253.54/32,PLAY-IN-GAME 🎮,udp
+- IP-CIDR,155.133.224.20/32,PLAY-IN-GAME 🎮,udp
+- IP-CIDR,103.10.124.116/32,PLAY-IN-GAME 🎮,udp
+
+# 🎮 Matchmaking / Gameplay Ports (UDP only)
+- DST-PORT,27026,PLAY-IN-GAME 🎮,udp
+- DST-PORT,27031,PLAY-IN-GAME 🎮,udp
+- DST-PORT,27032,PLAY-IN-GAME 🎮,udp
+- DST-PORT,27033,PLAY-IN-GAME 🎮,udp
+- DST-PORT,27034,PLAY-IN-GAME 🎮,udp
+- DST-PORT,27035,PLAY-IN-GAME 🎮,udp
+- DST-PORT,27036,PLAY-IN-GAME 🎮,udp
+- DST-PORT,27037,PLAY-IN-GAME 🎮,udp
+- DST-PORT,27038,PLAY-IN-GAME 🎮,udp
+- DST-PORT,27039,PLAY-IN-GAME 🎮,udp
+
