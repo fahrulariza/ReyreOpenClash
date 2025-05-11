@@ -207,5 +207,8 @@ payload:
   - IP-CIDR,103.6.0.0/16,PLAY-IN-GAME 🎮,no-resolve
 
 # 🎮 
-  - IP-CIDR,103.10.124.116/32,PLAY-IN-GAME 🎮,no-resolve
-  - DST-PORT,27026,PLAY-IN-GAME 🎮,no-resolve
+  - IP-CIDR,155.133.224.20/32,PLAY-IN-GAME 🎮,udp
+  - IP-CIDR,155.133.225.19/32,PLAY-IN-GAME 🎮,udp
+  - IP-CIDR,155.133.225.19/32,PLAY-IN-GAME 🎮,udp
+  - IP-CIDR,103.10.124.116/32,PLAY-IN-GAME 🎮,udp
+  - DST-PORT,27026,PLAY-IN-GAME 🎮,udp
