@@ -131,6 +131,8 @@ payload:
   - DOMAIN,ch08-socketg-gsp.qpyou.cn,PLAY-IN-GAME 🎮,tcp
   - DOMAIN,ch09-socketg-gsp.qpyou.cn,PLAY-IN-GAME 🎮,tcp
   - DOMAIN,ch10-socketg-gsp.qpyou.cn,PLAY-IN-GAME 🎮,tcp
+  - IP-CIDR,96.7.152.197,PLAY-IN-GAME 🎮,tcp
+
 
 # 🎮 eFootball Real-Time Gameplay (in-game, matchmaking, lobby) PRIORITY
   - DST-PORT,3659,PLAY-IN-GAME 🎮,udp # Kadang digunakan untuk sesi pertandingan (mirip FIFA).
