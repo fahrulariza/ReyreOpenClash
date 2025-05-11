@@ -206,6 +206,8 @@ payload:
   - IP-CIDR,99.83.0.0/16,PLAY-IN-GAME 🎮,no-resolve
   - IP-CIDR,103.6.0.0/16,PLAY-IN-GAME 🎮,no-resolve
 
+# Valve server global (termasuk Dota 2)
+  - IP-CIDR,155.133.224.0/19,PLAY-IN-GAME 🎮,udp
 # 🎮 
   - IP-CIDR,155.133.224.20/32,PLAY-IN-GAME 🎮,udp
   - IP-CIDR,155.133.225.19/32,PLAY-IN-GAME 🎮,udp
