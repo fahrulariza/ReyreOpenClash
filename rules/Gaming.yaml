@@ -219,6 +219,9 @@ payload:
 - IP-CIDR,155.133.224.20/32,PLAY-IN-GAME 🎮,udp
 - IP-CIDR,103.10.124.116/32,PLAY-IN-GAME 🎮,udp
 
+# 🎮 Dota 2 / Valve Server untuk IP 103.10.124.117 pada port 27038 (UDP)
+- IP-CIDR,103.10.124.117/32,DST-PORT,27038,PLAY-IN-GAME 🎮,udp
+
 # 🎮 Matchmaking / Gameplay Ports (UDP only)
 - DST-PORT,27026,PLAY-IN-GAME 🎮,udp
 - DST-PORT,27031,PLAY-IN-GAME 🎮,udp
