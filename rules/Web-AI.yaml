@@ -46,6 +46,7 @@ payload:
   - DOMAIN,www.picso.ai
 
   - DOMAIN,deepseek.com,RP-Engine-AI 💻,tcp # Akses langsung
+  - DOMAIN,chat.deepseek.com.cdn.cloudflare.net,RP-Engine-AI 💻,tcp # Akses langsung
   - DOMAIN-SUFFIX,deepseek.com,RP-Engine-AI 💻,tcp # Untuk subdomain juga
   - DOMAIN-KEYWORD,deepseek,RP-Engine-AI 💻,tcp # Mencocokkan semua domain yang mengandung "deepseek"
   - IP-CIDR,104.18.3.79/32,RP-Engine-AI 💻,tcp # Ganti dengan IP terbaru
