@@ -46,3 +46,6 @@ payload:
   - DOMAIN,voicemod.net
   - DOMAIN,runwayml.com
   - DOMAIN,www.picso.ai
+
+
+  - IP-CIDR,104.18.27.90
