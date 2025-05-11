@@ -13,6 +13,7 @@ payload:
   - DOMAIN-SUFFIX,chat.roblox.com,PLAY-IN-GAME 🎮,tcp
   - DOMAIN-SUFFIX,realtime.roblox.com,PLAY-IN-GAME 🎮,tcp
   - DOMAIN-SUFFIX,voice.roblox.com,PLAY-IN-GAME 🎮,tcp
+  - IP-CIDR,128.116.54.33,PLAY-IN-GAME 🎮,tcp
 
 # 🎮 Mobile Legends Real-Time Gameplay (Matchmaking, Lobby, Voice Chat)
 # Menggunakan port TCP untuk gameplay utama, matchmaking, komunikasi suara
