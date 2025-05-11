@@ -24,7 +24,7 @@ payload:
 #2️⃣ Aturan PORT untuk Panggilan Suara WhatsApp dan Video Call WhatsApp
 
 #✅ Port yang digunakan untuk Video Call WhatsApp
-  - DST-PORT,40000-60000  # Port dinamis untuk video call
+#  - DST-PORT,40000-60000  # Port dinamis untuk video call
   - DST-PORT,45395-45399  # Media streaming panggilan video
   - DST-PORT,50318  # Media tambahan
   - DST-PORT,59234  # Media tambahan
