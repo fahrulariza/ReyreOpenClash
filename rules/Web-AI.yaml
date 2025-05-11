@@ -1,8 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,deepseek.com
-  - DOMAIN-chat.deepseek.com.cdn.cloudflare.net
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,runwayml.com
@@ -46,4 +44,8 @@ payload:
   - DOMAIN,voicemod.net
   - DOMAIN,runwayml.com
   - DOMAIN,www.picso.ai
-  - IP-CIDR,104.18.27.90
+
+  - DOMAIN,deepseek.com,RP-Engine-AI 💻 # Akses langsung
+  - DOMAIN-SUFFIX,deepseek.com,RP-Engine-AI 💻 # Untuk subdomain juga
+  - DOMAIN-KEYWORD,deepseek,RP-Engine-AI 💻 # Mencocokkan semua domain yang mengandung "deepseek"
+  - IP-CIDR,104.18.3.79/32,RP-Engine-AI 💻 # Ganti dengan IP terbaru
