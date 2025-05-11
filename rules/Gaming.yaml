@@ -210,6 +210,8 @@ payload:
   - IP-CIDR,155.133.224.0/19,PLAY-IN-GAME 🎮,udp
   - IP-CIDR,185.25.182.0/19,PLAY-IN-GAME 🎮,udp
 # Dota 2 Specific Server IPs (SEA)
+# Valve Dota 2 Server Region (SEA, etc.)
+  - IP-CIDR,155.133.224.0/19,PLAY-IN-GAME 🎮,udp
   - IP-CIDR,155.133.225.19/32,PLAY-IN-GAME 🎮,udp
   - IP-CIDR,155.133.226.71/32,PLAY-IN-GAME 🎮,udp
   - IP-CIDR,155.133.230.100/32,PLAY-IN-GAME 🎮,udp
