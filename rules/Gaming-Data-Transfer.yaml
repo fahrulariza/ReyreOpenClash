@@ -91,6 +91,12 @@ payload:
   - DOMAIN-SUFFIX,rbxcdn.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
   - DOMAIN-SUFFIX,setup.rbxcdn.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
   # 🚀 Roblox Essential Domains
+  - DOMAIN-SUFFIX,roblox.com,PLAY-IN-GAME 🎮,tcp
+  - DOMAIN-SUFFIX,api.roblox.com,PLAY-IN-GAME 🎮,tcp # Untuk komunikasi API umum, bisa terkait dengan loading konten.
+  - DOMAIN-SUFFIX,friends.roblox.com,PLAY-IN-GAME 🎮,tcp # Untuk manajemen daftar teman, berguna tapi bukan bagian dari core gameplay.
+  - DOMAIN-SUFFIX,presence.roblox.com,PLAY-IN-GAME 🎮,tcp # Menyediakan status online pemain, juga bukan bagian utama gameplay real-time.
+  - DOMAIN-SUFFIX,chat.roblox.com,PLAY-IN-GAME 🎮,tcp # Untuk fitur chat. Penting untuk komunikasi, tapi tidak memengaruhi performa game utama.
+  - DOMAIN-SUFFIX,voice.roblox.com,PLAY-IN-GAME 🎮,tcp # Penting jika menggunakan voice chat, karena data suara harus dikirim secepat mungkin.
   - DOMAIN-SUFFIX,titanium.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
   - DOMAIN-SUFFIX,users.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
   - DOMAIN-SUFFIX,games.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
