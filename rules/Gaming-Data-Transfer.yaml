@@ -102,7 +102,6 @@ payload:
   - DOMAIN-SUFFIX,games.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
   - DOMAIN-SUFFIX,apis.roblox.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
   - IP-CIDR,128.116.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp
-#  - IP-CIDR,31.13.64.0/18,DOWNLOAD-ASSET-GAME 🕹️,tcp,no-resolve #P range ini mencakup server Facebook (31.13.95.xx termasuk dalam blok ini).
 
 # 🔑 Minecraft Authentication
   - DOMAIN-SUFFIX,authserver.mojang.com,DOWNLOAD-ASSET-GAME 🕹️,tcp
