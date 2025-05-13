@@ -119,21 +119,21 @@ payload:
 - DST-PORT,4188 #bankkalteng
 
 #============================================================
-- DOMAIN-SUFFIX,myim3api1.ioh.co.id
-- DOMAIN-SUFFIX,myim3asset.ioh.co.id
-- DOMAIN-SUFFIX,indosatooredoo.com
-- DOMAIN-SUFFIX,myim3banner.kloc.co
-- DOMAIN-SUFFIX,ioh.co.id
-- DOMAIN-SUFFIX,kloc.co
-- DOMAIN-SUFFIX,im3.gghype.com
-- DOMAIN-KEYWORD,myim3
-- DOMAIN-KEYWORD,im3
-- DOMAIN-KEYWORD,myim3api1
+- DOMAIN-SUFFIX,myim3api1.ioh.co.id,RP-BANK💰,tcp
+- DOMAIN-SUFFIX,myim3asset.ioh.co.id,RP-BANK💰,tcp
+- DOMAIN-SUFFIX,indosatooredoo.com,RP-BANK💰,tcp
+- DOMAIN-SUFFIX,myim3banner.kloc.co,RP-BANK💰,tcp
+- DOMAIN-SUFFIX,ioh.co.id,RP-BANK💰,tcp
+- DOMAIN-SUFFIX,kloc.co,RP-BANK💰,tcp
+- DOMAIN-SUFFIX,im3.gghype.com,RP-BANK💰,tcp
+- DOMAIN-KEYWORD,myim3,RP-BANK💰,tcp
+- DOMAIN-KEYWORD,im3,RP-BANK💰,tcp
+- DOMAIN-KEYWORD,myim3api1,RP-BANK💰,tcp
 
-- IP-CIDR,34.160.39.53/32 #myim3api1.ioh.co.id
-- IP-CIDR,104.26.4.10/32 # api.qiscus.com
-- IP-CIDR,172.67.73.39/32 # api.qiscus.com
-- IP-CIDR,104.26.5.10/32 # api.qiscus.com
-- IP-CIDR,43.218.13.133/32 #realtime-jawa.qiscus.com
-- IP-CIDR,34.36.107.201/32 #myim3asset.ioh.co.id
-- IP-CIDR,34.36.37.237/32 #myim3-he1.ioh.co.id
+- IP-CIDR,34.160.39.53/32,RP-BANK💰,tcp #myim3api1.ioh.co.id
+- IP-CIDR,104.26.4.10/32,RP-BANK💰,tcp # api.qiscus.com
+- IP-CIDR,172.67.73.39/32,RP-BANK💰,tcp # api.qiscus.com
+- IP-CIDR,104.26.5.10/32,RP-BANK💰,tcp # api.qiscus.com
+- IP-CIDR,43.218.13.133/32,RP-BANK💰,tcp #realtime-jawa.qiscus.com
+- IP-CIDR,34.36.107.201/32,RP-BANK💰,tcp #myim3asset.ioh.co.id
+- IP-CIDR,34.36.37.237/32,RP-BANK💰,tcp #myim3-he1.ioh.co.id
