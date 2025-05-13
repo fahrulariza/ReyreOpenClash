@@ -4,16 +4,16 @@ payload:
   - IP-CIDR,45.121.184.0/24,DOWNLOAD-ASSET-GAME 🕹️,tcp    #  Japan (JP)
 
 # 📥 eFootball Mobile - Download Data & Resources
-  - DOMAIN-SUFFIX,cdn.efootballmobile.com,📥eFootballMobile-Download
-  - DOMAIN-SUFFIX,download.efootballmobile.com,📥eFootballMobile-Download
-  - DOMAIN-SUFFIX,assets.efootballmobile.com,📥eFootballMobile-Download
+  - DOMAIN-SUFFIX,cdn.efootballmobile.com,DOWNLOAD-ASSET-GAME 🕹️
+  - DOMAIN-SUFFIX,download.efootballmobile.com,DOWNLOAD-ASSET-GAME 🕹️
+  - DOMAIN-SUFFIX,assets.efootballmobile.com,DOWNLOAD-ASSET-GAME 🕹️
   - DOMAIN-SUFFIX,dl.konami.net,DOWNLOAD-ASSET-GAME 🕹️
   - DOMAIN-SUFFIX,cdn.konami.net,DOWNLOAD-ASSET-GAME 🕹️
   - DOMAIN-SUFFIX,prod.efootball.konami.net,DOWNLOAD-ASSET-GAME 🕹️
   # Download Data Ports (for updates/patches)
-  - DST-PORT,30000-30099,📥eFootballMobile-Download,TCP
-  - DST-PORT,40000-40099,📥eFootballMobile-Download,TCP
-  - DST-PORT,50000-50099,📥eFootballMobile-Download,TCP
+  - DST-PORT,30000-30099,DOWNLOAD-ASSET-GAME 🕹️,TCP
+  - DST-PORT,40000-40099,DOWNLOAD-ASSET-GAME 🕹️,TCP
+  - DST-PORT,50000-50099,DOWNLOAD-ASSET-GAME 🕹️,TCP
   - DOMAIN-SUFFIX,pes22,DOWNLOAD-ASSET-GAME 🕹️,tcp
   - DOMAINKEYWORD,pes22,DOWNLOAD-ASSET-GAME 🕹️,tcp
   - DOMAIN-SUFFIX,codefusion.technology,DOWNLOAD-ASSET-GAME 🕹️,tcp
@@ -43,19 +43,19 @@ payload:
 # Fokus pada IP, Port, dan Domain yang digunakan untuk download konten dari server PUBG Mobile
 
 # IP untuk download konten
-  - IP-CIDR,43.152.53.230/32,DOWNLOAD-IN-GAME 🎮,no-resolve   # CDN Tencent - Singapura
-  - IP-CIDR,101.33.26.139/32,DOWNLOAD-IN-GAME 🎮,no-resolve   # CDN Tencent - Singapura
-  - IP-CIDR,43.152.64.193/32,DOWNLOAD-IN-GAME 🎮,no-resolve   # CDN Tencent - Singapura
+  - IP-CIDR,43.152.53.230/32,DOWNLOAD-ASSET-GAME 🕹️,no-resolve   # CDN Tencent - Singapura
+  - IP-CIDR,101.33.26.139/32,DOWNLOAD-ASSET-GAME 🕹️,no-resolve   # CDN Tencent - Singapura
+  - IP-CIDR,43.152.64.193/32,DOWNLOAD-ASSET-GAME 🕹️,no-resolve   # CDN Tencent - Singapura
 
 # Port yang digunakan untuk komunikasi download konten dalam game
-  - DST-PORT,7889,DOWNLOAD-IN-GAME 🎮,udp   # Port untuk download konten (Map, Skin, DLL)
-  - DST-PORT,7989,DOWNLOAD-IN-GAME 🎮,udp   # Port untuk download konten (Map, Skin, DLL)
-  - DST-PORT,10010-10086,DOWNLOAD-IN-GAME 🎮,udp   # Port rentang untuk download konten (Map, Skin, DLL)
+  - DST-PORT,7889,DOWNLOAD-ASSET-GAME 🕹️,udp   # Port untuk download konten (Map, Skin, DLL)
+  - DST-PORT,7989,DOWNLOAD-ASSET-GAME 🕹️,udp   # Port untuk download konten (Map, Skin, DLL)
+  - DST-PORT,10010-10086,DOWNLOAD-ASSET-GAME 🕹️,udp   # Port rentang untuk download konten (Map, Skin, DLL)
 
 # Domain yang digunakan untuk konten dalam game
-  - DOMAIN-SUFFIX,game.qq.com,DOWNLOAD-IN-GAME 🎮   # Tencent game domain untuk konten
-  - DOMAIN-SUFFIX,qq.com,DOWNLOAD-IN-GAME 🎮         # Domain utama Tencent untuk konten game
-  - DOMAIN-SUFFIX,pubgmobile.com,DOWNLOAD-IN-GAME 🎮 # Domain PUBG Mobile untuk konten
+  - DOMAIN-SUFFIX,game.qq.com,DOWNLOAD-ASSET-GAME 🕹️   # Tencent game domain untuk konten
+  - DOMAIN-SUFFIX,qq.com,DOWNLOAD-ASSET-GAME 🕹️         # Domain utama Tencent untuk konten game
+  - DOMAIN-SUFFIX,pubgmobile.com,DOWNLOAD-ASSET-GAME 🕹️ # Domain PUBG Mobile untuk konten
 
 
 # CODM (Call of Duty Mobile)
