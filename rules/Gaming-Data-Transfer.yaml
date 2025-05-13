@@ -1,5 +1,7 @@
 # Download Data (tcp - untuk autentikasi, matchmaking, statis content, dll.)
 payload:
+# 📥 Valve Corporation
+  - IP-CIDR,45.121.184.0/24,DOWNLOAD-ASSET-GAME 🕹️,tcp    #  Japan (JP)
 
 # 📥 eFootball Mobile - Download Data & Resources
   - DOMAIN-SUFFIX,cdn.efootballmobile.com,📥eFootballMobile-Download
