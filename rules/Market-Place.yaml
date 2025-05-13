@@ -29,20 +29,7 @@ payload:
 - DOMAIN-KEYWORD,tokopedia
 - DOMAIN-KEYWORD,tokopediax
 
-- DOMAIN-SUFFIX,tdwcontent.telkomsel.com
-- DOMAIN-SUFFIX,telkomsel.com
-- DOMAIN-KEYWORD,telkomsel
-- IP-CIDR,43.255.0.0/16 #telkomsel 43.255.199.21 43.255.196.45 43.255.199.21
-- IP-CIDR,108.136.67.193/32 #tdw.telkomsel.com
-- IP-CIDR,43.218.230.222/32 #tdw.telkomsel.com
-- IP-CIDR,3.162.38.0/24 #tdwcontent.telkomsel.com 3.162.38.75 3.162.38.25 3.162.38.74
-- IP-CIDR,172.67.169.0/24 #minigames.mytsel.id 172.67.169.169
-- IP-CIDR,104.21.47.5/32 #minigames.mytsel.id 104.21.47.5
-- DOMAIN-KEYWORD,byu.id
-- DOMAIN-SUFFIX,byu.id
-- DOMAIN-SUFFIX,www.dctc.byu.id
-- DOMAIN-SUFFIX,cmsbt.dctc.byu.id
-- DOMAIN-SUFFIX,api.dctc.byu.id
+
 
 
 
