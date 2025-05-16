@@ -59,3 +59,5 @@ payload:
   - DOMAIN-SUFFIX,bgp.tools
   - DOMAIN-SUFFIX,api.bgpview.io
   - DOMAIN-SUFFIX,api.hackertarget.com
+  - DOMAIN-SUFFIX,asn.shadowserver.org
+  - DOMAIN-SUFFIX,urlscan.io
