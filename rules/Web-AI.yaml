@@ -50,7 +50,12 @@ payload:
   - DOMAIN-SUFFIX,deepseek.com,RP-Engine-AI 💻,tcp # Untuk subdomain juga
 
 
-  - DOMAIN-SUFFIX,searchcode.com
+
   - DOMAIN-KEYWORD,deepseek,RP-Engine-AI 💻,tcp # Mencocokkan semua domain yang mengandung "deepseek"
   - IP-CIDR,104.18.3.79/32,RP-Engine-AI 💻,tcp # Ganti dengan IP terbaru
   - IP-CIDR,104.18.27.90/32,RP-Engine-AI,tcp
+
+  - DOMAIN-SUFFIX,searchcode.com
+  - DOMAIN-SUFFIX,bgp.tools
+  - DOMAIN-SUFFIX,api.bgpview.io
+  - DOMAIN-SUFFIX,api.hackertarget.com
