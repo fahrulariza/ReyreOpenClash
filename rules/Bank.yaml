@@ -114,9 +114,34 @@ payload:
 - DOMAIN-SUFFIX,bankofchina.co.id
 
 - DOMAIN-KEYWORD,bankkalteng
-
 - IP-CIDR,182.23.87.125/32 #bankkalteng
-- DST-PORT,4188 #bankkalteng
+- DOMAIN,4in1-api.bankkalteng.co.id
+- DOMAIN,bankkalteng.co.id
+- DOMAIN,bb.bankkalteng.co.id
+- DOMAIN,cms.bankkalteng.co.id
+- DOMAIN,cmscorp.bankkalteng.co.id
+- DOMAIN,cpanel.bankkalteng.co.id
+- DOMAIN,cpcalendars.bankkalteng.co.id
+- DOMAIN,cpcontacts.bankkalteng.co.id
+- DOMAIN,cpl.bankkalteng.co.id
+- DOMAIN,devil.bankkalteng.co.id
+- DOMAIN,hris-api.bankkalteng.co.id
+- DOMAIN,hris-dev.bankkalteng.co.id
+- DOMAIN,ib.bankkalteng.co.id
+- DOMAIN,mail.bankkalteng.co.id
+- DOMAIN,open-account.bankkalteng.co.id
+- DOMAIN,survey.bankkalteng.co.id
+- DOMAIN,va-api.bankkalteng.co.id
+- DOMAIN,webdisk.bankkalteng.co.id
+- DOMAIN,webmail.bankkalteng.co.id
+- DOMAIN,www.bankkalteng.co.id
+- DOMAIN,www.cpl.bankkalteng.co.id
+- DOMAIN,www.devil.bankkalteng.co.id
+- DOMAIN,www.webmail.bankkalteng.co.id
+
+- DOMAIN,brimo.bri.co.id
+- DOMAIN,epay-aggregator.brimo.bri.co.id
+- DOMAIN,s3.brimo.bri.co.id
 
 #============================================================
 - DOMAIN-SUFFIX,myim3api1.ioh.co.id,RP-BANK💰,tcp
