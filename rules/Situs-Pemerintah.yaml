@@ -116,3 +116,78 @@ payload:
 - IP-CIDR,114.5.121.195/32 #sso.krisna.men 114.5.121.195
 - IP-CIDR,223.27.150.0/24 #webskrining.bpjs-kesehatan.go.id 223.27.150.159 223.27.150.163 / pcarejkn.bpjs-kesehatan.go.id 223.27.150.159
 - IP-CIDR,223.27.150.141/32 #faskes.bpjs-kesehatan.go.id
+
+
+- DOMAIN,aemg.bpjs-kesehatan.go.id
+- DOMAIN,aems.bpjs-kesehatan.go.id
+- DOMAIN,amanjkn.bpjs-kesehatan.go.id
+- DOMAIN,antrean.bpjs-kesehatan.go.id
+- DOMAIN,api.bpjs-kesehatan.go.id
+- DOMAIN,api.ocp4.bpjs-kesehatan.go.id
+- DOMAIN,api.ocp4dvlp.bpjs-kesehatan.go.id
+- DOMAIN,apijkn-dev.bpjs-kesehatan.go.id
+- DOMAIN,apijkn.bpjs-kesehatan.go.id
+- DOMAIN,apotek.bpjs-kesehatan.go.id
+- DOMAIN,apps.ocp4.bpjs-kesehatan.go.id
+- DOMAIN,apps.ocp4dvlp.bpjs-kesehatan.go.id
+- DOMAIN,arsip.bpjs-kesehatan.go.id
+- DOMAIN,bpjs-checking.bpjs-kesehatan.go.id
+- DOMAIN,bpjs-kesehatan.go.id
+- DOMAIN,daftar.bpjs-kesehatan.go.id
+- DOMAIN,data.bpjs-kesehatan.go.id
+- DOMAIN,dataviz.bpjs-kesehatan.go.id
+- DOMAIN,dvlp.bpjs-kesehatan.go.id
+- DOMAIN,e-ppid.bpjs-kesehatan.go.id
+- DOMAIN,edabu.bpjs-kesehatan.go.id
+- DOMAIN,ejkn-br.bpjs-kesehatan.go.id
+- DOMAIN,ejkn.bpjs-kesehatan.go.id
+- DOMAIN,faskes.bpjs-kesehatan.go.id
+- DOMAIN,federation.bpjs-kesehatan.go.id
+- DOMAIN,forms-pandawa.bpjs-kesehatan.go.id
+- DOMAIN,fp.bpjs-kesehatan.go.id
+- DOMAIN,frista.bpjs-kesehatan.go.id
+- DOMAIN,hackathon2021.bpjs-kesehatan.go.id
+- DOMAIN,hcis.bpjs-kesehatan.go.id
+- DOMAIN,healthkathon.bpjs-kesehatan.go.id
+- DOMAIN,hfis.bpjs-kesehatan.go.id
+- DOMAIN,ida.bpjs-kesehatan.go.id
+- DOMAIN,ihc.bpjs-kesehatan.go.id
+- DOMAIN,jkn-drive.bpjs-kesehatan.go.id
+- DOMAIN,jurnal-jkn.bpjs-kesehatan.go.id
+- DOMAIN,kesan.bpjs-kesehatan.go.id
+- DOMAIN,km.bpjs-kesehatan.go.id
+- DOMAIN,lsp.bpjs-kesehatan.go.id
+- DOMAIN,lupis.bpjs-kesehatan.go.id
+- DOMAIN,mail.bpjs-kesehatan.go.id
+- DOMAIN,meet.bpjs-kesehatan.go.id
+- DOMAIN,mfa.bpjs-kesehatan.go.id
+- DOMAIN,mobile-rest-production-bm.bpjs-kesehatan.go.id
+- DOMAIN,new-api.bpjs-kesehatan.go.id
+- DOMAIN,new-edabu.bpjs-kesehatan.go.id
+- DOMAIN,new-pcare.bpjs-kesehatan.go.id
+- DOMAIN,pandawa-new.bpjs-kesehatan.go.id
+- DOMAIN,pcare-cdn.bpjs-kesehatan.go.id
+- DOMAIN,pcare.bpjs-kesehatan.go.id
+- DOMAIN,pcare02.bpjs-kesehatan.go.id
+- DOMAIN,pcarejkn.bpjs-kesehatan.go.id
+- DOMAIN,portalqrcode.bpjs-kesehatan.go.id
+- DOMAIN,procurement.bpjs-kesehatan.go.id
+- DOMAIN,qi-9.bpjs-kesehatan.go.id
+- DOMAIN,registrasi.bpjs-kesehatan.go.id
+- DOMAIN,rekrutmen.bpjs-kesehatan.go.id
+- DOMAIN,sertifikasi.bpjs-kesehatan.go.id
+- DOMAIN,sipp.bpjs-kesehatan.go.id
+- DOMAIN,sslvpn.bpjs-kesehatan.go.id
+- DOMAIN,vclaim.bpjs-kesehatan.go.id
+- DOMAIN,vedika.bpjs-kesehatan.go.id
+- DOMAIN,visualthon2020-app.bpjs-kesehatan.go.id
+- DOMAIN,visualthon2020-staging.bpjs-kesehatan.go.id
+- DOMAIN,visualthon2020.bpjs-kesehatan.go.id
+- DOMAIN,wbs.bpjs-kesehatan.go.id
+- DOMAIN,web.bpjs-kesehatan.go.id
+- DOMAIN,webskrining.bpjs-kesehatan.go.id
+- DOMAIN,webskriningpetugaspenyelenggarapemilu.bpjs-kesehatan.go.id
+- DOMAIN,ws-ihc.bpjs-kesehatan.go.id
+- DOMAIN,www.bpjs-kesehatan.go.id
+
+
