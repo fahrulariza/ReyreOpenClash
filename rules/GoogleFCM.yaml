@@ -44,7 +44,7 @@ payload:
   - IP-CIDR,74.125.23.188/32
   - IP-CIDR,74.125.24.188/32
   - IP-CIDR,74.125.28.188/32
-
+  - DOMAIN,api22-normal-quic-alisg.tmtreader.com
   - DST-PORT,5228 # Firebase Cloud Messaging (FCM) - Server Google untuk menerima notifikasi push dari berbagai aplikasi, termasuk WhatsApp, Telegram, dan aplikasi lain yang menggunakan FCM.
   - DST-PORT,5229 # Firebase Cloud Messaging (FCM) - Jika koneksi ke mtalk.google.com:5228 diblokir atau dialihkan ke jalur proxy/VPN yang lambat, notifikasi WhatsApp bisa terlambat atau tidak muncul sama sekali.
   - DST-PORT,5230 # Firebase Cloud Messaging (FCM) - Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
