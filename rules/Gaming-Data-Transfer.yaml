@@ -24,9 +24,9 @@ payload:
   - DOMAIN-SUFFIX,cdn.mlbb.mob.com,DOWNLOAD-ASSET-GAME 🕹️,tcp  # Domain untuk Mobile Legends CDN
   - DOMAIN-SUFFIX,cdn.moonton.com,DOWNLOAD-ASSET-GAME 🕹️,tcp  # Domain untuk Moonton CDN
   - IP-CIDR,47.252.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp   # Moonton Server IP (Download)
-  - IP-CIDR,47.91.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp    # Alibaba Cloud Server IP (Download)
-  - IP-CIDR,104.16.0.0/12,DOWNLOAD-ASSET-GAME 🕹️,tcp   # Cloudflare CDN IP
-  - IP-CIDR,13.32.0.0/15,DOWNLOAD-ASSET-GAME 🕹️,tcp    # Amazon CloudFront IP
+#  - IP-CIDR,47.91.0.0/16,DOWNLOAD-ASSET-GAME 🕹️,tcp    # Alibaba Cloud Server IP (Download)
+#  - IP-CIDR,104.16.0.0/12,DOWNLOAD-ASSET-GAME 🕹️,tcp   # Cloudflare CDN IP
+#  - IP-CIDR,13.32.0.0/15,DOWNLOAD-ASSET-GAME 🕹️,tcp    # Amazon CloudFront IP
 
 
 # Free Fire (FF)
