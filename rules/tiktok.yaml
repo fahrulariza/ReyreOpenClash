@@ -83,6 +83,7 @@ payload:
 - IP-CIDR,23.57.90.100/32 #v16m.tiktokcdn.com
 - IP-CIDR,23.57.90.108/32 #v16m.tiktokcdn.com
 
+- IP-CIDR,104.18.23.158/32
 
 - IP-CIDR,23.206.172.10/32 #api16-normal-c-useast1a.tiktokv.com
 - IP-CIDR,23.206.172.43/32 #api16-normal-c-useast1a.tiktokv.com
