@@ -19,20 +19,7 @@ payload:
 # Menggunakan port TCP untuk gameplay utama, matchmaking, komunikasi suara
   # Port untuk gameplay utama dan matchmaking
 
-  - DST-PORT,4001-4009,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,5000-5221,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,5224-5241,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,5243-5508,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,5551-5559,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,5601-5700,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,2702,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,3702,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,8001,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,9000-9010,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,9992,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,10003,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,30190,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,30000-30300,PLAY-IN-GAME 🎮,udp
+
   
   - DST-PORT,30097,PLAY-IN-GAME 🎮,tcp   # TCP untuk gameplay utama
   - DST-PORT,30098,PLAY-IN-GAME 🎮,tcp
