@@ -5,17 +5,17 @@ payload:
 ## - DST-PORT,3478,4379-4380,PLAY-IN-GAME 🎮,udp  # Steam voice chat (P2P) = port 3478 sama dengan whatsapp call
 
   # 🎮 Roblox Real-Time Traffic
-  - DST-PORT,49152-65535,PLAY-IN-GAME 🎮,udp  # Dynamic UDP port untuk in-game traffic ini adalah port UDP dinamis yang digunakan untuk real-time game traffic, termasuk gerakan pemain, aksi, dan interaksi dalam game. Ini adalah inti dari performa game.
+#  - DST-PORT,49152-65535,PLAY-IN-GAME 🎮,udp  # Dynamic UDP port untuk in-game traffic ini adalah port UDP dinamis yang digunakan untuk real-time game traffic, termasuk gerakan pemain, aksi, dan interaksi dalam game. Ini adalah inti dari performa game.
   - DOMAIN-SUFFIX,realtime.roblox.com,PLAY-IN-GAME 🎮,tcp # mengelola sinkronisasi data dan komunikasi real-time backend dari Roblox.
   #- IP-CIDR,128.116.0.0/17,PLAY-IN-GAME 🎮,udp # Hasil capture paket
-  - IP-CIDR,128.116.54.33/32,PLAY-IN-GAME 🎮,udp # Hasil capture paket
-  - IP-CIDR,128.116.54.0/23,PLAY-IN-GAME 🎮,udp # Hasil capture paket
-  - IP-CIDR,128.116.56.0/21,PLAY-IN-GAME 🎮,udp # Hasil capture paket
-  - IP-CIDR,128.116.64.0/19,PLAY-IN-GAME 🎮,udp # Hasil capture paket
-  - IP-CIDR,128.116.96.0/24,PLAY-IN-GAME 🎮,udp # Hasil capture paket
-  - IP-CIDR,128.116.97.0/24,PLAY-IN-GAME 🎮,udp # Hasil capture paket
+  - IP-CIDR,128.116.54.33/32,PLAY-IN-GAME 🎮,udp,49152-65535 # Hasil capture paket
+  - IP-CIDR,128.116.54.0/23,PLAY-IN-GAME 🎮,udp,49152-65535 # Hasil capture paket
+  - IP-CIDR,128.116.56.0/21,PLAY-IN-GAME 🎮,udp,49152-65535 # Hasil capture paket
+  - IP-CIDR,128.116.64.0/19,PLAY-IN-GAME 🎮,udp,49152-65535 # Hasil capture paket
+  - IP-CIDR,128.116.96.0/24,PLAY-IN-GAME 🎮,udp,49152-65535 # Hasil capture paket
+  - IP-CIDR,128.116.97.0/24,PLAY-IN-GAME 🎮,udp,49152-65535 # Hasil capture paket
 
-  - DST-PORT,65377,PLAY-IN-GAME 🎮,udp # Hasil capture paket
+#  - DST-PORT,65377,PLAY-IN-GAME 🎮,udp # Hasil capture paket
 
   
 # 🎮 Mobile Legends Real-Time Gameplay (Matchmaking, Lobby, Voice Chat)
