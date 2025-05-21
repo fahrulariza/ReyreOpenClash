@@ -1,4 +1,4 @@
-rules:
+playload:
 
 
   # Counter-Strike 2 (CS2)
@@ -33,16 +33,6 @@ rules:
   - DST-PORT,10003,PLAY-IN-GAME 🎮,udp
   - DST-PORT,30190,PLAY-IN-GAME 🎮,udp
   - DST-PORT,30000-30300,PLAY-IN-GAME 🎮,udp
-  - DST-PORT,5000-5221,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,5224-5227,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,5229-5241,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,5243-5508,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,5551-5559,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,5601-5700,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,9001,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,9443,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,10003,PLAY-IN-GAME 🎮,tcp
-  - DST-PORT,30000-30300,PLAY-IN-GAME 🎮,tcp
   
   - DST-PORT,30097,PLAY-IN-GAME 🎮,tcp   # TCP untuk gameplay utama
   - DST-PORT,30098,PLAY-IN-GAME 🎮,tcp
