@@ -15,6 +15,13 @@ payload:
   - IP-CIDR,128.116.96.0/24,PLAY-IN-GAME 🎮,udp,49152-65535 # Hasil capture paket
   - IP-CIDR,128.116.97.0/24,PLAY-IN-GAME 🎮,udp,49152-65535 # Hasil capture paket
 
+  - DST-PORT,49152-65535,128.116.54.33/32,PLAY-IN-GAME 🎮,udp # Hasil capture paket
+  - DST-PORT,49152-65535,128.116.54.0/23,PLAY-IN-GAME 🎮,udp # Hasil capture paket
+  - DST-PORT,49152-65535,128.116.56.0/21,PLAY-IN-GAME 🎮,udp # Hasil capture paket
+  - DST-PORT,49152-65535,128.116.64.0/19,PLAY-IN-GAME 🎮,udp # Hasil capture paket
+  - DST-PORT,49152-65535,128.116.96.0/24,PLAY-IN-GAME 🎮,udp # Hasil capture paket
+  - DST-PORT,49152-65535,128.116.97.0/24,PLAY-IN-GAME 🎮,udp # Hasil capture paket
+  
 #  - DST-PORT,65377,PLAY-IN-GAME 🎮,udp # Hasil capture paket
 
   
