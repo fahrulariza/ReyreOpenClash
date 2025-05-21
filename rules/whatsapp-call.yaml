@@ -30,6 +30,6 @@ payload:
   - DST-PORT,59234  # Media tambahan
 
 #✅ Port yang digunakan untuk VoIP WhatsApp
-  - DST-PORT,3478-3497  # STUN/TURN untuk NAT traversal (koneksi VoIP)
-  - DST-PORT,4244  # Signaling VoIP
-  - DST-PORT,57923  # Media streaming panggilan
+  - DST-PORT,3478-3497,udp  # STUN/TURN untuk NAT traversal (koneksi VoIP)
+  - DST-PORT,4244,udp  # Signaling VoIP
+  - DST-PORT,57923,udp  # Media streaming panggilan
