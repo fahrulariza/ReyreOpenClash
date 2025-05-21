@@ -13,23 +13,23 @@ payload:
 #1️⃣ Aturan untuk VoIP (Panggilan Suara WhatsApp) dan Video Call WhatsApp
 
 #✅ Rentang IP untuk VoIP WhatsApp
-  - IP-CIDR,31.13.24.0/21  # Server khusus VoIP WhatsApp
-  - IP-CIDR,179.60.192.0/22  # Rentang VoIP global
-  - IP-CIDR,185.60.216.0/22  # Rentang WhatsApp utama
+  - IP-CIDR,31.13.24.0/21,WHATSAPP-CALL 📞,udp  # Server khusus VoIP WhatsApp
+  - IP-CIDR,179.60.192.0/22,WHATSAPP-CALL 📞,udp  # Rentang VoIP global
+  - IP-CIDR,185.60.216.0/22,WHATSAPP-CALL 📞,udp  # Rentang WhatsApp utama
 
 #✅ Rentang IP untuk Video Call WhatsApp
-  - IP-CIDR,190.93.240.0/20  # Server media (gambar/video)
-  - IP-CIDR,204.15.20.0/22  # Rentang tambahan untuk media
+  - IP-CIDR,190.93.240.0/20,WHATSAPP-CALL 📞,udp  # Server media (gambar/video)
+  - IP-CIDR,204.15.20.0/22,WHATSAPP-CALL 📞,udp  # Rentang tambahan untuk media
 
 #2️⃣ Aturan PORT untuk Panggilan Suara WhatsApp dan Video Call WhatsApp
 
 #✅ Port yang digunakan untuk Video Call WhatsApp
 #  - DST-PORT,40000-60000  # Port dinamis untuk video call
-  - DST-PORT,45395-45399  # Media streaming panggilan video
-  - DST-PORT,50318  # Media tambahan
-  - DST-PORT,59234  # Media tambahan
+  - DST-PORT,45395-45399,WHATSAPP-CALL 📞,udp  # Media streaming panggilan video
+  - DST-PORT,50318,WHATSAPP-CALL 📞,udp  # Media tambahan
+  - DST-PORT,59234,WHATSAPP-CALL 📞,udp  # Media tambahan
 
 #✅ Port yang digunakan untuk VoIP WhatsApp
-  - DST-PORT,3478-3497,udp  # STUN/TURN untuk NAT traversal (koneksi VoIP)
-  - DST-PORT,4244,udp  # Signaling VoIP
-  - DST-PORT,57923,udp  # Media streaming panggilan
+  - DST-PORT,3478-3497,WHATSAPP-CALL 📞,udp  # STUN/TURN untuk NAT traversal (koneksi VoIP)
+  - DST-PORT,4244,WHATSAPP-CALL 📞,udp  # Signaling VoIP
+  - DST-PORT,57923,WHATSAPP-CALL 📞,udp  # Media streaming panggilan
