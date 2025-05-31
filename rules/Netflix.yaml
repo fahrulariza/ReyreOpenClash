@@ -13,6 +13,7 @@
 # Generated from https://github.com/v2fly/domain-list-community/tree/master/data/netflix
 # Behavior: domain
 payload:
+- DOMAIN,www.netflix.com
 - DOMAIN,netflix.net
 - DOMAIN-SUFFIX,fast.com
 - DOMAIN-SUFFIX,netflix.ca
@@ -37,6 +38,7 @@ payload:
 - DOMAIN-SUFFIX,nflxso.net
 - DOMAIN-SUFFIX,nflxvideo.net
 - DOMAIN-SUFFIX,netflix.com.edgesuite.net
+- DOMAIN-SUFFIX,elb.us-west-2.amazonaws.com:443	
 
 - IP-CIDR,108.175.32.0/20
 - IP-CIDR,12.195.36.0/28
