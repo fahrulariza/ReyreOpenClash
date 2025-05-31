@@ -7,6 +7,7 @@ payload:
 # https://forum.samygo.tv/viewtopic.php?p=110316&sid=9f36a4f26fa101111c6440ba1f0494f7#p110316
 # https://phyks.me/2017/12/stop-networking-dear-samsung-tv.html
 
+  - DOMAIN,googleadservices.com
   # samsung fw update server
   - DOMAIN-KEYWORD,msecnd.net   
   - DOMAIN-KEYWORD,samsungotn.net
