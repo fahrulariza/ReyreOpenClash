@@ -47,6 +47,7 @@ payload:
 - DOMAIN-SUFFIX,musical.ly
 - DOMAIN-SUFFIX,capcut.com
 
+- DOMAIN-SUFFIX,bytedance.map.fastly.net
 - DOMAIN-KEYWORD,tiktokcdn.com
 - DOMAIN-KEYWORD,-tiktok.byteoversea.com
 - DOMAIN-KEYWORD,tiktokv.com
