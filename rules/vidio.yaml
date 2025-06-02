@@ -211,7 +211,18 @@ payload:
 - DOMAIN-SUFFIX,secureswiftcontent.com
 - DOMAIN-SUFFIX,vidiocdn.com
 - DOMAIN-KEYWORD,vidio
-
+- DOMAIN-SUFFIX,vidio.com.edgesuite.net
+- DOMAIN-SUFFIX,vidio.com.cdn.cloudflare.net
+- DOMAIN,a1431.b.akamai.net # api.vidio.com
+- DOMAIN,a1054.b.akamai.net # gandiwa.staging.vidio.com
+- DOMAIN,a1089.d.akamai.net # stickers.vidio.com
+- DOMAIN,a596.dscb.akamai.net # tv.alpha.vidio.com
+- DOMAIN,a1349.b.akamai.net # tv.vidio.com
+- DOMAIN,a484.b.akamai.net # www-dsa.staging.vidio.com
+- DOMAIN,a1484.b.akamai.net # www.vidio.com
+- DOMAIN,a1385.b.akamai.net # gandiwa.vidio.com
+- DOMAIN,a970.b.akamai.net # m.vidio.com
+- DOMAIN,a1035.b.akamai.net # tv.staging.vidio.com
   # Premiere
   - DOMAIN-KEYWORD,adcs-
   #- DOMAIN,adcs-ap.myappsget.com
