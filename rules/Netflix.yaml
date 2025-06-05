@@ -51,32 +51,32 @@ payload:
   - DOMAIN,a743.g.akamai.net
 
   # Netflix by IP
-  - IP-CIDR,23.246.0.0/18,NETFLIX🔴	
-  - IP-CIDR,45.57.0.0/17,NETFLIX🔴	
-  - IP-CIDR,64.120.128.0/17,NETFLIX🔴	
-  - IP-CIDR,66.197.128.0/17,NETFLIX🔴	
-  - IP-CIDR,108.175.32.0/20,NETFLIX🔴	
-  - IP-CIDR,192.173.64.0/18,NETFLIX🔴	
-  - IP-CIDR,198.38.96.0/19,NETFLIX🔴	
-  - IP-CIDR,198.45.48.0/20,NETFLIX🔴	
-  - IP-CIDR,34.210.42.111/32,NETFLIX🔴	
-  - IP-CIDR,52.89.124.203/32,NETFLIX🔴	
-  - IP-CIDR,54.148.37.5/32,NETFLIX🔴	
-  - IP-CIDR,54.148.37.6/32,NETFLIX🔴	
-  - IP-CIDR,52.89.124.217/32,NETFLIX🔴	
+  - IP-CIDR,23.246.0.0/18
+  - IP-CIDR,45.57.0.0/17
+  - IP-CIDR,64.120.128.0/17
+  - IP-CIDR,66.197.128.0/17
+  - IP-CIDR,108.175.32.0/20
+  - IP-CIDR,192.173.64.0/18
+  - IP-CIDR,198.38.96.0/19
+  - IP-CIDR,198.45.48.0/20
+  - IP-CIDR,34.210.42.111/32
+  - IP-CIDR,52.89.124.203/32
+  - IP-CIDR,54.148.37.5/32
+  - IP-CIDR,54.148.37.6/32
+  - IP-CIDR,52.89.124.217/32
 
   # Netflix Domains
-  - DOMAIN-SUFFIX,netflix.com,NETFLIX🔴	
-  - DOMAIN-SUFFIX,netflix.net,NETFLIX🔴	
-  - DOMAIN-SUFFIX,nflximg.com,NETFLIX🔴	
-  - DOMAIN-SUFFIX,nflximg.net,NETFLIX🔴	
-  - DOMAIN-SUFFIX,nflxso.net,NETFLIX🔴	
-  - DOMAIN-SUFFIX,nflxvideo.net,NETFLIX🔴	
-  - DOMAIN,netflix.com,NETFLIX🔴	
-  - DOMAIN,www.netflix.com,NETFLIX🔴	
-  - DOMAIN,api-global.netflix.com,NETFLIX🔴	
-  - DOMAIN,ios.prod.ftl.netflix.com,NETFLIX🔴	
-  - DOMAIN-SUFFIX,fast.com,NETFLIX🔴	
+  - DOMAIN-SUFFIX,netflix.com
+  - DOMAIN-SUFFIX,netflix.net
+  - DOMAIN-SUFFIX,nflximg.com
+  - DOMAIN-SUFFIX,nflximg.net
+  - DOMAIN-SUFFIX,nflxso.net
+  - DOMAIN-SUFFIX,nflxvideo.net
+  - DOMAIN,netflix.com
+  - DOMAIN,www.netflix.com
+  - DOMAIN,api-global.netflix.com
+  - DOMAIN,ios.prod.ftl.netflix.com
+  - DOMAIN-SUFFIX,fast.com
 
 
   
