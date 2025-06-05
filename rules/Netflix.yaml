@@ -48,6 +48,8 @@ payload:
   - DOMAIN-KEYWORD,dualstack.ichnaea-web-
   - DOMAIN-KEYWORD,netflixdnstest
 
+  - DOMAIN,a743.g.akamai.net
+
   # Netflix by IP
   - IP-CIDR,23.246.0.0/18,NETFLIX🔴	
   - IP-CIDR,45.57.0.0/17,NETFLIX🔴	
