@@ -140,6 +140,12 @@ payload:
 - IP-CIDR,125.24.219.0/24,NETFLIX🔴 # TOT Public - AS23969
 - IP-CIDR,223.27.232.0/24,NETFLIX🔴 # UIH / BB Connect - AS45796
 
+# Netflix CDN - Company Network - Japan
+- IP-CIDR,23.246.46.0/24,NETFLIX🔴 # Netflix - Logo Netflix - Streaming Media
+- IP-CIDR,45.57.82.0/24,NETFLIX🔴 # Netflix - Logo Netflix - Streaming Media
+- IP-CIDR,194.193.64.0/19,NETFLIX🔴 # Rakuten Mobile - Logo Rakuten Mobile - ISP/Telco
+- IP-CIDR6,2001:290::/32,NETFLIX🔴 # SK Telecom - Logo SK Telecom - ISP/Telco
+- IP-CIDR6,202.213.192.0/18,NETFLIX🔴 # So-net - Logo So-net - ISP/Telco
 
 
   # Netflix Domains,NETFLIX🔴
