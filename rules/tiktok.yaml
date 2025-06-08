@@ -100,10 +100,6 @@ payload:
 - DOMAIN-KEYWORD,tiktok
 - PROCESS-NAME,com.zhiliaoapp.musically
 
-
-
-
-- PROCESS-NAME,com.zhiliaoapp.musically
   #- PROCESS-NAME,com.zhiliaoapp.musically
 - DOMAIN-SUFFIX,v19.tiktokcdn.com
 - IP-CIDR,199.232.90.73/32 # v19.tiktokcdn.com
