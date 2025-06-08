@@ -96,6 +96,14 @@ payload:
 - IP-CIDR6,2404:2f80:ff00::/48,NETFLIX🔴 # Parsaoran Global Datatrans - AS140399
 - IP-CIDR6,103.234.120.0/24,NETFLIX🔴 # Wireless Indonesia - AS18004
 
+# Netflix CDN - Partner Networks - Singapore
+- IP-CIDR,2404:4a00:4560::/46,NETFLIX🔴 # 3BB - Logo 3BB - ISP/Telco
+- IP-CIDR,2404:8d02:2040::/48,NETFLIX🔴 # DTAC - Logo DTAC - ISP/Telco
+- IP-CIDR,2001:4488:f000::/37,NETFLIX🔴 # PT Telkom Indonesia - Logo PT Telkom Indonesia - ISP/Telco
+- IP-CIDR,165.21.51.0/24,NETFLIX🔴 # Singtel - Logo Singtel - ISP/Telco
+- IP-CIDR,165.21.52.0/22,NETFLIX🔴 # Singtel - Logo Singtel - ISP/Telco
+- IP-CIDR,203.116.200.0/22,NETFLIX🔴 # StarHub - Logo StarHub - ISP/Telco
+- IP-CIDR,2001:fb0:1080::/44,NETFLIX🔴 # True - Logo True - ISP/Telco
 
 
 
