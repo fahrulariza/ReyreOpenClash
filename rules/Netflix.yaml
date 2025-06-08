@@ -147,6 +147,27 @@ payload:
 - IP-CIDR6,2001:290::/32,NETFLIX🔴 # SK Telecom - Logo SK Telecom - ISP/Telco
 - IP-CIDR6,202.213.192.0/18,NETFLIX🔴 # So-net - Logo So-net - ISP/Telco
 
+# Netflix CDN - Partner Networks - South Korea
+- IP-CIDR,110.46.178.0/24,NETFLIX🔴 # LG HelloVision - Logo LG HelloVision - ISP/Telco
+- IP-CIDR,1.209.68.0/22,NETFLIX🔴 # LG Uplus - Logo LG Uplus - ISP/Telco
+- IP-CIDR,58.76.208.0/20,NETFLIX🔴 # LG Uplus - Logo LG Uplus - ISP/Telco
+- IP-CIDR,106.102.253.0/24,NETFLIX🔴 # LG Uplus - Logo LG Uplus - ISP/Telco
+- IP-CIDR,223.32.0.0/11,NETFLIX🔴 # SK Telecom - Logo SK Telecom - ISP/Telco
+- IP-CIDR,210.124.212.0/24,NETFLIX🔴 # CCS - AS45374
+- IP-CIDR,183.91.192.0/18,NETFLIX🔴 # Namincheon Brodcasting - AS9976
+
+# Netflix CDN - Company Network - Taiwan
+- IP-CIDR,45.57.93.0/24,NETFLIX🔴 # Netflix - Logo Netflix - Streaming Media
+- IP-CIDR,203.75.0.0/16,NETFLIX🔴 # Chunghwa Telecom - Logo Chunghwa Telecom - ISP/Telco
+- IP-CIDR6,2001:b034::/30,NETFLIX🔴 # Chunghwa Telecom - Logo Chunghwa Telecom - ISP/Telco
+- IP-CIDR,203.211.7.0/24,NETFLIX🔴 # Taiwan Mobile - Logo Taiwan Mobile - ISP/Telco
+- IP-CIDR6,2001:4540::/32,NETFLIX🔴 # Taiwan Mobile - Logo Taiwan Mobile - ISP/Telco
+
+# Netflix CDN - Other Networks - Vietnam
+- IP-CIDR,183.91.12.0/24,NETFLIX🔴 # CMC Telecom Infrastructure - AS45903
+- IP-CIDR,103.88.116.0/24,NETFLIX🔴 # Hanoi Telecom - HCMC - AS24088
+- IP-CIDR,101.53.16.0/24,NETFLIX🔴 # Netnam - AS24173
+
 
   # Netflix Domains,NETFLIX🔴
 - DOMAIN-SUFFIX,netflix.com,NETFLIX🔴
