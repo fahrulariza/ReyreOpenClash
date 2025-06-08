@@ -97,16 +97,48 @@ payload:
 - IP-CIDR6,103.234.120.0/24,NETFLIX🔴 # Wireless Indonesia - AS18004
 
 # Netflix CDN - Partner Networks - Singapore
-- IP-CIDR,2404:4a00:4560::/46,NETFLIX🔴 # 3BB - Logo 3BB - ISP/Telco
-- IP-CIDR,2404:8d02:2040::/48,NETFLIX🔴 # DTAC - Logo DTAC - ISP/Telco
-- IP-CIDR,2001:4488:f000::/37,NETFLIX🔴 # PT Telkom Indonesia - Logo PT Telkom Indonesia - ISP/Telco
+- IP-CIDR6,2404:4a00:4560::/46,NETFLIX🔴 # 3BB - Logo 3BB - ISP/Telco
+- IP-CIDR6,2404:8d02:2040::/48,NETFLIX🔴 # DTAC - Logo DTAC - ISP/Telco
+- IP-CIDR6,2001:4488:f000::/37,NETFLIX🔴 # PT Telkom Indonesia - Logo PT Telkom Indonesia - ISP/Telco
 - IP-CIDR,165.21.51.0/24,NETFLIX🔴 # Singtel - Logo Singtel - ISP/Telco
 - IP-CIDR,165.21.52.0/22,NETFLIX🔴 # Singtel - Logo Singtel - ISP/Telco
 - IP-CIDR,203.116.200.0/22,NETFLIX🔴 # StarHub - Logo StarHub - ISP/Telco
-- IP-CIDR,2001:fb0:1080::/44,NETFLIX🔴 # True - Logo True - ISP/Telco
+- IP-CIDR6,2001:fb0:1080::/44,NETFLIX🔴 # True - Logo True - ISP/Telco
 
+# Netflix CDN - Partner Networks - Malaysia
+- IP-CIDR,202.75.128.0/19,NETFLIX🔴 # Maxis - AS9534
+- IP-CIDR,211.25.216.0/21,NETFLIX🔴 # TIME dotCom - AS9930
+- IP-CIDR,123.136.99.0/24,NETFLIX🔴 # U Mobile - AS38466
+- IP-CIDR,183.78.12.0/24,NETFLIX🔴 # YTL Communications - AS45960
+- IP-CIDR,115.164.0.0/17,NETFLIX🔴 # CelcomDigi - Logo CelcomDigi - ISP/Telco
+- IP-CIDR,203.82.77.0/24,NETFLIX🔴 # CelcomDigi - Logo CelcomDigi - ISP/Telco
+- IP-CIDR,1.9.240.0/21,NETFLIX🔴 # Telekom Malaysia - Logo Telekom Malaysia - ISP/Telco
+- IP-CIDR,58.27.0.0/18,NETFLIX🔴 # Telekom Malaysia - Logo Telekom Malaysia - ISP/Telco
 
+# Netflix CDN - Partner Networks - Malaysia
+- IP-CIDR,115.164.0.0/17,NETFLIX🔴 # CelcomDigi - Logo CelcomDigi - ISP/Telco
+- IP-CIDR,203.82.77.0/24,NETFLIX🔴 # CelcomDigi - Logo CelcomDigi - ISP/Telco
+- IP-CIDR,1.9.240.0/21,NETFLIX🔴 # Telekom Malaysia - Logo Telekom Malaysia - ISP/Telco
+- IP-CIDR,58.27.0.0/18,NETFLIX🔴 # Telekom Malaysia - Logo Telekom Malaysia - ISP/Telco
+- IP-CIDR,202.75.128.0/19,NETFLIX🔴 # Maxis - AS9534
+- IP-CIDR,211.25.216.0/21,NETFLIX🔴 # TIME dotCom - AS9930
+- IP-CIDR,123.136.99.0/24,NETFLIX🔴 # U Mobile - AS38466
+- IP-CIDR,183.78.12.0/24,NETFLIX🔴 # YTL Communications - AS45960
 
+# Netflix CDN - Partner Networks - Thailand
+- IP-CIDR,110.164.12.0/22,NETFLIX🔴 # 3BB - Logo 3BB - ISP/Telco
+- IP-CIDR,110.164.30.0/23,NETFLIX🔴 # 3BB - Logo 3BB - ISP/Telco
+- IP-CIDR,49.231.56.0/24,NETFLIX🔴 # AIS - Logo AIS - ISP/Telco
+- IP-CIDR,58.64.70.0/24,NETFLIX🔴 # AIS - Logo AIS - ISP/Telco
+- IP-CIDR,115.67.18.0/24,NETFLIX🔴 # DTAC - Logo DTAC - ISP/Telco
+- IP-CIDR,119.46.18.0/24,NETFLIX🔴 # True - Logo True - ISP/Telco
+- IP-CIDR,124.120.192.0/18,NETFLIX🔴 # True - Logo True - ISP/Telco
+- IP-CIDR,124.121.128.0/18,NETFLIX🔴 # True - Logo True - ISP/Telco
+- IP-CIDR,49.231.96.0/23,NETFLIX🔴 # Advance Wireless Network - AS131445
+- IP-CIDR,122.155.30.0/23,NETFLIX🔴 # CAT Telecom Public - AS9335
+- IP-CIDR,203.151.114.0/24,NETFLIX🔴 # Internet Thailand - AS4618
+- IP-CIDR,125.24.219.0/24,NETFLIX🔴 # TOT Public - AS23969
+- IP-CIDR,223.27.232.0/24,NETFLIX🔴 # UIH / BB Connect - AS45796
 
 
 
