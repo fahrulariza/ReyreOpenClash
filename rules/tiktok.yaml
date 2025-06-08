@@ -123,3 +123,40 @@ payload:
 - IP-CIDR,23.206.172.20/32 #api16-normal-c-useast1a.tiktokv.com
 - IP-CIDR,23.206.172.24/32 #api16-normal-c-useast1a.tiktokv.com
 - IP-CIDR,23.206.172.13/32 #api16-normal-c-useast1a.tiktokv.com
+
+
+
+# 71.18.x.x/xx Rentang:
+- IP-CIDR,71.18.227.0/24
+- IP-CIDR,71.18.247.0/24
+- IP-CIDR,71.18.248.0/24
+- IP-CIDR,71.18.251.0/24
+- IP-CIDR,71.18.252.0/23
+- IP-CIDR,71.18.255.0/24
+
+# 101.x.x.x/xx Rentang:
+- IP-CIDR,101.45.255.0/24
+- IP-CIDR,101.47.188.0/24
+
+# 103.x.x.x/xx Rentang:
+- IP-CIDR,103.136.220.0/22 # (ini bisa mencakup 103.136.220.0/24, 103.136.221.0/24, 103.136.222.0/24, 103.136.223.0/24)
+
+# 118.x.x.x/xx Rentang:
+- IP-CIDR,118.26.132.0/24
+
+# Beberapa contoh IP dan rentang lainnya yang disebutkan:
+- IP-CIDR,12.8.136.96/29
+- IP-CIDR,12.25.128.104/29
+- IP-CIDR,12.30.37.72/29
+- IP-CIDR,34.36.0.0/16 # (ini adalah rentang Google Cloud Platform yang digunakan TikTok)
+- IP-CIDR,147.160.176.0/24
+- IP-CIDR,147.160.177.0/24
+- IP-CIDR,147.160.178.0/24
+- IP-CIDR,161.117.70.145
+- IP-CIDR,161.117.71.36
+- IP-CIDR,185.127.16.0/24
+- IP-CIDR,182.176.156.0/24
+- IP-CIDR,205.251.194.210
+- IP-CIDR,209.170.67.32/29
+- IP-CIDR,216.58.207.0/24
+# - IP-CIDR,2404:9dc0::/32 #(IPv6)
