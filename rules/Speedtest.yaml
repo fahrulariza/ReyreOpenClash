@@ -60,5 +60,5 @@ payload:
   # > Speed Test by Cloudflare
   - DOMAIN-SUFFIX,speed.cloudflare.com
   
-  - DST-PORT,8080
+  - DST-PORT,8080,SPEEDTEST ⚡,tcp
 
