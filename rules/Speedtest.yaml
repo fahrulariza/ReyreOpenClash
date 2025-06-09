@@ -18,6 +18,7 @@ payload:
   - DOMAIN-SUFFIX,openspeedtest.com
   - DOMAIN-SUFFIX,cachefly.net
   - DOMAIN-SUFFIX,napi.speedtest.net
+  - DOMAIN-SUFFIX,speedtest.gslnetworks.com
   - DOMAIN-SUFFIX,speedtest.starhub.com
   - DOMAIN-SUFFIX,speedtest.iosys.net.id
   - DOMAIN-SUFFIX,speedtest.primacom.id
@@ -44,6 +45,10 @@ payload:
   - DOMAIN,palembang.speedtest.telkom.net.id	
   - DOMAIN-SUFFIX,lintas.net.id	
   - DOMAIN,speedtest-plb.xl.co.id	
+  - DOMAIN,speedtest-sg.cbn.id
+  - DOMAIN,sg-speedtest.fast.net.id
+  - DOMAIN,speedtest1.indosatooredoo.com
+  - DOMAIN,speedtest.singnet.com.sg
 
     # > Fast
   - DOMAIN-SUFFIX,fast.com
