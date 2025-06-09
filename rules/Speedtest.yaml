@@ -18,6 +18,7 @@ payload:
   - DOMAIN-SUFFIX,openspeedtest.com
   - DOMAIN-SUFFIX,cachefly.net
   - DOMAIN-SUFFIX,napi.speedtest.net
+  - DOMAIN-SUFFIX,speedtest.starhub.com
   - DOMAIN-SUFFIX,speedtest.iosys.net.id
   - DOMAIN-SUFFIX,speedtest.primacom.id
   - DOMAIN-SUFFIX,speedtest.cbn.id
@@ -54,5 +55,5 @@ payload:
   # > Speed Test by Cloudflare
   - DOMAIN-SUFFIX,speed.cloudflare.com
   
-  - DST-PORT,8080,tcp
+  - DST-PORT,8080
 
