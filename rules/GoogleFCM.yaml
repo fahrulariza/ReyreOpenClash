@@ -44,11 +44,35 @@ payload:
   - IP-CIDR,74.125.23.188/32
   - IP-CIDR,74.125.24.188/32
   - IP-CIDR,74.125.28.188/32
+
+  # --- Aturan Khusus Firebase Cloud Messaging (FCM) ke Google - FCM🔷 ---
+  # Prioritaskan ini karena sensitif terhadap latensi (notifikasi)
+  - DOMAIN,alt1-mtalk.google.com,Google - FCM🔷
+  - DOMAIN,alt2-mtalk.google.com,Google - FCM🔷
+  - DOMAIN,alt3-mtalk.google.com,Google - FCM🔷
+  - DOMAIN,alt4-mtalk.google.com,Google - FCM🔷
+  - DOMAIN,alt5-mtalk.google.com,Google - FCM🔷
+  - DOMAIN,alt6-mtalk.google.com,Google - FCM🔷
+  - DOMAIN,alt7-mtalk.google.com,Google - FCM🔷
+  - DOMAIN,alt8-mtalk.google.com,Google - FCM🔷
+  - DOMAIN,mtalk.google.com,Google - FCM🔷
+  - DST-PORT,5228,Google - FCM🔷
+  - DST-PORT,5229,Google - FCM🔷
+  - DST-PORT,5230,Google - FCM🔷
+
+# --- Aturan Domain Firebase lainnya ke Google - FCM🔷 ---
+  - DOMAIN-SUFFIX,firebaseio.com,Google - FCM🔷
+  - DOMAIN-SUFFIX,firebase.com,Google - FCM🔷
+  - DOMAIN-SUFFIX,firebasestorage.googleapis.com,Google - FCM🔷
+  - DOMAIN-SUFFIX,cloudfunctions.net,Google - FCM🔷
+  - DOMAIN-SUFFIX,appspot.com,Google - FCM🔷 # Digunakan oleh beberapa layanan Google, termasuk Firebase
+  - DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com,Google - FCM🔷
+  - DOMAIN-SUFFIX,firebaseinstallations.googleapis.com,Google - FCM🔷 
   
   - DST-PORT,5228 # Firebase Cloud Messaging (FCM) - Server Google untuk menerima notifikasi push dari berbagai aplikasi, termasuk WhatsApp, Telegram, dan aplikasi lain yang menggunakan FCM.
   - DST-PORT,5229 # Firebase Cloud Messaging (FCM) - Jika koneksi ke mtalk.google.com:5228 diblokir atau dialihkan ke jalur proxy/VPN yang lambat, notifikasi WhatsApp bisa terlambat atau tidak muncul sama sekali.
   - DST-PORT,5230 # Firebase Cloud Messaging (FCM) - Layanan: Sinkronisasi akun Google dan pengunduhan aplikasi.
-
-  - DOMAIN,api.tmtreader.com
-  - DOMAIN,api22-normal-quic-alisg.tmtreader.com
-  - DOMAIN,api31-normal-mya.tmtreader.com
+  
+  # --- Aturan Google Cloud CDN dan Layanan Google Umum ke Google - Service🔶 ---
+  # Ini akan mencakup sebagian besar lalu lintas Google, termasuk yang melalui CDN.
+  - RULE-SET,GoogleGeneral,Google - Service🔶
