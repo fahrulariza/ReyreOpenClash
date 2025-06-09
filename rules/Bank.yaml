@@ -501,7 +501,7 @@ payload:
 - DOMAIN-SUFFIX,xlaxiata.co.id,RP-BANK💰,tcp
 - DOMAIN-SUFFIX,myxl.xlaxiata.co.id,RP-BANK💰,tcp
 - DOMAIN-SUFFIX,xlaxiata-resources.digital-cloud-sin1.medallia.com,RP-BANK💰,tcp
-- DOMAIN-SUFFIX,xlaxiata-resources.digital-cloud-sin1.medallia.com	,RP-BANK💰,tcp
+- DOMAIN-SUFFIX,xlaxiata-resources.digital-cloud-sin1.medallia.com,RP-BANK💰,tcp
 - IP-CIDR,104.22.59.170/32,RP-BANK💰,tcp # static-myxl.xlaxiata.id
 - IP-CIDR,104.22.58.170/32,RP-BANK💰,tcp #
 - IP-CIDR,172.67.36.169/32,RP-BANK💰,tcp #
