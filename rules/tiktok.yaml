@@ -120,6 +120,26 @@ payload:
 - IP-CIDR,23.206.172.24/32 #api16-normal-c-useast1a.tiktokv.com
 - IP-CIDR,23.206.172.13/32 #api16-normal-c-useast1a.tiktokv.com
 
+# TikTok CDN - Partner Networks - Singapore
+- IP-CIDR,46.151.192.0/24,TikTok🔴 # DataCamp - Logo DataCamp - Hosting
+- IP-CIDR,38.60.148.0/24,TikTok🔴 # Kaopu Cloud - Logo Kaopu Cloud - Hosting
+- IP-CIDR,172.234.72.0/21,TikTok🔴 # Linode - Logo Linode - Hosting
+- IP-CIDR,180.240.232.0/23,TikTok🔴 # PT Telkom Indonesia - Logo PT Telkom Indonesia - ISP/Telco
+- IP-CIDR,98.98.120.0/21,TikTok🔴 # Zenlayer - Logo Zenlayer - Hosting
+- IP-CIDR,45.197.100.0/24,TikTok🔴 # Bedge - AS63139
+
+# TikTok CDN - Partner Networks - Indonesia
+- IP-CIDR,180.240.232.0/23,TikTok🔴 # PT Telkom Indonesia - Logo PT Telkom Indonesia - ISP/Telco
+- IP-CIDR,128.1.227.0/24,TikTok🔴 # Zenlayer - Logo Zenlayer - Hosting
+- IP-CIDR,45.197.106.0/24,TikTok🔴 # Bedge - AS63139
+- IP-CIDR,114.125.80.0/20,TikTok🔴 # Telekomunikasi Selular - AS23693
+
+# TikTok CDN - Partner Networks - China
+- IP-CIDR,111.13.128.0/17,TikTok🔴 # China Mobile - Logo China Mobile - Hosting
+- IP-CIDR,220.181.52.0/23,TikTok🔴 # China Telecom IDC - Logo China Telecom IDC - Hosting
+
+# TikTok CDN - Partner Networks - Hong Kong
+- IP-CIDR,156.59.196.0/22,TikTok🔴 # Zenlayer - Logo Zenlayer - Hosting
 
 
 # 71.18.x.x/xx Rentang:
