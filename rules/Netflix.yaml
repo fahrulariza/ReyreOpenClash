@@ -10,6 +10,8 @@
 # PROCESS-NAME: 1
 # TOTAL: 1157
 payload:
+
+- IP-CIDR,172.217.194.101,NETFLIX🔴
 - DOMAIN,e13252.dscg.akamaiedge.net,NETFLIX🔴
 - DOMAIN,h-netflix.online-metrix.net,NETFLIX🔴
 - DOMAIN,netflix.com.edgesuite.net,NETFLIX🔴
