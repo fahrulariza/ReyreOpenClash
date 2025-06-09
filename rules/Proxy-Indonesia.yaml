@@ -21,6 +21,7 @@ payload:
 # &gt; LIST Domain tLD Indo & GEOIP INDO
 # DOMAIN-SUFFIX untuk semua subdomain di bawah domain .id
 - DOMAIN-SUFFIX,id
+- DOMAIN,geolocation.onetrust.com
 
 # DOMAIN-KEYWORD untuk domain yang mengandung kata kunci umum terkait Indonesia
 - DOMAIN-KEYWORD,indonesia
