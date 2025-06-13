@@ -49,4 +49,25 @@ payload:
   - DOMAIN,dnl-0.geo.kaspersky.com
   - DOMAIN,downloads.trendmicro.com
   - DOMAIN,updates.sophos.com
-
+  - DOMAIN-SUFFIX,updates.cdn.kaspersky.com
+  - DOMAIN-SUFFIX,62.146.66.104
+  - DOMAIN-SUFFIX,download.avg.com
+  - DOMAIN-SUFFIX,update.avast.com
+  - DOMAIN-SUFFIX,upgrade.bitdefender.com
+  - DOMAIN-SUFFIX,update.bitdefender.com
+  - DOMAIN-SUFFIX,dci.sophosupd.com
+  - DOMAIN-SUFFIX,update.nai.com
+  - DOMAIN-SUFFIX,liveupdate.symantec.com
+  - DOMAIN-SUFFIX,update.symantec.com
+  - DOMAIN-SUFFIX,update.trendmicro.com
+  - DOMAIN-SUFFIX,activeupdate.trendmicro.com
+  - DOMAIN-SUFFIX,update.eset.com
+  - DOMAIN-SUFFIX,updates.pandasoftware.com
+  - DOMAIN-SUFFIX,db.us.f-secure.com
+  - DOMAIN-SUFFIX,database.clamav.net
+  - DOMAIN-SUFFIX,definitionupdates.microsoft.com
+  - DOMAIN-SUFFIX,download.comodo.com
+  - DOMAIN-SUFFIX,update.drweb.com
+  - DOMAIN-SUFFIX,upd.gdatasoftware.com
+  - DOMAIN-SUFFIX,down.360safe.com
+  - DOMAIN-SUFFIX,update.rising.com.cn
