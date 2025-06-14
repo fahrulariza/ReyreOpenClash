@@ -164,6 +164,11 @@ payload:
   - DOMAIN,clients2.google.com # Server distribusi update
   - DOMAIN,omahaproxy.appspot.com # Server informasi versi terbaru
 
+  - DOMAIN,aus5.mozilla.org # Server utama update otomatis Firefox
+  - DOMAIN,aus4.mozilla.org # Server cadangan update
+  - DOMAIN,download.mozilla.org # Download binary update
+  - DOMAIN-SUFFIX,update.mozilla.org # Cek info pembaruan
+  # - DOMAIN-SUFFIX,addons.mozilla.org # Hanya jika ingin blokir update ekstensi
 
 #### OS SMARTPHONE ####
 
