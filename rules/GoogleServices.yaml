@@ -31,8 +31,9 @@ payload:
   - DOMAIN-SUFFIX,clients6.google.com,Google - Service🔶,no-resolve
   - DOMAIN-SUFFIX,clientservices.googleapis.com,Google - Service🔶,no-resolve
   - DOMAIN-SUFFIX,chromewebstore.googleapis.com,Google - Service🔶,no-resolve
-
-
+  - DOMAIN,android.googleapis.com,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,android.googleapis.com,Google - Service🔶,no-resolve
+  
   - DOMAIN-SUFFIX,dl.google.com,Google - Service🔶,no-resolve
   - DOMAIN,dns.google.com,Google - Service🔶,no-resolve
   - DOMAIN,docs.google.com,Google - Service🔶,no-resolve
