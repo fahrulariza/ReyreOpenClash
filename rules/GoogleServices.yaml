@@ -22,7 +22,7 @@ payload:
   - PROCESS-NAME,com.google.android.play.games
   - PROCESS-NAME,BackupandSync
   - DOMAIN-SUFFIX,accounts.google.com
-
+  - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN,chrome.cloudflare-dns.com
   - DOMAIN-SUFFIX,cloud.google.com
   - DOMAIN-SUFFIX,clients2.google.com
