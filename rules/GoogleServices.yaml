@@ -11,47 +11,48 @@
 # TOTAL: 725
 payload:
 
-  - DOMAIN-KEYWORD,appspot
-  - DOMAIN-KEYWORD,blogspot
-  - DOMAIN-KEYWORD,gmail
-  - DOMAIN-KEYWORD,recaptcha
-  - PROCESS-NAME,GoogleDriveFS.exe
-  - PROCESS-NAME,com.android.vending
-  - PROCESS-NAME,com.google.android.gms
-  - PROCESS-NAME,com.google.android.gsf
-  - PROCESS-NAME,com.google.android.play.games
-  - PROCESS-NAME,BackupandSync
-  - DOMAIN-SUFFIX,accounts.google.com
-  - DOMAIN-SUFFIX,gstatic.com
-  - DOMAIN,chrome.cloudflare-dns.com
-  - DOMAIN-SUFFIX,cloud.google.com
-  - DOMAIN-SUFFIX,clients2.google.com
-  - DOMAIN-SUFFIX,clients3.google.com
-  - DOMAIN-SUFFIX,clients4.google.com
-  - DOMAIN-SUFFIX,clients6.google.com
-  - DOMAIN-SUFFIX,clientservices.googleapis.com
-  - DOMAIN-SUFFIX,chromewebstore.googleapis.com
+  - DOMAIN-KEYWORD,appspot,Google - Service🔶,no-resolve
+  - DOMAIN-KEYWORD,blogspot,Google - Service🔶,no-resolve
+  - DOMAIN-KEYWORD,gmail,Google - Service🔶,no-resolve
+  - DOMAIN-KEYWORD,recaptcha,Google - Service🔶,no-resolve
+  - PROCESS-NAME,GoogleDriveFS.exe,Google - Service🔶,no-resolve
+  - PROCESS-NAME,com.android.vending,Google - Service🔶,no-resolve
+  - PROCESS-NAME,com.google.android.gms,Google - Service🔶,no-resolve
+  - PROCESS-NAME,com.google.android.gsf,Google - Service🔶,no-resolve
+  - PROCESS-NAME,com.google.android.play.games,Google - Service🔶,no-resolve
+  - PROCESS-NAME,BackupandSync,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,accounts.google.com,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,gstatic.com,Google - Service🔶,no-resolve
+  - DOMAIN,chrome.cloudflare-dns.com,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,cloud.google.com,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,clients2.google.com,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,clients3.google.com,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,clients4.google.com,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,clients6.google.com,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,clientservices.googleapis.com,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,chromewebstore.googleapis.com,Google - Service🔶,no-resolve
 
-  - DOMAIN-SUFFIX,dl.google.com
-  - DOMAIN-SUFFIX,dns.google.com
-  - DOMAIN-SUFFIX,docs.google.com
 
-  - DOMAIN-SUFFIX,fonts.gstatic.com
+  - DOMAIN-SUFFIX,dl.google.com,Google - Service🔶,no-resolve
+  - DOMAIN,dns.google.com,Google - Service🔶,no-resolve
+  - DOMAIN,docs.google.com,Google - Service🔶,no-resolve
 
-  - DOMAIN-SUFFIX,googledrive.com
-  - DOMAIN-SUFFIX,googletagmanager.com
-  - DOMAIN-SUFFIX,googletagservices.com
-  - DOMAIN-SUFFIX,gz0.googleusercontent.com
-  - DOMAIN-SUFFIX,googleusercontent.com
-  - DOMAIN-SUFFIX,geller-pa.googleapis.com
-  - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,google-ohttp-relay-safebrowsing.fastly-edge.com
-  - DOMAIN-SUFFIX,googlehomefoyer-pa.googleapis.com  
-  - DOMAIN-SUFFIX,inbox.google.com
+  - DOMAIN,fonts.gstatic.com,Google - Service🔶,no-resolve
 
-  - DOMAIN,messages.google.com
-  - DOMAIN,google.com
-  - DOMAIN-SUFFIX,google.com
+  - DOMAIN-SUFFIX,googledrive.com,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,googletagmanager.com,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,googletagservices.com,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,gz0.googleusercontent.com,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,googleusercontent.com,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,geller-pa.googleapis.com,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,gemini.google.com,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,google-ohttp-relay-safebrowsing.fastly-edge.com,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,googlehomefoyer-pa.googleapis.com  ,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,inbox.google.com,Google - Service🔶,no-resolve
+
+  - DOMAIN,messages.google.com,Google - Service🔶,no-resolve
+  - DOMAIN,google.com,Google - Service🔶,no-resolve
+  - DOMAIN-SUFFIX,google.com,Google - Service🔶,no-resolve
 #P
   - DOMAIN-SUFFIX,photos.google.com
   - DOMAIN-SUFFIX,photos.fife.usercontent.google.com
@@ -602,7 +603,7 @@ payload:
   - IP-CIDR,74.125.23.188/32,Google - Service🔶,no-resolve
   - IP-CIDR,74.125.24.188/32,Google - Service🔶,no-resolve
   - IP-CIDR,74.125.28.188/32,Google - Service🔶,no-resolve
-
+  - IP-CIDR,8.8.8.8/32,Google - Service🔶,no-resolve
     # --- Aturan Default/Catch-all ---
   - GEOIP,CN,REJECT # Contoh: Memblokir trafik ke Tiongkok
   - MATCH,Proxy # Semua trafik yang tidak cocok aturan di atas akan melewati grup 'Proxy' umum Anda
