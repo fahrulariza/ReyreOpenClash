@@ -159,6 +159,10 @@ payload:
   - DOMAIN-SUFFIX,download-installer.cdn.mozilla.net
   - DOMAIN-SUFFIX,ChromeSetup.exe
   - DOMAIN-SUFFIX,GoogleChromeEnterpriseBundle64.zip
+  - DOMAIN,update.googleapis.com
+  - DOMAIN,tools.google.com
+  - DOMAIN,clients2.google.com
+  - DOMAIN,omahaproxy.appspot.com
 
 
 #### OS SMARTPHONE ####
