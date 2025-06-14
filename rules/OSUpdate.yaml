@@ -159,10 +159,10 @@ payload:
   - DOMAIN-SUFFIX,download-installer.cdn.mozilla.net
   - DOMAIN-SUFFIX,ChromeSetup.exe
   - DOMAIN-SUFFIX,GoogleChromeEnterpriseBundle64.zip
-  - DOMAIN,update.googleapis.com
-  - DOMAIN,tools.google.com
-  - DOMAIN,clients2.google.com
-  - DOMAIN,omahaproxy.appspot.com
+  - DOMAIN,update.googleapis.com # Cek update versi Chrome
+  - DOMAIN,tools.google.com # Layanan internal update
+  - DOMAIN,clients2.google.com # Server distribusi update
+  - DOMAIN,omahaproxy.appspot.com # Server informasi versi terbaru
 
 
 #### OS SMARTPHONE ####
