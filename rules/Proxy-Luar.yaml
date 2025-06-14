@@ -4,129 +4,129 @@ payload:
 # &gt; LIST Streaming IP/Lokasi Wajib Luar Negeri
 
 #TLD Utama untuk Internasional
-- DOMAIN-SUFFIX,.com
-- DOMAIN-SUFFIX,.net
-- DOMAIN-SUFFIX,.org
-- DOMAIN-SUFFIX,.info
-- DOMAIN-SUFFIX,.biz
-- DOMAIN-SUFFIX,.io
-- DOMAIN-SUFFIX,.xyz
-- DOMAIN-SUFFIX,.online
-- DOMAIN-SUFFIX,.site
-- DOMAIN-SUFFIX,.tech
-- DOMAIN-SUFFIX,.me
+- DOMAIN-SUFFIX,com
+- DOMAIN-SUFFIX,net
+- DOMAIN-SUFFIX,org
+- DOMAIN-SUFFIX,info
+- DOMAIN-SUFFIX,biz
+- DOMAIN-SUFFIX,io
+- DOMAIN-SUFFIX,xyz
+- DOMAIN-SUFFIX,online
+- DOMAIN-SUFFIX,site
+- DOMAIN-SUFFIX,tech
+- DOMAIN-SUFFIX,me
 
 #TLD Internasional Umum
-- DOMAIN-SUFFIX,.edu
-- DOMAIN-SUFFIX,.gov
-- DOMAIN-SUFFIX,.mil
-- DOMAIN-SUFFIX,.int
-- DOMAIN-SUFFIX,.arpa
-- DOMAIN-SUFFIX,.info
-- DOMAIN-SUFFIX,.biz
-- DOMAIN-SUFFIX,.name
-- DOMAIN-SUFFIX,.pro
-- DOMAIN-SUFFIX,.xyz
-- DOMAIN-SUFFIX,.online
-- DOMAIN-SUFFIX,.site
-- DOMAIN-SUFFIX,.tech
-- DOMAIN-SUFFIX,.store
-- DOMAIN-SUFFIX,.io
-- DOMAIN-SUFFIX,.ai
-- DOMAIN-SUFFIX,.app
-- DOMAIN-SUFFIX,.dev
+- DOMAIN-SUFFIX,edu
+- DOMAIN-SUFFIX,gov
+- DOMAIN-SUFFIX,mil
+- DOMAIN-SUFFIX,int
+- DOMAIN-SUFFIX,arpa
+- DOMAIN-SUFFIX,info
+- DOMAIN-SUFFIX,biz
+- DOMAIN-SUFFIX,name
+- DOMAIN-SUFFIX,pro
+- DOMAIN-SUFFIX,xyz
+- DOMAIN-SUFFIX,online
+- DOMAIN-SUFFIX,site
+- DOMAIN-SUFFIX,tech
+- DOMAIN-SUFFIX,store
+- DOMAIN-SUFFIX,io
+- DOMAIN-SUFFIX,ai
+- DOMAIN-SUFFIX,app
+- DOMAIN-SUFFIX,dev
 
 #Teknologi dan Startup
 #Digunakan oleh perusahaan teknologi, startup, atau produk digital:
-- DOMAIN-SUFFIX,.tech
-- DOMAIN-SUFFIX,.io
-- DOMAIN-SUFFIX,.ai
-- DOMAIN-SUFFIX,.app
-- DOMAIN-SUFFIX,.cloud
-- DOMAIN-SUFFIX,.dev
-- DOMAIN-SUFFIX,.software
-- DOMAIN-SUFFIX,.digital
-- DOMAIN-SUFFIX,.systems
-- DOMAIN-SUFFIX,.tools
+- DOMAIN-SUFFIX,tech
+- DOMAIN-SUFFIX,io
+- DOMAIN-SUFFIX,ai
+- DOMAIN-SUFFIX,app
+- DOMAIN-SUFFIX,cloud
+- DOMAIN-SUFFIX,dev
+- DOMAIN-SUFFIX,software
+- DOMAIN-SUFFIX,digital
+- DOMAIN-SUFFIX,systems
+- DOMAIN-SUFFIX,tools
 
 #Media dan Konten
 #Digunakan oleh media berita, hiburan, atau platform konten:
-- DOMAIN-SUFFIX,.tv
-- DOMAIN-SUFFIX,.news
-- DOMAIN-SUFFIX,.media
-- DOMAIN-SUFFIX,.live
-- DOMAIN-SUFFIX,.blog
-- DOMAIN-SUFFIX,.press
-- DOMAIN-SUFFIX,.film
-- DOMAIN-SUFFIX,.movie
-- DOMAIN-SUFFIX,.music
+- DOMAIN-SUFFIX,tv
+- DOMAIN-SUFFIX,news
+- DOMAIN-SUFFIX,media
+- DOMAIN-SUFFIX,live
+- DOMAIN-SUFFIX,blog
+- DOMAIN-SUFFIX,press
+- DOMAIN-SUFFIX,film
+- DOMAIN-SUFFIX,movie
+- DOMAIN-SUFFIX,music
 
 #E-Commerce dan Bisnis
 #TLD yang populer untuk e-commerce atau bisnis:
-- DOMAIN-SUFFIX,.shop
-- DOMAIN-SUFFIX,.store
-- DOMAIN-SUFFIX,.market
-- DOMAIN-SUFFIX,.business
-- DOMAIN-SUFFIX,.trade
-- DOMAIN-SUFFIX,.company
-- DOMAIN-SUFFIX,.enterprise
-- DOMAIN-SUFFIX,.ventures
-- DOMAIN-SUFFIX,.agency
-- DOMAIN-SUFFIX,.ltd
+- DOMAIN-SUFFIX,shop
+- DOMAIN-SUFFIX,store
+- DOMAIN-SUFFIX,market
+- DOMAIN-SUFFIX,business
+- DOMAIN-SUFFIX,trade
+- DOMAIN-SUFFIX,company
+- DOMAIN-SUFFIX,enterprise
+- DOMAIN-SUFFIX,ventures
+- DOMAIN-SUFFIX,agency
+- DOMAIN-SUFFIX,ltd
 
 #TLD Khusus Wilayah
 #TLD yang menunjukkan wilayah atau negara, tetapi sering digunakan secara internasional:
-- DOMAIN-SUFFIX,.asia
-- DOMAIN-SUFFIX,.africa
-- DOMAIN-SUFFIX,.europe
-- DOMAIN-SUFFIX,.us
-- DOMAIN-SUFFIX,.uk
-- DOMAIN-SUFFIX,.eu
-- DOMAIN-SUFFIX,.au
-- DOMAIN-SUFFIX,.ca
-#- DOMAIN-SUFFIX,.cn
-#- DOMAIN-SUFFIX,.ru
-#- DOMAIN-SUFFIX,.jp
-- DOMAIN-SUFFIX,.kr
-#- DOMAIN-SUFFIX,.sg
-- DOMAIN-SUFFIX,.my
-- DOMAIN-SUFFIX,.th
-- DOMAIN-SUFFIX,.ph
-- DOMAIN-SUFFIX,.hk
-- DOMAIN-SUFFIX,.in
-- DOMAIN-SUFFIX,.za
-- DOMAIN-SUFFIX,.br
-- DOMAIN-SUFFIX,.mx
+- DOMAIN-SUFFIX,asia
+- DOMAIN-SUFFIX,africa
+- DOMAIN-SUFFIX,europe
+- DOMAIN-SUFFIX,us
+- DOMAIN-SUFFIX,uk
+- DOMAIN-SUFFIX,eu
+- DOMAIN-SUFFIX,au
+- DOMAIN-SUFFIX,ca
+#- DOMAIN-SUFFIX,cn
+#- DOMAIN-SUFFIX,ru
+#- DOMAIN-SUFFIX,jp
+- DOMAIN-SUFFIX,kr
+#- DOMAIN-SUFFIX,sg
+- DOMAIN-SUFFIX,my
+- DOMAIN-SUFFIX,th
+- DOMAIN-SUFFIX,ph
+- DOMAIN-SUFFIX,hk
+- DOMAIN-SUFFIX,in
+- DOMAIN-SUFFIX,za
+- DOMAIN-SUFFIX,br
+- DOMAIN-SUFFIX,mx
 
 #Domain Khusus ASEAN
 #Domain negara-negara Asia Tenggara yang sering digunakan di wilayah Indonesia:
-#- DOMAIN-SUFFIX,.sg # Singapura
-- DOMAIN-SUFFIX,.my # Malaysia
-- DOMAIN-SUFFIX,.th # Thailand
-- DOMAIN-SUFFIX,.ph # Filipina
-- DOMAIN-SUFFIX,.vn # Vietnam
-- DOMAIN-SUFFIX,.la # Laos
-- DOMAIN-SUFFIX,.mm # Myanmar
-- DOMAIN-SUFFIX,.kh # Kamboja
-- DOMAIN-SUFFIX,.bn # Brunei
+#- DOMAIN-SUFFIX,sg # Singapura
+- DOMAIN-SUFFIX,my # Malaysia
+- DOMAIN-SUFFIX,th # Thailand
+- DOMAIN-SUFFIX,ph # Filipina
+- DOMAIN-SUFFIX,vn # Vietnam
+- DOMAIN-SUFFIX,la # Laos
+- DOMAIN-SUFFIX,mm # Myanmar
+- DOMAIN-SUFFIX,kh # Kamboja
+- DOMAIN-SUFFIX,bn # Brunei
 
 #TLD Baru yang Sedang Populer
 #TLD baru yang banyak digunakan untuk branding atau tujuan kreatif:
-- DOMAIN-SUFFIX,.fun
-- DOMAIN-SUFFIX,.world
-- DOMAIN-SUFFIX,.art
-- DOMAIN-SUFFIX,.design
-- DOMAIN-SUFFIX,.photo
-- DOMAIN-SUFFIX,.pics
-- DOMAIN-SUFFIX,.video
-- DOMAIN-SUFFIX,.games
-- DOMAIN-SUFFIX,.studio
-- DOMAIN-SUFFIX,.events
-- DOMAIN-SUFFIX,.community
-- DOMAIN-SUFFIX,.social
-- DOMAIN-SUFFIX,.team
-- DOMAIN-SUFFIX,.club
-- DOMAIN-SUFFIX,.group
+- DOMAIN-SUFFIX,fun
+- DOMAIN-SUFFIX,world
+- DOMAIN-SUFFIX,art
+- DOMAIN-SUFFIX,design
+- DOMAIN-SUFFIX,photo
+- DOMAIN-SUFFIX,pics
+- DOMAIN-SUFFIX,video
+- DOMAIN-SUFFIX,games
+- DOMAIN-SUFFIX,studio
+- DOMAIN-SUFFIX,events
+- DOMAIN-SUFFIX,community
+- DOMAIN-SUFFIX,social
+- DOMAIN-SUFFIX,team
+- DOMAIN-SUFFIX,club
+- DOMAIN-SUFFIX,group
 
 
 #Media dan Informasi
