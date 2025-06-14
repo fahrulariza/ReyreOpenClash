@@ -157,6 +157,8 @@ payload:
 
 ### BROWSER ###
   - DOMAIN-SUFFIX,download-installer.cdn.mozilla.net
+  - DOMAIN-SUFFIX,ChromeSetup.exe
+  - DOMAIN-SUFFIX,GoogleChromeEnterpriseBundle64.zip
 
 
 #### OS SMARTPHONE ####
